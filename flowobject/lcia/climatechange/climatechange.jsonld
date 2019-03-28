@@ -1,0 +1,89 @@
+{
+  "@graph" : [ {
+    "@id" : "http://rdf.bonsai.uno/flowobject/lcia/",
+    "@type" : "dtype:Dataset",
+    "license" : "http://creativecommons.org/licenses/by/3.0/",
+    "contributor" : "Tiago Morais",
+    "creator" : "http://bonsai.uno/foaf/bonsai.rdf#bonsai",
+    "description" : {
+      "@language" : "en",
+      "@value" : "LCIA Flow Objects used by BONSAI ontologies"
+    },
+    "modified" : "2019-03-25",
+    "publisher" : "bonsai.uno",
+    "title" : {
+      "@language" : "en",
+      "@value" : "The LCIA as Flow Objects"
+    },
+    "preferredNamespaceUri" : "http://rdf.bonsai.uno/flowobject/lcia/#",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "First ever version 0.1 :\n                  Will change!\n               "
+    },
+    "versionInfo" : {
+      "@language" : "en",
+      "@value" : "Version 0.1 - 2019-03-25"
+    },
+    "homepage" : "brdf:/documentation.html"
+  }, {
+    "@id" : "brdf:radiative_forcing",
+    "@type" : "bont:FlowObject",
+    "" : "Radiative forcing"
+  }, {
+    "@id" : "brdf:temperature_incraese_100yrs_horizon",
+    "@type" : "bont:FlowObject",
+    "" : "Temperature Increase - 100yrs horizon"
+  } ],
+  "@context" : {
+    "" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label:"
+    },
+    "homepage" : {
+      "@id" : "http://xmlns.com/foaf/0.1/homepage",
+      "@type" : "@id"
+    },
+    "modified" : {
+      "@id" : "http://purl.org/dc/terms/modified",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/terms/description"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/terms/publisher"
+    },
+    "contributor" : {
+      "@id" : "http://purl.org/dc/terms/contributor"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "license" : {
+      "@id" : "http://creativecommons.org/ns#license",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator",
+      "@type" : "@id"
+    },
+    "cc" : "http://creativecommons.org/ns#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "dtype" : "http://purl.org/dc/dcmitype/",
+    "ns0" : "http://purl.org/vocab/vann/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "brdf" : "http://rdf.bonsai.uno/flowobject/lcia/",
+    "bont" : "http://ontology.bonsai.uno/core#",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/terms/"
+  }
+}

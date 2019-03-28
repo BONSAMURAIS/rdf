@@ -29,5 +29,5 @@ brdf:atmospheric_energy_balance a bont:ActivityType ;
  rdfs:label: "Atmospheric energy balance" .
   
 brdf:temperature_increse a bont:ActivityType ;
- rdfs:label: "Temperature Increase" .
+ rdfs:label: "Temperature Incraese" .
   
