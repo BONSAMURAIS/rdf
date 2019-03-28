@@ -1,0 +1,157 @@
+@prefix bont: <http://ontology.bonsai.uno/core#> .
+@prefix brdflo: <http://rdf.bonsai.uno/location/exiobase3_3_17/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix gn: <http://sws.geonames.org/3202326> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+brdflo:WA a schema:Place ;
+    rdfs:label "WA" .
+
+brdflo:WE a schema:Place ;
+    rdfs:label "WE" .
+
+brdflo:WF a schema:Place ;
+    rdfs:label "WF" .
+
+brdflo:WL a schema:Place ;
+    rdfs:label "WL" .
+
+brdflo:WM a schema:Place ;
+    rdfs:label "WM" .
+
+<http://sws.geonames.org/1269750> a schema:Place ;
+    rdfs:label "IN" .
+
+<http://sws.geonames.org/146669> a schema:Place ;
+    rdfs:label "CY" .
+
+<http://sws.geonames.org/1643084> a schema:Place ;
+    rdfs:label "ID" .
+
+<http://sws.geonames.org/1668284> a schema:Place ;
+    rdfs:label "TW" .
+
+<http://sws.geonames.org/1814991> a schema:Place ;
+    rdfs:label "CN" .
+
+<http://sws.geonames.org/1835841> a schema:Place ;
+    rdfs:label "KR" .
+
+<http://sws.geonames.org/1861060> a schema:Place ;
+    rdfs:label "JP" .
+
+<http://sws.geonames.org/2017370> a schema:Place ;
+    rdfs:label "RU" .
+
+<http://sws.geonames.org/2077456> a schema:Place ;
+    rdfs:label "AU" .
+
+<http://sws.geonames.org/2264397> a schema:Place ;
+    rdfs:label "PT" .
+
+<http://sws.geonames.org/2510769> a schema:Place ;
+    rdfs:label "ES" .
+
+<http://sws.geonames.org/2562770> a schema:Place ;
+    rdfs:label "MT" .
+
+<http://sws.geonames.org/2623032> a schema:Place ;
+    rdfs:label "DK" .
+
+<http://sws.geonames.org/2635167> a schema:Place ;
+    rdfs:label "GB" .
+
+<http://sws.geonames.org/2658434> a schema:Place ;
+    rdfs:label "CH" .
+
+<http://sws.geonames.org/2661886> a schema:Place ;
+    rdfs:label "SE" .
+
+<http://sws.geonames.org/2750405> a schema:Place ;
+    rdfs:label "NL" .
+
+<http://sws.geonames.org/2782113> a schema:Place ;
+    rdfs:label "AT" .
+
+<http://sws.geonames.org/2802361> a schema:Place ;
+    rdfs:label "BE" .
+
+<http://sws.geonames.org/2921044> a schema:Place ;
+    rdfs:label "DE" .
+
+<http://sws.geonames.org/2960313> a schema:Place ;
+    rdfs:label "LU" .
+
+<http://sws.geonames.org/2963597> a schema:Place ;
+    rdfs:label "IE" .
+
+<http://sws.geonames.org/298795> a schema:Place ;
+    rdfs:label "TR" .
+
+<http://sws.geonames.org/3017382> a schema:Place ;
+    rdfs:label "FR" .
+
+<http://sws.geonames.org/3057568> a schema:Place ;
+    rdfs:label "SK" .
+
+<http://sws.geonames.org/3077311> a schema:Place ;
+    rdfs:label "CZ" .
+
+<http://sws.geonames.org/3144096> a schema:Place ;
+    rdfs:label "NO" .
+
+<http://sws.geonames.org/3175395> a schema:Place ;
+    rdfs:label "IT" .
+
+<http://sws.geonames.org/3190538> a schema:Place ;
+    rdfs:label "SI" .
+
+gn: a schema:Place ;
+    rdfs:label "HR" .
+
+<http://sws.geonames.org/3469034> a schema:Place ;
+    rdfs:label "BR" .
+
+<http://sws.geonames.org/390903> a schema:Place ;
+    rdfs:label "GR" .
+
+<http://sws.geonames.org/3996063> a schema:Place ;
+    rdfs:label "MX" .
+
+<http://sws.geonames.org/453733> a schema:Place ;
+    rdfs:label "EE" .
+
+<http://sws.geonames.org/458258> a schema:Place ;
+    rdfs:label "LV" .
+
+<http://sws.geonames.org/597427> a schema:Place ;
+    rdfs:label "LT" .
+
+<http://sws.geonames.org/6251999> a schema:Place ;
+    rdfs:label "CA" .
+
+<http://sws.geonames.org/6252001> a schema:Place ;
+    rdfs:label "US" .
+
+<http://sws.geonames.org/660013> a schema:Place ;
+    rdfs:label "FI" .
+
+<http://sws.geonames.org/719819> a schema:Place ;
+    rdfs:label "HU" .
+
+<http://sws.geonames.org/732800> a schema:Place ;
+    rdfs:label "BG" .
+
+<http://sws.geonames.org/798544> a schema:Place ;
+    rdfs:label "PL" .
+
+<http://sws.geonames.org/798549> a schema:Place ;
+    rdfs:label "RO" .
+
+<http://sws.geonames.org/953987> a schema:Place ;
+    rdfs:label "ZA" .
+
