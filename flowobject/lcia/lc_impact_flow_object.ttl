@@ -29,5 +29,4 @@ brdf:radiative_forcing a bont:FlowObject ;
  rdfs:label: "Radiative forcing" .
   
 brdf:temperature_incraese_100yrs_horizon a bont:FlowObject ;
- rdfs:label: "Temperature Incraese - 100yrs horizon" .
-  
+ rdfs:label: "Temperature Increase - 100yrs horizon" .
