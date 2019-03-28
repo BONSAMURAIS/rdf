@@ -1,0 +1,6 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>
+
+
+<http://bonsai.uno/foaf/bonsai.rdf#bonsai>
+    a org:Organization ;
+    skos:prefLabel "BONSAI – Big Open Network for Sustainability Assessment Information" ;

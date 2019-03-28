@@ -1,0 +1,22 @@
+@prefix bont: <http://ontology.bonsai.uno/core#> .
+@prefix dtype: <http://purl.org/dc/dcmitype/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix chemrdf: <http://www.chemspider.com/> .
+@prefix brdf: <http://rdf.bonsai.uno/flowobject/us_epa/> .
+
+
+<http://rdf.bonsai.uno/flowobject/us_epa/>
+ a dtype:Dataset ;
+ dc:title "The US EPA Chemicals as Flow Objects"@en ;
+ dc:description "To be updated"@en ;
+ foaf:homepage <http://rdf.bonsai.uno/flowobject/us_epa/documentation.html> ;
+ ns0:preferredNamespaceUri "http://rdf.bonsai.uno/flowobject/us_epa/" ;
+ owl:versionInfo "Version 0.1 - 2019-03-25"@en ;
+ dc:modified "2019-03-25"^^xsd:date ;
+ dc:publisher "bonsai.uno" ;
+ dc:creator <http://rdf.bonsai.uno/foaf/bonsai.rdf> ;
+ dc:contributor "Tiago Morais", ;
+ cc:license <http://creativecommons.org/licenses/by/4.0/> ;
+ rdfs:comment """First ever version 0.1 :
+                 Will change!
+              """@en .
