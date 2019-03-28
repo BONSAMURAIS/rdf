@@ -1,0 +1,33 @@
+@prefix bont: <http://ontology.bonsai.uno/core#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://purl.org/vocab/vann/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dtype: <http://purl.org/dc/dcmitype/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix brdf: <http://rdf.bonsai.uno/flowobject/lcia/> .
+ 
+<http://rdf.bonsai.uno/flowobject/lcia/>
+  a dtype:Dataset ;
+  dc:title "The LCIA as Flow Objects"@en ;
+  dc:description "LCIA Flow Objects used by BONSAI ontologies"@en ;
+  foaf:homepage <http://rdf.bonsai.uno/flowobject/lcia//documentation.html> ;
+  ns0:preferredNamespaceUri "http://rdf.bonsai.uno/flowobject/lcia/#" ;
+  owl:versionInfo "Version 0.1 - 2019-03-25"@en ;
+  dc:modified "2019-03-25"^^xsd:date ;
+  dc:publisher "bonsai.uno" ;
+  dc:creator <http://bonsai.uno/foaf/bonsai.rdf#bonsai> ;
+  dc:contributor "Tiago Morais";
+  cc:license <http://creativecommons.org/licenses/by/3.0/> ;
+  rdfs:comment """First ever version 0.1 :
+                  Will change!
+               """@en .
+ 
+brdf:radiative_forcing a bont:FlowObject ;
+ rdfs:label: "Radiative forcing" .
+  
+brdf:temperature_incraese_100yrs_horizon a bont:FlowObject ;
+ rdfs:label: "Temperature Incraese - 100yrs horizon" .
+  
