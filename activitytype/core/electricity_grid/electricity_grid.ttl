@@ -8,6 +8,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://rdf.bonsai.uno/activitytype/core/eg> a bont:ActivityType ;
+    rdfs:label "Electricity grid" ;
     ns1:license <http://creativecommons.org/licenses/by/3.0/> ;
     dc:contributor "Tiago Morais" ;
     dc:creator <http://bonsai.uno/foaf/bonsai.rdf#bonsai> ;
