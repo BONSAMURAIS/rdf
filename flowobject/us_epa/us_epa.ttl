@@ -28,622 +28,297 @@
  
 brdf:Chemical-Structure.274 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.274.rdf ;
- 
- rdfs:label: "Carbon dioxide" .
+ rdfs:label "Carbon dioxide" .
   
 brdf:Chemical-Structure.291 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.291.rdf ;
- rdfs:label: "Methane" .
+ rdfs:label "Methane" .
   
 brdf:Chemical-Structure.291 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.291.rdf ;
- rdfs:label: "Methane" .
+ rdfs:label "Methane" .
   
 brdf:Chemical-Structure.923 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.923.rdf ;
- rdfs:label: "Nitrous oxide" .
+ rdfs:label "Nitrous oxide" .
   
 brdf:Chemical-Structure.6149 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.6149.rdf ;
- rdfs:label: "CFC-11" .
+ rdfs:label "CFC-11" .
   
 brdf:Chemical-Structure.6151 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.6151.rdf ;
- rdfs:label: "CFC-12" .
+ rdfs:label "CFC-12" .
   
 brdf:Chemical-Structure.6152 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.6152.rdf ;
- rdfs:label: "CFC-13" .
+ rdfs:label "CFC-13" .
   
 brdf:Chemical-Structure.6152 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.6152.rdf ;
- rdfs:label: "CFC-113" .
+ rdfs:label "CFC-113" .
   
 brdf:Chemical-Structure.221830 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.221830.rdf ;
- rdfs:label: "CFC-114" .
+ rdfs:label "CFC-114" .
   
 brdf:Chemical-Structure.6190 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.6190.rdf ;
- rdfs:label: "CFC-115" .
+ rdfs:label "CFC-115" .
   
 brdf:Chemical-Structure.6130 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.6130.rdf ;
- rdfs:label: "HCFC-21" .
+ rdfs:label "HCFC-21" .
   
 brdf:Chemical-Structure.6132 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.6132.rdf ;
- rdfs:label: "HCFC-22" .
+ rdfs:label "HCFC-22" .
   
 brdf:Chemical-Structure.9253 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.9253.rdf ;
- rdfs:label: "HCFC-122" .
+ rdfs:label "HCFC-122" .
   
 brdf:Chemical-Structure.9016 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.9016.rdf ;
- rdfs:label: "HCFC-123" .
+ rdfs:label "HCFC-123" .
   
 brdf:Chemical-Structure.9254 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.9254.rdf ;
- rdfs:label: "HCFC-123a" .
+ rdfs:label "HCFC-123a" .
   
 brdf:Chemical-Structure.16841 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.16841.rdf ;
- rdfs:label: "HCFC-124" .
+ rdfs:label "HCFC-124" .
   
 brdf:Chemical-Structure.14829 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.14829.rdf ;
- rdfs:label: "HCFC-141b" .
+ rdfs:label "HCFC-141b" .
   
 brdf:Chemical-Structure.6148 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.6148.rdf ;
- rdfs:label: "HCFC-142b" .
+ rdfs:label "HCFC-142b" .
   
 brdf:Chemical-Structure.55063 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.55063.rdf ;
- rdfs:label: "HCFC-225ca" .
+ rdfs:label "HCFC-225ca" .
   
 brdf:Chemical-Structure.56144 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.56144.rdf ;
- rdfs:label: "HCFC-225cb" .
+ rdfs:label "HCFC-225cb" .
   
 brdf:Chemical-Structure.21106179 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.21106179.rdf ;
- rdfs:label: "HFC-23" .
+ rdfs:label "HFC-23" .
   
 brdf:Chemical-Structure.6105 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.6105.rdf ;
- rdfs:label: "HFC-32" .
+ rdfs:label "HFC-32" .
   
 brdf:Chemical-Structure.11148 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.11148.rdf ;
- rdfs:label: "HFC-41" .
+ rdfs:label "HFC-41" .
   
 brdf:Chemical-Structure.9256 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.9256.rdf ;
- rdfs:label: "HFC-125" .
+ rdfs:label "HFC-125" .
   
 brdf:Chemical-Structure.9286 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.9286.rdf ;
- rdfs:label: "HFC-134" .
+ rdfs:label "HFC-134" .
   
 brdf:Chemical-Structure.12577 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.12577.rdf ;
- rdfs:label: "HFC-134a" .
+ rdfs:label "HFC-134a" .
   
 brdf:Chemical-Structure.9506 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.9506.rdf ;
- rdfs:label: "HFC-143" .
+ rdfs:label "HFC-143" .
   
 brdf:Chemical-Structure.9484 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.9484.rdf ;
- rdfs:label: "HFC-143a" .
+ rdfs:label "HFC-143a" .
   
 brdf:Chemical-Structure.11722 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.11722.rdf ;
- rdfs:label: "HFC-152" .
+ rdfs:label "HFC-152" .
   
 brdf:Chemical-Structure.6128 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.6128.rdf ;
- rdfs:label: "HFC-152a" .
+ rdfs:label "HFC-152a" .
   
 brdf:Chemical-Structure.9243 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.9243.rdf ;
- rdfs:label: "HFC-161" .
+ rdfs:label "HFC-161" .
   
 brdf:Chemical-Structure.61257 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.61257.rdf ;
- rdfs:label: "HFC-227ea" .
+ rdfs:label "HFC-227ea" .
   
 brdf:Chemical-Structure.455592 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.455592.rdf ;
- rdfs:label: "HFC-236cb" .
+ rdfs:label "HFC-236cb" .
   
 brdf:Chemical-Structure.71342 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.71342.rdf ;
- rdfs:label: "HFC-236ea" .
+ rdfs:label "HFC-236ea" .
   
 brdf:Chemical-Structure.12199 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.12199.rdf ;
- rdfs:label: "HFC-236fa" .
+ rdfs:label "HFC-236fa" .
   
 brdf:Chemical-Structure.62827 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.62827.rdf ;
- rdfs:label: "HFC-245ca" .
+ rdfs:label "HFC-245ca" .
   
 brdf:Chemical-Structure.61345 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.61345.rdf ;
- rdfs:label: "HFC-245fa" .
+ rdfs:label "HFC-245fa" .
   
 brdf:Chemical-Structure.61201 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.61201.rdf ;
- rdfs:label: "HFC-365mfc" .
+ rdfs:label "HFC-365mfc" .
   
 brdf:Chemical-Structure.77787 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.77787.rdf ;
- rdfs:label: "HFC-4310mee" .
+ rdfs:label "HFC-4310mee" .
   
 brdf:Chemical-Structure.4647426 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.4647426.rdf ;
- rdfs:label: "HFC-1234ze(E)" .
+ rdfs:label "HFC-1234ze(E)" .
   
 brdf:Chemical-Structure.5730 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.5730.rdf ;
- rdfs:label: "Carbon tetrachloride" .
+ rdfs:label "Carbon tetrachloride" .
   
 brdf:Chemical-Structure.6087 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.6087.rdf ;
- rdfs:label: "Chloromethane" .
+ rdfs:label "Chloromethane" .
   
 brdf:Chemical-Structure.6104 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.6104.rdf ;
- rdfs:label: "Methylene chloride" .
+ rdfs:label "Methylene chloride" .
   
 brdf:Chemical-Structure.5977 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.5977.rdf ;
- rdfs:label: "Chloroform" .
+ rdfs:label "Chloroform" .
   
 brdf:Chemical-Structure.13837650 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.13837650.rdf ;
- rdfs:label: "Dichloroethane" .
+ rdfs:label "Dichloroethane" .
   
 brdf:Chemical-Structure.6083 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.6083.rdf ;
- rdfs:label: "Methyl bromide" .
+ rdfs:label "Methyl bromide" .
   
 brdf:Chemical-Structure.2916 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.2916.rdf ;
- rdfs:label: "Dibromomethane" .
+ rdfs:label "Dibromomethane" .
   
 brdf:Chemical-Structure.56193 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.56193.rdf ;
- rdfs:label: "Bromodifluoromethane" .
+ rdfs:label "Bromodifluoromethane" .
   
 brdf:Chemical-Structure.9248 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.9248.rdf ;
- rdfs:label: "Halon 1211" .
+ rdfs:label "Halon 1211" .
   
 brdf:Chemical-Structure.6144 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.6144.rdf ;
- rdfs:label: "Halon 1301" .
+ rdfs:label "Halon 1301" .
   
 brdf:Chemical-Structure.22959 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.22959.rdf ;
- rdfs:label: "Nitrogen trifluoride" .
+ rdfs:label "Nitrogen trifluoride" .
   
 brdf:Chemical-Structure.21159667 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.21159667.rdf ;
- rdfs:label: "Sulfur hexafluoride" .
+ rdfs:label "Sulfur hexafluoride" .
   
 brdf:Chemical-Structure.119988 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.119988.rdf ;
- rdfs:label: "Trifluoromethyl sulfur pentafluoride" .
+ rdfs:label "Trifluoromethyl sulfur pentafluoride" .
   
 brdf:Chemical-Structure.16647 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.16647.rdf ;
- rdfs:label: "Sulfuryl fluoride" .
+ rdfs:label "Sulfuryl fluoride" .
   
 brdf:Chemical-Structure.6153 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.6153.rdf ;
- rdfs:label: "Carbon tetrafluoride" .
+ rdfs:label "Carbon tetrafluoride" .
   
 brdf:Chemical-Structure.6191 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.6191.rdf ;
- rdfs:label: "Hexafluoroethane" .
+ rdfs:label "Hexafluoroethane" .
   
 brdf:Chemical-Structure.6192 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.6192.rdf ;
- rdfs:label: "Perfluoropropane" .
+ rdfs:label "Perfluoropropane" .
   
 brdf:Chemical-Structure.13846040 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.13846040.rdf ;
- rdfs:label: "Perfluorocyclobutane" .
+ rdfs:label "Perfluorocyclobutane" .
   
 brdf:Chemical-Structure.13862701 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.13862701.rdf ;
- rdfs:label: "Perfluorobutane" .
+ rdfs:label "Perfluorobutane" .
   
 brdf:Chemical-Structure.12154 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.12154.rdf ;
- rdfs:label: "Perfluoropentane" .
+ rdfs:label "Perfluoropentane" .
   
 brdf:Chemical-Structure.9262 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.9262.rdf ;
- rdfs:label: "Perfluorohexane" .
+ rdfs:label "Perfluorohexane" .
   
 brdf:Chemical-Structure.13888074 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.13888074.rdf ;
- rdfs:label: "Perfluorodecalin" .
+ rdfs:label "Perfluorodecalin" .
   
 brdf:Chemical-Structure.8000 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.8000.rdf ;
- rdfs:label: "Tetrafluoroethene" .
+ rdfs:label "Tetrafluoroethene" .
   
 brdf:Chemical-Structure.13270790 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.13270790.rdf ;
- rdfs:label: "HFE-329mcc2" .
+ rdfs:label "HFE-329mcc2" .
   
 brdf:Chemical-Structure.2056281 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.2056281.rdf ;
- rdfs:label: "HFE-338mcf2" .
+ rdfs:label "HFE-338mcf2" .
   
 brdf:Chemical-Structure.11214141 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.11214141.rdf ;
- rdfs:label: "HFE-347mcf2" .
+ rdfs:label "HFE-347mcf2" .
   
 brdf:Chemical-Structure.144293 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.144293.rdf ;
- rdfs:label: "HFE-347pcf2" .
+ rdfs:label "HFE-347pcf2" .
   
 brdf:Chemical-Structure.2058620 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.2058620.rdf ;
- rdfs:label: "HFE-356mec3" .
+ rdfs:label "HFE-356mec3" .
   
 brdf:Chemical-Structure.24591028 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.24591028.rdf ;
- rdfs:label: "HFE-356pcf2" .
+ rdfs:label "HFE-356pcf2" .
   
 brdf:Chemical-Structure.2018678 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.2018678.rdf ;
- rdfs:label: "HFE-356pcf3" .
+ rdfs:label "HFE-356pcf3" .
   
 brdf:Chemical-Structure.11214145 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.11214145.rdf ;
- rdfs:label: "HFE-356pcc3" .
+ rdfs:label "HFE-356pcc3" .
   
 brdf:Chemical-Structure.2056341 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.2056341.rdf ;
- rdfs:label: "HFE-365mcf3" .
+ rdfs:label "HFE-365mcf3" .
   
 brdf:Chemical-Structure.8035172 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.8035172.rdf ;
- rdfs:label: "HFE-338pcc13 (HG-01)" .
+ rdfs:label "HFE-338pcc13 (HG-01)" .
   
 brdf:Chemical-Structure.6337 a bont:FlowObject ;
  owl:sameAs chemrdf:Chemical-Structure.6337.rdf ;
- rdfs:label: "Methyl chlorocarbonate" .
-  
-@prefix bont: <http://ontology.bonsai.uno/core#> .
-@prefix dc: <http://purl.org/dc/terms/> .
-@prefix ns0: <http://purl.org/vocab/vann/> .
-@prefix cc: <http://creativecommons.org/ns#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix dtype: <http://purl.org/dc/dcmitype/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix brdf: <http://rdf.bonsai.uno/flowobject/us_epa/> .
-@prefix chemrdf: <http://www.chemspider.com/> .
- 
-<http://rdf.bonsai.uno/flowobject/us_epa/>
-  a dtype:Dataset ;
-  dc:title "The US EPA Chemicals as Flow Objects"@en ;
-  dc:description "US EPA elementary flows used by BONSAI ontologies and correspondence with ChemSpider"@en ;
-  foaf:homepage <http://rdf.bonsai.uno/flowobject/us_epa//documentation.html> ;
-  ns0:preferredNamespaceUri "http://rdf.bonsai.uno/flowobject/us_epa/#" ;
-  owl:versionInfo "Version 0.1 - 2019-03-25"@en ;
-  dc:modified "2019-03-25"^^xsd:date ;
-  dc:publisher "bonsai.uno" ;
-  dc:creator <http://bonsai.uno/foaf/bonsai.rdf#bonsai> ;
-  dc:contributor "Tiago Morais";
-  cc:license <http://creativecommons.org/licenses/by/3.0/> ;
-  rdfs:comment """First ever version 0.1 :
-                  Will change!
-               """@en .
- 
-brdf:Chemical-Structure.274 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.274.rdf ;
- rdfs:label: "Carbon dioxide" .
-  
-brdf:Chemical-Structure.291 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.291.rdf ;
- rdfs:label: "Methane" .
-  
-brdf:Chemical-Structure.291 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.291.rdf ;
- rdfs:label: "Methane" .
-  
-brdf:Chemical-Structure.923 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.923.rdf ;
- rdfs:label: "Nitrous oxide" .
-  
-brdf:Chemical-Structure.6149 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.6149.rdf ;
- rdfs:label: "CFC-11" .
-  
-brdf:Chemical-Structure.6151 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.6151.rdf ;
- rdfs:label: "CFC-12" .
-  
-brdf:Chemical-Structure.6152 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.6152.rdf ;
- rdfs:label: "CFC-13" .
-  
-brdf:Chemical-Structure.6152 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.6152.rdf ;
- rdfs:label: "CFC-113" .
-  
-brdf:Chemical-Structure.221830 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.221830.rdf ;
- rdfs:label: "CFC-114" .
-  
-brdf:Chemical-Structure.6190 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.6190.rdf ;
- rdfs:label: "CFC-115" .
-  
-brdf:Chemical-Structure.6130 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.6130.rdf ;
- rdfs:label: "HCFC-21" .
-  
-brdf:Chemical-Structure.6132 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.6132.rdf ;
- rdfs:label: "HCFC-22" .
-  
-brdf:Chemical-Structure.9253 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.9253.rdf ;
- rdfs:label: "HCFC-122" .
-  
-brdf:Chemical-Structure.9016 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.9016.rdf ;
- rdfs:label: "HCFC-123" .
-  
-brdf:Chemical-Structure.9254 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.9254.rdf ;
- rdfs:label: "HCFC-123a" .
-  
-brdf:Chemical-Structure.16841 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.16841.rdf ;
- rdfs:label: "HCFC-124" .
-  
-brdf:Chemical-Structure.14829 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.14829.rdf ;
- rdfs:label: "HCFC-141b" .
-  
-brdf:Chemical-Structure.6148 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.6148.rdf ;
- rdfs:label: "HCFC-142b" .
-  
-brdf:Chemical-Structure.55063 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.55063.rdf ;
- rdfs:label: "HCFC-225ca" .
-  
-brdf:Chemical-Structure.56144 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.56144.rdf ;
- rdfs:label: "HCFC-225cb" .
-  
-brdf:Chemical-Structure.21106179 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.21106179.rdf ;
- rdfs:label: "HFC-23" .
-  
-brdf:Chemical-Structure.6105 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.6105.rdf ;
- rdfs:label: "HFC-32" .
-  
-brdf:Chemical-Structure.11148 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.11148.rdf ;
- rdfs:label: "HFC-41" .
-  
-brdf:Chemical-Structure.9256 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.9256.rdf ;
- rdfs:label: "HFC-125" .
-  
-brdf:Chemical-Structure.9286 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.9286.rdf ;
- rdfs:label: "HFC-134" .
-  
-brdf:Chemical-Structure.12577 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.12577.rdf ;
- rdfs:label: "HFC-134a" .
-  
-brdf:Chemical-Structure.9506 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.9506.rdf ;
- rdfs:label: "HFC-143" .
-  
-brdf:Chemical-Structure.9484 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.9484.rdf ;
- rdfs:label: "HFC-143a" .
-  
-brdf:Chemical-Structure.11722 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.11722.rdf ;
- rdfs:label: "HFC-152" .
-  
-brdf:Chemical-Structure.6128 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.6128.rdf ;
- rdfs:label: "HFC-152a" .
-  
-brdf:Chemical-Structure.9243 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.9243.rdf ;
- rdfs:label: "HFC-161" .
-  
-brdf:Chemical-Structure.61257 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.61257.rdf ;
- rdfs:label: "HFC-227ea" .
-  
-brdf:Chemical-Structure.455592 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.455592.rdf ;
- rdfs:label: "HFC-236cb" .
-  
-brdf:Chemical-Structure.71342 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.71342.rdf ;
- rdfs:label: "HFC-236ea" .
-  
-brdf:Chemical-Structure.12199 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.12199.rdf ;
- rdfs:label: "HFC-236fa" .
-  
-brdf:Chemical-Structure.62827 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.62827.rdf ;
- rdfs:label: "HFC-245ca" .
-  
-brdf:Chemical-Structure.61345 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.61345.rdf ;
- rdfs:label: "HFC-245fa" .
-  
-brdf:Chemical-Structure.61201 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.61201.rdf ;
- rdfs:label: "HFC-365mfc" .
-  
-brdf:Chemical-Structure.77787 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.77787.rdf ;
- rdfs:label: "HFC-4310mee" .
-  
-brdf:Chemical-Structure.4647426 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.4647426.rdf ;
- rdfs:label: "HFC-1234ze(E)" .
-  
-brdf:Chemical-Structure.5730 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.5730.rdf ;
- rdfs:label: "Carbon tetrachloride" .
-  
-brdf:Chemical-Structure.6087 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.6087.rdf ;
- rdfs:label: "Chloromethane" .
-  
-brdf:Chemical-Structure.6104 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.6104.rdf ;
- rdfs:label: "Methylene chloride" .
-  
-brdf:Chemical-Structure.5977 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.5977.rdf ;
- rdfs:label: "Chloroform" .
-  
-brdf:Chemical-Structure.13837650 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.13837650.rdf ;
- rdfs:label: "Dichloroethane" .
-  
-brdf:Chemical-Structure.6083 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.6083.rdf ;
- rdfs:label: "Methyl bromide" .
-  
-brdf:Chemical-Structure.2916 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.2916.rdf ;
- rdfs:label: "Dibromomethane" .
-  
-brdf:Chemical-Structure.56193 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.56193.rdf ;
- rdfs:label: "Bromodifluoromethane" .
-  
-brdf:Chemical-Structure.9248 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.9248.rdf ;
- rdfs:label: "Halon 1211" .
-  
-brdf:Chemical-Structure.6144 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.6144.rdf ;
- rdfs:label: "Halon 1301" .
-  
-brdf:Chemical-Structure.22959 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.22959.rdf ;
- rdfs:label: "Nitrogen trifluoride" .
-  
-brdf:Chemical-Structure.21159667 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.21159667.rdf ;
- rdfs:label: "Sulfur hexafluoride" .
-  
-brdf:Chemical-Structure.119988 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.119988.rdf ;
- rdfs:label: "Trifluoromethyl sulfur pentafluoride" .
-  
-brdf:Chemical-Structure.16647 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.16647.rdf ;
- rdfs:label: "Sulfuryl fluoride" .
-  
-brdf:Chemical-Structure.6153 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.6153.rdf ;
- rdfs:label: "Carbon tetrafluoride" .
-  
-brdf:Chemical-Structure.6191 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.6191.rdf ;
- rdfs:label: "Hexafluoroethane" .
-  
-brdf:Chemical-Structure.6192 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.6192.rdf ;
- rdfs:label: "Perfluoropropane" .
-  
-brdf:Chemical-Structure.13846040 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.13846040.rdf ;
- rdfs:label: "Perfluorocyclobutane" .
-  
-brdf:Chemical-Structure.13862701 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.13862701.rdf ;
- rdfs:label: "Perfluorobutane" .
-  
-brdf:Chemical-Structure.12154 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.12154.rdf ;
- rdfs:label: "Perfluoropentane" .
-  
-brdf:Chemical-Structure.9262 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.9262.rdf ;
- rdfs:label: "Perfluorohexane" .
-  
-brdf:Chemical-Structure.13888074 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.13888074.rdf ;
- rdfs:label: "Perfluorodecalin" .
-  
-brdf:Chemical-Structure.8000 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.8000.rdf ;
- rdfs:label: "Tetrafluoroethene" .
-  
-brdf:Chemical-Structure.13270790 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.13270790.rdf ;
- rdfs:label: "HFE-329mcc2" .
-  
-brdf:Chemical-Structure.2056281 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.2056281.rdf ;
- rdfs:label: "HFE-338mcf2" .
-  
-brdf:Chemical-Structure.11214141 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.11214141.rdf ;
- rdfs:label: "HFE-347mcf2" .
-  
-brdf:Chemical-Structure.144293 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.144293.rdf ;
- rdfs:label: "HFE-347pcf2" .
-  
-brdf:Chemical-Structure.2058620 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.2058620.rdf ;
- rdfs:label: "HFE-356mec3" .
-  
-brdf:Chemical-Structure.24591028 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.24591028.rdf ;
- rdfs:label: "HFE-356pcf2" .
-  
-brdf:Chemical-Structure.2018678 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.2018678.rdf ;
- rdfs:label: "HFE-356pcf3" .
-  
-brdf:Chemical-Structure.11214145 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.11214145.rdf ;
- rdfs:label: "HFE-356pcc3" .
-  
-brdf:Chemical-Structure.2056341 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.2056341.rdf ;
- rdfs:label: "HFE-365mcf3" .
-  
-brdf:Chemical-Structure.8035172 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.8035172.rdf ;
- rdfs:label: "HFE-338pcc13 (HG-01)" .
-  
-brdf:Chemical-Structure.6337 a bont:FlowObject ;
- owl:sameAs chemrdf:Chemical-Structure.6337.rdf ;
- rdfs:label: "Methyl chlorocarbonate" .
+ rdfs:label "Methyl chlorocarbonate" .
   
