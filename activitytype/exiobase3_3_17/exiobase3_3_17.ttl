@@ -1,0 +1,500 @@
+@prefix bont: <http://ontology.bonsai.uno/core#> .
+@prefix brdfat: <http://rdf.bonsai.uno/activitytype/exiobase3_3_17/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+brdfat:A_ALUM a bont:ActivityType ;
+    rdfs:label "Aluminium production" .
+
+brdfat:A_ALUO a bont:ActivityType ;
+    rdfs:label "Mining of aluminium ores and concentrates" .
+
+brdfat:A_ALUW a bont:ActivityType ;
+    rdfs:label "Re-processing of secondary aluminium into new aluminium" .
+
+brdfat:A_ASHW a bont:ActivityType ;
+    rdfs:label "Re-processing of ash into clinker" .
+
+brdfat:A_BEVR a bont:ActivityType ;
+    rdfs:label "Manufacture of beverages" .
+
+brdfat:A_BIOF a bont:ActivityType ;
+    rdfs:label "Biogasification of food waste, incl. land application" .
+
+brdfat:A_BIOP a bont:ActivityType ;
+    rdfs:label "Biogasification of paper, incl. land application" .
+
+brdfat:A_BIOS a bont:ActivityType ;
+    rdfs:label "Biogasification of sewage slugde, incl. land application" .
+
+brdfat:A_BOTW a bont:ActivityType ;
+    rdfs:label "Recycling of bottles by direct reuse" .
+
+brdfat:A_BRIK a bont:ActivityType ;
+    rdfs:label "Manufacture of bricks, tiles and construction products, in baked clay" .
+
+brdfat:A_CATL a bont:ActivityType ;
+    rdfs:label "Cattle farming" .
+
+brdfat:A_CHEM a bont:ActivityType ;
+    rdfs:label "Chemicals nec" .
+
+brdfat:A_CHMF a bont:ActivityType ;
+    rdfs:label "Mining of chemical and fertilizer minerals, production of salt, other mining and quarrying n.e.c." .
+
+brdfat:A_CMNT a bont:ActivityType ;
+    rdfs:label "Manufacture of cement, lime and plaster" .
+
+brdfat:A_COAL a bont:ActivityType ;
+    rdfs:label "Mining of coal and lignite; extraction of peat (10)" .
+
+brdfat:A_COIL a bont:ActivityType ;
+    rdfs:label "Extraction of crude petroleum and services related to crude oil extraction, excluding surveying" .
+
+brdfat:A_COKE a bont:ActivityType ;
+    rdfs:label "Manufacture of coke oven products" .
+
+brdfat:A_COMF a bont:ActivityType ;
+    rdfs:label "Composting of food waste, incl. land application" .
+
+brdfat:A_COMP a bont:ActivityType ;
+    rdfs:label "Computer and related activities (72)" .
+
+brdfat:A_COMW a bont:ActivityType ;
+    rdfs:label "Composting of paper and wood, incl. land application" .
+
+brdfat:A_CONS a bont:ActivityType ;
+    rdfs:label "Construction (45)" .
+
+brdfat:A_CONW a bont:ActivityType ;
+    rdfs:label "Re-processing of secondary construction material into aggregates" .
+
+brdfat:A_COPO a bont:ActivityType ;
+    rdfs:label "Mining of copper ores and concentrates" .
+
+brdfat:A_COPP a bont:ActivityType ;
+    rdfs:label "Copper production" .
+
+brdfat:A_COPW a bont:ActivityType ;
+    rdfs:label "Re-processing of secondary copper into new copper" .
+
+brdfat:A_CRMC a bont:ActivityType ;
+    rdfs:label "Manufacture of ceramic goods" .
+
+brdfat:A_DAIR a bont:ActivityType ;
+    rdfs:label "Processing of dairy products" .
+
+brdfat:A_EDUC a bont:ActivityType ;
+    rdfs:label "Education (80)" .
+
+brdfat:A_ELMA a bont:ActivityType ;
+    rdfs:label "Manufacture of electrical machinery and apparatus n.e.c. (31)" .
+
+brdfat:A_EXTO a bont:ActivityType ;
+    rdfs:label "Extra-territorial organizations and bodies" .
+
+brdfat:A_FABM a bont:ActivityType ;
+    rdfs:label "Manufacture of fabricated metal products, except machinery and equipment (28)" .
+
+brdfat:A_FAUX a bont:ActivityType ;
+    rdfs:label "Activities auxiliary to financial intermediation (67)" .
+
+brdfat:A_FIBR a bont:ActivityType ;
+    rdfs:label "Cultivation of plant-based fibers" .
+
+brdfat:A_FINS a bont:ActivityType ;
+    rdfs:label "Insurance and pension funding, except compulsory social security (66)" .
+
+brdfat:A_FINT a bont:ActivityType ;
+    rdfs:label "Financial intermediation, except insurance and pension funding (65)" .
+
+brdfat:A_FISH a bont:ActivityType ;
+    rdfs:label "Fishing, operating of fish hatcheries and fish farms; service activities incidental to fishing (05)" .
+
+brdfat:A_FORE a bont:ActivityType ;
+    rdfs:label "Forestry, logging and related service activities (02)" .
+
+brdfat:A_FSHP a bont:ActivityType ;
+    rdfs:label "Manufacture of fish products" .
+
+brdfat:A_FURN a bont:ActivityType ;
+    rdfs:label "Manufacture of furniture; manufacturing n.e.c. (36)" .
+
+brdfat:A_FVEG a bont:ActivityType ;
+    rdfs:label "Cultivation of vegetables, fruit, nuts" .
+
+brdfat:A_GARM a bont:ActivityType ;
+    rdfs:label "Manufacture of wearing apparel; dressing and dyeing of fur (18)" .
+
+brdfat:A_GASD a bont:ActivityType ;
+    rdfs:label "Distribution of gaseous fuels through mains" .
+
+brdfat:A_GASE a bont:ActivityType ;
+    rdfs:label "Extraction of natural gas and services related to natural gas extraction, excluding surveying" .
+
+brdfat:A_GLAS a bont:ActivityType ;
+    rdfs:label "Manufacture of glass and glass products" .
+
+brdfat:A_GLAW a bont:ActivityType ;
+    rdfs:label "Re-processing of secondary glass into new glass" .
+
+brdfat:A_HEAL a bont:ActivityType ;
+    rdfs:label "Health and social work (85)" .
+
+brdfat:A_HORE a bont:ActivityType ;
+    rdfs:label "Hotels and restaurants (55)" .
+
+brdfat:A_HWAT a bont:ActivityType ;
+    rdfs:label "Steam and hot water supply" .
+
+brdfat:A_INCF a bont:ActivityType ;
+    rdfs:label "Incineration of waste: Food" .
+
+brdfat:A_INCL a bont:ActivityType ;
+    rdfs:label "Incineration of waste: Plastic" .
+
+brdfat:A_INCM a bont:ActivityType ;
+    rdfs:label "Incineration of waste: Metals and Inert materials" .
+
+brdfat:A_INCO a bont:ActivityType ;
+    rdfs:label "Incineration of waste: Oil/Hazardous waste" .
+
+brdfat:A_INCP a bont:ActivityType ;
+    rdfs:label "Incineration of waste: Paper" .
+
+brdfat:A_INCT a bont:ActivityType ;
+    rdfs:label "Incineration of waste: Textiles" .
+
+brdfat:A_INCW a bont:ActivityType ;
+    rdfs:label "Incineration of waste: Wood" .
+
+brdfat:A_IRON a bont:ActivityType ;
+    rdfs:label "Mining of iron ores" .
+
+brdfat:A_LANF a bont:ActivityType ;
+    rdfs:label "Landfill of waste: Food" .
+
+brdfat:A_LANI a bont:ActivityType ;
+    rdfs:label "Landfill of waste: Inert/metal/hazardous" .
+
+brdfat:A_LANL a bont:ActivityType ;
+    rdfs:label "Landfill of waste: Plastic" .
+
+brdfat:A_LANP a bont:ActivityType ;
+    rdfs:label "Landfill of waste: Paper" .
+
+brdfat:A_LANT a bont:ActivityType ;
+    rdfs:label "Landfill of waste: Textiles" .
+
+brdfat:A_LANW a bont:ActivityType ;
+    rdfs:label "Landfill of waste: Wood" .
+
+brdfat:A_LETH a bont:ActivityType ;
+    rdfs:label "Tanning and dressing of leather; manufacture of luggage, handbags, saddlery, harness and footwear (19)" .
+
+brdfat:A_LZTO a bont:ActivityType ;
+    rdfs:label "Mining of lead, zinc and tin ores and concentrates" .
+
+brdfat:A_LZTP a bont:ActivityType ;
+    rdfs:label "Lead, zinc and tin production" .
+
+brdfat:A_LZTW a bont:ActivityType ;
+    rdfs:label "Re-processing of secondary lead into new lead" .
+
+brdfat:A_MACH a bont:ActivityType ;
+    rdfs:label "Manufacture of machinery and equipment n.e.c. (29)" .
+
+brdfat:A_MANB a bont:ActivityType ;
+    rdfs:label "Manure treatment (biogas), storage and land application" .
+
+brdfat:A_MANC a bont:ActivityType ;
+    rdfs:label "Manure treatment (conventional), storage and land application" .
+
+brdfat:A_MARE a bont:ActivityType ;
+    rdfs:label "Renting of machinery and equipment without operator and of personal and household goods (71)" .
+
+brdfat:A_MDIA a bont:ActivityType ;
+    rdfs:label "Publishing, printing and reproduction of recorded media (22)" .
+
+brdfat:A_MEIN a bont:ActivityType ;
+    rdfs:label "Manufacture of medical, precision and optical instruments, watches and clocks (33)" .
+
+brdfat:A_METC a bont:ActivityType ;
+    rdfs:label "Casting of metals" .
+
+brdfat:A_MGWG a bont:ActivityType ;
+    rdfs:label "Manufacture of gas;" .
+
+brdfat:A_MILK a bont:ActivityType ;
+    rdfs:label "Raw milk" .
+
+brdfat:A_MOTO a bont:ActivityType ;
+    rdfs:label "Manufacture of motor vehicles, trailers and semi-trailers (34)" .
+
+brdfat:A_NFER a bont:ActivityType ;
+    rdfs:label "N-fertiliser" .
+
+brdfat:A_NIKO a bont:ActivityType ;
+    rdfs:label "Mining of nickel ores and concentrates" .
+
+brdfat:A_NUCF a bont:ActivityType ;
+    rdfs:label "Processing of nuclear fuel" .
+
+brdfat:A_OANP a bont:ActivityType ;
+    rdfs:label "Animal products nec" .
+
+brdfat:A_OBUS a bont:ActivityType ;
+    rdfs:label "Other business activities (74)" .
+
+brdfat:A_OCER a bont:ActivityType ;
+    rdfs:label "Cultivation of cereal grains nec" .
+
+brdfat:A_OFMA a bont:ActivityType ;
+    rdfs:label "Manufacture of office machinery and computers (30)" .
+
+brdfat:A_OFOD a bont:ActivityType ;
+    rdfs:label "Processing of Food products nec" .
+
+brdfat:A_OGPL a bont:ActivityType ;
+    rdfs:label "Extraction, liquefaction, and regasification of other petroleum and gaseous materials" .
+
+brdfat:A_OILS a bont:ActivityType ;
+    rdfs:label "Cultivation of oil seeds" .
+
+brdfat:A_OMEA a bont:ActivityType ;
+    rdfs:label "Meat animals nec" .
+
+brdfat:A_ONFM a bont:ActivityType ;
+    rdfs:label "Other non-ferrous metal production" .
+
+brdfat:A_ONFO a bont:ActivityType ;
+    rdfs:label "Mining of other non-ferrous metal ores and concentrates" .
+
+brdfat:A_ONFW a bont:ActivityType ;
+    rdfs:label "Re-processing of secondary other non-ferrous metals into new other non-ferrous metals" .
+
+brdfat:A_ONMM a bont:ActivityType ;
+    rdfs:label "Manufacture of other non-metallic mineral products n.e.c." .
+
+brdfat:A_ORAN a bont:ActivityType ;
+    rdfs:label "Mining of uranium and thorium ores (12)" .
+
+brdfat:A_ORGA a bont:ActivityType ;
+    rdfs:label "Activities of membership organisation n.e.c. (91)" .
+
+brdfat:A_OSER a bont:ActivityType ;
+    rdfs:label "Other service activities (93)" .
+
+brdfat:A_OTCR a bont:ActivityType ;
+    rdfs:label "Cultivation of crops nec" .
+
+brdfat:A_OTRE a bont:ActivityType ;
+    rdfs:label "Manufacture of other transport equipment (35)" .
+
+brdfat:A_PADF a bont:ActivityType ;
+    rdfs:label "Public administration and defence; compulsory social security (75)" .
+
+brdfat:A_PAPE a bont:ActivityType ;
+    rdfs:label "Paper" .
+
+brdfat:A_PAPR a bont:ActivityType ;
+    rdfs:label "Re-processing of secondary paper into new pulp" .
+
+brdfat:A_PARI a bont:ActivityType ;
+    rdfs:label "Cultivation of paddy rice" .
+
+brdfat:A_PCAT a bont:ActivityType ;
+    rdfs:label "Processing of meat cattle" .
+
+brdfat:A_PFER a bont:ActivityType ;
+    rdfs:label "P- and other fertiliser" .
+
+brdfat:A_PIGS a bont:ActivityType ;
+    rdfs:label "Pigs farming" .
+
+brdfat:A_PLAS a bont:ActivityType ;
+    rdfs:label "Plastics, basic" .
+
+brdfat:A_PLAW a bont:ActivityType ;
+    rdfs:label "Re-processing of secondary plastic into new plastic" .
+
+brdfat:A_PLTR a bont:ActivityType ;
+    rdfs:label "Poultry farming" .
+
+brdfat:A_POME a bont:ActivityType ;
+    rdfs:label "Production of meat products nec" .
+
+brdfat:A_POWB a bont:ActivityType ;
+    rdfs:label "Production of electricity by biomass and waste" .
+
+brdfat:A_POWC a bont:ActivityType ;
+    rdfs:label "Production of electricity by coal" .
+
+brdfat:A_POWD a bont:ActivityType ;
+    rdfs:label "Distribution and trade of electricity" .
+
+brdfat:A_POWE a bont:ActivityType ;
+    rdfs:label "Production of electricity by solar thermal" .
+
+brdfat:A_POWG a bont:ActivityType ;
+    rdfs:label "Production of electricity by gas" .
+
+brdfat:A_POWH a bont:ActivityType ;
+    rdfs:label "Production of electricity by hydro" .
+
+brdfat:A_POWM a bont:ActivityType ;
+    rdfs:label "Production of electricity by Geothermal" .
+
+brdfat:A_POWN a bont:ActivityType ;
+    rdfs:label "Production of electricity by nuclear" .
+
+brdfat:A_POWO a bont:ActivityType ;
+    rdfs:label "Production of electricity by tide, wave, ocean" .
+
+brdfat:A_POWP a bont:ActivityType ;
+    rdfs:label "Production of electricity by petroleum and other oil derivatives" .
+
+brdfat:A_POWS a bont:ActivityType ;
+    rdfs:label "Production of electricity by solar photovoltaic" .
+
+brdfat:A_POWT a bont:ActivityType ;
+    rdfs:label "Transmission of electricity" .
+
+brdfat:A_POWW a bont:ActivityType ;
+    rdfs:label "Production of electricity by wind" .
+
+brdfat:A_POWZ a bont:ActivityType ;
+    rdfs:label "Production of electricity nec" .
+
+brdfat:A_PPIG a bont:ActivityType ;
+    rdfs:label "Processing of meat pigs" .
+
+brdfat:A_PPLT a bont:ActivityType ;
+    rdfs:label "Processing of meat poultry" .
+
+brdfat:A_PREM a bont:ActivityType ;
+    rdfs:label "Precious metals production" .
+
+brdfat:A_PREO a bont:ActivityType ;
+    rdfs:label "Mining of precious metal ores and concentrates" .
+
+brdfat:A_PREW a bont:ActivityType ;
+    rdfs:label "Re-processing of secondary preciuos metals into new preciuos metals" .
+
+brdfat:A_PRHH a bont:ActivityType ;
+    rdfs:label "Private households with employed persons (95)" .
+
+brdfat:A_PTEL a bont:ActivityType ;
+    rdfs:label "Post and telecommunications (64)" .
+
+brdfat:A_PULP a bont:ActivityType ;
+    rdfs:label "Pulp" .
+
+brdfat:A_RATV a bont:ActivityType ;
+    rdfs:label "Manufacture of radio, television and communication equipment and apparatus (32)" .
+
+brdfat:A_REAL a bont:ActivityType ;
+    rdfs:label "Real estate activities (70)" .
+
+brdfat:A_RECR a bont:ActivityType ;
+    rdfs:label "Recreational, cultural and sporting activities (92)" .
+
+brdfat:A_REFN a bont:ActivityType ;
+    rdfs:label "Petroleum Refinery" .
+
+brdfat:A_RESD a bont:ActivityType ;
+    rdfs:label "Research and development (73)" .
+
+brdfat:A_RICE a bont:ActivityType ;
+    rdfs:label "Processed rice" .
+
+brdfat:A_RUBP a bont:ActivityType ;
+    rdfs:label "Manufacture of rubber and plastic products (25)" .
+
+brdfat:A_RYMS a bont:ActivityType ;
+    rdfs:label "Recycling of waste and scrap" .
+
+brdfat:A_SDCL a bont:ActivityType ;
+    rdfs:label "Quarrying of sand and clay" .
+
+brdfat:A_STEL a bont:ActivityType ;
+    rdfs:label "Manufacture of basic iron and steel and of ferro-alloys and first products thereof" .
+
+brdfat:A_STEW a bont:ActivityType ;
+    rdfs:label "Re-processing of secondary steel into new steel" .
+
+brdfat:A_STON a bont:ActivityType ;
+    rdfs:label "Quarrying of stone" .
+
+brdfat:A_SUGB a bont:ActivityType ;
+    rdfs:label "Cultivation of sugar cane, sugar beet" .
+
+brdfat:A_SUGR a bont:ActivityType ;
+    rdfs:label "Sugar refining" .
+
+brdfat:A_TAIR a bont:ActivityType ;
+    rdfs:label "Air transport (62)" .
+
+brdfat:A_TAUX a bont:ActivityType ;
+    rdfs:label "Supporting and auxiliary transport activities; activities of travel agencies (63)" .
+
+brdfat:A_TDFU a bont:ActivityType ;
+    rdfs:label "Retail sale of automotive fuel" .
+
+brdfat:A_TDMO a bont:ActivityType ;
+    rdfs:label "Sale, maintenance, repair of motor vehicles, motor vehicles parts, motorcycles, motor cycles parts and accessoiries" .
+
+brdfat:A_TDRT a bont:ActivityType ;
+    rdfs:label "Retail trade, except of motor vehicles and motorcycles; repair of personal and household goods (52)" .
+
+brdfat:A_TDWH a bont:ActivityType ;
+    rdfs:label "Wholesale trade and commission trade, except of motor vehicles and motorcycles (51)" .
+
+brdfat:A_TEXT a bont:ActivityType ;
+    rdfs:label "Manufacture of textiles (17)" .
+
+brdfat:A_TLND a bont:ActivityType ;
+    rdfs:label "Other land transport" .
+
+brdfat:A_TOBC a bont:ActivityType ;
+    rdfs:label "Manufacture of tobacco products (16)" .
+
+brdfat:A_TPIP a bont:ActivityType ;
+    rdfs:label "Transport via pipelines" .
+
+brdfat:A_TRAI a bont:ActivityType ;
+    rdfs:label "Transport via railways" .
+
+brdfat:A_TWAI a bont:ActivityType ;
+    rdfs:label "Inland water transport" .
+
+brdfat:A_TWAS a bont:ActivityType ;
+    rdfs:label "Sea and coastal water transport" .
+
+brdfat:A_VOIL a bont:ActivityType ;
+    rdfs:label "Processing vegetable oils and fats" .
+
+brdfat:A_WASF a bont:ActivityType ;
+    rdfs:label "Waste water treatment, food" .
+
+brdfat:A_WASO a bont:ActivityType ;
+    rdfs:label "Waste water treatment, other" .
+
+brdfat:A_WATR a bont:ActivityType ;
+    rdfs:label "Collection, purification and distribution of water (41)" .
+
+brdfat:A_WHEA a bont:ActivityType ;
+    rdfs:label "Cultivation of wheat" .
+
+brdfat:A_WOOD a bont:ActivityType ;
+    rdfs:label "Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials (20)" .
+
+brdfat:A_WOOL a bont:ActivityType ;
+    rdfs:label "Wool, silk-worm cocoons" .
+
+brdfat:A_WOOW a bont:ActivityType ;
+    rdfs:label "Re-processing of secondary wood material into new wood material" .
+

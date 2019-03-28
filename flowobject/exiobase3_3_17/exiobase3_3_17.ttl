@@ -1,0 +1,608 @@
+@prefix bont: <http://ontology.bonsai.uno/core#> .
+@prefix brdffo: <http://rdf.bonsai.uno/flowobject/exiobase3_3_17/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+brdffo:C_ADDC a bont:FlowObject ;
+    rdfs:label "Additives/Blending Components" .
+
+brdffo:C_AGSL a bont:FlowObject ;
+    rdfs:label "Aviation Gasoline" .
+
+brdffo:C_ALUM a bont:FlowObject ;
+    rdfs:label "Aluminium and aluminium products" .
+
+brdffo:C_ALUO a bont:FlowObject ;
+    rdfs:label "Aluminium ores and concentrates" .
+
+brdffo:C_ALUW a bont:FlowObject ;
+    rdfs:label "Secondary aluminium for treatment; Re-processing of secondary aluminium into new aluminium" .
+
+brdffo:C_ANTH a bont:FlowObject ;
+    rdfs:label "Anthracite" .
+
+brdffo:C_ASHW a bont:FlowObject ;
+    rdfs:label "Ash for treatment; Re-processing of ash into clinker" .
+
+brdffo:C_BEVR a bont:FlowObject ;
+    rdfs:label "Beverages" .
+
+brdffo:C_BIOD a bont:FlowObject ;
+    rdfs:label "Biodiesels" .
+
+brdffo:C_BIOF a bont:FlowObject ;
+    rdfs:label "Food waste for treatment: biogasification and land application" .
+
+brdffo:C_BIOG a bont:FlowObject ;
+    rdfs:label "Biogasoline" .
+
+brdffo:C_BIOP a bont:FlowObject ;
+    rdfs:label "Paper waste for treatment: biogasification and land application" .
+
+brdffo:C_BIOS a bont:FlowObject ;
+    rdfs:label "Sewage sludge for treatment: biogasification and land application" .
+
+brdffo:C_BITU a bont:FlowObject ;
+    rdfs:label "Bitumen" .
+
+brdffo:C_BKBP a bont:FlowObject ;
+    rdfs:label "BKB/Peat Briquettes" .
+
+brdffo:C_BOTW a bont:FlowObject ;
+    rdfs:label "Bottles for treatment; Recycling of bottles by direct reuse" .
+
+brdffo:C_BRIK a bont:FlowObject ;
+    rdfs:label "Bricks; tiles and construction products; in baked clay" .
+
+brdffo:C_CATL a bont:FlowObject ;
+    rdfs:label "Cattle" .
+
+brdffo:C_CHAR a bont:FlowObject ;
+    rdfs:label "Charcoal" .
+
+brdffo:C_CHEM a bont:FlowObject ;
+    rdfs:label "Chemicals nec" .
+
+brdffo:C_CHMF a bont:FlowObject ;
+    rdfs:label "Chemical and fertilizer minerals; salt and other mining and quarrying products n.e.c." .
+
+brdffo:C_CMNT a bont:FlowObject ;
+    rdfs:label "Cement; lime and plaster" .
+
+brdffo:C_COIL a bont:FlowObject ;
+    rdfs:label "Crude petroleum and services related to crude oil extraction; excluding surveying" .
+
+brdffo:C_COKC a bont:FlowObject ;
+    rdfs:label "Coking Coal" .
+
+brdffo:C_COKE a bont:FlowObject ;
+    rdfs:label "Coke Oven Coke" .
+
+brdffo:C_COMF a bont:FlowObject ;
+    rdfs:label "Food waste for treatment: composting and land application" .
+
+brdffo:C_COMP a bont:FlowObject ;
+    rdfs:label "Computer and related services (72)" .
+
+brdffo:C_COMW a bont:FlowObject ;
+    rdfs:label "Paper and wood waste for treatment: composting and land application" .
+
+brdffo:C_CONS a bont:FlowObject ;
+    rdfs:label "Construction work (45)" .
+
+brdffo:C_CONW a bont:FlowObject ;
+    rdfs:label "Secondary construction material for treatment; Re-processing of secondary construction material into aggregates" .
+
+brdffo:C_COOG a bont:FlowObject ;
+    rdfs:label "Coke oven gas" .
+
+brdffo:C_COPO a bont:FlowObject ;
+    rdfs:label "Copper ores and concentrates" .
+
+brdffo:C_COPP a bont:FlowObject ;
+    rdfs:label "Copper products" .
+
+brdffo:C_COPW a bont:FlowObject ;
+    rdfs:label "Secondary copper for treatment; Re-processing of secondary copper into new copper" .
+
+brdffo:C_COTA a bont:FlowObject ;
+    rdfs:label "Coal Tar" .
+
+brdffo:C_CRMC a bont:FlowObject ;
+    rdfs:label "Ceramic goods" .
+
+brdffo:C_DAIR a bont:FlowObject ;
+    rdfs:label "Dairy products" .
+
+brdffo:C_DOIL a bont:FlowObject ;
+    rdfs:label "Gas/Diesel Oil" .
+
+brdffo:C_EDUC a bont:FlowObject ;
+    rdfs:label "Education services (80)" .
+
+brdffo:C_ELMA a bont:FlowObject ;
+    rdfs:label "Electrical machinery and apparatus n.e.c. (31)" .
+
+brdffo:C_ETHA a bont:FlowObject ;
+    rdfs:label "Ethane" .
+
+brdffo:C_EXTO a bont:FlowObject ;
+    rdfs:label "Extra-territorial organizations and bodies" .
+
+brdffo:C_FABM a bont:FlowObject ;
+    rdfs:label "Fabricated metal products; except machinery and equipment (28)" .
+
+brdffo:C_FAUX a bont:FlowObject ;
+    rdfs:label "Services auxiliary to financial intermediation (67)" .
+
+brdffo:C_FIBR a bont:FlowObject ;
+    rdfs:label "Plant-based fibers" .
+
+brdffo:C_FINS a bont:FlowObject ;
+    rdfs:label "Insurance and pension funding services; except compulsory social security services (66)" .
+
+brdffo:C_FINT a bont:FlowObject ;
+    rdfs:label "Financial intermediation services; except insurance and pension funding services (65)" .
+
+brdffo:C_FISH a bont:FlowObject ;
+    rdfs:label "Fish and other fishing products; services incidental of fishing (05)" .
+
+brdffo:C_FOIL a bont:FlowObject ;
+    rdfs:label "Heavy Fuel Oil" .
+
+brdffo:C_FORE a bont:FlowObject ;
+    rdfs:label "Products of forestry; logging and related services (02)" .
+
+brdffo:C_FSHP a bont:FlowObject ;
+    rdfs:label "Fish products" .
+
+brdffo:C_FURN a bont:FlowObject ;
+    rdfs:label "Furniture; other manufactured goods n.e.c. (36)" .
+
+brdffo:C_FVEG a bont:FlowObject ;
+    rdfs:label "Vegetables; fruit; nuts" .
+
+brdffo:C_GARM a bont:FlowObject ;
+    rdfs:label "Wearing apparel; furs (18)" .
+
+brdffo:C_GASD a bont:FlowObject ;
+    rdfs:label "Distribution services of gaseous fuels through mains" .
+
+brdffo:C_GASE a bont:FlowObject ;
+    rdfs:label "Natural gas and services related to natural gas extraction; excluding surveying" .
+
+brdffo:C_GASL a bont:FlowObject ;
+    rdfs:label "Natural Gas Liquids" .
+
+brdffo:C_GCOK a bont:FlowObject ;
+    rdfs:label "Gas Coke" .
+
+brdffo:C_GJET a bont:FlowObject ;
+    rdfs:label "Gasoline Type Jet Fuel" .
+
+brdffo:C_GLAS a bont:FlowObject ;
+    rdfs:label "Glass and glass products" .
+
+brdffo:C_GLAW a bont:FlowObject ;
+    rdfs:label "Secondary glass for treatment; Re-processing of secondary glass into new glass" .
+
+brdffo:C_HEAL a bont:FlowObject ;
+    rdfs:label "Health and social work services (85)" .
+
+brdffo:C_HORE a bont:FlowObject ;
+    rdfs:label "Hotel and restaurant services (55)" .
+
+brdffo:C_HWAT a bont:FlowObject ;
+    rdfs:label "Steam and hot water supply services" .
+
+brdffo:C_INCF a bont:FlowObject ;
+    rdfs:label "Food waste for treatment: incineration" .
+
+brdffo:C_INCL a bont:FlowObject ;
+    rdfs:label "Plastic waste for treatment: incineration" .
+
+brdffo:C_INCM a bont:FlowObject ;
+    rdfs:label "Intert/metal waste for treatment: incineration" .
+
+brdffo:C_INCO a bont:FlowObject ;
+    rdfs:label "Oil/hazardous waste for treatment: incineration" .
+
+brdffo:C_INCP a bont:FlowObject ;
+    rdfs:label "Paper waste for treatment: incineration" .
+
+brdffo:C_INCT a bont:FlowObject ;
+    rdfs:label "Textiles waste for treatment: incineration" .
+
+brdffo:C_INCW a bont:FlowObject ;
+    rdfs:label "Wood waste for treatment: incineration" .
+
+brdffo:C_IRON a bont:FlowObject ;
+    rdfs:label "Iron ores" .
+
+brdffo:C_KERO a bont:FlowObject ;
+    rdfs:label "Kerosene" .
+
+brdffo:C_KJET a bont:FlowObject ;
+    rdfs:label "Kerosene Type Jet Fuel" .
+
+brdffo:C_LANF a bont:FlowObject ;
+    rdfs:label "Food waste for treatment: landfill" .
+
+brdffo:C_LANI a bont:FlowObject ;
+    rdfs:label "Inert/metal/hazardous waste for treatment: landfill" .
+
+brdffo:C_LANL a bont:FlowObject ;
+    rdfs:label "Plastic waste for treatment: landfill" .
+
+brdffo:C_LANP a bont:FlowObject ;
+    rdfs:label "Paper for treatment: landfill" .
+
+brdffo:C_LANT a bont:FlowObject ;
+    rdfs:label "Textiles waste for treatment: landfill" .
+
+brdffo:C_LANW a bont:FlowObject ;
+    rdfs:label "Wood waste for treatment: landfill" .
+
+brdffo:C_LETH a bont:FlowObject ;
+    rdfs:label "Leather and leather products (19)" .
+
+brdffo:C_LIBC a bont:FlowObject ;
+    rdfs:label "Lignite/Brown Coal" .
+
+brdffo:C_LPGA a bont:FlowObject ;
+    rdfs:label "Liquefied Petroleum Gases (LPG)" .
+
+brdffo:C_LUBR a bont:FlowObject ;
+    rdfs:label "Lubricants" .
+
+brdffo:C_LZTO a bont:FlowObject ;
+    rdfs:label "Lead; zinc and tin ores and concentrates" .
+
+brdffo:C_LZTP a bont:FlowObject ;
+    rdfs:label "Lead; zinc and tin and products thereof" .
+
+brdffo:C_LZTW a bont:FlowObject ;
+    rdfs:label "Secondary lead for treatment; Re-processing of secondary lead into new lead" .
+
+brdffo:C_MACH a bont:FlowObject ;
+    rdfs:label "Machinery and equipment n.e.c. (29)" .
+
+brdffo:C_MANB a bont:FlowObject ;
+    rdfs:label "Manure (biogas treatment)" .
+
+brdffo:C_MANC a bont:FlowObject ;
+    rdfs:label "Manure (conventional treatment)" .
+
+brdffo:C_MARE a bont:FlowObject ;
+    rdfs:label "Renting services of machinery and equipment without operator and of personal and household goods (71)" .
+
+brdffo:C_MBFG a bont:FlowObject ;
+    rdfs:label "Blast Furnace Gas" .
+
+brdffo:C_MBIO a bont:FlowObject ;
+    rdfs:label "Biogas" .
+
+brdffo:C_MDIA a bont:FlowObject ;
+    rdfs:label "Printed matter and recorded media (22)" .
+
+brdffo:C_MEIN a bont:FlowObject ;
+    rdfs:label "Medical; precision and optical instruments; watches and clocks (33)" .
+
+brdffo:C_METC a bont:FlowObject ;
+    rdfs:label "Foundry work services" .
+
+brdffo:C_MGSL a bont:FlowObject ;
+    rdfs:label "Motor Gasoline" .
+
+brdffo:C_MGWG a bont:FlowObject ;
+    rdfs:label "Gas Works Gas" .
+
+brdffo:C_MILK a bont:FlowObject ;
+    rdfs:label "Raw milk" .
+
+brdffo:C_MOSG a bont:FlowObject ;
+    rdfs:label "Oxygen Steel Furnace Gas" .
+
+brdffo:C_MOTO a bont:FlowObject ;
+    rdfs:label "Motor vehicles; trailers and semi-trailers (34)" .
+
+brdffo:C_NAPT a bont:FlowObject ;
+    rdfs:label "Naphtha" .
+
+brdffo:C_NFER a bont:FlowObject ;
+    rdfs:label "N-fertiliser" .
+
+brdffo:C_NIKO a bont:FlowObject ;
+    rdfs:label "Nickel ores and concentrates" .
+
+brdffo:C_NSPP a bont:FlowObject ;
+    rdfs:label "Non-specified Petroleum Products" .
+
+brdffo:C_NUCF a bont:FlowObject ;
+    rdfs:label "Nuclear fuel" .
+
+brdffo:C_OANP a bont:FlowObject ;
+    rdfs:label "Animal products nec" .
+
+brdffo:C_OBIO a bont:FlowObject ;
+    rdfs:label "Other Liquid Biofuels" .
+
+brdffo:C_OBUS a bont:FlowObject ;
+    rdfs:label "Other business services (74)" .
+
+brdffo:C_OCER a bont:FlowObject ;
+    rdfs:label "Cereal grains nec" .
+
+brdffo:C_OFMA a bont:FlowObject ;
+    rdfs:label "Office machinery and computers (30)" .
+
+brdffo:C_OFOD a bont:FlowObject ;
+    rdfs:label "Food products nec" .
+
+brdffo:C_OGPL a bont:FlowObject ;
+    rdfs:label "Other Hydrocarbons" .
+
+brdffo:C_OILS a bont:FlowObject ;
+    rdfs:label "Oil seeds" .
+
+brdffo:C_OMEA a bont:FlowObject ;
+    rdfs:label "Meat animals nec" .
+
+brdffo:C_ONFM a bont:FlowObject ;
+    rdfs:label "Other non-ferrous metal products" .
+
+brdffo:C_ONFO a bont:FlowObject ;
+    rdfs:label "Other non-ferrous metal ores and concentrates" .
+
+brdffo:C_ONFW a bont:FlowObject ;
+    rdfs:label "Secondary other non-ferrous metals for treatment; Re-processing of secondary other non-ferrous metals into new other non-ferrous metals" .
+
+brdffo:C_ONMM a bont:FlowObject ;
+    rdfs:label "Other non-metallic mineral products" .
+
+brdffo:C_ORAN a bont:FlowObject ;
+    rdfs:label "Uranium and thorium ores (12)" .
+
+brdffo:C_ORGA a bont:FlowObject ;
+    rdfs:label "Membership organisation services n.e.c. (91)" .
+
+brdffo:C_OSER a bont:FlowObject ;
+    rdfs:label "Other services (93)" .
+
+brdffo:C_OTBC a bont:FlowObject ;
+    rdfs:label "Other Bituminous Coal" .
+
+brdffo:C_OTCR a bont:FlowObject ;
+    rdfs:label "Crops nec" .
+
+brdffo:C_OTRE a bont:FlowObject ;
+    rdfs:label "Other transport equipment (35)" .
+
+brdffo:C_PADF a bont:FlowObject ;
+    rdfs:label "Public administration and defence services; compulsory social security services (75)" .
+
+brdffo:C_PAPE a bont:FlowObject ;
+    rdfs:label "Paper and paper products" .
+
+brdffo:C_PAPR a bont:FlowObject ;
+    rdfs:label "Secondary paper for treatment; Re-processing of secondary paper into new pulp" .
+
+brdffo:C_PARI a bont:FlowObject ;
+    rdfs:label "Paddy rice" .
+
+brdffo:C_PARW a bont:FlowObject ;
+    rdfs:label "Paraffin Waxes" .
+
+brdffo:C_PATF a bont:FlowObject ;
+    rdfs:label "Patent Fuel" .
+
+brdffo:C_PCAT a bont:FlowObject ;
+    rdfs:label "Products of meat cattle" .
+
+brdffo:C_PEAT a bont:FlowObject ;
+    rdfs:label "Peat" .
+
+brdffo:C_PETC a bont:FlowObject ;
+    rdfs:label "Petroleum Coke" .
+
+brdffo:C_PFER a bont:FlowObject ;
+    rdfs:label "P- and other fertiliser" .
+
+brdffo:C_PIGS a bont:FlowObject ;
+    rdfs:label "Pigs" .
+
+brdffo:C_PLAS a bont:FlowObject ;
+    rdfs:label "Plastics; basic" .
+
+brdffo:C_PLAW a bont:FlowObject ;
+    rdfs:label "Secondary plastic for treatment; Re-processing of secondary plastic into new plastic" .
+
+brdffo:C_PLTR a bont:FlowObject ;
+    rdfs:label "Poultry" .
+
+brdffo:C_POME a bont:FlowObject ;
+    rdfs:label "Meat products nec" .
+
+brdffo:C_POWB a bont:FlowObject ;
+    rdfs:label "Electricity by biomass and waste" .
+
+brdffo:C_POWC a bont:FlowObject ;
+    rdfs:label "Electricity by coal" .
+
+brdffo:C_POWD a bont:FlowObject ;
+    rdfs:label "Distribution and trade services of electricity" .
+
+brdffo:C_POWE a bont:FlowObject ;
+    rdfs:label "Electricity by solar thermal" .
+
+brdffo:C_POWG a bont:FlowObject ;
+    rdfs:label "Electricity by gas" .
+
+brdffo:C_POWH a bont:FlowObject ;
+    rdfs:label "Electricity by hydro" .
+
+brdffo:C_POWM a bont:FlowObject ;
+    rdfs:label "Electricity by Geothermal" .
+
+brdffo:C_POWN a bont:FlowObject ;
+    rdfs:label "Electricity by nuclear" .
+
+brdffo:C_POWO a bont:FlowObject ;
+    rdfs:label "Electricity by tide; wave; ocean" .
+
+brdffo:C_POWP a bont:FlowObject ;
+    rdfs:label "Electricity by petroleum and other oil derivatives" .
+
+brdffo:C_POWS a bont:FlowObject ;
+    rdfs:label "Electricity by solar photovoltaic" .
+
+brdffo:C_POWT a bont:FlowObject ;
+    rdfs:label "Transmission services of electricity" .
+
+brdffo:C_POWW a bont:FlowObject ;
+    rdfs:label "Electricity by wind" .
+
+brdffo:C_POWZ a bont:FlowObject ;
+    rdfs:label "Electricity nec" .
+
+brdffo:C_PPIG a bont:FlowObject ;
+    rdfs:label "Products of meat pigs" .
+
+brdffo:C_PPLT a bont:FlowObject ;
+    rdfs:label "Products of meat poultry" .
+
+brdffo:C_PREM a bont:FlowObject ;
+    rdfs:label "Precious metals" .
+
+brdffo:C_PREO a bont:FlowObject ;
+    rdfs:label "Precious metal ores and concentrates" .
+
+brdffo:C_PREW a bont:FlowObject ;
+    rdfs:label "Secondary preciuos metals for treatment; Re-processing of secondary preciuos metals into new preciuos metals" .
+
+brdffo:C_PRHH a bont:FlowObject ;
+    rdfs:label "Private households with employed persons (95)" .
+
+brdffo:C_PTEL a bont:FlowObject ;
+    rdfs:label "Post and telecommunication services (64)" .
+
+brdffo:C_PULP a bont:FlowObject ;
+    rdfs:label "Pulp" .
+
+brdffo:C_RATV a bont:FlowObject ;
+    rdfs:label "Radio; television and communication equipment and apparatus (32)" .
+
+brdffo:C_REAL a bont:FlowObject ;
+    rdfs:label "Real estate services (70)" .
+
+brdffo:C_RECR a bont:FlowObject ;
+    rdfs:label "Recreational; cultural and sporting services (92)" .
+
+brdffo:C_REFF a bont:FlowObject ;
+    rdfs:label "Refinery Feedstocks" .
+
+brdffo:C_RESD a bont:FlowObject ;
+    rdfs:label "Research and development services (73)" .
+
+brdffo:C_RGAS a bont:FlowObject ;
+    rdfs:label "Refinery Gas" .
+
+brdffo:C_RICE a bont:FlowObject ;
+    rdfs:label "Processed rice" .
+
+brdffo:C_RUBP a bont:FlowObject ;
+    rdfs:label "Rubber and plastic products (25)" .
+
+brdffo:C_RYMS a bont:FlowObject ;
+    rdfs:label "Secondary raw materials" .
+
+brdffo:C_SDCL a bont:FlowObject ;
+    rdfs:label "Sand and clay" .
+
+brdffo:C_STEL a bont:FlowObject ;
+    rdfs:label "Basic iron and steel and of ferro-alloys and first products thereof" .
+
+brdffo:C_STEW a bont:FlowObject ;
+    rdfs:label "Secondary steel for treatment; Re-processing of secondary steel into new steel" .
+
+brdffo:C_STON a bont:FlowObject ;
+    rdfs:label "Stone" .
+
+brdffo:C_SUBC a bont:FlowObject ;
+    rdfs:label "Sub-Bituminous Coal" .
+
+brdffo:C_SUGB a bont:FlowObject ;
+    rdfs:label "Sugar cane; sugar beet" .
+
+brdffo:C_SUGR a bont:FlowObject ;
+    rdfs:label "Sugar" .
+
+brdffo:C_TAIR a bont:FlowObject ;
+    rdfs:label "Air transport services (62)" .
+
+brdffo:C_TAUX a bont:FlowObject ;
+    rdfs:label "Supporting and auxiliary transport services; travel agency services (63)" .
+
+brdffo:C_TDFU a bont:FlowObject ;
+    rdfs:label "Retail trade services of motor fuel" .
+
+brdffo:C_TDMO a bont:FlowObject ;
+    rdfs:label "Sale; maintenance; repair of motor vehicles; motor vehicles parts; motorcycles; motor cycles parts and accessoiries" .
+
+brdffo:C_TDRT a bont:FlowObject ;
+    rdfs:label "Retail  trade services; except of motor vehicles and motorcycles; repair services of personal and household goods (52)" .
+
+brdffo:C_TDWH a bont:FlowObject ;
+    rdfs:label "Wholesale trade and commission trade services; except of motor vehicles and motorcycles (51)" .
+
+brdffo:C_TEXT a bont:FlowObject ;
+    rdfs:label "Textiles (17)" .
+
+brdffo:C_TLND a bont:FlowObject ;
+    rdfs:label "Other land transportation services" .
+
+brdffo:C_TOBC a bont:FlowObject ;
+    rdfs:label "Tobacco products (16)" .
+
+brdffo:C_TPIP a bont:FlowObject ;
+    rdfs:label "Transportation services via pipelines" .
+
+brdffo:C_TRAI a bont:FlowObject ;
+    rdfs:label "Railway transportation services" .
+
+brdffo:C_TWAI a bont:FlowObject ;
+    rdfs:label "Inland water transportation services" .
+
+brdffo:C_TWAS a bont:FlowObject ;
+    rdfs:label "Sea and coastal water transportation services" .
+
+brdffo:C_VOIL a bont:FlowObject ;
+    rdfs:label "products of Vegetable oils and fats" .
+
+brdffo:C_WASF a bont:FlowObject ;
+    rdfs:label "Food waste for treatment: waste water treatment" .
+
+brdffo:C_WASO a bont:FlowObject ;
+    rdfs:label "Other waste for treatment: waste water treatment" .
+
+brdffo:C_WATR a bont:FlowObject ;
+    rdfs:label "Collected and purified water; distribution services of water (41)" .
+
+brdffo:C_WHEA a bont:FlowObject ;
+    rdfs:label "Wheat" .
+
+brdffo:C_WHSP a bont:FlowObject ;
+    rdfs:label "White Spirit & SBP" .
+
+brdffo:C_WOOD a bont:FlowObject ;
+    rdfs:label "Wood and products of wood and cork (except furniture); articles of straw and plaiting materials (20)" .
+
+brdffo:C_WOOL a bont:FlowObject ;
+    rdfs:label "Wool; silk-worm cocoons" .
+
+brdffo:C_WOOW a bont:FlowObject ;
+    rdfs:label "Wood material for treatment; Re-processing of secondary wood material into new wood material" .
+
