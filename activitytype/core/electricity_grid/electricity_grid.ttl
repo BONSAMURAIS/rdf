@@ -1,0 +1,17 @@
+@prefix bont: <http://ontology.bonsai.uno/core#> .
+@prefix brdfat: <http://rdf.bonsai.uno/activitytype/core/electricity_grid/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://creativecommons.org/ns#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://rdf.bonsai.uno/activitytype/core/eg> a bont:ActivityType ;
+    ns1:license <http://creativecommons.org/licenses/by/3.0/> ;
+    dc:contributor "Tiago Morais" ;
+    dc:creator <http://bonsai.uno/foaf/bonsai.rdf#bonsai> ;
+    dc:description "Electricity grid activity type" ;
+    dc:publisher "bonsai.uno" ;
+    dc:title "Electricity grid" .
+
