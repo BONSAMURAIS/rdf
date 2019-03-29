@@ -1,0 +1,21 @@
+@prefix om2: <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+om2:cubicMetre a om2:UnitExponentiation ;
+    rdfs:label "cubic meters" .
+
+om2:euro a om2:Unit ;
+    rdfs:label "euro" .
+
+om2:hectare a om2:PrefixedUnit ;
+    rdfs:label "hectare" .
+
+om2:kilogram a om2:PrefixedUnit ;
+    rdfs:label "kilogram" .
+
+om2:megajoule a om2:PrefixedUnit ;
+    rdfs:label "megajoule" .
+
