@@ -10,6 +10,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <brdftime:2011> a ot:ProperInterval ;
+    rdfs:label 2011 ;
     ns1:license <http://creativecommons.org/licenses/by/3.0/> ;
     dc:contributor "Chris Mutel" ;
     dc:creator <http://bonsai.uno/foaf/bonsai.rdf#bonsai> ;
@@ -24,6 +25,7 @@
     ot:inXSDDate "2011-01-01"^^xsd:date .
 
 <brdftime:2015> a ot:ProperInterval ;
+    rdfs:label 2015 ;
     ns1:license <http://creativecommons.org/licenses/by/3.0/> ;
     dc:contributor "Chris Mutel" ;
     dc:creator <http://bonsai.uno/foaf/bonsai.rdf#bonsai> ;
@@ -38,6 +40,7 @@
     ot:inXSDDate "2015-01-01"^^xsd:date .
 
 <brdftime:2016> a ot:ProperInterval ;
+    rdfs:label 2016 ;
     ns1:license <http://creativecommons.org/licenses/by/3.0/> ;
     dc:contributor "Chris Mutel" ;
     dc:creator <http://bonsai.uno/foaf/bonsai.rdf#bonsai> ;
@@ -52,6 +55,7 @@
     ot:inXSDDate "2016-01-01"^^xsd:date .
 
 <brdftime:2017> a ot:ProperInterval ;
+    rdfs:label 2017 ;
     ns1:license <http://creativecommons.org/licenses/by/3.0/> ;
     dc:contributor "Chris Mutel" ;
     dc:creator <http://bonsai.uno/foaf/bonsai.rdf#bonsai> ;
@@ -66,6 +70,7 @@
     ot:inXSDDate "2017-01-01"^^xsd:date .
 
 <brdftime:2018> a ot:ProperInterval ;
+    rdfs:label 2018 ;
     ns1:license <http://creativecommons.org/licenses/by/3.0/> ;
     dc:contributor "Chris Mutel" ;
     dc:creator <http://bonsai.uno/foaf/bonsai.rdf#bonsai> ;
