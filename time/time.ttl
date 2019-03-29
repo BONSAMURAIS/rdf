@@ -1,49 +1,114 @@
 @prefix bont: <http://ontology.bonsai.uno/core#> .
-@prefix dc: <http://purl.org/dc/terms/> .
-@prefix ns0: <http://purl.org/vocab/vann/> .
-@prefix cc: <http://creativecommons.org/ns#> .
+@prefix brdftime: <http://rdf.bonsai.uno/time/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://creativecommons.org/ns#> .
+@prefix ot: <https://www.w3.org/TR/owl-time/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix dtype: <http://purl.org/dc/dcmitype/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix btime: <http://rdf.bonsai.uno/time/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://rdf.bonsai.uno/time/>
-  a dtype:Dataset ;
-  dc:title "Time intervals"@en ;
-  dc:description "Time intervals used in the BONSAI ontology"@en ;
-  foaf:homepage <http://rdf.bonsai.uno/time/documentation.html> ;
-  ns0:preferredNamespaceUri "http://rdf.bonsai.uno/time/#" ;
-  owl:versionInfo "Version 0.1 - 2019-03-25"@en ;
-  dc:modified "2019-03-25"^^xsd:date ;
-  dc:publisher "bonsai.uno" ;
-  dc:creator <http://bonsai.uno/foaf/bonsai.rdf#bonsai> ;
-  dc:contributor "Matteo Lissandrini";
-  cc:license <http://creativecommons.org/licenses/by/3.0/> ;
-  rdfs:comment """We require time interval to register the temporal extent of activities, for instance.
-               """@en .
+<brdftime:2011> a ot:ProperInterval ;
+    ns1:license <http://creativecommons.org/licenses/by/3.0/> ;
+    dc:contributor "Chris Mutel" ;
+    dc:creator <http://bonsai.uno/foaf/bonsai.rdf#bonsai> ;
+    dc:description "The complete year 2011" ;
+    dc:publisher "bonsai.uno" ;
+    dc:title "Year 2011" ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2011>,
+        <https://www.wikidata.org/wiki/Q1994> ;
+    ot:hasBeginning <brdftime:2011start> ;
+    ot:hasDurationDescription <brdftime:oneyearlong> ;
+    ot:hasEnd <brdftime:2011end> ;
+    ot:inXSDDate "2011-01-01"^^xsd:date .
 
+<brdftime:2015> a ot:ProperInterval ;
+    ns1:license <http://creativecommons.org/licenses/by/3.0/> ;
+    dc:contributor "Chris Mutel" ;
+    dc:creator <http://bonsai.uno/foaf/bonsai.rdf#bonsai> ;
+    dc:description "The complete year 2015" ;
+    dc:publisher "bonsai.uno" ;
+    dc:title "Year 2015" ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2015>,
+        <https://www.wikidata.org/wiki/Q2002> ;
+    ot:hasBeginning <brdftime:2015start> ;
+    ot:hasDurationDescription <brdftime:oneyearlong> ;
+    ot:hasEnd <brdftime:2015end> ;
+    ot:inXSDDate "2015-01-01"^^xsd:date .
 
+<brdftime:2016> a ot:ProperInterval ;
+    ns1:license <http://creativecommons.org/licenses/by/3.0/> ;
+    dc:contributor "Chris Mutel" ;
+    dc:creator <http://bonsai.uno/foaf/bonsai.rdf#bonsai> ;
+    dc:description "The complete year 2016" ;
+    dc:publisher "bonsai.uno" ;
+    dc:title "Year 2016" ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2016>,
+        <https://www.wikidata.org/wiki/Q25245> ;
+    ot:hasBeginning <brdftime:2016start> ;
+    ot:hasDurationDescription <brdftime:oneyearlong> ;
+    ot:hasEnd <brdftime:2016end> ;
+    ot:inXSDDate "2016-01-01"^^xsd:date .
 
-<http://rdf.bonsai.uno/time/2011> a time:ProperInterval;
+<brdftime:2017> a ot:ProperInterval ;
+    ns1:license <http://creativecommons.org/licenses/by/3.0/> ;
+    dc:contributor "Chris Mutel" ;
+    dc:creator <http://bonsai.uno/foaf/bonsai.rdf#bonsai> ;
+    dc:description "The complete year 2017" ;
+    dc:publisher "bonsai.uno" ;
+    dc:title "Year 2017" ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2017>,
+        <https://www.wikidata.org/wiki/Q25290> ;
+    ot:hasBeginning <brdftime:2017start> ;
+    ot:hasDurationDescription <brdftime:oneyearlong> ;
+    ot:hasEnd <brdftime:2017end> ;
+    ot:inXSDDate "2017-01-01"^^xsd:date .
 
-  time:hasBeginning [
-      a time:Instant ;
-      time:inXSDDate "2011-01-01"^^xsd:date ;
-  ] ;
+<brdftime:2018> a ot:ProperInterval ;
+    ns1:license <http://creativecommons.org/licenses/by/3.0/> ;
+    dc:contributor "Chris Mutel" ;
+    dc:creator <http://bonsai.uno/foaf/bonsai.rdf#bonsai> ;
+    dc:description "The complete year 2018" ;
+    dc:publisher "bonsai.uno" ;
+    dc:title "Year 2018" ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2018>,
+        <https://www.wikidata.org/wiki/Q25291> ;
+    ot:hasBeginning <brdftime:2018start> ;
+    ot:hasDurationDescription <brdftime:oneyearlong> ;
+    ot:hasEnd <brdftime:2018end> ;
+    ot:inXSDDate "2018-01-01"^^xsd:date .
 
-  time:hasDurationDescription [
-       a time:DurationDescription;
-       time:years "1"^^xsd:integer ;
-  ];
+<brdftime:2011end> a ot:Instant ;
+    ot:inXSDDate "2011-12-31"^^xsd:date .
 
-  time:hasEnd [
-      a time:Instant ;
-      time:inXSDDate "2011-12-31"^^xsd:date ;
-  ] ;
+<brdftime:2011start> a ot:Instant ;
+    ot:inXSDDate "2011-01-01"^^xsd:date .
 
-  owl:sameAs <http://reference.data.gov.uk/doc/year/2011> ;
-  owl:sameAs <https://www.wikidata.org/wiki/Q1994> .
+<brdftime:2015end> a ot:Instant ;
+    ot:inXSDDate "2015-12-31"^^xsd:date .
 
+<brdftime:2015start> a ot:Instant ;
+    ot:inXSDDate "2015-01-01"^^xsd:date .
+
+<brdftime:2016end> a ot:Instant ;
+    ot:inXSDDate "2016-12-31"^^xsd:date .
+
+<brdftime:2016start> a ot:Instant ;
+    ot:inXSDDate "2016-01-01"^^xsd:date .
+
+<brdftime:2017end> a ot:Instant ;
+    ot:inXSDDate "2017-12-31"^^xsd:date .
+
+<brdftime:2017start> a ot:Instant ;
+    ot:inXSDDate "2017-01-01"^^xsd:date .
+
+<brdftime:2018end> a ot:Instant ;
+    ot:inXSDDate "2018-12-31"^^xsd:date .
+
+<brdftime:2018start> a ot:Instant ;
+    ot:inXSDDate "2018-01-01"^^xsd:date .
+
+<brdftime:oneyearlong> a ot:DurationDescription ;
+    ot:years 1 .
 
