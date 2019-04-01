@@ -1,0 +1,15 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <https://www.w3.org/TR/vocab-org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://bonsai.uno/foaf/foaf.ttl#bonsai> a org:Organization ;
+    skos:prefLabel "BONSAI – Big Open Network for Sustainability Assessment Information" ;
+    foaf:homepage <http://bonsai.uno> ;
+    foaf:interest <https://www.wikidata.org/wiki/Q131201>,
+        <https://www.wikidata.org/wiki/Q18692990>,
+        <https://www.wikidata.org/wiki/Q2323664> .
+
