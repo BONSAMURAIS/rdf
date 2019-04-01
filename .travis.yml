@@ -10,4 +10,5 @@ jobs:
     - stage: test
       script:
         - docker pull stain/jena
+        - shopt -s globstar
         - docker run -it --rm -v `pwd`:/rdf stain/jena riot -v --debug --validate --time **/*\.{ttl,rdf}
