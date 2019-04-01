@@ -1,5 +1,5 @@
 @prefix bont: <http://ontology.bonsai.uno/core#> .
-@prefix brdfat: <http://rdf.bonsai.uno/activitytype/core/electricity_grid/> .
+@prefix brdffo: <http://rdf.bonsai.uno/flowobject/lcia/climate_change/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dtype: <http://purl.org/dc/dcmitype/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
@@ -12,21 +12,21 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://rdf.bonsai.uno/activitytype/core/eg> a bont:ActivityType ;
-    rdfs:label "Electricity grid" .
-
-brdfat: a dtype:Dataset ;
+brdffo: a dtype:Dataset ;
     ns1:license <http://creativecommons.org/licenses/by/3.0/> ;
-    dc:contributor "Arthur Jakobs" ;
+    dc:contributor "Tiago Morais" ;
     dc:creator <http://bonsai.uno/foaf/bonsai.rdf#bonsai> ;
-    dc:description "ActivityType instances needed for BONSAI electricity grid modelling" ;
-    dc:modified "2019-03-29"^^xsd:date ;
+    dc:description "FlowObject instances needed for BONSAI climate change modelling" ;
+    dc:modified "2019-04-02"^^xsd:date ;
     dc:publisher "bonsai.uno" ;
-    dc:title "Electricity grid activity types for BONSAI" ;
-    ns2:preferredNamespaceUri <http://rdf.bonsai.uno/activitytype/core/electricity_grid/#> ;
-    owl:versionInfo "0.2" ;
-    foaf:homepage brdfat:documentation.html .
+    dc:title "Climate change activity types" ;
+    ns2:preferredNamespaceUri <http://rdf.bonsai.uno/flowobject/lcia/climate_change/#> ;
+    owl:versionInfo "0.3" ;
+    foaf:homepage brdffo:documentation.html .
 
-<http://rdf.bonsai.uno/activitytype/core/em> a bont:ActivityType ;
-    rdfs:label "Market for electricity" .
+brdffo:radiative_forcing a bont:FlowObject ;
+    rdfs:label "Radiative forcing" .
+
+brdffo:temperature_increase_100yr_horizon a bont:FlowObject ;
+    rdfs:label "Temperature increase - 100 year horizon" .
 

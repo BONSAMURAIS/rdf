@@ -3,8 +3,8 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dtype: <http://purl.org/dc/dcmitype/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ns1: <http://creativecommons.org/ns#> .
-@prefix ns2: <http://purl.org/vocab/vann/> .
+@prefix ns1: <http://purl.org/vocab/vann/> .
+@prefix ns2: <http://creativecommons.org/ns#> .
 @prefix ot: <https://www.w3.org/TR/owl-time/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -12,21 +12,18 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://rdf.bonsai.uno/activitytype/core/eg> a bont:ActivityType ;
-    rdfs:label "Electricity grid" .
+<http://rdf.bonsai.uno/flowobject/core/elec> a bont:FlowObject ;
+    rdfs:label "Electricity from the grid" .
 
-brdfat: a dtype:Dataset ;
-    ns1:license <http://creativecommons.org/licenses/by/3.0/> ;
+<http://rdf.bonsai.uno/flowobject/core/electricity_grid/> a dtype:Dataset ;
+    ns2:license <http://creativecommons.org/licenses/by/3.0/> ;
     dc:contributor "Arthur Jakobs" ;
     dc:creator <http://bonsai.uno/foaf/bonsai.rdf#bonsai> ;
-    dc:description "ActivityType instances needed for BONSAI electricity grid modelling" ;
+    dc:description "FlowObject instances needed for BONSAI electricity grid modelling" ;
     dc:modified "2019-03-29"^^xsd:date ;
     dc:publisher "bonsai.uno" ;
-    dc:title "Electricity grid activity types for BONSAI" ;
-    ns2:preferredNamespaceUri <http://rdf.bonsai.uno/activitytype/core/electricity_grid/#> ;
+    dc:title "Electricity grid flow objects for BONSAI" ;
+    ns1:preferredNamespaceUri <http://rdf.bonsai.uno/flowobject/core/electricity_grid/#> ;
     owl:versionInfo "0.2" ;
-    foaf:homepage brdfat:documentation.html .
-
-<http://rdf.bonsai.uno/activitytype/core/em> a bont:ActivityType ;
-    rdfs:label "Market for electricity" .
+    foaf:homepage <http://rdf.bonsai.uno/flowobject/core/electricity_grid/documentation.html> .
 
