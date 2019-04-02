@@ -1,8 +1,29 @@
+@prefix bont: <http://ontology.bonsai.uno/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dtype: <http://purl.org/dc/dcmitype/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://purl.org/vocab/vann/> .
+@prefix ns2: <http://creativecommons.org/ns#> .
 @prefix om2: <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
+@prefix ot: <https://www.w3.org/TR/owl-time/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://rdf.bonsai.uno/unit/> a dtype:Dataset ;
+    ns2:license <http://creativecommons.org/licenses/by/3.0/> ;
+    dc:contributor "Chris Mutel" ;
+    dc:creator <http://bonsai.uno/foaf/bonsai.rdf#bonsai> ;
+    dc:description "Units from ontology-of-units-of-measure used in BONSAI" ;
+    dc:modified "2019-04-02"^^xsd:date ;
+    dc:publisher "bonsai.uno" ;
+    dc:title "Unit definitions used in BONSAI" ;
+    ns1:preferredNamespaceUri <http://rdf.bonsai.uno/unit/#> ;
+    owl:versionInfo "0.2" ;
+    foaf:homepage <http://rdf.bonsai.uno/unit/documentation.html> .
 
 om2:cubicMetre a om2:UnitExponentiation ;
     rdfs:label "cubic meters" .

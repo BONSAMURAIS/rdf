@@ -1,0 +1,316 @@
+@prefix bont: <http://ontology.bonsai.uno/core#> .
+@prefix brdffo: <http://rdf.bonsai.uno/flowobject/us_epa_elem_flow_list/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dtype: <http://purl.org/dc/dcmitype/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://creativecommons.org/ns#> .
+@prefix ns2: <http://purl.org/vocab/vann/> .
+@prefix ot: <https://www.w3.org/TR/owl-time/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+brdffo: a dtype:Dataset ;
+    ns1:license <http://creativecommons.org/licenses/by/3.0/> ;
+    dc:contributor "Tiago Morais" ;
+    dc:creator <http://bonsai.uno/foaf/bonsai.rdf#bonsai> ;
+    dc:description "US EPA Elementary Flow List" ;
+    dc:modified "2019-04-02"^^xsd:date ;
+    dc:publisher "bonsai.uno" ;
+    dc:title "US EPA Elementary Flow List" ;
+    ns2:preferredNamespaceUri <http://rdf.bonsai.uno/flowobject/us_epa_elem_flow_list/#> ;
+    owl:versionInfo "0.2 (2019-04-02" ;
+    foaf:homepage brdffo:documentation.html .
+
+brdffo:Chemical-Structure.11148 a bont:FlowObject ;
+    rdfs:label "HFC-41" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.11148> .
+
+brdffo:Chemical-Structure.11214141 a bont:FlowObject ;
+    rdfs:label "HFE-347mcf2" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.11214141> .
+
+brdffo:Chemical-Structure.11214145 a bont:FlowObject ;
+    rdfs:label "HFE-356pcc3" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.11214145> .
+
+brdffo:Chemical-Structure.11722 a bont:FlowObject ;
+    rdfs:label "HFC-152" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.11722> .
+
+brdffo:Chemical-Structure.119988 a bont:FlowObject ;
+    rdfs:label "Trifluoromethyl sulfur pentafluoride" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.119988> .
+
+brdffo:Chemical-Structure.12154 a bont:FlowObject ;
+    rdfs:label "Perfluoropentane" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.12154> .
+
+brdffo:Chemical-Structure.12199 a bont:FlowObject ;
+    rdfs:label "HFC-236fa" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.12199> .
+
+brdffo:Chemical-Structure.12577 a bont:FlowObject ;
+    rdfs:label "HFC-134a" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.12577> .
+
+brdffo:Chemical-Structure.13270790 a bont:FlowObject ;
+    rdfs:label "HFE-329mcc2" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.13270790> .
+
+brdffo:Chemical-Structure.13837650 a bont:FlowObject ;
+    rdfs:label "Dichloroethane" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.13837650> .
+
+brdffo:Chemical-Structure.13846040 a bont:FlowObject ;
+    rdfs:label "Perfluorocyclobutane" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.13846040> .
+
+brdffo:Chemical-Structure.13862701 a bont:FlowObject ;
+    rdfs:label "Perfluorobutane" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.13862701> .
+
+brdffo:Chemical-Structure.13888074 a bont:FlowObject ;
+    rdfs:label "Perfluorodecalin" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.13888074> .
+
+brdffo:Chemical-Structure.144293 a bont:FlowObject ;
+    rdfs:label "HFE-347pcf2" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.144293> .
+
+brdffo:Chemical-Structure.14829 a bont:FlowObject ;
+    rdfs:label "HCFC-141b" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.14829> .
+
+brdffo:Chemical-Structure.16647 a bont:FlowObject ;
+    rdfs:label "Sulfuryl fluoride" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.16647> .
+
+brdffo:Chemical-Structure.16841 a bont:FlowObject ;
+    rdfs:label "HCFC-124" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.16841> .
+
+brdffo:Chemical-Structure.2018678 a bont:FlowObject ;
+    rdfs:label "HFE-356pcf3" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.2018678> .
+
+brdffo:Chemical-Structure.2056281 a bont:FlowObject ;
+    rdfs:label "HFE-338mcf2" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.2056281> .
+
+brdffo:Chemical-Structure.2056341 a bont:FlowObject ;
+    rdfs:label "HFE-365mcf3" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.2056341> .
+
+brdffo:Chemical-Structure.2058620 a bont:FlowObject ;
+    rdfs:label "HFE-356mec3" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.2058620> .
+
+brdffo:Chemical-Structure.21106179 a bont:FlowObject ;
+    rdfs:label "HFC-23" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.21106179> .
+
+brdffo:Chemical-Structure.21159667 a bont:FlowObject ;
+    rdfs:label "Sulfur hexafluoride" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.21159667> .
+
+brdffo:Chemical-Structure.221830 a bont:FlowObject ;
+    rdfs:label "CFC-114" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.221830> .
+
+brdffo:Chemical-Structure.22959 a bont:FlowObject ;
+    rdfs:label "Nitrogen trifluoride" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.22959> .
+
+brdffo:Chemical-Structure.24591028 a bont:FlowObject ;
+    rdfs:label "HFE-356pcf2" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.24591028> .
+
+brdffo:Chemical-Structure.274 a bont:FlowObject ;
+    rdfs:label "Carbon dioxide" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.274> .
+
+brdffo:Chemical-Structure.291 a bont:FlowObject ;
+    rdfs:label "Methane" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.291> .
+
+brdffo:Chemical-Structure.2916 a bont:FlowObject ;
+    rdfs:label "Dibromomethane" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.2916> .
+
+brdffo:Chemical-Structure.455592 a bont:FlowObject ;
+    rdfs:label "HFC-236cb" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.455592> .
+
+brdffo:Chemical-Structure.4647426 a bont:FlowObject ;
+    rdfs:label "HFC-1234ze(E)" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.4647426> .
+
+brdffo:Chemical-Structure.55063 a bont:FlowObject ;
+    rdfs:label "HCFC-225ca" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.55063> .
+
+brdffo:Chemical-Structure.56144 a bont:FlowObject ;
+    rdfs:label "HCFC-225cb" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.56144> .
+
+brdffo:Chemical-Structure.56193 a bont:FlowObject ;
+    rdfs:label "Bromodifluoromethane" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.56193> .
+
+brdffo:Chemical-Structure.5730 a bont:FlowObject ;
+    rdfs:label "Carbon tetrachloride" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.5730> .
+
+brdffo:Chemical-Structure.5977 a bont:FlowObject ;
+    rdfs:label "Chloroform" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.5977> .
+
+brdffo:Chemical-Structure.6083 a bont:FlowObject ;
+    rdfs:label "Methyl bromide" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.6083> .
+
+brdffo:Chemical-Structure.6087 a bont:FlowObject ;
+    rdfs:label "Chloromethane" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.6087> .
+
+brdffo:Chemical-Structure.6104 a bont:FlowObject ;
+    rdfs:label "Methylene chloride" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.6104> .
+
+brdffo:Chemical-Structure.6105 a bont:FlowObject ;
+    rdfs:label "HFC-32" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.6105> .
+
+brdffo:Chemical-Structure.61201 a bont:FlowObject ;
+    rdfs:label "HFC-365mfc" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.61201> .
+
+brdffo:Chemical-Structure.61257 a bont:FlowObject ;
+    rdfs:label "HFC-227ea" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.61257> .
+
+brdffo:Chemical-Structure.6128 a bont:FlowObject ;
+    rdfs:label "HFC-152a" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.6128> .
+
+brdffo:Chemical-Structure.6130 a bont:FlowObject ;
+    rdfs:label "HCFC-21" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.6130> .
+
+brdffo:Chemical-Structure.6132 a bont:FlowObject ;
+    rdfs:label "HCFC-22" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.6132> .
+
+brdffo:Chemical-Structure.61345 a bont:FlowObject ;
+    rdfs:label "HFC-245fa" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.61345> .
+
+brdffo:Chemical-Structure.6144 a bont:FlowObject ;
+    rdfs:label "Halon 1301" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.6144> .
+
+brdffo:Chemical-Structure.6148 a bont:FlowObject ;
+    rdfs:label "HCFC-142b" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.6148> .
+
+brdffo:Chemical-Structure.6149 a bont:FlowObject ;
+    rdfs:label "CFC-11" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.6149> .
+
+brdffo:Chemical-Structure.6151 a bont:FlowObject ;
+    rdfs:label "CFC-12" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.6151> .
+
+brdffo:Chemical-Structure.6152 a bont:FlowObject ;
+    rdfs:label "CFC-113",
+        "CFC-13" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.6152> .
+
+brdffo:Chemical-Structure.6153 a bont:FlowObject ;
+    rdfs:label "Carbon tetrafluoride" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.6153> .
+
+brdffo:Chemical-Structure.6190 a bont:FlowObject ;
+    rdfs:label "CFC-115" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.6190> .
+
+brdffo:Chemical-Structure.6191 a bont:FlowObject ;
+    rdfs:label "Hexafluoroethane" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.6191> .
+
+brdffo:Chemical-Structure.6192 a bont:FlowObject ;
+    rdfs:label "Perfluoropropane" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.6192> .
+
+brdffo:Chemical-Structure.62827 a bont:FlowObject ;
+    rdfs:label "HFC-245ca" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.62827> .
+
+brdffo:Chemical-Structure.6337 a bont:FlowObject ;
+    rdfs:label "Methyl chlorocarbonate" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.6337> .
+
+brdffo:Chemical-Structure.71342 a bont:FlowObject ;
+    rdfs:label "HFC-236ea" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.71342> .
+
+brdffo:Chemical-Structure.77787 a bont:FlowObject ;
+    rdfs:label "HFC-4310mee" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.77787> .
+
+brdffo:Chemical-Structure.8000 a bont:FlowObject ;
+    rdfs:label "Tetrafluoroethene" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.8000> .
+
+brdffo:Chemical-Structure.8035172 a bont:FlowObject ;
+    rdfs:label "HFE-338pcc13 (HG-01)" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.8035172> .
+
+brdffo:Chemical-Structure.9016 a bont:FlowObject ;
+    rdfs:label "HCFC-123" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.9016> .
+
+brdffo:Chemical-Structure.923 a bont:FlowObject ;
+    rdfs:label "Nitrous oxide" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.923> .
+
+brdffo:Chemical-Structure.9243 a bont:FlowObject ;
+    rdfs:label "HFC-161" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.9243> .
+
+brdffo:Chemical-Structure.9248 a bont:FlowObject ;
+    rdfs:label "Halon 1211" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.9248> .
+
+brdffo:Chemical-Structure.9253 a bont:FlowObject ;
+    rdfs:label "HCFC-122" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.9253> .
+
+brdffo:Chemical-Structure.9254 a bont:FlowObject ;
+    rdfs:label "HCFC-123a" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.9254> .
+
+brdffo:Chemical-Structure.9256 a bont:FlowObject ;
+    rdfs:label "HFC-125" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.9256> .
+
+brdffo:Chemical-Structure.9262 a bont:FlowObject ;
+    rdfs:label "Perfluorohexane" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.9262> .
+
+brdffo:Chemical-Structure.9286 a bont:FlowObject ;
+    rdfs:label "HFC-134" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.9286> .
+
+brdffo:Chemical-Structure.9484 a bont:FlowObject ;
+    rdfs:label "HFC-143a" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.9484> .
+
+brdffo:Chemical-Structure.9506 a bont:FlowObject ;
+    rdfs:label "HFC-143" ;
+    owl:sameAs <http://www.chemspider.com/Chemical-Structure.9506> .
+

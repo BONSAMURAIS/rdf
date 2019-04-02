@@ -1,0 +1,87 @@
+@prefix bont: <http://ontology.bonsai.uno/core#> .
+@prefix brdfat: <http://rdf.bonsai.uno/activitytype/entsoe/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dtype: <http://purl.org/dc/dcmitype/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://creativecommons.org/ns#> .
+@prefix ns2: <http://purl.org/vocab/vann/> .
+@prefix ot: <https://www.w3.org/TR/owl-time/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+brdfat: a dtype:Dataset ;
+    ns1:license <http://creativecommons.org/licenses/by/3.0/> ;
+    dc:contributor "Chris Mutel" ;
+    dc:creator <http://bonsai.uno/foaf/bonsai.rdf#bonsai> ;
+    dc:description "ENTSO-E activity types used in BONSAI modelling" ;
+    dc:modified "2019-04-02"^^xsd:date ;
+    dc:publisher "bonsai.uno" ;
+    dc:title "ENTSO-E activity types" ;
+    ns2:preferredNamespaceUri <http://rdf.bonsai.uno/activitytype/entsoe/#> ;
+    owl:versionInfo "0.2" ;
+    foaf:homepage brdfat:documentation.html .
+
+brdfat:bio a bont:ActivityType ;
+    rdfs:label "Biomass" .
+
+brdfat:fbcl a bont:ActivityType ;
+    rdfs:label "Fossil Brown coal/Lignite" .
+
+brdfat:fcg a bont:ActivityType ;
+    rdfs:label "Fossil Coal-derived gas" .
+
+brdfat:fg a bont:ActivityType ;
+    rdfs:label "Fossil Gas" .
+
+brdfat:fhc a bont:ActivityType ;
+    rdfs:label "Fossil Hard coal" .
+
+brdfat:fo a bont:ActivityType ;
+    rdfs:label "Fossil Oil" .
+
+brdfat:fos a bont:ActivityType ;
+    rdfs:label "Fossil Oil shale" .
+
+brdfat:geo a bont:ActivityType ;
+    rdfs:label "Geothermal" .
+
+brdfat:h2o a bont:ActivityType ;
+    rdfs:label "Hydro Run-of-river and poundage" .
+
+brdfat:mar a bont:ActivityType ;
+    rdfs:label "Marine" .
+
+brdfat:nuke a bont:ActivityType ;
+    rdfs:label "Nuclear" .
+
+brdfat:oth a bont:ActivityType ;
+    rdfs:label "Other" .
+
+brdfat:othr a bont:ActivityType ;
+    rdfs:label "Other renewable" .
+
+brdfat:peat a bont:ActivityType ;
+    rdfs:label "Fossil Peat" .
+
+brdfat:ps a bont:ActivityType ;
+    rdfs:label "Hydro Pumped Storage" .
+
+brdfat:res a bont:ActivityType ;
+    rdfs:label "Hydro Water Reservoir" .
+
+brdfat:sun a bont:ActivityType ;
+    rdfs:label "Solar" .
+
+brdfat:was a bont:ActivityType ;
+    rdfs:label "Waste" .
+
+brdfat:woff a bont:ActivityType ;
+    rdfs:label "Wind Offshore" .
+
+brdfat:won a bont:ActivityType ;
+    rdfs:label "Wind Onshore" .
+
