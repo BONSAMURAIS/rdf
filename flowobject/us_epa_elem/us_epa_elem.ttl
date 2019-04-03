@@ -1,5 +1,5 @@
 @prefix bont: <http://ontology.bonsai.uno/core#> .
-@prefix brdffo: <http://rdf.bonsai.uno/flowobject/us_epa_elem_flow_list/> .
+@prefix brdffo: <http://rdf.bonsai.uno/flowobject/us_epa_elem/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dtype: <http://purl.org/dc/dcmitype/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
@@ -17,12 +17,12 @@ brdffo: a dtype:Dataset ;
     ns1:license <http://creativecommons.org/licenses/by/3.0/> ;
     dc:contributor "Tiago Morais" ;
     dc:creator <http://bonsai.uno/foaf/bonsai.rdf#bonsai> ;
-    dc:description "US EPA Elementary Flow List" ;
-    dc:modified "2019-04-02"^^xsd:date ;
+    dc:description "US EPA Elementary Flow List from https://github.com/USEPA/Federal-LCA-Commons-Elementary-Flow-List" ;
+    dc:modified "2019-04-03"^^xsd:date ;
     dc:publisher "bonsai.uno" ;
     dc:title "US EPA Elementary Flow List" ;
-    ns2:preferredNamespaceUri <http://rdf.bonsai.uno/flowobject/us_epa_elem_flow_list/#> ;
-    owl:versionInfo "0.2 (2019-04-02" ;
+    ns2:preferredNamespaceUri <http://rdf.bonsai.uno/flowobject/us_epa_elem/#> ;
+    owl:versionInfo "0.3 (2019-04-03)" ;
     foaf:homepage brdffo:documentation.html .
 
 brdffo:Chemical-Structure.11148 a bont:FlowObject ;
