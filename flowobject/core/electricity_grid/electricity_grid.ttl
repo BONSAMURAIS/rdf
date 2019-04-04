@@ -18,13 +18,13 @@ brdffo: a dtype:Dataset ;
     dc:contributor "Arthur Jakobs" ;
     dc:creator <http://bonsai.uno/foaf/bonsai.rdf#bonsai> ;
     dc:description "FlowObject instances needed for BONSAI electricity grid modelling" ;
-    dc:modified "2019-04-02"^^xsd:date ;
+    dc:modified "2019-04-04"^^xsd:date ;
     dc:publisher "bonsai.uno" ;
     dc:title "Electricity grid flow objects for BONSAI" ;
     ns2:preferredNamespaceUri <http://rdf.bonsai.uno/flowobject/core/electricity_grid/#> ;
-    owl:versionInfo "0.2" ;
+    owl:versionInfo "0.3" ;
     foaf:homepage brdffo:documentation.html .
 
 brdffo:elec a bont:FlowObject ;
-    rdfs:label "Market for electricity" .
+    rdfs:label "Electricity" .
 
