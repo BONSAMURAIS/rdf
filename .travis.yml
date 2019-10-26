@@ -25,6 +25,14 @@ before_deploy:
 deploy:
   provider: script
   cleanup: false
-  script: rsync -r --quiet --delete-after core/ $DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_DIRECTORY/
+  script: | 
+      rsync -r --quiet --delete-after -aR \
+      activitytype/ \
+      flowobject/ \
+      foaf/ \
+      location/ \
+      time/ \
+      unit/ \
+      $DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_DIRECTORY/
   on:
     branch: master
