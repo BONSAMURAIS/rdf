@@ -1,14 +1,33 @@
 # We are using travis to test the validity of the RDF and to deploy the files
 # so we don't need a ruby or other language specific image
 language: minimal
+env:
+  global:
+  - secure: jWGcHI85OgtfRc4coSt3NGp2k65A8gVrT4+X2GoE0uoM9Qf2V93/OPNtSdnvvZILhtvBh/QasCdtX31Cz4OyzqLZ5l0XSbi4sHKUBsl6g+rBNNdAHkeN/9bxit2A0w8A+JJGgCSfhzrhl/cfPKoi4H1ADzuKrZCI9G/t0mwsynGG6oaQ0Nq1QENL4kdW3UStEaF7mXxAv1rm5PChDInPCDMpnVdZzIAem+5e3/b4b6NHe8Y1bILEpnWO3OpwkcA2NDIC1Fo9uZqDDFoaY4u/pkpvpSZX3+4DSiq76XHrHMAFENBjSTXAW4+982B5cKDAWQVpteGEydXX65w5FW9yPpBc3Y7gun9I4o4rpXdvQTEV/3M6PKhMP5rPIHzOougCfPboepajEDiDDMdzgVnTN87JdT0YBzKsGY0EAWgY1cQ8iBc1gt91arFaWclBjuDh1A8c9oDp2Wu5Zz38BYR7Elg9+YVY48uy801oF98RANKQRMknBy9SbLpXHvpFDXWJhbdHEEjE3Kcj+FDsC0Jlmqlw2sqDZ2Q8ZBYuq12qE0v721cNKYOScsM3NFormu6qDstYPAXtkX/doI+NW5DGyC4L4OLq5M/StWUCm99n8uyXowDWJy2u7dgw5U/3VgmNy+JQKA1cXs23M1l+7+YdORl7pbWadQ+2M+ykMctBmjw=
+  - secure: JQoR8H4luBEf0FNzh3ky2QZyOoOdvWi8i44Ej03TVumYQ0ZQh4pn00+T/Vwss8WLn0a4KsP0KgbllmZcbkELeQoP8uU8jGtESuaa4ZOm4lwGTn8NtIx2WF3FTvymg4e6F6SJyrChnmv5tCVFVqMTSGefOuW1JtjhBt2mTGdJ0RhPx8hnIoaON1oR4aC58RMSDwehQ4CFosVztoqdEYooN9OHFEyzEV31MsMeYY6AKu9O6mlwyRw7zvMTMb/FS5E6MegQQnl815CsWwyfArbyrNfKXgUM4LGf4c/YD9OqABmDolDF9CBstss7im3X0xZ9WcUrk/eH+ysGBEWwTWVUrJFoxHm92bGCnzFIFlYKNfRqSIF7pm2KQP02LOb+C/pes4e4GTdN1X8/biU0tkAkpxI7p4JbszGtc2bPJyXKO6bchWU1kaIfqzkM+TOGdNc4i4+fzZ64RHVLRaoYHTnDRowQGvD1a8tID6AAAz0PhKrQhr5nuaXfYoWp4ny3rxjzbhmCVw+kgxHQK6WEqW8dBxEFQkylPu6YmtUXNsTNeFmVZ53F2P4P9tBVee1B0JI3IOaShp4UOq2QdghPqDXygaulSsd3F9EbRHvXsX/ilv55J1eYv5kSH65RmBdArhx10//x20WBtQIk6ZuzNsFyeoagPKDQeZvfio/ERO3nySU=
+  - secure: m7KNuBU+BnmcApYANZPjGXKXmBQ0ys/kTU+BpRBQvyGkVeAlCE5NrPLPe6VeEmw0bvsGkjaMvhrAV8u8u83PJER8wwPdW0hAzjXU9c0k0IX6LfyxoT5tlUz6VCSOtCvZBpI5xGxlXlfP/i18L3QK4mRyO8QDjqrh5+oK1OElbMesXYr/F8CJq1Fffxz/+t1LLy1mLi5lvJfvMcSTu0+y3GX3JD1gm4hK7rMwG8+HX/G/KcCHqYwm20miwNxttl6RuBu0RNrDN2QMXiERUr23xuxn9wxtRlHvNIWtS+GTn+DhBDBLlgwHmVJ5l2XXC80TwPnGIeLH4vSh9BnjKDjcLVnWoZL6Mpu0iY4r7z+7wrHp3mVeNQGlAnQq4fvYFtpb3B1Jw1wU7oNaebY3lMjS9rUlIUUV61GcUcux1h/a3d/OWe4AxIkHBKx4PI+DuvfK2zJCQQRS4JJh4wkHteoQGbEMXlp6yXGa8yUTZVlyXikTyLXOG7M87wouzVzQanZqcJR2p100hLJkH6c2Uo6/qwf+djUg4LiZ+d0B6RijAWgypvMlF2lJYGwd0JA6UnQrwr0vwgR7LGRB6DU0lloB8JzgwGsBWKi1qlr3UVlycwXHkZThhIYvs3bQGYKatvlPnBlXlYNSpVjSZwyHzixZkwAruCS3wzwPUrGf5vUqmuw=
 
 services:
-  - docker
-
+- docker
 jobs:
   include:
-    - stage: test
-      script:
-        - docker pull stain/jena
-        - shopt -s globstar
-        - docker run -it --rm -v `pwd`:/rdf stain/jena riot -v --debug --validate --time **/*\.ttl
+  - stage: test
+    script:
+    - docker pull stain/jena
+    - shopt -s globstar
+    - docker run -it --rm -v `pwd`:/rdf stain/jena riot -v --debug --validate --time
+      **/*\.ttl
+before_deploy:
+  - openssl aes-256-cbc -K $encrypted_2ae10d43895a_key -iv $encrypted_2ae10d43895a_iv
+    -in deploy_rsa.enc -out deploy_rsa -d
+  - eval "$(ssh-agent -s)"
+  - chmod 600 deploy\_rsa
+  - ssh-add deploy\_rsa
+  - echo -e "Host $DEPLOY_HOST\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+deploy:
+  provider: script
+  cleanup: false
+  script: rsync -r --quiet --delete-after core/ $DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_DIRECTORY/
+  # TODO: uncomment below 2 lines when test is OK
+  #on:
+  #  branch: master
