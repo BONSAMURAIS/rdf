@@ -20,27 +20,27 @@ brdflo: a dtype:Dataset ;
     dc:contributor "Chris Mutel" ;
     dc:creator <http://bonsai.uno/foaf/bonsai.rdf#bonsai> ;
     dc:description "Country groupings used EXIOBASE 3.3.17" ;
-    dc:modified "2019-04-02"^^xsd:date ;
+    dc:modified "2019-10-26"^^xsd:date ;
     dc:publisher "bonsai.uno" ;
     dc:title "Custom locations for EXIOBASE 3.3" ;
     ns2:preferredNamespaceUri <http://rdf.bonsai.uno/location/exiobase3_3_17/#> ;
-    owl:versionInfo "0.2" ;
+    owl:versionInfo "0.3" ;
     foaf:homepage brdflo:documentation.html .
 
-brdflo:WA a schema:Place ;
-    rdfs:label "WA" .
+<http://rdf.bonsai.uno/location/exiobase3_3_17/#WA> a schema:Place ;
+    rdfs:label "EXIOBASE region RoW Asia and Pacific" .
 
-brdflo:WE a schema:Place ;
-    rdfs:label "WE" .
+<http://rdf.bonsai.uno/location/exiobase3_3_17/#WE> a schema:Place ;
+    rdfs:label "EXIOBASE region RoW Europe" .
 
-brdflo:WF a schema:Place ;
-    rdfs:label "WF" .
+<http://rdf.bonsai.uno/location/exiobase3_3_17/#WF> a schema:Place ;
+    rdfs:label "EXIOBASE region RoW Africa" .
 
-brdflo:WL a schema:Place ;
-    rdfs:label "WL" .
+<http://rdf.bonsai.uno/location/exiobase3_3_17/#WL> a schema:Place ;
+    rdfs:label "EXIOBASE region RoW America" .
 
-brdflo:WM a schema:Place ;
-    rdfs:label "WM" .
+<http://rdf.bonsai.uno/location/exiobase3_3_17/#WM> a schema:Place ;
+    rdfs:label "EXIOBASE region RoW Middle East" .
 
 <http://sws.geonames.org/1269750> a schema:Place ;
     rdfs:label "IN" .
