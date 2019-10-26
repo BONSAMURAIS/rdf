@@ -24,7 +24,7 @@ before_deploy:
   - echo -e "Host $DEPLOY_HOST\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 deploy:
   provider: script
-  cleanup: false
+  skip_cleanup: true
   script: | 
       rsync -r --quiet --delete-after -aR \
       activitytype/ \
