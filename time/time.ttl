@@ -1,10 +1,10 @@
 @prefix bont: <http://ontology.bonsai.uno/core#> .
-@prefix brdftime: <http://rdf.bonsai.uno/time/> .
+@prefix brdftime: <http://rdf.bonsai.uno/time/#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dtype: <http://purl.org/dc/dcmitype/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ns1: <http://creativecommons.org/ns#> .
-@prefix ns2: <http://purl.org/vocab/vann/> .
+@prefix ns1: <http://purl.org/vocab/vann/> .
+@prefix ns2: <http://creativecommons.org/ns#> .
 @prefix ot: <https://www.w3.org/TR/owl-time/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -13,183 +13,183 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<brdftime:2010> a ot:ProperInterval ;
-    rdfs:label 2010 ;
-    owl:sameAs <http://reference.data.gov.uk/doc/year/2010>,
-        <https://www.wikidata.org/wiki/Q1995> ;
-    ot:hasBeginning <brdftime:2010start> ;
-    ot:hasDurationDescription <brdftime:oneyearlong> ;
-    ot:hasEnd <brdftime:2010end> ;
-    ot:inXSDDate "2010-01-01"^^xsd:date .
-
-<brdftime:2011> a ot:ProperInterval ;
-    rdfs:label 2011 ;
-    owl:sameAs <http://reference.data.gov.uk/doc/year/2011>,
-        <https://www.wikidata.org/wiki/Q1994> ;
-    ot:hasBeginning <brdftime:2011start> ;
-    ot:hasDurationDescription <brdftime:oneyearlong> ;
-    ot:hasEnd <brdftime:2011end> ;
-    ot:inXSDDate "2011-01-01"^^xsd:date .
-
-<brdftime:2012> a ot:ProperInterval ;
-    rdfs:label 2012 ;
-    owl:sameAs <http://reference.data.gov.uk/doc/year/2012>,
-        <https://www.wikidata.org/wiki/Q1990> ;
-    ot:hasBeginning <brdftime:2012start> ;
-    ot:hasDurationDescription <brdftime:oneyearlong> ;
-    ot:hasEnd <brdftime:2012end> ;
-    ot:inXSDDate "2012-01-01"^^xsd:date .
-
-<brdftime:2013> a ot:ProperInterval ;
-    rdfs:label 2013 ;
-    owl:sameAs <http://reference.data.gov.uk/doc/year/2013>,
-        <https://www.wikidata.org/wiki/Q1998> ;
-    ot:hasBeginning <brdftime:2013start> ;
-    ot:hasDurationDescription <brdftime:oneyearlong> ;
-    ot:hasEnd <brdftime:2013end> ;
-    ot:inXSDDate "2013-01-01"^^xsd:date .
-
-<brdftime:2014> a ot:ProperInterval ;
-    rdfs:label 2014 ;
-    owl:sameAs <http://reference.data.gov.uk/doc/year/2014>,
-        <https://www.wikidata.org/wiki/Q1999> ;
-    ot:hasBeginning <brdftime:2014start> ;
-    ot:hasDurationDescription <brdftime:oneyearlong> ;
-    ot:hasEnd <brdftime:2014end> ;
-    ot:inXSDDate "2014-01-01"^^xsd:date .
-
-<brdftime:2015> a ot:ProperInterval ;
-    rdfs:label 2015 ;
-    owl:sameAs <http://reference.data.gov.uk/doc/year/2015>,
-        <https://www.wikidata.org/wiki/Q2002> ;
-    ot:hasBeginning <brdftime:2015start> ;
-    ot:hasDurationDescription <brdftime:oneyearlong> ;
-    ot:hasEnd <brdftime:2015end> ;
-    ot:inXSDDate "2015-01-01"^^xsd:date .
-
-<brdftime:2016> a ot:ProperInterval ;
-    rdfs:label 2016 ;
-    owl:sameAs <http://reference.data.gov.uk/doc/year/2016>,
-        <https://www.wikidata.org/wiki/Q25245> ;
-    ot:hasBeginning <brdftime:2016start> ;
-    ot:hasDurationDescription <brdftime:oneyearlong> ;
-    ot:hasEnd <brdftime:2016end> ;
-    ot:inXSDDate "2016-01-01"^^xsd:date .
-
-<brdftime:2017> a ot:ProperInterval ;
-    rdfs:label 2017 ;
-    owl:sameAs <http://reference.data.gov.uk/doc/year/2017>,
-        <https://www.wikidata.org/wiki/Q25290> ;
-    ot:hasBeginning <brdftime:2017start> ;
-    ot:hasDurationDescription <brdftime:oneyearlong> ;
-    ot:hasEnd <brdftime:2017end> ;
-    ot:inXSDDate "2017-01-01"^^xsd:date .
-
-<brdftime:2018> a ot:ProperInterval ;
-    rdfs:label 2018 ;
-    owl:sameAs <http://reference.data.gov.uk/doc/year/2018>,
-        <https://www.wikidata.org/wiki/Q25291> ;
-    ot:hasBeginning <brdftime:2018start> ;
-    ot:hasDurationDescription <brdftime:oneyearlong> ;
-    ot:hasEnd <brdftime:2018end> ;
-    ot:inXSDDate "2018-01-01"^^xsd:date .
-
-<brdftime:2019> a ot:ProperInterval ;
-    rdfs:label 2019 ;
-    owl:sameAs <http://reference.data.gov.uk/doc/year/2019>,
-        <https://www.wikidata.org/wiki/Q25274> ;
-    ot:hasBeginning <brdftime:2019start> ;
-    ot:hasDurationDescription <brdftime:oneyearlong> ;
-    ot:hasEnd <brdftime:2019end> ;
-    ot:inXSDDate "2019-01-01"^^xsd:date .
-
-<brdftime:2020> a ot:ProperInterval ;
-    rdfs:label 2020 ;
-    owl:sameAs <http://reference.data.gov.uk/doc/year/2020>,
-        <https://www.wikidata.org/wiki/Q25337> ;
-    ot:hasBeginning <brdftime:2020start> ;
-    ot:hasDurationDescription <brdftime:oneyearlong> ;
-    ot:hasEnd <brdftime:2020end> ;
-    ot:inXSDDate "2020-01-01"^^xsd:date .
-
-brdftime: a dtype:Dataset ;
-    ns1:license <http://creativecommons.org/licenses/by/3.0/> ;
+<http://rdf.bonsai.uno/time/> a dtype:Dataset ;
+    ns2:license <http://creativecommons.org/licenses/by/3.0/> ;
     dc:contributor "Chris Mutel" ;
     dc:creator <http://bonsai.uno/foaf/bonsai.rdf#bonsai> ;
     dc:description "Complete years 2010 - 2020 for use in BONSAI" ;
-    dc:modified "2019-04-02"^^xsd:date ;
+    dc:modified "2019-11-06"^^xsd:date ;
     dc:publisher "bonsai.uno" ;
     dc:title "Years 2010 - 2020" ;
-    ns2:preferredNamespaceUri <http://rdf.bonsai.uno/time/#> ;
+    ns1:preferredNamespaceUri brdftime: ;
     owl:versionInfo "0.2" ;
-    foaf:homepage brdftime:documentation.html .
+    foaf:homepage <http://rdf.bonsai.uno/time/documentation.html> .
 
-<brdftime:2010end> a ot:Instant ;
-    ot:inXSDDate "2010-12-31"^^xsd:date .
-
-<brdftime:2010start> a ot:Instant ;
+<http://rdf.bonsai.uno/time/#2010> a ot:ProperInterval ;
+    rdfs:label 2010 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2010>,
+        <https://www.wikidata.org/wiki/Q1995> ;
+    ot:hasBeginning <http://rdf.bonsai.uno/time/#2010start> ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd <http://rdf.bonsai.uno/time/#2010end> ;
     ot:inXSDDate "2010-01-01"^^xsd:date .
 
-<brdftime:2011end> a ot:Instant ;
-    ot:inXSDDate "2011-12-31"^^xsd:date .
-
-<brdftime:2011start> a ot:Instant ;
+<http://rdf.bonsai.uno/time/#2011> a ot:ProperInterval ;
+    rdfs:label 2011 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2011>,
+        <https://www.wikidata.org/wiki/Q1994> ;
+    ot:hasBeginning <http://rdf.bonsai.uno/time/#2011start> ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd <http://rdf.bonsai.uno/time/#2011end> ;
     ot:inXSDDate "2011-01-01"^^xsd:date .
 
-<brdftime:2012end> a ot:Instant ;
-    ot:inXSDDate "2012-12-31"^^xsd:date .
-
-<brdftime:2012start> a ot:Instant ;
+<http://rdf.bonsai.uno/time/#2012> a ot:ProperInterval ;
+    rdfs:label 2012 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2012>,
+        <https://www.wikidata.org/wiki/Q1990> ;
+    ot:hasBeginning <http://rdf.bonsai.uno/time/#2012start> ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd <http://rdf.bonsai.uno/time/#2012end> ;
     ot:inXSDDate "2012-01-01"^^xsd:date .
 
-<brdftime:2013end> a ot:Instant ;
-    ot:inXSDDate "2013-12-31"^^xsd:date .
-
-<brdftime:2013start> a ot:Instant ;
+<http://rdf.bonsai.uno/time/#2013> a ot:ProperInterval ;
+    rdfs:label 2013 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2013>,
+        <https://www.wikidata.org/wiki/Q1998> ;
+    ot:hasBeginning <http://rdf.bonsai.uno/time/#2013start> ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd <http://rdf.bonsai.uno/time/#2013end> ;
     ot:inXSDDate "2013-01-01"^^xsd:date .
 
-<brdftime:2014end> a ot:Instant ;
-    ot:inXSDDate "2014-12-31"^^xsd:date .
-
-<brdftime:2014start> a ot:Instant ;
+<http://rdf.bonsai.uno/time/#2014> a ot:ProperInterval ;
+    rdfs:label 2014 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2014>,
+        <https://www.wikidata.org/wiki/Q1999> ;
+    ot:hasBeginning <http://rdf.bonsai.uno/time/#2014start> ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd <http://rdf.bonsai.uno/time/#2014end> ;
     ot:inXSDDate "2014-01-01"^^xsd:date .
 
-<brdftime:2015end> a ot:Instant ;
-    ot:inXSDDate "2015-12-31"^^xsd:date .
-
-<brdftime:2015start> a ot:Instant ;
+<http://rdf.bonsai.uno/time/#2015> a ot:ProperInterval ;
+    rdfs:label 2015 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2015>,
+        <https://www.wikidata.org/wiki/Q2002> ;
+    ot:hasBeginning <http://rdf.bonsai.uno/time/#2015start> ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd <http://rdf.bonsai.uno/time/#2015end> ;
     ot:inXSDDate "2015-01-01"^^xsd:date .
 
-<brdftime:2016end> a ot:Instant ;
-    ot:inXSDDate "2016-12-31"^^xsd:date .
-
-<brdftime:2016start> a ot:Instant ;
+<http://rdf.bonsai.uno/time/#2016> a ot:ProperInterval ;
+    rdfs:label 2016 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2016>,
+        <https://www.wikidata.org/wiki/Q25245> ;
+    ot:hasBeginning <http://rdf.bonsai.uno/time/#2016start> ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd <http://rdf.bonsai.uno/time/#2016end> ;
     ot:inXSDDate "2016-01-01"^^xsd:date .
 
-<brdftime:2017end> a ot:Instant ;
-    ot:inXSDDate "2017-12-31"^^xsd:date .
-
-<brdftime:2017start> a ot:Instant ;
+<http://rdf.bonsai.uno/time/#2017> a ot:ProperInterval ;
+    rdfs:label 2017 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2017>,
+        <https://www.wikidata.org/wiki/Q25290> ;
+    ot:hasBeginning <http://rdf.bonsai.uno/time/#2017start> ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd <http://rdf.bonsai.uno/time/#2017end> ;
     ot:inXSDDate "2017-01-01"^^xsd:date .
 
-<brdftime:2018end> a ot:Instant ;
-    ot:inXSDDate "2018-12-31"^^xsd:date .
-
-<brdftime:2018start> a ot:Instant ;
+<http://rdf.bonsai.uno/time/#2018> a ot:ProperInterval ;
+    rdfs:label 2018 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2018>,
+        <https://www.wikidata.org/wiki/Q25291> ;
+    ot:hasBeginning <http://rdf.bonsai.uno/time/#2018start> ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd <http://rdf.bonsai.uno/time/#2018end> ;
     ot:inXSDDate "2018-01-01"^^xsd:date .
 
-<brdftime:2019end> a ot:Instant ;
-    ot:inXSDDate "2019-12-31"^^xsd:date .
-
-<brdftime:2019start> a ot:Instant ;
+<http://rdf.bonsai.uno/time/#2019> a ot:ProperInterval ;
+    rdfs:label 2019 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2019>,
+        <https://www.wikidata.org/wiki/Q25274> ;
+    ot:hasBeginning <http://rdf.bonsai.uno/time/#2019start> ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd <http://rdf.bonsai.uno/time/#2019end> ;
     ot:inXSDDate "2019-01-01"^^xsd:date .
 
-<brdftime:2020end> a ot:Instant ;
-    ot:inXSDDate "2020-12-31"^^xsd:date .
-
-<brdftime:2020start> a ot:Instant ;
+<http://rdf.bonsai.uno/time/#2020> a ot:ProperInterval ;
+    rdfs:label 2020 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2020>,
+        <https://www.wikidata.org/wiki/Q25337> ;
+    ot:hasBeginning <http://rdf.bonsai.uno/time/#2020start> ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd <http://rdf.bonsai.uno/time/#2020end> ;
     ot:inXSDDate "2020-01-01"^^xsd:date .
 
-<brdftime:oneyearlong> a ot:DurationDescription ;
+<http://rdf.bonsai.uno/time/#2010end> a ot:Instant ;
+    ot:inXSDDate "2010-12-31"^^xsd:date .
+
+<http://rdf.bonsai.uno/time/#2010start> a ot:Instant ;
+    ot:inXSDDate "2010-01-01"^^xsd:date .
+
+<http://rdf.bonsai.uno/time/#2011end> a ot:Instant ;
+    ot:inXSDDate "2011-12-31"^^xsd:date .
+
+<http://rdf.bonsai.uno/time/#2011start> a ot:Instant ;
+    ot:inXSDDate "2011-01-01"^^xsd:date .
+
+<http://rdf.bonsai.uno/time/#2012end> a ot:Instant ;
+    ot:inXSDDate "2012-12-31"^^xsd:date .
+
+<http://rdf.bonsai.uno/time/#2012start> a ot:Instant ;
+    ot:inXSDDate "2012-01-01"^^xsd:date .
+
+<http://rdf.bonsai.uno/time/#2013end> a ot:Instant ;
+    ot:inXSDDate "2013-12-31"^^xsd:date .
+
+<http://rdf.bonsai.uno/time/#2013start> a ot:Instant ;
+    ot:inXSDDate "2013-01-01"^^xsd:date .
+
+<http://rdf.bonsai.uno/time/#2014end> a ot:Instant ;
+    ot:inXSDDate "2014-12-31"^^xsd:date .
+
+<http://rdf.bonsai.uno/time/#2014start> a ot:Instant ;
+    ot:inXSDDate "2014-01-01"^^xsd:date .
+
+<http://rdf.bonsai.uno/time/#2015end> a ot:Instant ;
+    ot:inXSDDate "2015-12-31"^^xsd:date .
+
+<http://rdf.bonsai.uno/time/#2015start> a ot:Instant ;
+    ot:inXSDDate "2015-01-01"^^xsd:date .
+
+<http://rdf.bonsai.uno/time/#2016end> a ot:Instant ;
+    ot:inXSDDate "2016-12-31"^^xsd:date .
+
+<http://rdf.bonsai.uno/time/#2016start> a ot:Instant ;
+    ot:inXSDDate "2016-01-01"^^xsd:date .
+
+<http://rdf.bonsai.uno/time/#2017end> a ot:Instant ;
+    ot:inXSDDate "2017-12-31"^^xsd:date .
+
+<http://rdf.bonsai.uno/time/#2017start> a ot:Instant ;
+    ot:inXSDDate "2017-01-01"^^xsd:date .
+
+<http://rdf.bonsai.uno/time/#2018end> a ot:Instant ;
+    ot:inXSDDate "2018-12-31"^^xsd:date .
+
+<http://rdf.bonsai.uno/time/#2018start> a ot:Instant ;
+    ot:inXSDDate "2018-01-01"^^xsd:date .
+
+<http://rdf.bonsai.uno/time/#2019end> a ot:Instant ;
+    ot:inXSDDate "2019-12-31"^^xsd:date .
+
+<http://rdf.bonsai.uno/time/#2019start> a ot:Instant ;
+    ot:inXSDDate "2019-01-01"^^xsd:date .
+
+<http://rdf.bonsai.uno/time/#2020end> a ot:Instant ;
+    ot:inXSDDate "2020-12-31"^^xsd:date .
+
+<http://rdf.bonsai.uno/time/#2020start> a ot:Instant ;
+    ot:inXSDDate "2020-01-01"^^xsd:date .
+
+brdftime:oneyearlong a ot:DurationDescription ;
     ot:years 1 .
 

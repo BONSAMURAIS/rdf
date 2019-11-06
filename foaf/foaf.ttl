@@ -1,14 +1,26 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix org: <https://www.w3.org/TR/vocab-org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://bonsai.uno/foaf/foaf.ttl#bonsai> a org:Organization ;
+<https://bonsai.uno/foaf> a <https://purl.org/dc/dcmitype/Dataset> ;
+    dc:creator <https://bonsai.uno/foaf/foaf.ttl#bonsai> ;
+    dc:description "Contains information about the BONSAI organization" ;
+    dc:license <https://creativecommons.org/licenses/by/3.0/> ;
+    dc:modified "2019-04-02"^^xsd:date ;
+    dc:publisher "bonsai.uno" ;
+    dc:title "The BONSAI Organization" ;
+    owl:versionInfo "0.2" ;
+    foaf:homepage <https://rdf.bonsai.uno/unit/documentation.html> .
+
+<https://bonsai.uno/foaf/foaf.ttl#bonsai> a org:Organization ;
     skos:prefLabel "BONSAI – Big Open Network for Sustainability Assessment Information" ;
-    foaf:homepage <http://bonsai.uno> ;
+    foaf:homepage <https://bonsai.uno> ;
     foaf:interest <https://www.wikidata.org/wiki/Q131201>,
         <https://www.wikidata.org/wiki/Q18692990>,
         <https://www.wikidata.org/wiki/Q2323664> .
