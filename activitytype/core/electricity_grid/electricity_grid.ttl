@@ -1,28 +1,35 @@
+@prefix bfoaf: <http://rdf.bonsai.uno/foaf#> .
 @prefix bont: <http://ontology.bonsai.uno/core#> .
-@prefix brdfat: <http://rdf.bonsai.uno/activitytype/core/electricity_grid/> .
+@prefix bprov: <http://rdf.bonsai.uno/prov#> .
+@prefix brdfat: <http://rdf.bonsai.uno/activitytype/core/electricity_grid#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dtype: <http://purl.org/dc/dcmitype/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ns1: <http://creativecommons.org/ns#> .
-@prefix ns2: <http://purl.org/vocab/vann/> .
+@prefix ns1: <http://purl.org/vocab/vann/> .
+@prefix ns2: <http://creativecommons.org/ns#> .
 @prefix ot: <https://www.w3.org/TR/owl-time/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-brdfat: a dtype:Dataset ;
-    ns1:license <http://creativecommons.org/licenses/by/3.0/> ;
-    dc:contributor "Arthur Jakobs" ;
-    dc:creator <http://bonsai.uno/foaf/bonsai.rdf#bonsai> ;
+brdfat: a dtype:Dataset,
+        prov:Collection ;
+    ns2:license <http://creativecommons.org/licenses/by/3.0/> ;
+    dc:creator bfoaf:bonsai ;
     dc:description "ActivityType instances needed for BONSAI electricity grid modelling" ;
-    dc:modified "2019-04-02"^^xsd:date ;
-    dc:publisher "bonsai.uno" ;
+    dc:modified "2019-12-20"^^xsd:date ;
+    dc:publisher bfoaf:bonsai ;
     dc:title "Electricity grid activity types for BONSAI" ;
-    ns2:preferredNamespaceUri <http://rdf.bonsai.uno/activitytype/core/electricity_grid/#> ;
-    owl:versionInfo "0.2" ;
+    ns1:preferredNamespaceUri brdfat: ;
+    owl:versionInfo "0.4" ;
+    prov:generatedAtTime "2019-12-20"^^xsd:date ;
+    prov:hadMember brdfat:eg ;
+    prov:wasAttributedTo bfoaf:bonsai ;
+    prov:wasGeneratedBy bprov:dataExtractionActivity_0_4 ;
     foaf:homepage brdfat:documentation.html .
 
 brdfat:eg a bont:ActivityType ;

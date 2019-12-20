@@ -1,5 +1,7 @@
+@prefix bfoaf: <http://rdf.bonsai.uno/foaf#> .
 @prefix bont: <http://ontology.bonsai.uno/core#> .
-@prefix brdfat: <http://rdf.bonsai.uno/activitytype/exiobase3_3_17/> .
+@prefix bprov: <http://rdf.bonsai.uno/prov#> .
+@prefix brdfat: <http://rdf.bonsai.uno/activitytype/exiobase3_3_17#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dtype: <http://purl.org/dc/dcmitype/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
@@ -7,22 +9,190 @@
 @prefix ns2: <http://purl.org/vocab/vann/> .
 @prefix ot: <https://www.w3.org/TR/owl-time/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-brdfat: a dtype:Dataset ;
+brdfat: a dtype:Dataset,
+        prov:Collection ;
     ns1:license <http://creativecommons.org/licenses/by/3.0/> ;
-    dc:contributor "BONSAI team" ;
-    dc:creator <http://bonsai.uno/foaf/bonsai.rdf#bonsai> ;
+    dc:creator bfoaf:bonsai ;
     dc:description "ActivityType instances needed for BONSAI modelling of EXIOBASE version 3.3.17" ;
-    dc:modified "2019-04-02"^^xsd:date ;
-    dc:publisher "bonsai.uno" ;
+    dc:modified "2019-12-20"^^xsd:date ;
+    dc:publisher bfoaf:bonsai ;
     dc:title "EXIOBASE 3.3.17 activity types" ;
-    ns2:preferredNamespaceUri <http://rdf.bonsai.uno/activitytype/exiobase3_3_17/#> ;
-    owl:versionInfo "0.3" ;
+    ns2:preferredNamespaceUri brdfat: ;
+    owl:versionInfo "0.4" ;
+    prov:generatedAtTime "2019-12-20"^^xsd:date ;
+    prov:hadMember brdfat:A_ALUM,
+        brdfat:A_ALUO,
+        brdfat:A_ALUW,
+        brdfat:A_ASHW,
+        brdfat:A_BEVR,
+        brdfat:A_BIOF,
+        brdfat:A_BIOP,
+        brdfat:A_BIOS,
+        brdfat:A_BOTW,
+        brdfat:A_BRIK,
+        brdfat:A_CATL,
+        brdfat:A_CHEM,
+        brdfat:A_CHMF,
+        brdfat:A_CMNT,
+        brdfat:A_COAL,
+        brdfat:A_COIL,
+        brdfat:A_COKE,
+        brdfat:A_COMF,
+        brdfat:A_COMP,
+        brdfat:A_COMW,
+        brdfat:A_CONS,
+        brdfat:A_CONW,
+        brdfat:A_COPO,
+        brdfat:A_COPP,
+        brdfat:A_COPW,
+        brdfat:A_CRMC,
+        brdfat:A_DAIR,
+        brdfat:A_EDUC,
+        brdfat:A_ELMA,
+        brdfat:A_EXTO,
+        brdfat:A_FABM,
+        brdfat:A_FAUX,
+        brdfat:A_FIBR,
+        brdfat:A_FINS,
+        brdfat:A_FINT,
+        brdfat:A_FISH,
+        brdfat:A_FORE,
+        brdfat:A_FSHP,
+        brdfat:A_FURN,
+        brdfat:A_FVEG,
+        brdfat:A_GARM,
+        brdfat:A_GASD,
+        brdfat:A_GASE,
+        brdfat:A_GLAS,
+        brdfat:A_GLAW,
+        brdfat:A_HEAL,
+        brdfat:A_HORE,
+        brdfat:A_HWAT,
+        brdfat:A_INCF,
+        brdfat:A_INCL,
+        brdfat:A_INCM,
+        brdfat:A_INCO,
+        brdfat:A_INCP,
+        brdfat:A_INCT,
+        brdfat:A_INCW,
+        brdfat:A_IRON,
+        brdfat:A_LANF,
+        brdfat:A_LANI,
+        brdfat:A_LANL,
+        brdfat:A_LANP,
+        brdfat:A_LANT,
+        brdfat:A_LANW,
+        brdfat:A_LETH,
+        brdfat:A_LZTO,
+        brdfat:A_LZTP,
+        brdfat:A_LZTW,
+        brdfat:A_MACH,
+        brdfat:A_MANB,
+        brdfat:A_MANC,
+        brdfat:A_MARE,
+        brdfat:A_MDIA,
+        brdfat:A_MEIN,
+        brdfat:A_METC,
+        brdfat:A_MGWG,
+        brdfat:A_MILK,
+        brdfat:A_MOTO,
+        brdfat:A_NFER,
+        brdfat:A_NIKO,
+        brdfat:A_NUCF,
+        brdfat:A_OANP,
+        brdfat:A_OBUS,
+        brdfat:A_OCER,
+        brdfat:A_OFMA,
+        brdfat:A_OFOD,
+        brdfat:A_OGPL,
+        brdfat:A_OILS,
+        brdfat:A_OMEA,
+        brdfat:A_ONFM,
+        brdfat:A_ONFO,
+        brdfat:A_ONFW,
+        brdfat:A_ONMM,
+        brdfat:A_ORAN,
+        brdfat:A_ORGA,
+        brdfat:A_OSER,
+        brdfat:A_OTCR,
+        brdfat:A_OTRE,
+        brdfat:A_PADF,
+        brdfat:A_PAPE,
+        brdfat:A_PAPR,
+        brdfat:A_PARI,
+        brdfat:A_PCAT,
+        brdfat:A_PFER,
+        brdfat:A_PIGS,
+        brdfat:A_PLAS,
+        brdfat:A_PLAW,
+        brdfat:A_PLTR,
+        brdfat:A_POME,
+        brdfat:A_POWB,
+        brdfat:A_POWC,
+        brdfat:A_POWD,
+        brdfat:A_POWE,
+        brdfat:A_POWG,
+        brdfat:A_POWH,
+        brdfat:A_POWM,
+        brdfat:A_POWN,
+        brdfat:A_POWO,
+        brdfat:A_POWP,
+        brdfat:A_POWS,
+        brdfat:A_POWT,
+        brdfat:A_POWW,
+        brdfat:A_POWZ,
+        brdfat:A_PPIG,
+        brdfat:A_PPLT,
+        brdfat:A_PREM,
+        brdfat:A_PREO,
+        brdfat:A_PREW,
+        brdfat:A_PRHH,
+        brdfat:A_PTEL,
+        brdfat:A_PULP,
+        brdfat:A_RATV,
+        brdfat:A_REAL,
+        brdfat:A_RECR,
+        brdfat:A_REFN,
+        brdfat:A_RESD,
+        brdfat:A_RICE,
+        brdfat:A_RUBP,
+        brdfat:A_RYMS,
+        brdfat:A_SDCL,
+        brdfat:A_STEL,
+        brdfat:A_STEW,
+        brdfat:A_STON,
+        brdfat:A_SUGB,
+        brdfat:A_SUGR,
+        brdfat:A_TAIR,
+        brdfat:A_TAUX,
+        brdfat:A_TDFU,
+        brdfat:A_TDMO,
+        brdfat:A_TDRT,
+        brdfat:A_TDWH,
+        brdfat:A_TEXT,
+        brdfat:A_TLND,
+        brdfat:A_TOBC,
+        brdfat:A_TPIP,
+        brdfat:A_TRAI,
+        brdfat:A_TWAI,
+        brdfat:A_TWAS,
+        brdfat:A_VOIL,
+        brdfat:A_WASF,
+        brdfat:A_WASO,
+        brdfat:A_WATR,
+        brdfat:A_WHEA,
+        brdfat:A_WOOD,
+        brdfat:A_WOOL,
+        brdfat:A_WOOW ;
+    prov:wasAttributedTo bfoaf:bonsai ;
+    prov:wasGeneratedBy bprov:dataExtractionActivity_0_4 ;
     foaf:homepage brdfat:documentation.html .
 
 brdfat:A_ALUM a bont:ActivityType ;
