@@ -1,13 +1,16 @@
+@prefix bfoaf: <http://rdf.bonsai.uno/foaf#> .
 @prefix bont: <http://ontology.bonsai.uno/core#> .
-@prefix brdflo: <http://rdf.bonsai.uno/location/exiobase3_3_17/> .
+@prefix bprov: <http://rdf.bonsai.uno/prov#> .
+@prefix brdflo: <http://rdf.bonsai.uno/location/exiobase3_3_17#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dtype: <http://purl.org/dc/dcmitype/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix gn: <http://sws.geonames.org/> .
-@prefix ns1: <http://creativecommons.org/ns#> .
-@prefix ns2: <http://purl.org/vocab/vann/> .
+@prefix ns1: <http://purl.org/vocab/vann/> .
+@prefix ns2: <http://creativecommons.org/ns#> .
 @prefix ot: <https://www.w3.org/TR/owl-time/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
@@ -15,162 +18,263 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-brdflo: a dtype:Dataset ;
-    ns1:license <http://creativecommons.org/licenses/by/3.0/> ;
-    dc:contributor "Chris Mutel" ;
-    dc:creator <http://bonsai.uno/foaf/bonsai.rdf#bonsai> ;
+brdflo: a dtype:Dataset,
+        prov:Collection ;
+    ns2:license <http://creativecommons.org/licenses/by/3.0/> ;
+    dc:creator bfoaf:bonsai ;
     dc:description "Country groupings used EXIOBASE 3.3.17" ;
-    dc:modified "2019-10-26"^^xsd:date ;
-    dc:publisher "bonsai.uno" ;
+    dc:modified "2019-12-20"^^xsd:date ;
+    dc:publisher bfoaf:bonsai ;
     dc:title "Custom locations for EXIOBASE 3.3" ;
-    ns2:preferredNamespaceUri <http://rdf.bonsai.uno/location/exiobase3_3_17/#> ;
-    owl:versionInfo "0.3" ;
+    ns1:preferredNamespaceUri brdflo: ;
+    owl:versionInfo "0.4" ;
+    prov:generatedAtTime "2019-12-20"^^xsd:date ;
+    prov:hadMember brdflo:AT,
+        brdflo:AU,
+        brdflo:BE,
+        brdflo:BG,
+        brdflo:BR,
+        brdflo:CA,
+        brdflo:CH,
+        brdflo:CN,
+        brdflo:CY,
+        brdflo:CZ,
+        brdflo:DE,
+        brdflo:DK,
+        brdflo:EE,
+        brdflo:ES,
+        brdflo:FI,
+        brdflo:FR,
+        brdflo:GB,
+        brdflo:GR,
+        brdflo:HR,
+        brdflo:HU,
+        brdflo:ID,
+        brdflo:IE,
+        brdflo:IN,
+        brdflo:IT,
+        brdflo:JP,
+        brdflo:KR,
+        brdflo:LT,
+        brdflo:LU,
+        brdflo:LV,
+        brdflo:MT,
+        brdflo:MX,
+        brdflo:NL,
+        brdflo:NO,
+        brdflo:PL,
+        brdflo:PT,
+        brdflo:RO,
+        brdflo:RU,
+        brdflo:SE,
+        brdflo:SI,
+        brdflo:SK,
+        brdflo:TR,
+        brdflo:TW,
+        brdflo:US,
+        brdflo:WA,
+        brdflo:WE,
+        brdflo:WF,
+        brdflo:WL,
+        brdflo:WM,
+        brdflo:ZA ;
+    prov:wasAttributedTo bfoaf:bonsai ;
+    prov:wasGeneratedBy bprov:dataExtractionActivity_0_4 ;
     foaf:homepage brdflo:documentation.html .
 
-<http://rdf.bonsai.uno/location/exiobase3_3_17/#WA> a schema:Place ;
-    rdfs:label "EXIOBASE region RoW Asia and Pacific" .
+brdflo:AT a schema:Place ;
+    rdfs:label "AT" ;
+    owl:sameAs <http://sws.geonames.org/2782113> .
 
-<http://rdf.bonsai.uno/location/exiobase3_3_17/#WE> a schema:Place ;
-    rdfs:label "EXIOBASE region RoW Europe" .
+brdflo:AU a schema:Place ;
+    rdfs:label "AU" ;
+    owl:sameAs <http://sws.geonames.org/2077456> .
 
-<http://rdf.bonsai.uno/location/exiobase3_3_17/#WF> a schema:Place ;
-    rdfs:label "EXIOBASE region RoW Africa" .
+brdflo:BE a schema:Place ;
+    rdfs:label "BE" ;
+    owl:sameAs <http://sws.geonames.org/2802361> .
 
-<http://rdf.bonsai.uno/location/exiobase3_3_17/#WL> a schema:Place ;
-    rdfs:label "EXIOBASE region RoW America" .
+brdflo:BG a schema:Place ;
+    rdfs:label "BG" ;
+    owl:sameAs <http://sws.geonames.org/732800> .
 
-<http://rdf.bonsai.uno/location/exiobase3_3_17/#WM> a schema:Place ;
-    rdfs:label "EXIOBASE region RoW Middle East" .
+brdflo:BR a schema:Place ;
+    rdfs:label "BR" ;
+    owl:sameAs <http://sws.geonames.org/3469034> .
 
-<http://sws.geonames.org/1269750> a schema:Place ;
-    rdfs:label "IN" .
+brdflo:CA a schema:Place ;
+    rdfs:label "CA" ;
+    owl:sameAs <http://sws.geonames.org/6251999> .
 
-<http://sws.geonames.org/146669> a schema:Place ;
-    rdfs:label "CY" .
+brdflo:CH a schema:Place ;
+    rdfs:label "CH" ;
+    owl:sameAs <http://sws.geonames.org/2658434> .
 
-<http://sws.geonames.org/1643084> a schema:Place ;
-    rdfs:label "ID" .
+brdflo:CN a schema:Place ;
+    rdfs:label "CN" ;
+    owl:sameAs <http://sws.geonames.org/1814991> .
 
-<http://sws.geonames.org/1668284> a schema:Place ;
-    rdfs:label "TW" .
+brdflo:CY a schema:Place ;
+    rdfs:label "CY" ;
+    owl:sameAs <http://sws.geonames.org/146669> .
 
-<http://sws.geonames.org/1814991> a schema:Place ;
-    rdfs:label "CN" .
+brdflo:CZ a schema:Place ;
+    rdfs:label "CZ" ;
+    owl:sameAs <http://sws.geonames.org/3077311> .
 
-<http://sws.geonames.org/1835841> a schema:Place ;
-    rdfs:label "KR" .
+brdflo:DE a schema:Place ;
+    rdfs:label "DE" ;
+    owl:sameAs <http://sws.geonames.org/2921044> .
 
-<http://sws.geonames.org/1861060> a schema:Place ;
-    rdfs:label "JP" .
+brdflo:DK a schema:Place ;
+    rdfs:label "DK" ;
+    owl:sameAs <http://sws.geonames.org/2623032> .
 
-<http://sws.geonames.org/2017370> a schema:Place ;
-    rdfs:label "RU" .
+brdflo:EE a schema:Place ;
+    rdfs:label "EE" ;
+    owl:sameAs <http://sws.geonames.org/453733> .
 
-<http://sws.geonames.org/2077456> a schema:Place ;
-    rdfs:label "AU" .
+brdflo:ES a schema:Place ;
+    rdfs:label "ES" ;
+    owl:sameAs <http://sws.geonames.org/2510769> .
 
-<http://sws.geonames.org/2264397> a schema:Place ;
-    rdfs:label "PT" .
+brdflo:FI a schema:Place ;
+    rdfs:label "FI" ;
+    owl:sameAs <http://sws.geonames.org/660013> .
 
-<http://sws.geonames.org/2510769> a schema:Place ;
-    rdfs:label "ES" .
+brdflo:FR a schema:Place ;
+    rdfs:label "FR" ;
+    owl:sameAs <http://sws.geonames.org/3017382> .
 
-<http://sws.geonames.org/2562770> a schema:Place ;
-    rdfs:label "MT" .
+brdflo:GB a schema:Place ;
+    rdfs:label "GB" ;
+    owl:sameAs <http://sws.geonames.org/2635167> .
 
-<http://sws.geonames.org/2623032> a schema:Place ;
-    rdfs:label "DK" .
+brdflo:GR a schema:Place ;
+    rdfs:label "GR" ;
+    owl:sameAs <http://sws.geonames.org/390903> .
 
-<http://sws.geonames.org/2635167> a schema:Place ;
-    rdfs:label "GB" .
+brdflo:HR a schema:Place ;
+    rdfs:label "HR" ;
+    owl:sameAs <http://sws.geonames.org/3202326> .
 
-<http://sws.geonames.org/2658434> a schema:Place ;
-    rdfs:label "CH" .
+brdflo:HU a schema:Place ;
+    rdfs:label "HU" ;
+    owl:sameAs <http://sws.geonames.org/719819> .
 
-<http://sws.geonames.org/2661886> a schema:Place ;
-    rdfs:label "SE" .
+brdflo:ID a schema:Place ;
+    rdfs:label "ID" ;
+    owl:sameAs <http://sws.geonames.org/1643084> .
 
-<http://sws.geonames.org/2750405> a schema:Place ;
-    rdfs:label "NL" .
+brdflo:IE a schema:Place ;
+    rdfs:label "IE" ;
+    owl:sameAs <http://sws.geonames.org/2963597> .
 
-<http://sws.geonames.org/2782113> a schema:Place ;
-    rdfs:label "AT" .
+brdflo:IN a schema:Place ;
+    rdfs:label "IN" ;
+    owl:sameAs <http://sws.geonames.org/1269750> .
 
-<http://sws.geonames.org/2802361> a schema:Place ;
-    rdfs:label "BE" .
+brdflo:IT a schema:Place ;
+    rdfs:label "IT" ;
+    owl:sameAs <http://sws.geonames.org/3175395> .
 
-<http://sws.geonames.org/2921044> a schema:Place ;
-    rdfs:label "DE" .
+brdflo:JP a schema:Place ;
+    rdfs:label "JP" ;
+    owl:sameAs <http://sws.geonames.org/1861060> .
 
-<http://sws.geonames.org/2960313> a schema:Place ;
-    rdfs:label "LU" .
+brdflo:KR a schema:Place ;
+    rdfs:label "KR" ;
+    owl:sameAs <http://sws.geonames.org/1835841> .
 
-<http://sws.geonames.org/2963597> a schema:Place ;
-    rdfs:label "IE" .
+brdflo:LT a schema:Place ;
+    rdfs:label "LT" ;
+    owl:sameAs <http://sws.geonames.org/597427> .
 
-<http://sws.geonames.org/298795> a schema:Place ;
-    rdfs:label "TR" .
+brdflo:LU a schema:Place ;
+    rdfs:label "LU" ;
+    owl:sameAs <http://sws.geonames.org/2960313> .
 
-<http://sws.geonames.org/3017382> a schema:Place ;
-    rdfs:label "FR" .
+brdflo:LV a schema:Place ;
+    rdfs:label "LV" ;
+    owl:sameAs <http://sws.geonames.org/458258> .
 
-<http://sws.geonames.org/3057568> a schema:Place ;
-    rdfs:label "SK" .
+brdflo:MT a schema:Place ;
+    rdfs:label "MT" ;
+    owl:sameAs <http://sws.geonames.org/2562770> .
 
-<http://sws.geonames.org/3077311> a schema:Place ;
-    rdfs:label "CZ" .
+brdflo:MX a schema:Place ;
+    rdfs:label "MX" ;
+    owl:sameAs <http://sws.geonames.org/3996063> .
 
-<http://sws.geonames.org/3144096> a schema:Place ;
-    rdfs:label "NO" .
+brdflo:NL a schema:Place ;
+    rdfs:label "NL" ;
+    owl:sameAs <http://sws.geonames.org/2750405> .
 
-<http://sws.geonames.org/3175395> a schema:Place ;
-    rdfs:label "IT" .
+brdflo:NO a schema:Place ;
+    rdfs:label "NO" ;
+    owl:sameAs <http://sws.geonames.org/3144096> .
 
-<http://sws.geonames.org/3190538> a schema:Place ;
-    rdfs:label "SI" .
+brdflo:PL a schema:Place ;
+    rdfs:label "PL" ;
+    owl:sameAs <http://sws.geonames.org/798544> .
 
-<http://sws.geonames.org/3202326> a schema:Place ;
-    rdfs:label "HR" .
+brdflo:PT a schema:Place ;
+    rdfs:label "PT" ;
+    owl:sameAs <http://sws.geonames.org/2264397> .
 
-<http://sws.geonames.org/3469034> a schema:Place ;
-    rdfs:label "BR" .
+brdflo:RO a schema:Place ;
+    rdfs:label "RO" ;
+    owl:sameAs <http://sws.geonames.org/798549> .
 
-<http://sws.geonames.org/390903> a schema:Place ;
-    rdfs:label "GR" .
+brdflo:RU a schema:Place ;
+    rdfs:label "RU" ;
+    owl:sameAs <http://sws.geonames.org/2017370> .
 
-<http://sws.geonames.org/3996063> a schema:Place ;
-    rdfs:label "MX" .
+brdflo:SE a schema:Place ;
+    rdfs:label "SE" ;
+    owl:sameAs <http://sws.geonames.org/2661886> .
 
-<http://sws.geonames.org/453733> a schema:Place ;
-    rdfs:label "EE" .
+brdflo:SI a schema:Place ;
+    rdfs:label "SI" ;
+    owl:sameAs <http://sws.geonames.org/3190538> .
 
-<http://sws.geonames.org/458258> a schema:Place ;
-    rdfs:label "LV" .
+brdflo:SK a schema:Place ;
+    rdfs:label "SK" ;
+    owl:sameAs <http://sws.geonames.org/3057568> .
 
-<http://sws.geonames.org/597427> a schema:Place ;
-    rdfs:label "LT" .
+brdflo:TR a schema:Place ;
+    rdfs:label "TR" ;
+    owl:sameAs <http://sws.geonames.org/298795> .
 
-<http://sws.geonames.org/6251999> a schema:Place ;
-    rdfs:label "CA" .
+brdflo:TW a schema:Place ;
+    rdfs:label "TW" ;
+    owl:sameAs <http://sws.geonames.org/1668284> .
 
-<http://sws.geonames.org/6252001> a schema:Place ;
-    rdfs:label "US" .
+brdflo:US a schema:Place ;
+    rdfs:label "US" ;
+    owl:sameAs <http://sws.geonames.org/6252001> .
 
-<http://sws.geonames.org/660013> a schema:Place ;
-    rdfs:label "FI" .
+brdflo:WA a schema:Place ;
+    rdfs:label "EXIOBASE region RoW Asia and Pacific" ;
+    owl:sameAs <http://rdf.bonsai.uno/location/exiobase3_3_17/WA> .
 
-<http://sws.geonames.org/719819> a schema:Place ;
-    rdfs:label "HU" .
+brdflo:WE a schema:Place ;
+    rdfs:label "EXIOBASE region RoW Europe" ;
+    owl:sameAs <http://rdf.bonsai.uno/location/exiobase3_3_17/WE> .
 
-<http://sws.geonames.org/732800> a schema:Place ;
-    rdfs:label "BG" .
+brdflo:WF a schema:Place ;
+    rdfs:label "EXIOBASE region RoW Africa" ;
+    owl:sameAs <http://rdf.bonsai.uno/location/exiobase3_3_17/WF> .
 
-<http://sws.geonames.org/798544> a schema:Place ;
-    rdfs:label "PL" .
+brdflo:WL a schema:Place ;
+    rdfs:label "EXIOBASE region RoW America" ;
+    owl:sameAs <http://rdf.bonsai.uno/location/exiobase3_3_17/WL> .
 
-<http://sws.geonames.org/798549> a schema:Place ;
-    rdfs:label "RO" .
+brdflo:WM a schema:Place ;
+    rdfs:label "EXIOBASE region RoW Middle East" ;
+    owl:sameAs <http://rdf.bonsai.uno/location/exiobase3_3_17/WM> .
 
-<http://sws.geonames.org/953987> a schema:Place ;
-    rdfs:label "ZA" .
+brdflo:ZA a schema:Place ;
+    rdfs:label "ZA" ;
+    owl:sameAs <http://sws.geonames.org/953987> .
 
