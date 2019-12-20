@@ -16,7 +16,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-brdffo: a dtype:Dataset,
+<http://rdf.bonsai.uno/flowobject/lcia/climate_change> a dtype:Dataset,
         prov:Collection ;
     ns1:license <http://creativecommons.org/licenses/by/3.0/> ;
     dc:creator bfoaf:bonsai ;
@@ -31,7 +31,7 @@ brdffo: a dtype:Dataset,
         brdffo:temperature_increase_100yr_horizon ;
     prov:wasAttributedTo bfoaf:bonsai ;
     prov:wasGeneratedBy bprov:dataExtractionActivity_0_4 ;
-    foaf:homepage brdffo:documentation.html .
+    foaf:homepage <http://rdf.bonsai.uno/flowobject/lcia/climate_changedocumentation.html> .
 
 brdffo:radiative_forcing a bont:FlowObject ;
     rdfs:label "Radiative forcing" .

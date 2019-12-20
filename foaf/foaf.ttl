@@ -1,4 +1,4 @@
-@prefix bfoaf: <http://bonsai.uno/foaf#> .
+@prefix bfoaf: <http://rdf.bonsai.uno/foaf#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dtype: <http://purl.org/dc/dcmitype/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
@@ -12,12 +12,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-bfoaf:exiobase_consortium a prov:Agent,
-        org:Organization ;
-    dc:description "The EXIOBASE consortium consists of NTNU, TNO, SERI, Universiteit Leiden, WU, and 2.-0 LCA Consultant" ;
-    foaf:homepage <https://www.exiobase.eu/> .
-
-bfoaf: a dtype:Dataset ;
+<http://rdf.bonsai.uno/foaf> a dtype:Dataset ;
     dc:contributor "BONSAI team" ;
     dc:creator bfoaf:bonsai ;
     dc:description "Instances of Organizations" ;
@@ -27,6 +22,11 @@ bfoaf: a dtype:Dataset ;
     dc:title "Organizations" ;
     vann:preferredNamespaceUri bfoaf: ;
     owl:versionInfo "0.4" .
+
+bfoaf:exiobase_consortium a prov:Agent,
+        org:Organization ;
+    dc:description "The EXIOBASE consortium consists of NTNU, TNO, SERI, Universiteit Leiden, WU, and 2.-0 LCA Consultant" ;
+    foaf:homepage <https://www.exiobase.eu/> .
 
 bfoaf:bonsai a prov:Agent,
         org:Organization ;

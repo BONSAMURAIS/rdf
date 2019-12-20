@@ -16,7 +16,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-brdfat: a dtype:Dataset,
+<http://rdf.bonsai.uno/activitytype/entsoe> a dtype:Dataset,
         prov:Collection ;
     ns1:license <http://creativecommons.org/licenses/by/3.0/> ;
     dc:creator bfoaf:bonsai ;
@@ -49,7 +49,7 @@ brdfat: a dtype:Dataset,
         brdfat:won ;
     prov:wasAttributedTo bfoaf:bonsai ;
     prov:wasGeneratedBy bprov:dataExtractionActivity_0_4 ;
-    foaf:homepage brdfat:documentation.html .
+    foaf:homepage <http://rdf.bonsai.uno/activitytype/entsoedocumentation.html> .
 
 brdfat:bio a bont:ActivityType ;
     rdfs:label "Biomass" .

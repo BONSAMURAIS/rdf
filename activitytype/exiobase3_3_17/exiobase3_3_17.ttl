@@ -5,8 +5,8 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dtype: <http://purl.org/dc/dcmitype/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ns1: <http://creativecommons.org/ns#> .
-@prefix ns2: <http://purl.org/vocab/vann/> .
+@prefix ns1: <http://purl.org/vocab/vann/> .
+@prefix ns2: <http://creativecommons.org/ns#> .
 @prefix ot: <https://www.w3.org/TR/owl-time/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -16,15 +16,15 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-brdfat: a dtype:Dataset,
+<http://rdf.bonsai.uno/activitytype/exiobase3_3_17> a dtype:Dataset,
         prov:Collection ;
-    ns1:license <http://creativecommons.org/licenses/by/3.0/> ;
+    ns2:license <http://creativecommons.org/licenses/by/3.0/> ;
     dc:creator bfoaf:bonsai ;
     dc:description "ActivityType instances needed for BONSAI modelling of EXIOBASE version 3.3.17" ;
     dc:modified "2019-12-20"^^xsd:date ;
     dc:publisher bfoaf:bonsai ;
     dc:title "EXIOBASE 3.3.17 activity types" ;
-    ns2:preferredNamespaceUri brdfat: ;
+    ns1:preferredNamespaceUri brdfat: ;
     owl:versionInfo "0.4" ;
     prov:generatedAtTime "2019-12-20"^^xsd:date ;
     prov:hadMember brdfat:A_ALUM,
@@ -193,7 +193,7 @@ brdfat: a dtype:Dataset,
         brdfat:A_WOOW ;
     prov:wasAttributedTo bfoaf:bonsai ;
     prov:wasGeneratedBy bprov:dataExtractionActivity_0_4 ;
-    foaf:homepage brdfat:documentation.html .
+    foaf:homepage <http://rdf.bonsai.uno/activitytype/exiobase3_3_17documentation.html> .
 
 brdfat:A_ALUM a bont:ActivityType ;
     rdfs:label "Aluminium production" .

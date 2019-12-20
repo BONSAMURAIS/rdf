@@ -13,15 +13,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-bprov:dataExtractionActivity_0_4 a prov:Activity ;
-    rdfs:label "Activity to create instances of flowObjects, activityTypes and Locations" ;
-    owl:versionInfo "0.4" ;
-    prov:hadPlan bprov:extractionScript ;
-    prov:used <http://ontology.bonsai.uno/core>,
-        bprov:exiobaseDataset_3.3.17 ;
-    prov:wasAssociatedWith bfoaf:bonsai .
-
-bprov: a dtype:Dataset ;
+<http://rdf.bonsai.uno/prov> a dtype:Dataset ;
     dc:contributor "BONSAI team" ;
     dc:creator bfoaf:bonsai ;
     dc:description "Provenance information about datasets and data extraction activities" ;
@@ -31,6 +23,14 @@ bprov: a dtype:Dataset ;
     dc:title "Provenance information" ;
     vann:preferredNamespaceUri bprov: ;
     owl:versionInfo "0.4" .
+
+bprov:dataExtractionActivity_0_4 a prov:Activity ;
+    rdfs:label "Activity to create instances of flowObjects, activityTypes and Locations" ;
+    owl:versionInfo "0.4" ;
+    prov:hadPlan bprov:extractionScript ;
+    prov:used <http://ontology.bonsai.uno/core>,
+        bprov:exiobaseDataset_3.3.17 ;
+    prov:wasAssociatedWith bfoaf:bonsai .
 
 bprov:exiobaseDataset_3.3.17 a dtype:Dataset,
         prov:Entity ;
