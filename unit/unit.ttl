@@ -1,5 +1,4 @@
 @prefix bfoaf: <http://rdf.bonsai.uno/foaf#> .
-@prefix bont: <http://ontology.bonsai.uno/core#> .
 @prefix bprov: <http://rdf.bonsai.uno/prov#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dtype: <http://purl.org/dc/dcmitype/> .
@@ -7,13 +6,9 @@
 @prefix ns1: <http://creativecommons.org/ns#> .
 @prefix ns2: <http://purl.org/vocab/vann/> .
 @prefix om2: <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
-@prefix ot: <https://www.w3.org/TR/owl-time/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://rdf.bonsai.uno/unit> a dtype:Dataset,
@@ -21,14 +16,25 @@
     ns1:license <http://creativecommons.org/licenses/by/3.0/> ;
     dc:creator bfoaf:bonsai ;
     dc:description "Units from ontology-of-units-of-measure used in BONSAI" ;
-    dc:modified "2019-12-20"^^xsd:date ;
+    dc:modified "2020-06-17"^^xsd:date ;
     dc:publisher bfoaf:bonsai ;
     dc:title "Unit definitions used in BONSAI" ;
     ns2:preferredNamespaceUri <http://rdf.bonsai.uno/unit#> ;
-    owl:versionInfo "0.4" ;
-    prov:generatedAtTime "2019-12-20"^^xsd:date ;
+    owl:versionInfo "0.5" ;
+    prov:generatedAtTime "2020-06-17"^^xsd:date ;
+    prov:hadMember om2:cubicMetre,
+        om2:cubicZettametre,
+        om2:euro,
+        om2:gigabecquerel,
+        om2:gigagram,
+        om2:hectare,
+        om2:kilogram,
+        om2:megagram,
+        om2:megajoule,
+        om2:teragram,
+        om2:tonne ;
     prov:wasAttributedTo bfoaf:bonsai ;
-    prov:wasGeneratedBy bprov:dataExtractionActivity_0_4 ;
+    prov:wasGeneratedBy bprov:dataExtractionActivity_0_5 ;
     foaf:homepage <http://rdf.bonsai.uno/unitdocumentation.html> .
 
 om2:cubicMetre a om2:UnitExponentiation ;
@@ -40,14 +46,26 @@ om2:cubicZettametre a om2:CubicPrefixedMetre ;
 om2:euro a om2:Unit ;
     rdfs:label "euro" .
 
+om2:gigabecquerel a om2:PrefixedUnit ;
+    rdfs:label "gigabecquerel" .
+
+om2:gigagram a om2:PrefixedUnit ;
+    rdfs:label "gigagram" .
+
 om2:hectare a om2:PrefixedUnit ;
     rdfs:label "hectare" .
 
 om2:kilogram a om2:PrefixedUnit ;
     rdfs:label "kilogram" .
 
+om2:megagram a om2:PrefixedUnit ;
+    rdfs:label "megagram" .
+
 om2:megajoule a om2:PrefixedUnit ;
     rdfs:label "megajoule" .
+
+om2:teragram a om2:PrefixedUnit ;
+    rdfs:label "teragram" .
 
 om2:tonne a om2:SingularUnit ;
     rdfs:label "tonne" .

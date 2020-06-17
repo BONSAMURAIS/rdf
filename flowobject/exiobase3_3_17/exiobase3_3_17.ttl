@@ -7,13 +7,9 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix ns1: <http://purl.org/vocab/vann/> .
 @prefix ns2: <http://creativecommons.org/ns#> .
-@prefix ot: <https://www.w3.org/TR/owl-time/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://rdf.bonsai.uno/flowobject/exiobase3_3_17> a dtype:Dataset,
@@ -21,12 +17,12 @@
     ns2:license <http://creativecommons.org/licenses/by/3.0/> ;
     dc:creator bfoaf:bonsai ;
     dc:description "FlowObject instances needed for BONSAI modelling of EXIOBASE version 3.3.17" ;
-    dc:modified "2019-12-20"^^xsd:date ;
+    dc:modified "2020-06-17"^^xsd:date ;
     dc:publisher bfoaf:bonsai ;
     dc:title "EXIOBASE 3.3.17 flow objects" ;
     ns1:preferredNamespaceUri brdffo: ;
-    owl:versionInfo "0.4" ;
-    prov:generatedAtTime "2019-12-20"^^xsd:date ;
+    owl:versionInfo "0.5" ;
+    prov:generatedAtTime "2020-06-17"^^xsd:date ;
     prov:hadMember brdffo:C_ADDC,
         brdffo:C_AGSL,
         brdffo:C_ALUM,
@@ -228,7 +224,7 @@
         brdffo:C_WOOL,
         brdffo:C_WOOW ;
     prov:wasAttributedTo bfoaf:bonsai ;
-    prov:wasGeneratedBy bprov:dataExtractionActivity_0_4 ;
+    prov:wasGeneratedBy bprov:dataExtractionActivity_0_5 ;
     foaf:homepage <http://rdf.bonsai.uno/flowobject/exiobase3_3_17documentation.html> .
 
 brdffo:C_ADDC a bont:FlowObject ;

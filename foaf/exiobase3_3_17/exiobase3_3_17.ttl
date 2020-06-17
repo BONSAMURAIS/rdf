@@ -5,11 +5,8 @@
 @prefix org: <https://www.w3.org/TR/vocab-org/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://rdf.bonsai.uno/foaf> a dtype:Dataset ;
@@ -17,11 +14,11 @@
     dc:creator bfoaf:bonsai ;
     dc:description "Instances of Organizations" ;
     dc:license <https://creativecommons.org/licenses/by/3.0/> ;
-    dc:modified "2019-12-20"^^xsd:date ;
+    dc:modified "2020-06-17"^^xsd:date ;
     dc:publisher "bonsai.uno" ;
     dc:title "Organizations" ;
     vann:preferredNamespaceUri bfoaf: ;
-    owl:versionInfo "0.4" .
+    owl:versionInfo "0.5" .
 
 bfoaf:exiobase_consortium a prov:Agent,
         org:Organization ;
