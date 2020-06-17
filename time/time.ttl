@@ -1,200 +1,4917 @@
 @prefix bfoaf: <http://rdf.bonsai.uno/foaf#> .
-@prefix bont: <http://ontology.bonsai.uno/core#> .
 @prefix bprov: <http://rdf.bonsai.uno/prov#> .
 @prefix brdftime: <http://rdf.bonsai.uno/time#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dtype: <http://purl.org/dc/dcmitype/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ns1: <http://purl.org/vocab/vann/> .
-@prefix ns2: <http://creativecommons.org/ns#> .
+@prefix ns1: <http://creativecommons.org/ns#> .
+@prefix ns2: <http://purl.org/vocab/vann/> .
 @prefix ot: <https://www.w3.org/TR/owl-time/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://rdf.bonsai.uno/time> a dtype:Dataset,
         prov:Collection ;
-    ns2:license <http://creativecommons.org/licenses/by/3.0/> ;
+    ns1:license <http://creativecommons.org/licenses/by/3.0/> ;
     dc:creator bfoaf:bonsai ;
     dc:description "Complete years 2010 - 2020 for use in BONSAI" ;
-    dc:modified "2019-12-20"^^xsd:date ;
+    dc:modified "2020-06-17"^^xsd:date ;
     dc:publisher bfoaf:bonsai ;
     dc:title "Years 2010 - 2020" ;
-    ns1:preferredNamespaceUri brdftime: ;
-    owl:versionInfo "0.4" ;
-    prov:generatedAtTime "2019-12-20"^^xsd:date ;
+    ns2:preferredNamespaceUri brdftime: ;
+    owl:versionInfo "0.5" ;
+    prov:generatedAtTime "2020-06-17"^^xsd:date ;
+    prov:hadMember brdftime:1800,
+        brdftime:1801,
+        brdftime:1802,
+        brdftime:1803,
+        brdftime:1804,
+        brdftime:1805,
+        brdftime:1806,
+        brdftime:1807,
+        brdftime:1808,
+        brdftime:1809,
+        brdftime:1810,
+        brdftime:1811,
+        brdftime:1812,
+        brdftime:1813,
+        brdftime:1814,
+        brdftime:1815,
+        brdftime:1816,
+        brdftime:1817,
+        brdftime:1818,
+        brdftime:1819,
+        brdftime:1820,
+        brdftime:1821,
+        brdftime:1822,
+        brdftime:1823,
+        brdftime:1824,
+        brdftime:1825,
+        brdftime:1826,
+        brdftime:1827,
+        brdftime:1828,
+        brdftime:1829,
+        brdftime:1830,
+        brdftime:1831,
+        brdftime:1832,
+        brdftime:1833,
+        brdftime:1834,
+        brdftime:1835,
+        brdftime:1836,
+        brdftime:1837,
+        brdftime:1838,
+        brdftime:1839,
+        brdftime:1840,
+        brdftime:1841,
+        brdftime:1842,
+        brdftime:1843,
+        brdftime:1844,
+        brdftime:1845,
+        brdftime:1846,
+        brdftime:1847,
+        brdftime:1848,
+        brdftime:1849,
+        brdftime:1850,
+        brdftime:1851,
+        brdftime:1852,
+        brdftime:1853,
+        brdftime:1854,
+        brdftime:1855,
+        brdftime:1856,
+        brdftime:1857,
+        brdftime:1858,
+        brdftime:1859,
+        brdftime:1860,
+        brdftime:1861,
+        brdftime:1862,
+        brdftime:1863,
+        brdftime:1864,
+        brdftime:1865,
+        brdftime:1866,
+        brdftime:1867,
+        brdftime:1868,
+        brdftime:1869,
+        brdftime:1870,
+        brdftime:1871,
+        brdftime:1872,
+        brdftime:1873,
+        brdftime:1874,
+        brdftime:1875,
+        brdftime:1876,
+        brdftime:1877,
+        brdftime:1878,
+        brdftime:1879,
+        brdftime:1880,
+        brdftime:1881,
+        brdftime:1882,
+        brdftime:1883,
+        brdftime:1884,
+        brdftime:1885,
+        brdftime:1886,
+        brdftime:1887,
+        brdftime:1888,
+        brdftime:1889,
+        brdftime:1890,
+        brdftime:1891,
+        brdftime:1892,
+        brdftime:1893,
+        brdftime:1894,
+        brdftime:1895,
+        brdftime:1896,
+        brdftime:1897,
+        brdftime:1898,
+        brdftime:1899,
+        brdftime:1900,
+        brdftime:1901,
+        brdftime:1902,
+        brdftime:1903,
+        brdftime:1904,
+        brdftime:1905,
+        brdftime:1906,
+        brdftime:1907,
+        brdftime:1908,
+        brdftime:1909,
+        brdftime:1910,
+        brdftime:1911,
+        brdftime:1912,
+        brdftime:1913,
+        brdftime:1914,
+        brdftime:1915,
+        brdftime:1916,
+        brdftime:1917,
+        brdftime:1918,
+        brdftime:1919,
+        brdftime:1920,
+        brdftime:1921,
+        brdftime:1922,
+        brdftime:1923,
+        brdftime:1924,
+        brdftime:1925,
+        brdftime:1926,
+        brdftime:1927,
+        brdftime:1928,
+        brdftime:1929,
+        brdftime:1930,
+        brdftime:1931,
+        brdftime:1932,
+        brdftime:1933,
+        brdftime:1934,
+        brdftime:1935,
+        brdftime:1936,
+        brdftime:1937,
+        brdftime:1938,
+        brdftime:1939,
+        brdftime:1940,
+        brdftime:1941,
+        brdftime:1942,
+        brdftime:1943,
+        brdftime:1944,
+        brdftime:1945,
+        brdftime:1946,
+        brdftime:1947,
+        brdftime:1948,
+        brdftime:1949,
+        brdftime:1950,
+        brdftime:1951,
+        brdftime:1952,
+        brdftime:1953,
+        brdftime:1954,
+        brdftime:1955,
+        brdftime:1956,
+        brdftime:1957,
+        brdftime:1958,
+        brdftime:1959,
+        brdftime:1960,
+        brdftime:1961,
+        brdftime:1962,
+        brdftime:1963,
+        brdftime:1964,
+        brdftime:1965,
+        brdftime:1966,
+        brdftime:1967,
+        brdftime:1968,
+        brdftime:1969,
+        brdftime:1970,
+        brdftime:1971,
+        brdftime:1972,
+        brdftime:1973,
+        brdftime:1974,
+        brdftime:1975,
+        brdftime:1976,
+        brdftime:1977,
+        brdftime:1978,
+        brdftime:1979,
+        brdftime:1980,
+        brdftime:1981,
+        brdftime:1982,
+        brdftime:1983,
+        brdftime:1984,
+        brdftime:1985,
+        brdftime:1986,
+        brdftime:1987,
+        brdftime:1988,
+        brdftime:1989,
+        brdftime:1990,
+        brdftime:1991,
+        brdftime:1992,
+        brdftime:1993,
+        brdftime:1994,
+        brdftime:1995,
+        brdftime:1996,
+        brdftime:1997,
+        brdftime:1998,
+        brdftime:1999,
+        brdftime:2000,
+        brdftime:2001,
+        brdftime:2002,
+        brdftime:2003,
+        brdftime:2004,
+        brdftime:2005,
+        brdftime:2006,
+        brdftime:2007,
+        brdftime:2008,
+        brdftime:2009,
+        brdftime:2010,
+        brdftime:2011,
+        brdftime:2012,
+        brdftime:2013,
+        brdftime:2014,
+        brdftime:2015,
+        brdftime:2016,
+        brdftime:2017,
+        brdftime:2018,
+        brdftime:2019,
+        brdftime:2020,
+        brdftime:2021,
+        brdftime:2022,
+        brdftime:2023,
+        brdftime:2024,
+        brdftime:2025,
+        brdftime:2026,
+        brdftime:2027,
+        brdftime:2028,
+        brdftime:2029,
+        brdftime:2030,
+        brdftime:2031,
+        brdftime:2032,
+        brdftime:2033,
+        brdftime:2034,
+        brdftime:2035,
+        brdftime:2036,
+        brdftime:2037,
+        brdftime:2038,
+        brdftime:2039,
+        brdftime:2040,
+        brdftime:2041,
+        brdftime:2042,
+        brdftime:2043,
+        brdftime:2044,
+        brdftime:2045,
+        brdftime:2046,
+        brdftime:2047,
+        brdftime:2048,
+        brdftime:2049,
+        brdftime:2050,
+        brdftime:2051,
+        brdftime:2052,
+        brdftime:2053,
+        brdftime:2054,
+        brdftime:2055,
+        brdftime:2056,
+        brdftime:2057,
+        brdftime:2058,
+        brdftime:2059,
+        brdftime:2060,
+        brdftime:2061,
+        brdftime:2062,
+        brdftime:2063,
+        brdftime:2064,
+        brdftime:2065,
+        brdftime:2066,
+        brdftime:2067,
+        brdftime:2068,
+        brdftime:2069,
+        brdftime:2070,
+        brdftime:2071,
+        brdftime:2072,
+        brdftime:2073,
+        brdftime:2074,
+        brdftime:2075,
+        brdftime:2076,
+        brdftime:2077,
+        brdftime:2078,
+        brdftime:2079,
+        brdftime:2080,
+        brdftime:2081,
+        brdftime:2082,
+        brdftime:2083,
+        brdftime:2084,
+        brdftime:2085,
+        brdftime:2086,
+        brdftime:2087,
+        brdftime:2088,
+        brdftime:2089,
+        brdftime:2090,
+        brdftime:2091,
+        brdftime:2092,
+        brdftime:2093,
+        brdftime:2094,
+        brdftime:2095,
+        brdftime:2096,
+        brdftime:2097,
+        brdftime:2098,
+        brdftime:2099,
+        brdftime:2100 ;
     prov:wasAttributedTo bfoaf:bonsai ;
-    prov:wasGeneratedBy bprov:dataExtractionActivity_0_4 ;
+    prov:wasGeneratedBy bprov:dataExtractionActivity_0_5 ;
     foaf:homepage <http://rdf.bonsai.uno/timedocumentation.html> .
 
-<http://rdf.bonsai.uno/time#2010> a ot:ProperInterval ;
+brdftime:1845_1899 a ot:ProperInterval ;
+    rdfs:label "1845-1899" ;
+    ot:hasBeginning brdftime:1845start ;
+    ot:hasEnd brdftime:1899end .
+
+brdftime:1900_1909 a ot:ProperInterval ;
+    rdfs:label "1900-1909" ;
+    ot:hasBeginning brdftime:1900start ;
+    ot:hasEnd brdftime:1909end .
+
+brdftime:1910_1919 a ot:ProperInterval ;
+    rdfs:label "1910-1919" ;
+    ot:hasBeginning brdftime:1910start ;
+    ot:hasEnd brdftime:1919end .
+
+brdftime:1920_1929 a ot:ProperInterval ;
+    rdfs:label "1920-1929" ;
+    ot:hasBeginning brdftime:1920start ;
+    ot:hasEnd brdftime:1929end .
+
+brdftime:1930_1939 a ot:ProperInterval ;
+    rdfs:label "1930-1939" ;
+    ot:hasBeginning brdftime:1930start ;
+    ot:hasEnd brdftime:1939end .
+
+brdftime:1940_1949 a ot:ProperInterval ;
+    rdfs:label "1940-1949" ;
+    ot:hasBeginning brdftime:1940start ;
+    ot:hasEnd brdftime:1949end .
+
+brdftime:1950_1959 a ot:ProperInterval ;
+    rdfs:label "1950-1959" ;
+    ot:hasBeginning brdftime:1950start ;
+    ot:hasEnd brdftime:1959end .
+
+brdftime:1960_1969 a ot:ProperInterval ;
+    rdfs:label "1960-1969" ;
+    ot:hasBeginning brdftime:1960start ;
+    ot:hasEnd brdftime:1969end .
+
+brdftime:1970_1979 a ot:ProperInterval ;
+    rdfs:label "1970-1979" ;
+    ot:hasBeginning brdftime:1970start ;
+    ot:hasEnd brdftime:1979end .
+
+brdftime:1980_1989 a ot:ProperInterval ;
+    rdfs:label "1980-1989" ;
+    ot:hasBeginning brdftime:1980start ;
+    ot:hasEnd brdftime:1989end .
+
+brdftime:1990_1999 a ot:ProperInterval ;
+    rdfs:label "1990-1999" ;
+    ot:hasBeginning brdftime:1990start ;
+    ot:hasEnd brdftime:1999end .
+
+brdftime:1995_2007 a ot:ProperInterval ;
+    rdfs:label "1995-2007" ;
+    ot:hasBeginning brdftime:1995start ;
+    ot:hasEnd brdftime:2007end .
+
+brdftime:2000_2005 a ot:ProperInterval ;
+    rdfs:label "2000-2005" ;
+    ot:hasBeginning brdftime:2000start ;
+    ot:hasEnd brdftime:2005end .
+
+brdftime:2000_2012 a ot:ProperInterval ;
+    rdfs:label "2000-2012" ;
+    ot:hasBeginning brdftime:2000start ;
+    ot:hasEnd brdftime:2012end .
+
+brdftime:1800 a ot:ProperInterval ;
+    rdfs:label 1800 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1800>,
+        <http://www.wikidata.org/entity/Q6875> ;
+    ot:hasBeginning brdftime:1800start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1800end ;
+    ot:inXSDDate "1800-01-01"^^xsd:date .
+
+brdftime:1800end a ot:Instant ;
+    ot:inXSDDate "1800-12-31"^^xsd:date .
+
+brdftime:1800start a ot:Instant ;
+    ot:inXSDDate "1800-01-01"^^xsd:date .
+
+brdftime:1801 a ot:ProperInterval ;
+    rdfs:label 1801 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1801>,
+        <http://www.wikidata.org/entity/Q6877> ;
+    ot:hasBeginning brdftime:1801start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1801end ;
+    ot:inXSDDate "1801-01-01"^^xsd:date .
+
+brdftime:1801end a ot:Instant ;
+    ot:inXSDDate "1801-12-31"^^xsd:date .
+
+brdftime:1801start a ot:Instant ;
+    ot:inXSDDate "1801-01-01"^^xsd:date .
+
+brdftime:1802 a ot:ProperInterval ;
+    rdfs:label 1802 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1802>,
+        <http://www.wikidata.org/entity/Q6883> ;
+    ot:hasBeginning brdftime:1802start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1802end ;
+    ot:inXSDDate "1802-01-01"^^xsd:date .
+
+brdftime:1802end a ot:Instant ;
+    ot:inXSDDate "1802-12-31"^^xsd:date .
+
+brdftime:1802start a ot:Instant ;
+    ot:inXSDDate "1802-01-01"^^xsd:date .
+
+brdftime:1803 a ot:ProperInterval ;
+    rdfs:label 1803 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1803>,
+        <http://www.wikidata.org/entity/Q6887> ;
+    ot:hasBeginning brdftime:1803start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1803end ;
+    ot:inXSDDate "1803-01-01"^^xsd:date .
+
+brdftime:1803end a ot:Instant ;
+    ot:inXSDDate "1803-12-31"^^xsd:date .
+
+brdftime:1803start a ot:Instant ;
+    ot:inXSDDate "1803-01-01"^^xsd:date .
+
+brdftime:1804 a ot:ProperInterval ;
+    rdfs:label 1804 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1804>,
+        <http://www.wikidata.org/entity/Q6894> ;
+    ot:hasBeginning brdftime:1804start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1804end ;
+    ot:inXSDDate "1804-01-01"^^xsd:date .
+
+brdftime:1804end a ot:Instant ;
+    ot:inXSDDate "1804-12-31"^^xsd:date .
+
+brdftime:1804start a ot:Instant ;
+    ot:inXSDDate "1804-01-01"^^xsd:date .
+
+brdftime:1805 a ot:ProperInterval ;
+    rdfs:label 1805 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1805>,
+        <http://www.wikidata.org/entity/Q6898> ;
+    ot:hasBeginning brdftime:1805start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1805end ;
+    ot:inXSDDate "1805-01-01"^^xsd:date .
+
+brdftime:1805end a ot:Instant ;
+    ot:inXSDDate "1805-12-31"^^xsd:date .
+
+brdftime:1805start a ot:Instant ;
+    ot:inXSDDate "1805-01-01"^^xsd:date .
+
+brdftime:1806 a ot:ProperInterval ;
+    rdfs:label 1806 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1806>,
+        <http://www.wikidata.org/entity/Q6903> ;
+    ot:hasBeginning brdftime:1806start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1806end ;
+    ot:inXSDDate "1806-01-01"^^xsd:date .
+
+brdftime:1806end a ot:Instant ;
+    ot:inXSDDate "1806-12-31"^^xsd:date .
+
+brdftime:1806start a ot:Instant ;
+    ot:inXSDDate "1806-01-01"^^xsd:date .
+
+brdftime:1807 a ot:ProperInterval ;
+    rdfs:label 1807 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1807>,
+        <http://www.wikidata.org/entity/Q6909> ;
+    ot:hasBeginning brdftime:1807start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1807end ;
+    ot:inXSDDate "1807-01-01"^^xsd:date .
+
+brdftime:1807end a ot:Instant ;
+    ot:inXSDDate "1807-12-31"^^xsd:date .
+
+brdftime:1807start a ot:Instant ;
+    ot:inXSDDate "1807-01-01"^^xsd:date .
+
+brdftime:1808 a ot:ProperInterval ;
+    rdfs:label 1808 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1808>,
+        <http://www.wikidata.org/entity/Q6914> ;
+    ot:hasBeginning brdftime:1808start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1808end ;
+    ot:inXSDDate "1808-01-01"^^xsd:date .
+
+brdftime:1808end a ot:Instant ;
+    ot:inXSDDate "1808-12-31"^^xsd:date .
+
+brdftime:1808start a ot:Instant ;
+    ot:inXSDDate "1808-01-01"^^xsd:date .
+
+brdftime:1809 a ot:ProperInterval ;
+    rdfs:label 1809 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1809>,
+        <http://www.wikidata.org/entity/Q6919> ;
+    ot:hasBeginning brdftime:1809start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1809end ;
+    ot:inXSDDate "1809-01-01"^^xsd:date .
+
+brdftime:1809end a ot:Instant ;
+    ot:inXSDDate "1809-12-31"^^xsd:date .
+
+brdftime:1809start a ot:Instant ;
+    ot:inXSDDate "1809-01-01"^^xsd:date .
+
+brdftime:1810 a ot:ProperInterval ;
+    rdfs:label 1810 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1810>,
+        <http://www.wikidata.org/entity/Q6922> ;
+    ot:hasBeginning brdftime:1810start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1810end ;
+    ot:inXSDDate "1810-01-01"^^xsd:date .
+
+brdftime:1810end a ot:Instant ;
+    ot:inXSDDate "1810-12-31"^^xsd:date .
+
+brdftime:1810start a ot:Instant ;
+    ot:inXSDDate "1810-01-01"^^xsd:date .
+
+brdftime:1811 a ot:ProperInterval ;
+    rdfs:label 1811 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1811>,
+        <http://www.wikidata.org/entity/Q6928> ;
+    ot:hasBeginning brdftime:1811start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1811end ;
+    ot:inXSDDate "1811-01-01"^^xsd:date .
+
+brdftime:1811end a ot:Instant ;
+    ot:inXSDDate "1811-12-31"^^xsd:date .
+
+brdftime:1811start a ot:Instant ;
+    ot:inXSDDate "1811-01-01"^^xsd:date .
+
+brdftime:1812 a ot:ProperInterval ;
+    rdfs:label 1812 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1812>,
+        <http://www.wikidata.org/entity/Q6933> ;
+    ot:hasBeginning brdftime:1812start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1812end ;
+    ot:inXSDDate "1812-01-01"^^xsd:date .
+
+brdftime:1812end a ot:Instant ;
+    ot:inXSDDate "1812-12-31"^^xsd:date .
+
+brdftime:1812start a ot:Instant ;
+    ot:inXSDDate "1812-01-01"^^xsd:date .
+
+brdftime:1813 a ot:ProperInterval ;
+    rdfs:label 1813 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1813>,
+        <http://www.wikidata.org/entity/Q6937> ;
+    ot:hasBeginning brdftime:1813start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1813end ;
+    ot:inXSDDate "1813-01-01"^^xsd:date .
+
+brdftime:1813end a ot:Instant ;
+    ot:inXSDDate "1813-12-31"^^xsd:date .
+
+brdftime:1813start a ot:Instant ;
+    ot:inXSDDate "1813-01-01"^^xsd:date .
+
+brdftime:1814 a ot:ProperInterval ;
+    rdfs:label 1814 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1814>,
+        <http://www.wikidata.org/entity/Q6943> ;
+    ot:hasBeginning brdftime:1814start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1814end ;
+    ot:inXSDDate "1814-01-01"^^xsd:date .
+
+brdftime:1814end a ot:Instant ;
+    ot:inXSDDate "1814-12-31"^^xsd:date .
+
+brdftime:1814start a ot:Instant ;
+    ot:inXSDDate "1814-01-01"^^xsd:date .
+
+brdftime:1815 a ot:ProperInterval ;
+    rdfs:label 1815 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1815>,
+        <http://www.wikidata.org/entity/Q6948> ;
+    ot:hasBeginning brdftime:1815start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1815end ;
+    ot:inXSDDate "1815-01-01"^^xsd:date .
+
+brdftime:1815end a ot:Instant ;
+    ot:inXSDDate "1815-12-31"^^xsd:date .
+
+brdftime:1815start a ot:Instant ;
+    ot:inXSDDate "1815-01-01"^^xsd:date .
+
+brdftime:1816 a ot:ProperInterval ;
+    rdfs:label 1816 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1816>,
+        <http://www.wikidata.org/entity/Q6953> ;
+    ot:hasBeginning brdftime:1816start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1816end ;
+    ot:inXSDDate "1816-01-01"^^xsd:date .
+
+brdftime:1816end a ot:Instant ;
+    ot:inXSDDate "1816-12-31"^^xsd:date .
+
+brdftime:1816start a ot:Instant ;
+    ot:inXSDDate "1816-01-01"^^xsd:date .
+
+brdftime:1817 a ot:ProperInterval ;
+    rdfs:label 1817 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1817>,
+        <http://www.wikidata.org/entity/Q6958> ;
+    ot:hasBeginning brdftime:1817start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1817end ;
+    ot:inXSDDate "1817-01-01"^^xsd:date .
+
+brdftime:1817end a ot:Instant ;
+    ot:inXSDDate "1817-12-31"^^xsd:date .
+
+brdftime:1817start a ot:Instant ;
+    ot:inXSDDate "1817-01-01"^^xsd:date .
+
+brdftime:1818 a ot:ProperInterval ;
+    rdfs:label 1818 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1818>,
+        <http://www.wikidata.org/entity/Q6964> ;
+    ot:hasBeginning brdftime:1818start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1818end ;
+    ot:inXSDDate "1818-01-01"^^xsd:date .
+
+brdftime:1818end a ot:Instant ;
+    ot:inXSDDate "1818-12-31"^^xsd:date .
+
+brdftime:1818start a ot:Instant ;
+    ot:inXSDDate "1818-01-01"^^xsd:date .
+
+brdftime:1819 a ot:ProperInterval ;
+    rdfs:label 1819 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1819>,
+        <http://www.wikidata.org/entity/Q6967> ;
+    ot:hasBeginning brdftime:1819start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1819end ;
+    ot:inXSDDate "1819-01-01"^^xsd:date .
+
+brdftime:1819end a ot:Instant ;
+    ot:inXSDDate "1819-12-31"^^xsd:date .
+
+brdftime:1819start a ot:Instant ;
+    ot:inXSDDate "1819-01-01"^^xsd:date .
+
+brdftime:1820 a ot:ProperInterval ;
+    rdfs:label 1820 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1820>,
+        <http://www.wikidata.org/entity/Q6973> ;
+    ot:hasBeginning brdftime:1820start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1820end ;
+    ot:inXSDDate "1820-01-01"^^xsd:date .
+
+brdftime:1820end a ot:Instant ;
+    ot:inXSDDate "1820-12-31"^^xsd:date .
+
+brdftime:1820start a ot:Instant ;
+    ot:inXSDDate "1820-01-01"^^xsd:date .
+
+brdftime:1821 a ot:ProperInterval ;
+    rdfs:label 1821 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1821>,
+        <http://www.wikidata.org/entity/Q6976> ;
+    ot:hasBeginning brdftime:1821start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1821end ;
+    ot:inXSDDate "1821-01-01"^^xsd:date .
+
+brdftime:1821end a ot:Instant ;
+    ot:inXSDDate "1821-12-31"^^xsd:date .
+
+brdftime:1821start a ot:Instant ;
+    ot:inXSDDate "1821-01-01"^^xsd:date .
+
+brdftime:1822 a ot:ProperInterval ;
+    rdfs:label 1822 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1822>,
+        <http://www.wikidata.org/entity/Q6983> ;
+    ot:hasBeginning brdftime:1822start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1822end ;
+    ot:inXSDDate "1822-01-01"^^xsd:date .
+
+brdftime:1822end a ot:Instant ;
+    ot:inXSDDate "1822-12-31"^^xsd:date .
+
+brdftime:1822start a ot:Instant ;
+    ot:inXSDDate "1822-01-01"^^xsd:date .
+
+brdftime:1823 a ot:ProperInterval ;
+    rdfs:label 1823 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1823>,
+        <http://www.wikidata.org/entity/Q6988> ;
+    ot:hasBeginning brdftime:1823start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1823end ;
+    ot:inXSDDate "1823-01-01"^^xsd:date .
+
+brdftime:1823end a ot:Instant ;
+    ot:inXSDDate "1823-12-31"^^xsd:date .
+
+brdftime:1823start a ot:Instant ;
+    ot:inXSDDate "1823-01-01"^^xsd:date .
+
+brdftime:1824 a ot:ProperInterval ;
+    rdfs:label 1824 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1824>,
+        <http://www.wikidata.org/entity/Q6994> ;
+    ot:hasBeginning brdftime:1824start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1824end ;
+    ot:inXSDDate "1824-01-01"^^xsd:date .
+
+brdftime:1824end a ot:Instant ;
+    ot:inXSDDate "1824-12-31"^^xsd:date .
+
+brdftime:1824start a ot:Instant ;
+    ot:inXSDDate "1824-01-01"^^xsd:date .
+
+brdftime:1825 a ot:ProperInterval ;
+    rdfs:label 1825 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1825>,
+        <http://www.wikidata.org/entity/Q6997> ;
+    ot:hasBeginning brdftime:1825start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1825end ;
+    ot:inXSDDate "1825-01-01"^^xsd:date .
+
+brdftime:1825end a ot:Instant ;
+    ot:inXSDDate "1825-12-31"^^xsd:date .
+
+brdftime:1825start a ot:Instant ;
+    ot:inXSDDate "1825-01-01"^^xsd:date .
+
+brdftime:1826 a ot:ProperInterval ;
+    rdfs:label 1826 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1826>,
+        <http://www.wikidata.org/entity/Q7004> ;
+    ot:hasBeginning brdftime:1826start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1826end ;
+    ot:inXSDDate "1826-01-01"^^xsd:date .
+
+brdftime:1826end a ot:Instant ;
+    ot:inXSDDate "1826-12-31"^^xsd:date .
+
+brdftime:1826start a ot:Instant ;
+    ot:inXSDDate "1826-01-01"^^xsd:date .
+
+brdftime:1827 a ot:ProperInterval ;
+    rdfs:label 1827 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1827>,
+        <http://www.wikidata.org/entity/Q7008> ;
+    ot:hasBeginning brdftime:1827start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1827end ;
+    ot:inXSDDate "1827-01-01"^^xsd:date .
+
+brdftime:1827end a ot:Instant ;
+    ot:inXSDDate "1827-12-31"^^xsd:date .
+
+brdftime:1827start a ot:Instant ;
+    ot:inXSDDate "1827-01-01"^^xsd:date .
+
+brdftime:1828 a ot:ProperInterval ;
+    rdfs:label 1828 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1828>,
+        <http://www.wikidata.org/entity/Q7570> ;
+    ot:hasBeginning brdftime:1828start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1828end ;
+    ot:inXSDDate "1828-01-01"^^xsd:date .
+
+brdftime:1828end a ot:Instant ;
+    ot:inXSDDate "1828-12-31"^^xsd:date .
+
+brdftime:1828start a ot:Instant ;
+    ot:inXSDDate "1828-01-01"^^xsd:date .
+
+brdftime:1829 a ot:ProperInterval ;
+    rdfs:label 1829 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1829>,
+        <http://www.wikidata.org/entity/Q7572> ;
+    ot:hasBeginning brdftime:1829start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1829end ;
+    ot:inXSDDate "1829-01-01"^^xsd:date .
+
+brdftime:1829end a ot:Instant ;
+    ot:inXSDDate "1829-12-31"^^xsd:date .
+
+brdftime:1829start a ot:Instant ;
+    ot:inXSDDate "1829-01-01"^^xsd:date .
+
+brdftime:1830 a ot:ProperInterval ;
+    rdfs:label 1830 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1830>,
+        <http://www.wikidata.org/entity/Q7576> ;
+    ot:hasBeginning brdftime:1830start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1830end ;
+    ot:inXSDDate "1830-01-01"^^xsd:date .
+
+brdftime:1830end a ot:Instant ;
+    ot:inXSDDate "1830-12-31"^^xsd:date .
+
+brdftime:1830start a ot:Instant ;
+    ot:inXSDDate "1830-01-01"^^xsd:date .
+
+brdftime:1831 a ot:ProperInterval ;
+    rdfs:label 1831 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1831>,
+        <http://www.wikidata.org/entity/Q7579> ;
+    ot:hasBeginning brdftime:1831start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1831end ;
+    ot:inXSDDate "1831-01-01"^^xsd:date .
+
+brdftime:1831end a ot:Instant ;
+    ot:inXSDDate "1831-12-31"^^xsd:date .
+
+brdftime:1831start a ot:Instant ;
+    ot:inXSDDate "1831-01-01"^^xsd:date .
+
+brdftime:1832 a ot:ProperInterval ;
+    rdfs:label 1832 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1832>,
+        <http://www.wikidata.org/entity/Q7584> ;
+    ot:hasBeginning brdftime:1832start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1832end ;
+    ot:inXSDDate "1832-01-01"^^xsd:date .
+
+brdftime:1832end a ot:Instant ;
+    ot:inXSDDate "1832-12-31"^^xsd:date .
+
+brdftime:1832start a ot:Instant ;
+    ot:inXSDDate "1832-01-01"^^xsd:date .
+
+brdftime:1833 a ot:ProperInterval ;
+    rdfs:label 1833 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1833>,
+        <http://www.wikidata.org/entity/Q7587> ;
+    ot:hasBeginning brdftime:1833start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1833end ;
+    ot:inXSDDate "1833-01-01"^^xsd:date .
+
+brdftime:1833end a ot:Instant ;
+    ot:inXSDDate "1833-12-31"^^xsd:date .
+
+brdftime:1833start a ot:Instant ;
+    ot:inXSDDate "1833-01-01"^^xsd:date .
+
+brdftime:1834 a ot:ProperInterval ;
+    rdfs:label 1834 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1834>,
+        <http://www.wikidata.org/entity/Q7591> ;
+    ot:hasBeginning brdftime:1834start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1834end ;
+    ot:inXSDDate "1834-01-01"^^xsd:date .
+
+brdftime:1834end a ot:Instant ;
+    ot:inXSDDate "1834-12-31"^^xsd:date .
+
+brdftime:1834start a ot:Instant ;
+    ot:inXSDDate "1834-01-01"^^xsd:date .
+
+brdftime:1835 a ot:ProperInterval ;
+    rdfs:label 1835 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1835>,
+        <http://www.wikidata.org/entity/Q7597> ;
+    ot:hasBeginning brdftime:1835start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1835end ;
+    ot:inXSDDate "1835-01-01"^^xsd:date .
+
+brdftime:1835end a ot:Instant ;
+    ot:inXSDDate "1835-12-31"^^xsd:date .
+
+brdftime:1835start a ot:Instant ;
+    ot:inXSDDate "1835-01-01"^^xsd:date .
+
+brdftime:1836 a ot:ProperInterval ;
+    rdfs:label 1836 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1836>,
+        <http://www.wikidata.org/entity/Q7601> ;
+    ot:hasBeginning brdftime:1836start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1836end ;
+    ot:inXSDDate "1836-01-01"^^xsd:date .
+
+brdftime:1836end a ot:Instant ;
+    ot:inXSDDate "1836-12-31"^^xsd:date .
+
+brdftime:1836start a ot:Instant ;
+    ot:inXSDDate "1836-01-01"^^xsd:date .
+
+brdftime:1837 a ot:ProperInterval ;
+    rdfs:label 1837 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1837>,
+        <http://www.wikidata.org/entity/Q7608> ;
+    ot:hasBeginning brdftime:1837start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1837end ;
+    ot:inXSDDate "1837-01-01"^^xsd:date .
+
+brdftime:1837end a ot:Instant ;
+    ot:inXSDDate "1837-12-31"^^xsd:date .
+
+brdftime:1837start a ot:Instant ;
+    ot:inXSDDate "1837-01-01"^^xsd:date .
+
+brdftime:1838 a ot:ProperInterval ;
+    rdfs:label 1838 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1838>,
+        <http://www.wikidata.org/entity/Q7612> ;
+    ot:hasBeginning brdftime:1838start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1838end ;
+    ot:inXSDDate "1838-01-01"^^xsd:date .
+
+brdftime:1838end a ot:Instant ;
+    ot:inXSDDate "1838-12-31"^^xsd:date .
+
+brdftime:1838start a ot:Instant ;
+    ot:inXSDDate "1838-01-01"^^xsd:date .
+
+brdftime:1839 a ot:ProperInterval ;
+    rdfs:label 1839 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1839>,
+        <http://www.wikidata.org/entity/Q7616> ;
+    ot:hasBeginning brdftime:1839start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1839end ;
+    ot:inXSDDate "1839-01-01"^^xsd:date .
+
+brdftime:1839end a ot:Instant ;
+    ot:inXSDDate "1839-12-31"^^xsd:date .
+
+brdftime:1839start a ot:Instant ;
+    ot:inXSDDate "1839-01-01"^^xsd:date .
+
+brdftime:1840 a ot:ProperInterval ;
+    rdfs:label 1840 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1840>,
+        <http://www.wikidata.org/entity/Q7619> ;
+    ot:hasBeginning brdftime:1840start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1840end ;
+    ot:inXSDDate "1840-01-01"^^xsd:date .
+
+brdftime:1840end a ot:Instant ;
+    ot:inXSDDate "1840-12-31"^^xsd:date .
+
+brdftime:1840start a ot:Instant ;
+    ot:inXSDDate "1840-01-01"^^xsd:date .
+
+brdftime:1841 a ot:ProperInterval ;
+    rdfs:label 1841 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1841>,
+        <http://www.wikidata.org/entity/Q7622> ;
+    ot:hasBeginning brdftime:1841start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1841end ;
+    ot:inXSDDate "1841-01-01"^^xsd:date .
+
+brdftime:1841end a ot:Instant ;
+    ot:inXSDDate "1841-12-31"^^xsd:date .
+
+brdftime:1841start a ot:Instant ;
+    ot:inXSDDate "1841-01-01"^^xsd:date .
+
+brdftime:1842 a ot:ProperInterval ;
+    rdfs:label 1842 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1842>,
+        <http://www.wikidata.org/entity/Q7625> ;
+    ot:hasBeginning brdftime:1842start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1842end ;
+    ot:inXSDDate "1842-01-01"^^xsd:date .
+
+brdftime:1842end a ot:Instant ;
+    ot:inXSDDate "1842-12-31"^^xsd:date .
+
+brdftime:1842start a ot:Instant ;
+    ot:inXSDDate "1842-01-01"^^xsd:date .
+
+brdftime:1843 a ot:ProperInterval ;
+    rdfs:label 1843 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1843>,
+        <http://www.wikidata.org/entity/Q7629> ;
+    ot:hasBeginning brdftime:1843start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1843end ;
+    ot:inXSDDate "1843-01-01"^^xsd:date .
+
+brdftime:1843end a ot:Instant ;
+    ot:inXSDDate "1843-12-31"^^xsd:date .
+
+brdftime:1843start a ot:Instant ;
+    ot:inXSDDate "1843-01-01"^^xsd:date .
+
+brdftime:1844 a ot:ProperInterval ;
+    rdfs:label 1844 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1844>,
+        <http://www.wikidata.org/entity/Q7633> ;
+    ot:hasBeginning brdftime:1844start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1844end ;
+    ot:inXSDDate "1844-01-01"^^xsd:date .
+
+brdftime:1844end a ot:Instant ;
+    ot:inXSDDate "1844-12-31"^^xsd:date .
+
+brdftime:1844start a ot:Instant ;
+    ot:inXSDDate "1844-01-01"^^xsd:date .
+
+brdftime:1845 a ot:ProperInterval ;
+    rdfs:label 1845 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1845>,
+        <http://www.wikidata.org/entity/Q7636> ;
+    ot:hasBeginning brdftime:1845start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1845end ;
+    ot:inXSDDate "1845-01-01"^^xsd:date .
+
+brdftime:1845end a ot:Instant ;
+    ot:inXSDDate "1845-12-31"^^xsd:date .
+
+brdftime:1846 a ot:ProperInterval ;
+    rdfs:label 1846 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1846>,
+        <http://www.wikidata.org/entity/Q7640> ;
+    ot:hasBeginning brdftime:1846start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1846end ;
+    ot:inXSDDate "1846-01-01"^^xsd:date .
+
+brdftime:1846end a ot:Instant ;
+    ot:inXSDDate "1846-12-31"^^xsd:date .
+
+brdftime:1846start a ot:Instant ;
+    ot:inXSDDate "1846-01-01"^^xsd:date .
+
+brdftime:1847 a ot:ProperInterval ;
+    rdfs:label 1847 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1847>,
+        <http://www.wikidata.org/entity/Q7644> ;
+    ot:hasBeginning brdftime:1847start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1847end ;
+    ot:inXSDDate "1847-01-01"^^xsd:date .
+
+brdftime:1847end a ot:Instant ;
+    ot:inXSDDate "1847-12-31"^^xsd:date .
+
+brdftime:1847start a ot:Instant ;
+    ot:inXSDDate "1847-01-01"^^xsd:date .
+
+brdftime:1848 a ot:ProperInterval ;
+    rdfs:label 1848 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1848>,
+        <http://www.wikidata.org/entity/Q7647> ;
+    ot:hasBeginning brdftime:1848start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1848end ;
+    ot:inXSDDate "1848-01-01"^^xsd:date .
+
+brdftime:1848end a ot:Instant ;
+    ot:inXSDDate "1848-12-31"^^xsd:date .
+
+brdftime:1848start a ot:Instant ;
+    ot:inXSDDate "1848-01-01"^^xsd:date .
+
+brdftime:1849 a ot:ProperInterval ;
+    rdfs:label 1849 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1849>,
+        <http://www.wikidata.org/entity/Q7650> ;
+    ot:hasBeginning brdftime:1849start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1849end ;
+    ot:inXSDDate "1849-01-01"^^xsd:date .
+
+brdftime:1849end a ot:Instant ;
+    ot:inXSDDate "1849-12-31"^^xsd:date .
+
+brdftime:1849start a ot:Instant ;
+    ot:inXSDDate "1849-01-01"^^xsd:date .
+
+brdftime:1850 a ot:ProperInterval ;
+    rdfs:label 1850 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1850>,
+        <http://www.wikidata.org/entity/Q7653> ;
+    ot:hasBeginning brdftime:1850start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1850end ;
+    ot:inXSDDate "1850-01-01"^^xsd:date .
+
+brdftime:1850end a ot:Instant ;
+    ot:inXSDDate "1850-12-31"^^xsd:date .
+
+brdftime:1850start a ot:Instant ;
+    ot:inXSDDate "1850-01-01"^^xsd:date .
+
+brdftime:1851 a ot:ProperInterval ;
+    rdfs:label 1851 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1851>,
+        <http://www.wikidata.org/entity/Q7656> ;
+    ot:hasBeginning brdftime:1851start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1851end ;
+    ot:inXSDDate "1851-01-01"^^xsd:date .
+
+brdftime:1851end a ot:Instant ;
+    ot:inXSDDate "1851-12-31"^^xsd:date .
+
+brdftime:1851start a ot:Instant ;
+    ot:inXSDDate "1851-01-01"^^xsd:date .
+
+brdftime:1852 a ot:ProperInterval ;
+    rdfs:label 1852 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1852>,
+        <http://www.wikidata.org/entity/Q7661> ;
+    ot:hasBeginning brdftime:1852start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1852end ;
+    ot:inXSDDate "1852-01-01"^^xsd:date .
+
+brdftime:1852end a ot:Instant ;
+    ot:inXSDDate "1852-12-31"^^xsd:date .
+
+brdftime:1852start a ot:Instant ;
+    ot:inXSDDate "1852-01-01"^^xsd:date .
+
+brdftime:1853 a ot:ProperInterval ;
+    rdfs:label 1853 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1853>,
+        <http://www.wikidata.org/entity/Q7666> ;
+    ot:hasBeginning brdftime:1853start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1853end ;
+    ot:inXSDDate "1853-01-01"^^xsd:date .
+
+brdftime:1853end a ot:Instant ;
+    ot:inXSDDate "1853-12-31"^^xsd:date .
+
+brdftime:1853start a ot:Instant ;
+    ot:inXSDDate "1853-01-01"^^xsd:date .
+
+brdftime:1854 a ot:ProperInterval ;
+    rdfs:label 1854 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1854>,
+        <http://www.wikidata.org/entity/Q7670> ;
+    ot:hasBeginning brdftime:1854start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1854end ;
+    ot:inXSDDate "1854-01-01"^^xsd:date .
+
+brdftime:1854end a ot:Instant ;
+    ot:inXSDDate "1854-12-31"^^xsd:date .
+
+brdftime:1854start a ot:Instant ;
+    ot:inXSDDate "1854-01-01"^^xsd:date .
+
+brdftime:1855 a ot:ProperInterval ;
+    rdfs:label 1855 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1855>,
+        <http://www.wikidata.org/entity/Q7673> ;
+    ot:hasBeginning brdftime:1855start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1855end ;
+    ot:inXSDDate "1855-01-01"^^xsd:date .
+
+brdftime:1855end a ot:Instant ;
+    ot:inXSDDate "1855-12-31"^^xsd:date .
+
+brdftime:1855start a ot:Instant ;
+    ot:inXSDDate "1855-01-01"^^xsd:date .
+
+brdftime:1856 a ot:ProperInterval ;
+    rdfs:label 1856 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1856>,
+        <http://www.wikidata.org/entity/Q7676> ;
+    ot:hasBeginning brdftime:1856start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1856end ;
+    ot:inXSDDate "1856-01-01"^^xsd:date .
+
+brdftime:1856end a ot:Instant ;
+    ot:inXSDDate "1856-12-31"^^xsd:date .
+
+brdftime:1856start a ot:Instant ;
+    ot:inXSDDate "1856-01-01"^^xsd:date .
+
+brdftime:1857 a ot:ProperInterval ;
+    rdfs:label 1857 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1857>,
+        <http://www.wikidata.org/entity/Q7680> ;
+    ot:hasBeginning brdftime:1857start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1857end ;
+    ot:inXSDDate "1857-01-01"^^xsd:date .
+
+brdftime:1857end a ot:Instant ;
+    ot:inXSDDate "1857-12-31"^^xsd:date .
+
+brdftime:1857start a ot:Instant ;
+    ot:inXSDDate "1857-01-01"^^xsd:date .
+
+brdftime:1858 a ot:ProperInterval ;
+    rdfs:label 1858 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1858>,
+        <http://www.wikidata.org/entity/Q7684> ;
+    ot:hasBeginning brdftime:1858start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1858end ;
+    ot:inXSDDate "1858-01-01"^^xsd:date .
+
+brdftime:1858end a ot:Instant ;
+    ot:inXSDDate "1858-12-31"^^xsd:date .
+
+brdftime:1858start a ot:Instant ;
+    ot:inXSDDate "1858-01-01"^^xsd:date .
+
+brdftime:1859 a ot:ProperInterval ;
+    rdfs:label 1859 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1859>,
+        <http://www.wikidata.org/entity/Q7687> ;
+    ot:hasBeginning brdftime:1859start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1859end ;
+    ot:inXSDDate "1859-01-01"^^xsd:date .
+
+brdftime:1859end a ot:Instant ;
+    ot:inXSDDate "1859-12-31"^^xsd:date .
+
+brdftime:1859start a ot:Instant ;
+    ot:inXSDDate "1859-01-01"^^xsd:date .
+
+brdftime:1860 a ot:ProperInterval ;
+    rdfs:label 1860 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1860>,
+        <http://www.wikidata.org/entity/Q7691> ;
+    ot:hasBeginning brdftime:1860start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1860end ;
+    ot:inXSDDate "1860-01-01"^^xsd:date .
+
+brdftime:1860end a ot:Instant ;
+    ot:inXSDDate "1860-12-31"^^xsd:date .
+
+brdftime:1860start a ot:Instant ;
+    ot:inXSDDate "1860-01-01"^^xsd:date .
+
+brdftime:1861 a ot:ProperInterval ;
+    rdfs:label 1861 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1861>,
+        <http://www.wikidata.org/entity/Q7693> ;
+    ot:hasBeginning brdftime:1861start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1861end ;
+    ot:inXSDDate "1861-01-01"^^xsd:date .
+
+brdftime:1861end a ot:Instant ;
+    ot:inXSDDate "1861-12-31"^^xsd:date .
+
+brdftime:1861start a ot:Instant ;
+    ot:inXSDDate "1861-01-01"^^xsd:date .
+
+brdftime:1862 a ot:ProperInterval ;
+    rdfs:label 1862 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1862>,
+        <http://www.wikidata.org/entity/Q7698> ;
+    ot:hasBeginning brdftime:1862start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1862end ;
+    ot:inXSDDate "1862-01-01"^^xsd:date .
+
+brdftime:1862end a ot:Instant ;
+    ot:inXSDDate "1862-12-31"^^xsd:date .
+
+brdftime:1862start a ot:Instant ;
+    ot:inXSDDate "1862-01-01"^^xsd:date .
+
+brdftime:1863 a ot:ProperInterval ;
+    rdfs:label 1863 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1863>,
+        <http://www.wikidata.org/entity/Q7701> ;
+    ot:hasBeginning brdftime:1863start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1863end ;
+    ot:inXSDDate "1863-01-01"^^xsd:date .
+
+brdftime:1863end a ot:Instant ;
+    ot:inXSDDate "1863-12-31"^^xsd:date .
+
+brdftime:1863start a ot:Instant ;
+    ot:inXSDDate "1863-01-01"^^xsd:date .
+
+brdftime:1864 a ot:ProperInterval ;
+    rdfs:label 1864 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1864>,
+        <http://www.wikidata.org/entity/Q7704> ;
+    ot:hasBeginning brdftime:1864start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1864end ;
+    ot:inXSDDate "1864-01-01"^^xsd:date .
+
+brdftime:1864end a ot:Instant ;
+    ot:inXSDDate "1864-12-31"^^xsd:date .
+
+brdftime:1864start a ot:Instant ;
+    ot:inXSDDate "1864-01-01"^^xsd:date .
+
+brdftime:1865 a ot:ProperInterval ;
+    rdfs:label 1865 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1865>,
+        <http://www.wikidata.org/entity/Q7708> ;
+    ot:hasBeginning brdftime:1865start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1865end ;
+    ot:inXSDDate "1865-01-01"^^xsd:date .
+
+brdftime:1865end a ot:Instant ;
+    ot:inXSDDate "1865-12-31"^^xsd:date .
+
+brdftime:1865start a ot:Instant ;
+    ot:inXSDDate "1865-01-01"^^xsd:date .
+
+brdftime:1866 a ot:ProperInterval ;
+    rdfs:label 1866 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1866>,
+        <http://www.wikidata.org/entity/Q7712> ;
+    ot:hasBeginning brdftime:1866start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1866end ;
+    ot:inXSDDate "1866-01-01"^^xsd:date .
+
+brdftime:1866end a ot:Instant ;
+    ot:inXSDDate "1866-12-31"^^xsd:date .
+
+brdftime:1866start a ot:Instant ;
+    ot:inXSDDate "1866-01-01"^^xsd:date .
+
+brdftime:1867 a ot:ProperInterval ;
+    rdfs:label 1867 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1867>,
+        <http://www.wikidata.org/entity/Q7715> ;
+    ot:hasBeginning brdftime:1867start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1867end ;
+    ot:inXSDDate "1867-01-01"^^xsd:date .
+
+brdftime:1867end a ot:Instant ;
+    ot:inXSDDate "1867-12-31"^^xsd:date .
+
+brdftime:1867start a ot:Instant ;
+    ot:inXSDDate "1867-01-01"^^xsd:date .
+
+brdftime:1868 a ot:ProperInterval ;
+    rdfs:label 1868 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1868>,
+        <http://www.wikidata.org/entity/Q7717> ;
+    ot:hasBeginning brdftime:1868start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1868end ;
+    ot:inXSDDate "1868-01-01"^^xsd:date .
+
+brdftime:1868end a ot:Instant ;
+    ot:inXSDDate "1868-12-31"^^xsd:date .
+
+brdftime:1868start a ot:Instant ;
+    ot:inXSDDate "1868-01-01"^^xsd:date .
+
+brdftime:1869 a ot:ProperInterval ;
+    rdfs:label 1869 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1869>,
+        <http://www.wikidata.org/entity/Q7720> ;
+    ot:hasBeginning brdftime:1869start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1869end ;
+    ot:inXSDDate "1869-01-01"^^xsd:date .
+
+brdftime:1869end a ot:Instant ;
+    ot:inXSDDate "1869-12-31"^^xsd:date .
+
+brdftime:1869start a ot:Instant ;
+    ot:inXSDDate "1869-01-01"^^xsd:date .
+
+brdftime:1870 a ot:ProperInterval ;
+    rdfs:label 1870 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1870>,
+        <http://www.wikidata.org/entity/Q7741> ;
+    ot:hasBeginning brdftime:1870start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1870end ;
+    ot:inXSDDate "1870-01-01"^^xsd:date .
+
+brdftime:1870end a ot:Instant ;
+    ot:inXSDDate "1870-12-31"^^xsd:date .
+
+brdftime:1870start a ot:Instant ;
+    ot:inXSDDate "1870-01-01"^^xsd:date .
+
+brdftime:1871 a ot:ProperInterval ;
+    rdfs:label 1871 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1871>,
+        <http://www.wikidata.org/entity/Q7746> ;
+    ot:hasBeginning brdftime:1871start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1871end ;
+    ot:inXSDDate "1871-01-01"^^xsd:date .
+
+brdftime:1871end a ot:Instant ;
+    ot:inXSDDate "1871-12-31"^^xsd:date .
+
+brdftime:1871start a ot:Instant ;
+    ot:inXSDDate "1871-01-01"^^xsd:date .
+
+brdftime:1872 a ot:ProperInterval ;
+    rdfs:label 1872 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1872>,
+        <http://www.wikidata.org/entity/Q7753> ;
+    ot:hasBeginning brdftime:1872start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1872end ;
+    ot:inXSDDate "1872-01-01"^^xsd:date .
+
+brdftime:1872end a ot:Instant ;
+    ot:inXSDDate "1872-12-31"^^xsd:date .
+
+brdftime:1872start a ot:Instant ;
+    ot:inXSDDate "1872-01-01"^^xsd:date .
+
+brdftime:1873 a ot:ProperInterval ;
+    rdfs:label 1873 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1873>,
+        <http://www.wikidata.org/entity/Q7757> ;
+    ot:hasBeginning brdftime:1873start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1873end ;
+    ot:inXSDDate "1873-01-01"^^xsd:date .
+
+brdftime:1873end a ot:Instant ;
+    ot:inXSDDate "1873-12-31"^^xsd:date .
+
+brdftime:1873start a ot:Instant ;
+    ot:inXSDDate "1873-01-01"^^xsd:date .
+
+brdftime:1874 a ot:ProperInterval ;
+    rdfs:label 1874 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1874>,
+        <http://www.wikidata.org/entity/Q7761> ;
+    ot:hasBeginning brdftime:1874start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1874end ;
+    ot:inXSDDate "1874-01-01"^^xsd:date .
+
+brdftime:1874end a ot:Instant ;
+    ot:inXSDDate "1874-12-31"^^xsd:date .
+
+brdftime:1874start a ot:Instant ;
+    ot:inXSDDate "1874-01-01"^^xsd:date .
+
+brdftime:1875 a ot:ProperInterval ;
+    rdfs:label 1875 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1875>,
+        <http://www.wikidata.org/entity/Q7764> ;
+    ot:hasBeginning brdftime:1875start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1875end ;
+    ot:inXSDDate "1875-01-01"^^xsd:date .
+
+brdftime:1875end a ot:Instant ;
+    ot:inXSDDate "1875-12-31"^^xsd:date .
+
+brdftime:1875start a ot:Instant ;
+    ot:inXSDDate "1875-01-01"^^xsd:date .
+
+brdftime:1876 a ot:ProperInterval ;
+    rdfs:label 1876 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1876>,
+        <http://www.wikidata.org/entity/Q7766> ;
+    ot:hasBeginning brdftime:1876start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1876end ;
+    ot:inXSDDate "1876-01-01"^^xsd:date .
+
+brdftime:1876end a ot:Instant ;
+    ot:inXSDDate "1876-12-31"^^xsd:date .
+
+brdftime:1876start a ot:Instant ;
+    ot:inXSDDate "1876-01-01"^^xsd:date .
+
+brdftime:1877 a ot:ProperInterval ;
+    rdfs:label 1877 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1877>,
+        <http://www.wikidata.org/entity/Q7773> ;
+    ot:hasBeginning brdftime:1877start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1877end ;
+    ot:inXSDDate "1877-01-01"^^xsd:date .
+
+brdftime:1877end a ot:Instant ;
+    ot:inXSDDate "1877-12-31"^^xsd:date .
+
+brdftime:1877start a ot:Instant ;
+    ot:inXSDDate "1877-01-01"^^xsd:date .
+
+brdftime:1878 a ot:ProperInterval ;
+    rdfs:label 1878 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1878>,
+        <http://www.wikidata.org/entity/Q7776> ;
+    ot:hasBeginning brdftime:1878start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1878end ;
+    ot:inXSDDate "1878-01-01"^^xsd:date .
+
+brdftime:1878end a ot:Instant ;
+    ot:inXSDDate "1878-12-31"^^xsd:date .
+
+brdftime:1878start a ot:Instant ;
+    ot:inXSDDate "1878-01-01"^^xsd:date .
+
+brdftime:1879 a ot:ProperInterval ;
+    rdfs:label 1879 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1879>,
+        <http://www.wikidata.org/entity/Q7783> ;
+    ot:hasBeginning brdftime:1879start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1879end ;
+    ot:inXSDDate "1879-01-01"^^xsd:date .
+
+brdftime:1879end a ot:Instant ;
+    ot:inXSDDate "1879-12-31"^^xsd:date .
+
+brdftime:1879start a ot:Instant ;
+    ot:inXSDDate "1879-01-01"^^xsd:date .
+
+brdftime:1880 a ot:ProperInterval ;
+    rdfs:label 1880 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1880>,
+        <http://www.wikidata.org/entity/Q7806> ;
+    ot:hasBeginning brdftime:1880start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1880end ;
+    ot:inXSDDate "1880-01-01"^^xsd:date .
+
+brdftime:1880end a ot:Instant ;
+    ot:inXSDDate "1880-12-31"^^xsd:date .
+
+brdftime:1880start a ot:Instant ;
+    ot:inXSDDate "1880-01-01"^^xsd:date .
+
+brdftime:1881 a ot:ProperInterval ;
+    rdfs:label 1881 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1881>,
+        <http://www.wikidata.org/entity/Q7808> ;
+    ot:hasBeginning brdftime:1881start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1881end ;
+    ot:inXSDDate "1881-01-01"^^xsd:date .
+
+brdftime:1881end a ot:Instant ;
+    ot:inXSDDate "1881-12-31"^^xsd:date .
+
+brdftime:1881start a ot:Instant ;
+    ot:inXSDDate "1881-01-01"^^xsd:date .
+
+brdftime:1882 a ot:ProperInterval ;
+    rdfs:label 1882 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1882>,
+        <http://www.wikidata.org/entity/Q7812> ;
+    ot:hasBeginning brdftime:1882start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1882end ;
+    ot:inXSDDate "1882-01-01"^^xsd:date .
+
+brdftime:1882end a ot:Instant ;
+    ot:inXSDDate "1882-12-31"^^xsd:date .
+
+brdftime:1882start a ot:Instant ;
+    ot:inXSDDate "1882-01-01"^^xsd:date .
+
+brdftime:1883 a ot:ProperInterval ;
+    rdfs:label 1883 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1883>,
+        <http://www.wikidata.org/entity/Q7816> ;
+    ot:hasBeginning brdftime:1883start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1883end ;
+    ot:inXSDDate "1883-01-01"^^xsd:date .
+
+brdftime:1883end a ot:Instant ;
+    ot:inXSDDate "1883-12-31"^^xsd:date .
+
+brdftime:1883start a ot:Instant ;
+    ot:inXSDDate "1883-01-01"^^xsd:date .
+
+brdftime:1884 a ot:ProperInterval ;
+    rdfs:label 1884 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1884>,
+        <http://www.wikidata.org/entity/Q7819> ;
+    ot:hasBeginning brdftime:1884start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1884end ;
+    ot:inXSDDate "1884-01-01"^^xsd:date .
+
+brdftime:1884end a ot:Instant ;
+    ot:inXSDDate "1884-12-31"^^xsd:date .
+
+brdftime:1884start a ot:Instant ;
+    ot:inXSDDate "1884-01-01"^^xsd:date .
+
+brdftime:1885 a ot:ProperInterval ;
+    rdfs:label 1885 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1885>,
+        <http://www.wikidata.org/entity/Q7821> ;
+    ot:hasBeginning brdftime:1885start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1885end ;
+    ot:inXSDDate "1885-01-01"^^xsd:date .
+
+brdftime:1885end a ot:Instant ;
+    ot:inXSDDate "1885-12-31"^^xsd:date .
+
+brdftime:1885start a ot:Instant ;
+    ot:inXSDDate "1885-01-01"^^xsd:date .
+
+brdftime:1886 a ot:ProperInterval ;
+    rdfs:label 1886 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1886>,
+        <http://www.wikidata.org/entity/Q7822> ;
+    ot:hasBeginning brdftime:1886start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1886end ;
+    ot:inXSDDate "1886-01-01"^^xsd:date .
+
+brdftime:1886end a ot:Instant ;
+    ot:inXSDDate "1886-12-31"^^xsd:date .
+
+brdftime:1886start a ot:Instant ;
+    ot:inXSDDate "1886-01-01"^^xsd:date .
+
+brdftime:1887 a ot:ProperInterval ;
+    rdfs:label 1887 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1887>,
+        <http://www.wikidata.org/entity/Q7826> ;
+    ot:hasBeginning brdftime:1887start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1887end ;
+    ot:inXSDDate "1887-01-01"^^xsd:date .
+
+brdftime:1887end a ot:Instant ;
+    ot:inXSDDate "1887-12-31"^^xsd:date .
+
+brdftime:1887start a ot:Instant ;
+    ot:inXSDDate "1887-01-01"^^xsd:date .
+
+brdftime:1888 a ot:ProperInterval ;
+    rdfs:label 1888 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1888>,
+        <http://www.wikidata.org/entity/Q7829> ;
+    ot:hasBeginning brdftime:1888start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1888end ;
+    ot:inXSDDate "1888-01-01"^^xsd:date .
+
+brdftime:1888end a ot:Instant ;
+    ot:inXSDDate "1888-12-31"^^xsd:date .
+
+brdftime:1888start a ot:Instant ;
+    ot:inXSDDate "1888-01-01"^^xsd:date .
+
+brdftime:1889 a ot:ProperInterval ;
+    rdfs:label 1889 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1889>,
+        <http://www.wikidata.org/entity/Q7831> ;
+    ot:hasBeginning brdftime:1889start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1889end ;
+    ot:inXSDDate "1889-01-01"^^xsd:date .
+
+brdftime:1889end a ot:Instant ;
+    ot:inXSDDate "1889-12-31"^^xsd:date .
+
+brdftime:1889start a ot:Instant ;
+    ot:inXSDDate "1889-01-01"^^xsd:date .
+
+brdftime:1890 a ot:ProperInterval ;
+    rdfs:label 1890 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1890>,
+        <http://www.wikidata.org/entity/Q7832> ;
+    ot:hasBeginning brdftime:1890start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1890end ;
+    ot:inXSDDate "1890-01-01"^^xsd:date .
+
+brdftime:1890end a ot:Instant ;
+    ot:inXSDDate "1890-12-31"^^xsd:date .
+
+brdftime:1890start a ot:Instant ;
+    ot:inXSDDate "1890-01-01"^^xsd:date .
+
+brdftime:1891 a ot:ProperInterval ;
+    rdfs:label 1891 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1891>,
+        <http://www.wikidata.org/entity/Q7837> ;
+    ot:hasBeginning brdftime:1891start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1891end ;
+    ot:inXSDDate "1891-01-01"^^xsd:date .
+
+brdftime:1891end a ot:Instant ;
+    ot:inXSDDate "1891-12-31"^^xsd:date .
+
+brdftime:1891start a ot:Instant ;
+    ot:inXSDDate "1891-01-01"^^xsd:date .
+
+brdftime:1892 a ot:ProperInterval ;
+    rdfs:label 1892 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1892>,
+        <http://www.wikidata.org/entity/Q7839> ;
+    ot:hasBeginning brdftime:1892start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1892end ;
+    ot:inXSDDate "1892-01-01"^^xsd:date .
+
+brdftime:1892end a ot:Instant ;
+    ot:inXSDDate "1892-12-31"^^xsd:date .
+
+brdftime:1892start a ot:Instant ;
+    ot:inXSDDate "1892-01-01"^^xsd:date .
+
+brdftime:1893 a ot:ProperInterval ;
+    rdfs:label 1893 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1893>,
+        <http://www.wikidata.org/entity/Q7840> ;
+    ot:hasBeginning brdftime:1893start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1893end ;
+    ot:inXSDDate "1893-01-01"^^xsd:date .
+
+brdftime:1893end a ot:Instant ;
+    ot:inXSDDate "1893-12-31"^^xsd:date .
+
+brdftime:1893start a ot:Instant ;
+    ot:inXSDDate "1893-01-01"^^xsd:date .
+
+brdftime:1894 a ot:ProperInterval ;
+    rdfs:label 1894 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1894>,
+        <http://www.wikidata.org/entity/Q7843> ;
+    ot:hasBeginning brdftime:1894start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1894end ;
+    ot:inXSDDate "1894-01-01"^^xsd:date .
+
+brdftime:1894end a ot:Instant ;
+    ot:inXSDDate "1894-12-31"^^xsd:date .
+
+brdftime:1894start a ot:Instant ;
+    ot:inXSDDate "1894-01-01"^^xsd:date .
+
+brdftime:1895 a ot:ProperInterval ;
+    rdfs:label 1895 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1895>,
+        <http://www.wikidata.org/entity/Q7844> ;
+    ot:hasBeginning brdftime:1895start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1895end ;
+    ot:inXSDDate "1895-01-01"^^xsd:date .
+
+brdftime:1895end a ot:Instant ;
+    ot:inXSDDate "1895-12-31"^^xsd:date .
+
+brdftime:1895start a ot:Instant ;
+    ot:inXSDDate "1895-01-01"^^xsd:date .
+
+brdftime:1896 a ot:ProperInterval ;
+    rdfs:label 1896 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1896>,
+        <http://www.wikidata.org/entity/Q7846> ;
+    ot:hasBeginning brdftime:1896start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1896end ;
+    ot:inXSDDate "1896-01-01"^^xsd:date .
+
+brdftime:1896end a ot:Instant ;
+    ot:inXSDDate "1896-12-31"^^xsd:date .
+
+brdftime:1896start a ot:Instant ;
+    ot:inXSDDate "1896-01-01"^^xsd:date .
+
+brdftime:1897 a ot:ProperInterval ;
+    rdfs:label 1897 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1897>,
+        <http://www.wikidata.org/entity/Q7847> ;
+    ot:hasBeginning brdftime:1897start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1897end ;
+    ot:inXSDDate "1897-01-01"^^xsd:date .
+
+brdftime:1897end a ot:Instant ;
+    ot:inXSDDate "1897-12-31"^^xsd:date .
+
+brdftime:1897start a ot:Instant ;
+    ot:inXSDDate "1897-01-01"^^xsd:date .
+
+brdftime:1898 a ot:ProperInterval ;
+    rdfs:label 1898 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1898>,
+        <http://www.wikidata.org/entity/Q7848> ;
+    ot:hasBeginning brdftime:1898start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1898end ;
+    ot:inXSDDate "1898-01-01"^^xsd:date .
+
+brdftime:1898end a ot:Instant ;
+    ot:inXSDDate "1898-12-31"^^xsd:date .
+
+brdftime:1898start a ot:Instant ;
+    ot:inXSDDate "1898-01-01"^^xsd:date .
+
+brdftime:1899 a ot:ProperInterval ;
+    rdfs:label 1899 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1899>,
+        <http://www.wikidata.org/entity/Q7851> ;
+    ot:hasBeginning brdftime:1899start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1899end ;
+    ot:inXSDDate "1899-01-01"^^xsd:date .
+
+brdftime:1899start a ot:Instant ;
+    ot:inXSDDate "1899-01-01"^^xsd:date .
+
+brdftime:1900 a ot:ProperInterval ;
+    rdfs:label 1900 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1900>,
+        <http://www.wikidata.org/entity/Q2034> ;
+    ot:hasBeginning brdftime:1900start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1900end ;
+    ot:inXSDDate "1900-01-01"^^xsd:date .
+
+brdftime:1900end a ot:Instant ;
+    ot:inXSDDate "1900-12-31"^^xsd:date .
+
+brdftime:1901 a ot:ProperInterval ;
+    rdfs:label 1901 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1901>,
+        <http://www.wikidata.org/entity/Q2035> ;
+    ot:hasBeginning brdftime:1901start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1901end ;
+    ot:inXSDDate "1901-01-01"^^xsd:date .
+
+brdftime:1901end a ot:Instant ;
+    ot:inXSDDate "1901-12-31"^^xsd:date .
+
+brdftime:1901start a ot:Instant ;
+    ot:inXSDDate "1901-01-01"^^xsd:date .
+
+brdftime:1902 a ot:ProperInterval ;
+    rdfs:label 1902 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1902>,
+        <http://www.wikidata.org/entity/Q2043> ;
+    ot:hasBeginning brdftime:1902start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1902end ;
+    ot:inXSDDate "1902-01-01"^^xsd:date .
+
+brdftime:1902end a ot:Instant ;
+    ot:inXSDDate "1902-12-31"^^xsd:date .
+
+brdftime:1902start a ot:Instant ;
+    ot:inXSDDate "1902-01-01"^^xsd:date .
+
+brdftime:1903 a ot:ProperInterval ;
+    rdfs:label 1903 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1903>,
+        <http://www.wikidata.org/entity/Q2045> ;
+    ot:hasBeginning brdftime:1903start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1903end ;
+    ot:inXSDDate "1903-01-01"^^xsd:date .
+
+brdftime:1903end a ot:Instant ;
+    ot:inXSDDate "1903-12-31"^^xsd:date .
+
+brdftime:1903start a ot:Instant ;
+    ot:inXSDDate "1903-01-01"^^xsd:date .
+
+brdftime:1904 a ot:ProperInterval ;
+    rdfs:label 1904 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1904>,
+        <http://www.wikidata.org/entity/Q2046> ;
+    ot:hasBeginning brdftime:1904start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1904end ;
+    ot:inXSDDate "1904-01-01"^^xsd:date .
+
+brdftime:1904end a ot:Instant ;
+    ot:inXSDDate "1904-12-31"^^xsd:date .
+
+brdftime:1904start a ot:Instant ;
+    ot:inXSDDate "1904-01-01"^^xsd:date .
+
+brdftime:1905 a ot:ProperInterval ;
+    rdfs:label 1905 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1905>,
+        <http://www.wikidata.org/entity/Q2047> ;
+    ot:hasBeginning brdftime:1905start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1905end ;
+    ot:inXSDDate "1905-01-01"^^xsd:date .
+
+brdftime:1905end a ot:Instant ;
+    ot:inXSDDate "1905-12-31"^^xsd:date .
+
+brdftime:1905start a ot:Instant ;
+    ot:inXSDDate "1905-01-01"^^xsd:date .
+
+brdftime:1906 a ot:ProperInterval ;
+    rdfs:label 1906 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1906>,
+        <http://www.wikidata.org/entity/Q2049> ;
+    ot:hasBeginning brdftime:1906start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1906end ;
+    ot:inXSDDate "1906-01-01"^^xsd:date .
+
+brdftime:1906end a ot:Instant ;
+    ot:inXSDDate "1906-12-31"^^xsd:date .
+
+brdftime:1906start a ot:Instant ;
+    ot:inXSDDate "1906-01-01"^^xsd:date .
+
+brdftime:1907 a ot:ProperInterval ;
+    rdfs:label 1907 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1907>,
+        <http://www.wikidata.org/entity/Q2048> ;
+    ot:hasBeginning brdftime:1907start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1907end ;
+    ot:inXSDDate "1907-01-01"^^xsd:date .
+
+brdftime:1907end a ot:Instant ;
+    ot:inXSDDate "1907-12-31"^^xsd:date .
+
+brdftime:1907start a ot:Instant ;
+    ot:inXSDDate "1907-01-01"^^xsd:date .
+
+brdftime:1908 a ot:ProperInterval ;
+    rdfs:label 1908 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1908>,
+        <http://www.wikidata.org/entity/Q2056> ;
+    ot:hasBeginning brdftime:1908start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1908end ;
+    ot:inXSDDate "1908-01-01"^^xsd:date .
+
+brdftime:1908end a ot:Instant ;
+    ot:inXSDDate "1908-12-31"^^xsd:date .
+
+brdftime:1908start a ot:Instant ;
+    ot:inXSDDate "1908-01-01"^^xsd:date .
+
+brdftime:1909 a ot:ProperInterval ;
+    rdfs:label 1909 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1909>,
+        <http://www.wikidata.org/entity/Q2057> ;
+    ot:hasBeginning brdftime:1909start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1909end ;
+    ot:inXSDDate "1909-01-01"^^xsd:date .
+
+brdftime:1909start a ot:Instant ;
+    ot:inXSDDate "1909-01-01"^^xsd:date .
+
+brdftime:1910 a ot:ProperInterval ;
+    rdfs:label 1910 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1910>,
+        <http://www.wikidata.org/entity/Q2075> ;
+    ot:hasBeginning brdftime:1910start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1910end ;
+    ot:inXSDDate "1910-01-01"^^xsd:date .
+
+brdftime:1910end a ot:Instant ;
+    ot:inXSDDate "1910-12-31"^^xsd:date .
+
+brdftime:1911 a ot:ProperInterval ;
+    rdfs:label 1911 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1911>,
+        <http://www.wikidata.org/entity/Q2076> ;
+    ot:hasBeginning brdftime:1911start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1911end ;
+    ot:inXSDDate "1911-01-01"^^xsd:date .
+
+brdftime:1911end a ot:Instant ;
+    ot:inXSDDate "1911-12-31"^^xsd:date .
+
+brdftime:1911start a ot:Instant ;
+    ot:inXSDDate "1911-01-01"^^xsd:date .
+
+brdftime:1912 a ot:ProperInterval ;
+    rdfs:label 1912 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1912>,
+        <http://www.wikidata.org/entity/Q2077> ;
+    ot:hasBeginning brdftime:1912start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1912end ;
+    ot:inXSDDate "1912-01-01"^^xsd:date .
+
+brdftime:1912end a ot:Instant ;
+    ot:inXSDDate "1912-12-31"^^xsd:date .
+
+brdftime:1912start a ot:Instant ;
+    ot:inXSDDate "1912-01-01"^^xsd:date .
+
+brdftime:1913 a ot:ProperInterval ;
+    rdfs:label 1913 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1913>,
+        <http://www.wikidata.org/entity/Q2080> ;
+    ot:hasBeginning brdftime:1913start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1913end ;
+    ot:inXSDDate "1913-01-01"^^xsd:date .
+
+brdftime:1913end a ot:Instant ;
+    ot:inXSDDate "1913-12-31"^^xsd:date .
+
+brdftime:1913start a ot:Instant ;
+    ot:inXSDDate "1913-01-01"^^xsd:date .
+
+brdftime:1914 a ot:ProperInterval ;
+    rdfs:label 1914 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1914>,
+        <http://www.wikidata.org/entity/Q2083> ;
+    ot:hasBeginning brdftime:1914start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1914end ;
+    ot:inXSDDate "1914-01-01"^^xsd:date .
+
+brdftime:1914end a ot:Instant ;
+    ot:inXSDDate "1914-12-31"^^xsd:date .
+
+brdftime:1914start a ot:Instant ;
+    ot:inXSDDate "1914-01-01"^^xsd:date .
+
+brdftime:1915 a ot:ProperInterval ;
+    rdfs:label 1915 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1915>,
+        <http://www.wikidata.org/entity/Q2084> ;
+    ot:hasBeginning brdftime:1915start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1915end ;
+    ot:inXSDDate "1915-01-01"^^xsd:date .
+
+brdftime:1915end a ot:Instant ;
+    ot:inXSDDate "1915-12-31"^^xsd:date .
+
+brdftime:1915start a ot:Instant ;
+    ot:inXSDDate "1915-01-01"^^xsd:date .
+
+brdftime:1916 a ot:ProperInterval ;
+    rdfs:label 1916 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1916>,
+        <http://www.wikidata.org/entity/Q2087> ;
+    ot:hasBeginning brdftime:1916start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1916end ;
+    ot:inXSDDate "1916-01-01"^^xsd:date .
+
+brdftime:1916end a ot:Instant ;
+    ot:inXSDDate "1916-12-31"^^xsd:date .
+
+brdftime:1916start a ot:Instant ;
+    ot:inXSDDate "1916-01-01"^^xsd:date .
+
+brdftime:1917 a ot:ProperInterval ;
+    rdfs:label 1917 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1917>,
+        <http://www.wikidata.org/entity/Q2092> ;
+    ot:hasBeginning brdftime:1917start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1917end ;
+    ot:inXSDDate "1917-01-01"^^xsd:date .
+
+brdftime:1917end a ot:Instant ;
+    ot:inXSDDate "1917-12-31"^^xsd:date .
+
+brdftime:1917start a ot:Instant ;
+    ot:inXSDDate "1917-01-01"^^xsd:date .
+
+brdftime:1918 a ot:ProperInterval ;
+    rdfs:label 1918 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1918>,
+        <http://www.wikidata.org/entity/Q2094> ;
+    ot:hasBeginning brdftime:1918start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1918end ;
+    ot:inXSDDate "1918-01-01"^^xsd:date .
+
+brdftime:1918end a ot:Instant ;
+    ot:inXSDDate "1918-12-31"^^xsd:date .
+
+brdftime:1918start a ot:Instant ;
+    ot:inXSDDate "1918-01-01"^^xsd:date .
+
+brdftime:1919 a ot:ProperInterval ;
+    rdfs:label 1919 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1919>,
+        <http://www.wikidata.org/entity/Q2157> ;
+    ot:hasBeginning brdftime:1919start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1919end ;
+    ot:inXSDDate "1919-01-01"^^xsd:date .
+
+brdftime:1919start a ot:Instant ;
+    ot:inXSDDate "1919-01-01"^^xsd:date .
+
+brdftime:1920 a ot:ProperInterval ;
+    rdfs:label 1920 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1920>,
+        <http://www.wikidata.org/entity/Q2155> ;
+    ot:hasBeginning brdftime:1920start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1920end ;
+    ot:inXSDDate "1920-01-01"^^xsd:date .
+
+brdftime:1920end a ot:Instant ;
+    ot:inXSDDate "1920-12-31"^^xsd:date .
+
+brdftime:1921 a ot:ProperInterval ;
+    rdfs:label 1921 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1921>,
+        <http://www.wikidata.org/entity/Q2162> ;
+    ot:hasBeginning brdftime:1921start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1921end ;
+    ot:inXSDDate "1921-01-01"^^xsd:date .
+
+brdftime:1921end a ot:Instant ;
+    ot:inXSDDate "1921-12-31"^^xsd:date .
+
+brdftime:1921start a ot:Instant ;
+    ot:inXSDDate "1921-01-01"^^xsd:date .
+
+brdftime:1922 a ot:ProperInterval ;
+    rdfs:label 1922 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1922>,
+        <http://www.wikidata.org/entity/Q2165> ;
+    ot:hasBeginning brdftime:1922start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1922end ;
+    ot:inXSDDate "1922-01-01"^^xsd:date .
+
+brdftime:1922end a ot:Instant ;
+    ot:inXSDDate "1922-12-31"^^xsd:date .
+
+brdftime:1922start a ot:Instant ;
+    ot:inXSDDate "1922-01-01"^^xsd:date .
+
+brdftime:1923 a ot:ProperInterval ;
+    rdfs:label 1923 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1923>,
+        <http://www.wikidata.org/entity/Q2169> ;
+    ot:hasBeginning brdftime:1923start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1923end ;
+    ot:inXSDDate "1923-01-01"^^xsd:date .
+
+brdftime:1923end a ot:Instant ;
+    ot:inXSDDate "1923-12-31"^^xsd:date .
+
+brdftime:1923start a ot:Instant ;
+    ot:inXSDDate "1923-01-01"^^xsd:date .
+
+brdftime:1924 a ot:ProperInterval ;
+    rdfs:label 1924 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1924>,
+        <http://www.wikidata.org/entity/Q2173> ;
+    ot:hasBeginning brdftime:1924start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1924end ;
+    ot:inXSDDate "1924-01-01"^^xsd:date .
+
+brdftime:1924end a ot:Instant ;
+    ot:inXSDDate "1924-12-31"^^xsd:date .
+
+brdftime:1924start a ot:Instant ;
+    ot:inXSDDate "1924-01-01"^^xsd:date .
+
+brdftime:1925 a ot:ProperInterval ;
+    rdfs:label 1925 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1925>,
+        <http://www.wikidata.org/entity/Q18107> ;
+    ot:hasBeginning brdftime:1925start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1925end ;
+    ot:inXSDDate "1925-01-01"^^xsd:date .
+
+brdftime:1925end a ot:Instant ;
+    ot:inXSDDate "1925-12-31"^^xsd:date .
+
+brdftime:1925start a ot:Instant ;
+    ot:inXSDDate "1925-01-01"^^xsd:date .
+
+brdftime:1926 a ot:ProperInterval ;
+    rdfs:label 1926 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1926>,
+        <http://www.wikidata.org/entity/Q5259> ;
+    ot:hasBeginning brdftime:1926start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1926end ;
+    ot:inXSDDate "1926-01-01"^^xsd:date .
+
+brdftime:1926end a ot:Instant ;
+    ot:inXSDDate "1926-12-31"^^xsd:date .
+
+brdftime:1926start a ot:Instant ;
+    ot:inXSDDate "1926-01-01"^^xsd:date .
+
+brdftime:1927 a ot:ProperInterval ;
+    rdfs:label 1927 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1927>,
+        <http://www.wikidata.org/entity/Q18110> ;
+    ot:hasBeginning brdftime:1927start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1927end ;
+    ot:inXSDDate "1927-01-01"^^xsd:date .
+
+brdftime:1927end a ot:Instant ;
+    ot:inXSDDate "1927-12-31"^^xsd:date .
+
+brdftime:1927start a ot:Instant ;
+    ot:inXSDDate "1927-01-01"^^xsd:date .
+
+brdftime:1928 a ot:ProperInterval ;
+    rdfs:label 1928 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1928>,
+        <http://www.wikidata.org/entity/Q19715> ;
+    ot:hasBeginning brdftime:1928start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1928end ;
+    ot:inXSDDate "1928-01-01"^^xsd:date .
+
+brdftime:1928end a ot:Instant ;
+    ot:inXSDDate "1928-12-31"^^xsd:date .
+
+brdftime:1928start a ot:Instant ;
+    ot:inXSDDate "1928-01-01"^^xsd:date .
+
+brdftime:1929 a ot:ProperInterval ;
+    rdfs:label 1929 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1929>,
+        <http://www.wikidata.org/entity/Q18792> ;
+    ot:hasBeginning brdftime:1929start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1929end ;
+    ot:inXSDDate "1929-01-01"^^xsd:date .
+
+brdftime:1929start a ot:Instant ;
+    ot:inXSDDate "1929-01-01"^^xsd:date .
+
+brdftime:1930 a ot:ProperInterval ;
+    rdfs:label 1930 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1930>,
+        <http://www.wikidata.org/entity/Q18787> ;
+    ot:hasBeginning brdftime:1930start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1930end ;
+    ot:inXSDDate "1930-01-01"^^xsd:date .
+
+brdftime:1930end a ot:Instant ;
+    ot:inXSDDate "1930-12-31"^^xsd:date .
+
+brdftime:1931 a ot:ProperInterval ;
+    rdfs:label 1931 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1931>,
+        <http://www.wikidata.org/entity/Q18782> ;
+    ot:hasBeginning brdftime:1931start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1931end ;
+    ot:inXSDDate "1931-01-01"^^xsd:date .
+
+brdftime:1931end a ot:Instant ;
+    ot:inXSDDate "1931-12-31"^^xsd:date .
+
+brdftime:1931start a ot:Instant ;
+    ot:inXSDDate "1931-01-01"^^xsd:date .
+
+brdftime:1932 a ot:ProperInterval ;
+    rdfs:label 1932 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1932>,
+        <http://www.wikidata.org/entity/Q18743> ;
+    ot:hasBeginning brdftime:1932start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1932end ;
+    ot:inXSDDate "1932-01-01"^^xsd:date .
+
+brdftime:1932end a ot:Instant ;
+    ot:inXSDDate "1932-12-31"^^xsd:date .
+
+brdftime:1932start a ot:Instant ;
+    ot:inXSDDate "1932-01-01"^^xsd:date .
+
+brdftime:1933 a ot:ProperInterval ;
+    rdfs:label 1933 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1933>,
+        <http://www.wikidata.org/entity/Q18726> ;
+    ot:hasBeginning brdftime:1933start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1933end ;
+    ot:inXSDDate "1933-01-01"^^xsd:date .
+
+brdftime:1933end a ot:Instant ;
+    ot:inXSDDate "1933-12-31"^^xsd:date .
+
+brdftime:1933start a ot:Instant ;
+    ot:inXSDDate "1933-01-01"^^xsd:date .
+
+brdftime:1934 a ot:ProperInterval ;
+    rdfs:label 1934 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1934>,
+        <http://www.wikidata.org/entity/Q18714> ;
+    ot:hasBeginning brdftime:1934start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1934end ;
+    ot:inXSDDate "1934-01-01"^^xsd:date .
+
+brdftime:1934end a ot:Instant ;
+    ot:inXSDDate "1934-12-31"^^xsd:date .
+
+brdftime:1934start a ot:Instant ;
+    ot:inXSDDate "1934-01-01"^^xsd:date .
+
+brdftime:1935 a ot:ProperInterval ;
+    rdfs:label 1935 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1935>,
+        <http://www.wikidata.org/entity/Q18658> ;
+    ot:hasBeginning brdftime:1935start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1935end ;
+    ot:inXSDDate "1935-01-01"^^xsd:date .
+
+brdftime:1935end a ot:Instant ;
+    ot:inXSDDate "1935-12-31"^^xsd:date .
+
+brdftime:1935start a ot:Instant ;
+    ot:inXSDDate "1935-01-01"^^xsd:date .
+
+brdftime:1936 a ot:ProperInterval ;
+    rdfs:label 1936 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1936>,
+        <http://www.wikidata.org/entity/Q18649> ;
+    ot:hasBeginning brdftime:1936start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1936end ;
+    ot:inXSDDate "1936-01-01"^^xsd:date .
+
+brdftime:1936end a ot:Instant ;
+    ot:inXSDDate "1936-12-31"^^xsd:date .
+
+brdftime:1936start a ot:Instant ;
+    ot:inXSDDate "1936-01-01"^^xsd:date .
+
+brdftime:1937 a ot:ProperInterval ;
+    rdfs:label 1937 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1937>,
+        <http://www.wikidata.org/entity/Q18647> ;
+    ot:hasBeginning brdftime:1937start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1937end ;
+    ot:inXSDDate "1937-01-01"^^xsd:date .
+
+brdftime:1937end a ot:Instant ;
+    ot:inXSDDate "1937-12-31"^^xsd:date .
+
+brdftime:1937start a ot:Instant ;
+    ot:inXSDDate "1937-01-01"^^xsd:date .
+
+brdftime:1938 a ot:ProperInterval ;
+    rdfs:label 1938 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1938>,
+        <http://www.wikidata.org/entity/Q18645> ;
+    ot:hasBeginning brdftime:1938start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1938end ;
+    ot:inXSDDate "1938-01-01"^^xsd:date .
+
+brdftime:1938end a ot:Instant ;
+    ot:inXSDDate "1938-12-31"^^xsd:date .
+
+brdftime:1938start a ot:Instant ;
+    ot:inXSDDate "1938-01-01"^^xsd:date .
+
+brdftime:1939 a ot:ProperInterval ;
+    rdfs:label 1939 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1939>,
+        <http://www.wikidata.org/entity/Q18639> ;
+    ot:hasBeginning brdftime:1939start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1939end ;
+    ot:inXSDDate "1939-01-01"^^xsd:date .
+
+brdftime:1939start a ot:Instant ;
+    ot:inXSDDate "1939-01-01"^^xsd:date .
+
+brdftime:1940 a ot:ProperInterval ;
+    rdfs:label 1940 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1940>,
+        <http://www.wikidata.org/entity/Q18633> ;
+    ot:hasBeginning brdftime:1940start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1940end ;
+    ot:inXSDDate "1940-01-01"^^xsd:date .
+
+brdftime:1940end a ot:Instant ;
+    ot:inXSDDate "1940-12-31"^^xsd:date .
+
+brdftime:1941 a ot:ProperInterval ;
+    rdfs:label 1941 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1941>,
+        <http://www.wikidata.org/entity/Q5231> ;
+    ot:hasBeginning brdftime:1941start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1941end ;
+    ot:inXSDDate "1941-01-01"^^xsd:date .
+
+brdftime:1941end a ot:Instant ;
+    ot:inXSDDate "1941-12-31"^^xsd:date .
+
+brdftime:1941start a ot:Instant ;
+    ot:inXSDDate "1941-01-01"^^xsd:date .
+
+brdftime:1942 a ot:ProperInterval ;
+    rdfs:label 1942 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1942>,
+        <http://www.wikidata.org/entity/Q18625> ;
+    ot:hasBeginning brdftime:1942start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1942end ;
+    ot:inXSDDate "1942-01-01"^^xsd:date .
+
+brdftime:1942end a ot:Instant ;
+    ot:inXSDDate "1942-12-31"^^xsd:date .
+
+brdftime:1942start a ot:Instant ;
+    ot:inXSDDate "1942-01-01"^^xsd:date .
+
+brdftime:1943 a ot:ProperInterval ;
+    rdfs:label 1943 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1943>,
+        <http://www.wikidata.org/entity/Q18623> ;
+    ot:hasBeginning brdftime:1943start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1943end ;
+    ot:inXSDDate "1943-01-01"^^xsd:date .
+
+brdftime:1943end a ot:Instant ;
+    ot:inXSDDate "1943-12-31"^^xsd:date .
+
+brdftime:1943start a ot:Instant ;
+    ot:inXSDDate "1943-01-01"^^xsd:date .
+
+brdftime:1944 a ot:ProperInterval ;
+    rdfs:label 1944 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1944>,
+        <http://www.wikidata.org/entity/Q5268> ;
+    ot:hasBeginning brdftime:1944start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1944end ;
+    ot:inXSDDate "1944-01-01"^^xsd:date .
+
+brdftime:1944end a ot:Instant ;
+    ot:inXSDDate "1944-12-31"^^xsd:date .
+
+brdftime:1944start a ot:Instant ;
+    ot:inXSDDate "1944-01-01"^^xsd:date .
+
+brdftime:1945 a ot:ProperInterval ;
+    rdfs:label 1945 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1945>,
+        <http://www.wikidata.org/entity/Q5240> ;
+    ot:hasBeginning brdftime:1945start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1945end ;
+    ot:inXSDDate "1945-01-01"^^xsd:date .
+
+brdftime:1945end a ot:Instant ;
+    ot:inXSDDate "1945-12-31"^^xsd:date .
+
+brdftime:1945start a ot:Instant ;
+    ot:inXSDDate "1945-01-01"^^xsd:date .
+
+brdftime:1946 a ot:ProperInterval ;
+    rdfs:label 1946 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1946>,
+        <http://www.wikidata.org/entity/Q18610> ;
+    ot:hasBeginning brdftime:1946start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1946end ;
+    ot:inXSDDate "1946-01-01"^^xsd:date .
+
+brdftime:1946end a ot:Instant ;
+    ot:inXSDDate "1946-12-31"^^xsd:date .
+
+brdftime:1946start a ot:Instant ;
+    ot:inXSDDate "1946-01-01"^^xsd:date .
+
+brdftime:1947 a ot:ProperInterval ;
+    rdfs:label 1947 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1947>,
+        <http://www.wikidata.org/entity/Q5263> ;
+    ot:hasBeginning brdftime:1947start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1947end ;
+    ot:inXSDDate "1947-01-01"^^xsd:date .
+
+brdftime:1947end a ot:Instant ;
+    ot:inXSDDate "1947-12-31"^^xsd:date .
+
+brdftime:1947start a ot:Instant ;
+    ot:inXSDDate "1947-01-01"^^xsd:date .
+
+brdftime:1948 a ot:ProperInterval ;
+    rdfs:label 1948 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1948>,
+        <http://www.wikidata.org/entity/Q5165> ;
+    ot:hasBeginning brdftime:1948start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1948end ;
+    ot:inXSDDate "1948-01-01"^^xsd:date .
+
+brdftime:1948end a ot:Instant ;
+    ot:inXSDDate "1948-12-31"^^xsd:date .
+
+brdftime:1948start a ot:Instant ;
+    ot:inXSDDate "1948-01-01"^^xsd:date .
+
+brdftime:1949 a ot:ProperInterval ;
+    rdfs:label 1949 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1949>,
+        <http://www.wikidata.org/entity/Q5188> ;
+    ot:hasBeginning brdftime:1949start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1949end ;
+    ot:inXSDDate "1949-01-01"^^xsd:date .
+
+brdftime:1949start a ot:Instant ;
+    ot:inXSDDate "1949-01-01"^^xsd:date .
+
+brdftime:1950 a ot:ProperInterval ;
+    rdfs:label 1950 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1950>,
+        <http://www.wikidata.org/entity/Q18597> ;
+    ot:hasBeginning brdftime:1950start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1950end ;
+    ot:inXSDDate "1950-01-01"^^xsd:date .
+
+brdftime:1950end a ot:Instant ;
+    ot:inXSDDate "1950-12-31"^^xsd:date .
+
+brdftime:1951 a ot:ProperInterval ;
+    rdfs:label 1951 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1951>,
+        <http://www.wikidata.org/entity/Q18591> ;
+    ot:hasBeginning brdftime:1951start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1951end ;
+    ot:inXSDDate "1951-01-01"^^xsd:date .
+
+brdftime:1951end a ot:Instant ;
+    ot:inXSDDate "1951-12-31"^^xsd:date .
+
+brdftime:1951start a ot:Instant ;
+    ot:inXSDDate "1951-01-01"^^xsd:date .
+
+brdftime:1952 a ot:ProperInterval ;
+    rdfs:label 1952 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1952>,
+        <http://www.wikidata.org/entity/Q5272> ;
+    ot:hasBeginning brdftime:1952start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1952end ;
+    ot:inXSDDate "1952-01-01"^^xsd:date .
+
+brdftime:1952end a ot:Instant ;
+    ot:inXSDDate "1952-12-31"^^xsd:date .
+
+brdftime:1952start a ot:Instant ;
+    ot:inXSDDate "1952-01-01"^^xsd:date .
+
+brdftime:1953 a ot:ProperInterval ;
+    rdfs:label 1953 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1953>,
+        <http://www.wikidata.org/entity/Q18585> ;
+    ot:hasBeginning brdftime:1953start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1953end ;
+    ot:inXSDDate "1953-01-01"^^xsd:date .
+
+brdftime:1953end a ot:Instant ;
+    ot:inXSDDate "1953-12-31"^^xsd:date .
+
+brdftime:1953start a ot:Instant ;
+    ot:inXSDDate "1953-01-01"^^xsd:date .
+
+brdftime:1954 a ot:ProperInterval ;
+    rdfs:label 1954 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1954>,
+        <http://www.wikidata.org/entity/Q18581> ;
+    ot:hasBeginning brdftime:1954start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1954end ;
+    ot:inXSDDate "1954-01-01"^^xsd:date .
+
+brdftime:1954end a ot:Instant ;
+    ot:inXSDDate "1954-12-31"^^xsd:date .
+
+brdftime:1954start a ot:Instant ;
+    ot:inXSDDate "1954-01-01"^^xsd:date .
+
+brdftime:1955 a ot:ProperInterval ;
+    rdfs:label 1955 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1955>,
+        <http://www.wikidata.org/entity/Q18577> ;
+    ot:hasBeginning brdftime:1955start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1955end ;
+    ot:inXSDDate "1955-01-01"^^xsd:date .
+
+brdftime:1955end a ot:Instant ;
+    ot:inXSDDate "1955-12-31"^^xsd:date .
+
+brdftime:1955start a ot:Instant ;
+    ot:inXSDDate "1955-01-01"^^xsd:date .
+
+brdftime:1956 a ot:ProperInterval ;
+    rdfs:label 1956 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1956>,
+        <http://www.wikidata.org/entity/Q5221> ;
+    ot:hasBeginning brdftime:1956start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1956end ;
+    ot:inXSDDate "1956-01-01"^^xsd:date .
+
+brdftime:1956end a ot:Instant ;
+    ot:inXSDDate "1956-12-31"^^xsd:date .
+
+brdftime:1956start a ot:Instant ;
+    ot:inXSDDate "1956-01-01"^^xsd:date .
+
+brdftime:1957 a ot:ProperInterval ;
+    rdfs:label 1957 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1957>,
+        <http://www.wikidata.org/entity/Q5311> ;
+    ot:hasBeginning brdftime:1957start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1957end ;
+    ot:inXSDDate "1957-01-01"^^xsd:date .
+
+brdftime:1957end a ot:Instant ;
+    ot:inXSDDate "1957-12-31"^^xsd:date .
+
+brdftime:1957start a ot:Instant ;
+    ot:inXSDDate "1957-01-01"^^xsd:date .
+
+brdftime:1958 a ot:ProperInterval ;
+    rdfs:label 1958 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1958>,
+        <http://www.wikidata.org/entity/Q5253> ;
+    ot:hasBeginning brdftime:1958start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1958end ;
+    ot:inXSDDate "1958-01-01"^^xsd:date .
+
+brdftime:1958end a ot:Instant ;
+    ot:inXSDDate "1958-12-31"^^xsd:date .
+
+brdftime:1958start a ot:Instant ;
+    ot:inXSDDate "1958-01-01"^^xsd:date .
+
+brdftime:1959 a ot:ProperInterval ;
+    rdfs:label 1959 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1959>,
+        <http://www.wikidata.org/entity/Q5302> ;
+    ot:hasBeginning brdftime:1959start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1959end ;
+    ot:inXSDDate "1959-01-01"^^xsd:date .
+
+brdftime:1959start a ot:Instant ;
+    ot:inXSDDate "1959-01-01"^^xsd:date .
+
+brdftime:1960 a ot:ProperInterval ;
+    rdfs:label 1960 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1960>,
+        <http://www.wikidata.org/entity/Q3754> ;
+    ot:hasBeginning brdftime:1960start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1960end ;
+    ot:inXSDDate "1960-01-01"^^xsd:date .
+
+brdftime:1960end a ot:Instant ;
+    ot:inXSDDate "1960-12-31"^^xsd:date .
+
+brdftime:1961 a ot:ProperInterval ;
+    rdfs:label 1961 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1961>,
+        <http://www.wikidata.org/entity/Q3696> ;
+    ot:hasBeginning brdftime:1961start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1961end ;
+    ot:inXSDDate "1961-01-01"^^xsd:date .
+
+brdftime:1961end a ot:Instant ;
+    ot:inXSDDate "1961-12-31"^^xsd:date .
+
+brdftime:1961start a ot:Instant ;
+    ot:inXSDDate "1961-01-01"^^xsd:date .
+
+brdftime:1962 a ot:ProperInterval ;
+    rdfs:label 1962 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1962>,
+        <http://www.wikidata.org/entity/Q2764> ;
+    ot:hasBeginning brdftime:1962start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1962end ;
+    ot:inXSDDate "1962-01-01"^^xsd:date .
+
+brdftime:1962end a ot:Instant ;
+    ot:inXSDDate "1962-12-31"^^xsd:date .
+
+brdftime:1962start a ot:Instant ;
+    ot:inXSDDate "1962-01-01"^^xsd:date .
+
+brdftime:1963 a ot:ProperInterval ;
+    rdfs:label 1963 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1963>,
+        <http://www.wikidata.org/entity/Q2755> ;
+    ot:hasBeginning brdftime:1963start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1963end ;
+    ot:inXSDDate "1963-01-01"^^xsd:date .
+
+brdftime:1963end a ot:Instant ;
+    ot:inXSDDate "1963-12-31"^^xsd:date .
+
+brdftime:1963start a ot:Instant ;
+    ot:inXSDDate "1963-01-01"^^xsd:date .
+
+brdftime:1964 a ot:ProperInterval ;
+    rdfs:label 1964 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1964>,
+        <http://www.wikidata.org/entity/Q2652> ;
+    ot:hasBeginning brdftime:1964start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1964end ;
+    ot:inXSDDate "1964-01-01"^^xsd:date .
+
+brdftime:1964end a ot:Instant ;
+    ot:inXSDDate "1964-12-31"^^xsd:date .
+
+brdftime:1964start a ot:Instant ;
+    ot:inXSDDate "1964-01-01"^^xsd:date .
+
+brdftime:1965 a ot:ProperInterval ;
+    rdfs:label 1965 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1965>,
+        <http://www.wikidata.org/entity/Q2650> ;
+    ot:hasBeginning brdftime:1965start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1965end ;
+    ot:inXSDDate "1965-01-01"^^xsd:date .
+
+brdftime:1965end a ot:Instant ;
+    ot:inXSDDate "1965-12-31"^^xsd:date .
+
+brdftime:1965start a ot:Instant ;
+    ot:inXSDDate "1965-01-01"^^xsd:date .
+
+brdftime:1966 a ot:ProperInterval ;
+    rdfs:label 1966 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1966>,
+        <http://www.wikidata.org/entity/Q2649> ;
+    ot:hasBeginning brdftime:1966start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1966end ;
+    ot:inXSDDate "1966-01-01"^^xsd:date .
+
+brdftime:1966end a ot:Instant ;
+    ot:inXSDDate "1966-12-31"^^xsd:date .
+
+brdftime:1966start a ot:Instant ;
+    ot:inXSDDate "1966-01-01"^^xsd:date .
+
+brdftime:1967 a ot:ProperInterval ;
+    rdfs:label 1967 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1967>,
+        <http://www.wikidata.org/entity/Q2648> ;
+    ot:hasBeginning brdftime:1967start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1967end ;
+    ot:inXSDDate "1967-01-01"^^xsd:date .
+
+brdftime:1967end a ot:Instant ;
+    ot:inXSDDate "1967-12-31"^^xsd:date .
+
+brdftime:1967start a ot:Instant ;
+    ot:inXSDDate "1967-01-01"^^xsd:date .
+
+brdftime:1968 a ot:ProperInterval ;
+    rdfs:label 1968 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1968>,
+        <http://www.wikidata.org/entity/Q2644> ;
+    ot:hasBeginning brdftime:1968start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1968end ;
+    ot:inXSDDate "1968-01-01"^^xsd:date .
+
+brdftime:1968end a ot:Instant ;
+    ot:inXSDDate "1968-12-31"^^xsd:date .
+
+brdftime:1968start a ot:Instant ;
+    ot:inXSDDate "1968-01-01"^^xsd:date .
+
+brdftime:1969 a ot:ProperInterval ;
+    rdfs:label 1969 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1969>,
+        <http://www.wikidata.org/entity/Q2485> ;
+    ot:hasBeginning brdftime:1969start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1969end ;
+    ot:inXSDDate "1969-01-01"^^xsd:date .
+
+brdftime:1969start a ot:Instant ;
+    ot:inXSDDate "1969-01-01"^^xsd:date .
+
+brdftime:1970 a ot:ProperInterval ;
+    rdfs:label 1970 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1970>,
+        <http://www.wikidata.org/entity/Q2474> ;
+    ot:hasBeginning brdftime:1970start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1970end ;
+    ot:inXSDDate "1970-01-01"^^xsd:date .
+
+brdftime:1970end a ot:Instant ;
+    ot:inXSDDate "1970-12-31"^^xsd:date .
+
+brdftime:1971 a ot:ProperInterval ;
+    rdfs:label 1971 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1971>,
+        <http://www.wikidata.org/entity/Q2475> ;
+    ot:hasBeginning brdftime:1971start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1971end ;
+    ot:inXSDDate "1971-01-01"^^xsd:date .
+
+brdftime:1971end a ot:Instant ;
+    ot:inXSDDate "1971-12-31"^^xsd:date .
+
+brdftime:1971start a ot:Instant ;
+    ot:inXSDDate "1971-01-01"^^xsd:date .
+
+brdftime:1972 a ot:ProperInterval ;
+    rdfs:label 1972 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1972>,
+        <http://www.wikidata.org/entity/Q2476> ;
+    ot:hasBeginning brdftime:1972start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1972end ;
+    ot:inXSDDate "1972-01-01"^^xsd:date .
+
+brdftime:1972end a ot:Instant ;
+    ot:inXSDDate "1972-12-31"^^xsd:date .
+
+brdftime:1972start a ot:Instant ;
+    ot:inXSDDate "1972-01-01"^^xsd:date .
+
+brdftime:1973 a ot:ProperInterval ;
+    rdfs:label 1973 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1973>,
+        <http://www.wikidata.org/entity/Q2477> ;
+    ot:hasBeginning brdftime:1973start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1973end ;
+    ot:inXSDDate "1973-01-01"^^xsd:date .
+
+brdftime:1973end a ot:Instant ;
+    ot:inXSDDate "1973-12-31"^^xsd:date .
+
+brdftime:1973start a ot:Instant ;
+    ot:inXSDDate "1973-01-01"^^xsd:date .
+
+brdftime:1974 a ot:ProperInterval ;
+    rdfs:label 1974 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1974>,
+        <http://www.wikidata.org/entity/Q2478> ;
+    ot:hasBeginning brdftime:1974start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1974end ;
+    ot:inXSDDate "1974-01-01"^^xsd:date .
+
+brdftime:1974end a ot:Instant ;
+    ot:inXSDDate "1974-12-31"^^xsd:date .
+
+brdftime:1974start a ot:Instant ;
+    ot:inXSDDate "1974-01-01"^^xsd:date .
+
+brdftime:1975 a ot:ProperInterval ;
+    rdfs:label 1975 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1975>,
+        <http://www.wikidata.org/entity/Q2479> ;
+    ot:hasBeginning brdftime:1975start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1975end ;
+    ot:inXSDDate "1975-01-01"^^xsd:date .
+
+brdftime:1975end a ot:Instant ;
+    ot:inXSDDate "1975-12-31"^^xsd:date .
+
+brdftime:1975start a ot:Instant ;
+    ot:inXSDDate "1975-01-01"^^xsd:date .
+
+brdftime:1976 a ot:ProperInterval ;
+    rdfs:label 1976 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1976>,
+        <http://www.wikidata.org/entity/Q2480> ;
+    ot:hasBeginning brdftime:1976start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1976end ;
+    ot:inXSDDate "1976-01-01"^^xsd:date .
+
+brdftime:1976end a ot:Instant ;
+    ot:inXSDDate "1976-12-31"^^xsd:date .
+
+brdftime:1976start a ot:Instant ;
+    ot:inXSDDate "1976-01-01"^^xsd:date .
+
+brdftime:1977 a ot:ProperInterval ;
+    rdfs:label 1977 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1977>,
+        <http://www.wikidata.org/entity/Q2481> ;
+    ot:hasBeginning brdftime:1977start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1977end ;
+    ot:inXSDDate "1977-01-01"^^xsd:date .
+
+brdftime:1977end a ot:Instant ;
+    ot:inXSDDate "1977-12-31"^^xsd:date .
+
+brdftime:1977start a ot:Instant ;
+    ot:inXSDDate "1977-01-01"^^xsd:date .
+
+brdftime:1978 a ot:ProperInterval ;
+    rdfs:label 1978 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1978>,
+        <http://www.wikidata.org/entity/Q2483> ;
+    ot:hasBeginning brdftime:1978start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1978end ;
+    ot:inXSDDate "1978-01-01"^^xsd:date .
+
+brdftime:1978end a ot:Instant ;
+    ot:inXSDDate "1978-12-31"^^xsd:date .
+
+brdftime:1978start a ot:Instant ;
+    ot:inXSDDate "1978-01-01"^^xsd:date .
+
+brdftime:1979 a ot:ProperInterval ;
+    rdfs:label 1979 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1979>,
+        <http://www.wikidata.org/entity/Q2484> ;
+    ot:hasBeginning brdftime:1979start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1979end ;
+    ot:inXSDDate "1979-01-01"^^xsd:date .
+
+brdftime:1979start a ot:Instant ;
+    ot:inXSDDate "1979-01-01"^^xsd:date .
+
+brdftime:1980 a ot:ProperInterval ;
+    rdfs:label 1980 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1980>,
+        <http://www.wikidata.org/entity/Q2439> ;
+    ot:hasBeginning brdftime:1980start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1980end ;
+    ot:inXSDDate "1980-01-01"^^xsd:date .
+
+brdftime:1980end a ot:Instant ;
+    ot:inXSDDate "1980-12-31"^^xsd:date .
+
+brdftime:1981 a ot:ProperInterval ;
+    rdfs:label 1981 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1981>,
+        <http://www.wikidata.org/entity/Q2437> ;
+    ot:hasBeginning brdftime:1981start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1981end ;
+    ot:inXSDDate "1981-01-01"^^xsd:date .
+
+brdftime:1981end a ot:Instant ;
+    ot:inXSDDate "1981-12-31"^^xsd:date .
+
+brdftime:1981start a ot:Instant ;
+    ot:inXSDDate "1981-01-01"^^xsd:date .
+
+brdftime:1982 a ot:ProperInterval ;
+    rdfs:label 1982 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1982>,
+        <http://www.wikidata.org/entity/Q2436> ;
+    ot:hasBeginning brdftime:1982start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1982end ;
+    ot:inXSDDate "1982-01-01"^^xsd:date .
+
+brdftime:1982end a ot:Instant ;
+    ot:inXSDDate "1982-12-31"^^xsd:date .
+
+brdftime:1982start a ot:Instant ;
+    ot:inXSDDate "1982-01-01"^^xsd:date .
+
+brdftime:1983 a ot:ProperInterval ;
+    rdfs:label 1983 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1983>,
+        <http://www.wikidata.org/entity/Q2434> ;
+    ot:hasBeginning brdftime:1983start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1983end ;
+    ot:inXSDDate "1983-01-01"^^xsd:date .
+
+brdftime:1983end a ot:Instant ;
+    ot:inXSDDate "1983-12-31"^^xsd:date .
+
+brdftime:1983start a ot:Instant ;
+    ot:inXSDDate "1983-01-01"^^xsd:date .
+
+brdftime:1984 a ot:ProperInterval ;
+    rdfs:label 1984 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1984>,
+        <http://www.wikidata.org/entity/Q2432> ;
+    ot:hasBeginning brdftime:1984start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1984end ;
+    ot:inXSDDate "1984-01-01"^^xsd:date .
+
+brdftime:1984end a ot:Instant ;
+    ot:inXSDDate "1984-12-31"^^xsd:date .
+
+brdftime:1984start a ot:Instant ;
+    ot:inXSDDate "1984-01-01"^^xsd:date .
+
+brdftime:1985 a ot:ProperInterval ;
+    rdfs:label 1985 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1985>,
+        <http://www.wikidata.org/entity/Q2431> ;
+    ot:hasBeginning brdftime:1985start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1985end ;
+    ot:inXSDDate "1985-01-01"^^xsd:date .
+
+brdftime:1985end a ot:Instant ;
+    ot:inXSDDate "1985-12-31"^^xsd:date .
+
+brdftime:1985start a ot:Instant ;
+    ot:inXSDDate "1985-01-01"^^xsd:date .
+
+brdftime:1986 a ot:ProperInterval ;
+    rdfs:label 1986 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1986>,
+        <http://www.wikidata.org/entity/Q2430> ;
+    ot:hasBeginning brdftime:1986start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1986end ;
+    ot:inXSDDate "1986-01-01"^^xsd:date .
+
+brdftime:1986end a ot:Instant ;
+    ot:inXSDDate "1986-12-31"^^xsd:date .
+
+brdftime:1986start a ot:Instant ;
+    ot:inXSDDate "1986-01-01"^^xsd:date .
+
+brdftime:1987 a ot:ProperInterval ;
+    rdfs:label 1987 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1987>,
+        <http://www.wikidata.org/entity/Q2429> ;
+    ot:hasBeginning brdftime:1987start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1987end ;
+    ot:inXSDDate "1987-01-01"^^xsd:date .
+
+brdftime:1987end a ot:Instant ;
+    ot:inXSDDate "1987-12-31"^^xsd:date .
+
+brdftime:1987start a ot:Instant ;
+    ot:inXSDDate "1987-01-01"^^xsd:date .
+
+brdftime:1988 a ot:ProperInterval ;
+    rdfs:label 1988 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1988>,
+        <http://www.wikidata.org/entity/Q2426> ;
+    ot:hasBeginning brdftime:1988start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1988end ;
+    ot:inXSDDate "1988-01-01"^^xsd:date .
+
+brdftime:1988end a ot:Instant ;
+    ot:inXSDDate "1988-12-31"^^xsd:date .
+
+brdftime:1988start a ot:Instant ;
+    ot:inXSDDate "1988-01-01"^^xsd:date .
+
+brdftime:1989 a ot:ProperInterval ;
+    rdfs:label 1989 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1989>,
+        <http://www.wikidata.org/entity/Q2425> ;
+    ot:hasBeginning brdftime:1989start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1989end ;
+    ot:inXSDDate "1989-01-01"^^xsd:date .
+
+brdftime:1989start a ot:Instant ;
+    ot:inXSDDate "1989-01-01"^^xsd:date .
+
+brdftime:1990 a ot:ProperInterval ;
+    rdfs:label 1990 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1990>,
+        <http://www.wikidata.org/entity/Q2064> ;
+    ot:hasBeginning brdftime:1990start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1990end ;
+    ot:inXSDDate "1990-01-01"^^xsd:date .
+
+brdftime:1990end a ot:Instant ;
+    ot:inXSDDate "1990-12-31"^^xsd:date .
+
+brdftime:1991 a ot:ProperInterval ;
+    rdfs:label 1991 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1991>,
+        <http://www.wikidata.org/entity/Q2062> ;
+    ot:hasBeginning brdftime:1991start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1991end ;
+    ot:inXSDDate "1991-01-01"^^xsd:date .
+
+brdftime:1991end a ot:Instant ;
+    ot:inXSDDate "1991-12-31"^^xsd:date .
+
+brdftime:1991start a ot:Instant ;
+    ot:inXSDDate "1991-01-01"^^xsd:date .
+
+brdftime:1992 a ot:ProperInterval ;
+    rdfs:label 1992 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1992>,
+        <http://www.wikidata.org/entity/Q2060> ;
+    ot:hasBeginning brdftime:1992start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1992end ;
+    ot:inXSDDate "1992-01-01"^^xsd:date .
+
+brdftime:1992end a ot:Instant ;
+    ot:inXSDDate "1992-12-31"^^xsd:date .
+
+brdftime:1992start a ot:Instant ;
+    ot:inXSDDate "1992-01-01"^^xsd:date .
+
+brdftime:1993 a ot:ProperInterval ;
+    rdfs:label 1993 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1993>,
+        <http://www.wikidata.org/entity/Q2065> ;
+    ot:hasBeginning brdftime:1993start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1993end ;
+    ot:inXSDDate "1993-01-01"^^xsd:date .
+
+brdftime:1993end a ot:Instant ;
+    ot:inXSDDate "1993-12-31"^^xsd:date .
+
+brdftime:1993start a ot:Instant ;
+    ot:inXSDDate "1993-01-01"^^xsd:date .
+
+brdftime:1994 a ot:ProperInterval ;
+    rdfs:label 1994 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1994>,
+        <http://www.wikidata.org/entity/Q2067> ;
+    ot:hasBeginning brdftime:1994start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1994end ;
+    ot:inXSDDate "1994-01-01"^^xsd:date .
+
+brdftime:1994end a ot:Instant ;
+    ot:inXSDDate "1994-12-31"^^xsd:date .
+
+brdftime:1994start a ot:Instant ;
+    ot:inXSDDate "1994-01-01"^^xsd:date .
+
+brdftime:1995 a ot:ProperInterval ;
+    rdfs:label 1995 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1995>,
+        <http://www.wikidata.org/entity/Q2068> ;
+    ot:hasBeginning brdftime:1995start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1995end ;
+    ot:inXSDDate "1995-01-01"^^xsd:date .
+
+brdftime:1995end a ot:Instant ;
+    ot:inXSDDate "1995-12-31"^^xsd:date .
+
+brdftime:1996 a ot:ProperInterval ;
+    rdfs:label 1996 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1996>,
+        <http://www.wikidata.org/entity/Q2070> ;
+    ot:hasBeginning brdftime:1996start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1996end ;
+    ot:inXSDDate "1996-01-01"^^xsd:date .
+
+brdftime:1996end a ot:Instant ;
+    ot:inXSDDate "1996-12-31"^^xsd:date .
+
+brdftime:1996start a ot:Instant ;
+    ot:inXSDDate "1996-01-01"^^xsd:date .
+
+brdftime:1997 a ot:ProperInterval ;
+    rdfs:label 1997 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1997>,
+        <http://www.wikidata.org/entity/Q2088> ;
+    ot:hasBeginning brdftime:1997start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1997end ;
+    ot:inXSDDate "1997-01-01"^^xsd:date .
+
+brdftime:1997end a ot:Instant ;
+    ot:inXSDDate "1997-12-31"^^xsd:date .
+
+brdftime:1997start a ot:Instant ;
+    ot:inXSDDate "1997-01-01"^^xsd:date .
+
+brdftime:1998 a ot:ProperInterval ;
+    rdfs:label 1998 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1998>,
+        <http://www.wikidata.org/entity/Q2089> ;
+    ot:hasBeginning brdftime:1998start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1998end ;
+    ot:inXSDDate "1998-01-01"^^xsd:date .
+
+brdftime:1998end a ot:Instant ;
+    ot:inXSDDate "1998-12-31"^^xsd:date .
+
+brdftime:1998start a ot:Instant ;
+    ot:inXSDDate "1998-01-01"^^xsd:date .
+
+brdftime:1999 a ot:ProperInterval ;
+    rdfs:label 1999 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/1999>,
+        <http://www.wikidata.org/entity/Q2091> ;
+    ot:hasBeginning brdftime:1999start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:1999end ;
+    ot:inXSDDate "1999-01-01"^^xsd:date .
+
+brdftime:1999start a ot:Instant ;
+    ot:inXSDDate "1999-01-01"^^xsd:date .
+
+brdftime:2000 a ot:ProperInterval ;
+    rdfs:label 2000 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2000>,
+        <http://www.wikidata.org/entity/Q1985> ;
+    ot:hasBeginning brdftime:2000start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2000end ;
+    ot:inXSDDate "2000-01-01"^^xsd:date .
+
+brdftime:2000end a ot:Instant ;
+    ot:inXSDDate "2000-12-31"^^xsd:date .
+
+brdftime:2001 a ot:ProperInterval ;
+    rdfs:label 2001 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2001>,
+        <http://www.wikidata.org/entity/Q1988> ;
+    ot:hasBeginning brdftime:2001start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2001end ;
+    ot:inXSDDate "2001-01-01"^^xsd:date .
+
+brdftime:2001end a ot:Instant ;
+    ot:inXSDDate "2001-12-31"^^xsd:date .
+
+brdftime:2001start a ot:Instant ;
+    ot:inXSDDate "2001-01-01"^^xsd:date .
+
+brdftime:2002 a ot:ProperInterval ;
+    rdfs:label 2002 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2002>,
+        <http://www.wikidata.org/entity/Q1987> ;
+    ot:hasBeginning brdftime:2002start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2002end ;
+    ot:inXSDDate "2002-01-01"^^xsd:date .
+
+brdftime:2002end a ot:Instant ;
+    ot:inXSDDate "2002-12-31"^^xsd:date .
+
+brdftime:2002start a ot:Instant ;
+    ot:inXSDDate "2002-01-01"^^xsd:date .
+
+brdftime:2003 a ot:ProperInterval ;
+    rdfs:label 2003 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2003>,
+        <http://www.wikidata.org/entity/Q1986> ;
+    ot:hasBeginning brdftime:2003start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2003end ;
+    ot:inXSDDate "2003-01-01"^^xsd:date .
+
+brdftime:2003end a ot:Instant ;
+    ot:inXSDDate "2003-12-31"^^xsd:date .
+
+brdftime:2003start a ot:Instant ;
+    ot:inXSDDate "2003-01-01"^^xsd:date .
+
+brdftime:2004 a ot:ProperInterval ;
+    rdfs:label 2004 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2004>,
+        <http://www.wikidata.org/entity/Q2014> ;
+    ot:hasBeginning brdftime:2004start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2004end ;
+    ot:inXSDDate "2004-01-01"^^xsd:date .
+
+brdftime:2004end a ot:Instant ;
+    ot:inXSDDate "2004-12-31"^^xsd:date .
+
+brdftime:2004start a ot:Instant ;
+    ot:inXSDDate "2004-01-01"^^xsd:date .
+
+brdftime:2005 a ot:ProperInterval ;
+    rdfs:label 2005 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2005>,
+        <http://www.wikidata.org/entity/Q2019> ;
+    ot:hasBeginning brdftime:2005start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2005end ;
+    ot:inXSDDate "2005-01-01"^^xsd:date .
+
+brdftime:2005start a ot:Instant ;
+    ot:inXSDDate "2005-01-01"^^xsd:date .
+
+brdftime:2006 a ot:ProperInterval ;
+    rdfs:label 2006 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2006>,
+        <http://www.wikidata.org/entity/Q2021> ;
+    ot:hasBeginning brdftime:2006start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2006end ;
+    ot:inXSDDate "2006-01-01"^^xsd:date .
+
+brdftime:2006end a ot:Instant ;
+    ot:inXSDDate "2006-12-31"^^xsd:date .
+
+brdftime:2006start a ot:Instant ;
+    ot:inXSDDate "2006-01-01"^^xsd:date .
+
+brdftime:2007 a ot:ProperInterval ;
+    rdfs:label 2007 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2007>,
+        <http://www.wikidata.org/entity/Q2024> ;
+    ot:hasBeginning brdftime:2007start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2007end ;
+    ot:inXSDDate "2007-01-01"^^xsd:date .
+
+brdftime:2007start a ot:Instant ;
+    ot:inXSDDate "2007-01-01"^^xsd:date .
+
+brdftime:2008 a ot:ProperInterval ;
+    rdfs:label 2008 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2008>,
+        <http://www.wikidata.org/entity/Q2004> ;
+    ot:hasBeginning brdftime:2008start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2008end ;
+    ot:inXSDDate "2008-01-01"^^xsd:date .
+
+brdftime:2008end a ot:Instant ;
+    ot:inXSDDate "2008-12-31"^^xsd:date .
+
+brdftime:2008start a ot:Instant ;
+    ot:inXSDDate "2008-01-01"^^xsd:date .
+
+brdftime:2009 a ot:ProperInterval ;
+    rdfs:label 2009 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2009>,
+        <http://www.wikidata.org/entity/Q1996> ;
+    ot:hasBeginning brdftime:2009start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2009end ;
+    ot:inXSDDate "2009-01-01"^^xsd:date .
+
+brdftime:2009end a ot:Instant ;
+    ot:inXSDDate "2009-12-31"^^xsd:date .
+
+brdftime:2009start a ot:Instant ;
+    ot:inXSDDate "2009-01-01"^^xsd:date .
+
+brdftime:2010 a ot:ProperInterval ;
     rdfs:label 2010 ;
     owl:sameAs <http://reference.data.gov.uk/doc/year/2010>,
-        <https://www.wikidata.org/wiki/Q1995> ;
-    ot:hasBeginning <http://rdf.bonsai.uno/time#2010start> ;
+        <http://www.wikidata.org/entity/Q1995> ;
+    ot:hasBeginning brdftime:2010start ;
     ot:hasDurationDescription brdftime:oneyearlong ;
-    ot:hasEnd <http://rdf.bonsai.uno/time#2010end> ;
+    ot:hasEnd brdftime:2010end ;
     ot:inXSDDate "2010-01-01"^^xsd:date .
 
-<http://rdf.bonsai.uno/time#2011> a ot:ProperInterval ;
-    rdfs:label 2011 ;
-    owl:sameAs <http://reference.data.gov.uk/doc/year/2011>,
-        <https://www.wikidata.org/wiki/Q1994> ;
-    ot:hasBeginning <http://rdf.bonsai.uno/time#2011start> ;
-    ot:hasDurationDescription brdftime:oneyearlong ;
-    ot:hasEnd <http://rdf.bonsai.uno/time#2011end> ;
-    ot:inXSDDate "2011-01-01"^^xsd:date .
-
-<http://rdf.bonsai.uno/time#2012> a ot:ProperInterval ;
-    rdfs:label 2012 ;
-    owl:sameAs <http://reference.data.gov.uk/doc/year/2012>,
-        <https://www.wikidata.org/wiki/Q1990> ;
-    ot:hasBeginning <http://rdf.bonsai.uno/time#2012start> ;
-    ot:hasDurationDescription brdftime:oneyearlong ;
-    ot:hasEnd <http://rdf.bonsai.uno/time#2012end> ;
-    ot:inXSDDate "2012-01-01"^^xsd:date .
-
-<http://rdf.bonsai.uno/time#2013> a ot:ProperInterval ;
-    rdfs:label 2013 ;
-    owl:sameAs <http://reference.data.gov.uk/doc/year/2013>,
-        <https://www.wikidata.org/wiki/Q1998> ;
-    ot:hasBeginning <http://rdf.bonsai.uno/time#2013start> ;
-    ot:hasDurationDescription brdftime:oneyearlong ;
-    ot:hasEnd <http://rdf.bonsai.uno/time#2013end> ;
-    ot:inXSDDate "2013-01-01"^^xsd:date .
-
-<http://rdf.bonsai.uno/time#2014> a ot:ProperInterval ;
-    rdfs:label 2014 ;
-    owl:sameAs <http://reference.data.gov.uk/doc/year/2014>,
-        <https://www.wikidata.org/wiki/Q1999> ;
-    ot:hasBeginning <http://rdf.bonsai.uno/time#2014start> ;
-    ot:hasDurationDescription brdftime:oneyearlong ;
-    ot:hasEnd <http://rdf.bonsai.uno/time#2014end> ;
-    ot:inXSDDate "2014-01-01"^^xsd:date .
-
-<http://rdf.bonsai.uno/time#2015> a ot:ProperInterval ;
-    rdfs:label 2015 ;
-    owl:sameAs <http://reference.data.gov.uk/doc/year/2015>,
-        <https://www.wikidata.org/wiki/Q2002> ;
-    ot:hasBeginning <http://rdf.bonsai.uno/time#2015start> ;
-    ot:hasDurationDescription brdftime:oneyearlong ;
-    ot:hasEnd <http://rdf.bonsai.uno/time#2015end> ;
-    ot:inXSDDate "2015-01-01"^^xsd:date .
-
-<http://rdf.bonsai.uno/time#2016> a ot:ProperInterval ;
-    rdfs:label 2016 ;
-    owl:sameAs <http://reference.data.gov.uk/doc/year/2016>,
-        <https://www.wikidata.org/wiki/Q25245> ;
-    ot:hasBeginning <http://rdf.bonsai.uno/time#2016start> ;
-    ot:hasDurationDescription brdftime:oneyearlong ;
-    ot:hasEnd <http://rdf.bonsai.uno/time#2016end> ;
-    ot:inXSDDate "2016-01-01"^^xsd:date .
-
-<http://rdf.bonsai.uno/time#2017> a ot:ProperInterval ;
-    rdfs:label 2017 ;
-    owl:sameAs <http://reference.data.gov.uk/doc/year/2017>,
-        <https://www.wikidata.org/wiki/Q25290> ;
-    ot:hasBeginning <http://rdf.bonsai.uno/time#2017start> ;
-    ot:hasDurationDescription brdftime:oneyearlong ;
-    ot:hasEnd <http://rdf.bonsai.uno/time#2017end> ;
-    ot:inXSDDate "2017-01-01"^^xsd:date .
-
-<http://rdf.bonsai.uno/time#2018> a ot:ProperInterval ;
-    rdfs:label 2018 ;
-    owl:sameAs <http://reference.data.gov.uk/doc/year/2018>,
-        <https://www.wikidata.org/wiki/Q25291> ;
-    ot:hasBeginning <http://rdf.bonsai.uno/time#2018start> ;
-    ot:hasDurationDescription brdftime:oneyearlong ;
-    ot:hasEnd <http://rdf.bonsai.uno/time#2018end> ;
-    ot:inXSDDate "2018-01-01"^^xsd:date .
-
-<http://rdf.bonsai.uno/time#2019> a ot:ProperInterval ;
-    rdfs:label 2019 ;
-    owl:sameAs <http://reference.data.gov.uk/doc/year/2019>,
-        <https://www.wikidata.org/wiki/Q25274> ;
-    ot:hasBeginning <http://rdf.bonsai.uno/time#2019start> ;
-    ot:hasDurationDescription brdftime:oneyearlong ;
-    ot:hasEnd <http://rdf.bonsai.uno/time#2019end> ;
-    ot:inXSDDate "2019-01-01"^^xsd:date .
-
-<http://rdf.bonsai.uno/time#2020> a ot:ProperInterval ;
-    rdfs:label 2020 ;
-    owl:sameAs <http://reference.data.gov.uk/doc/year/2020>,
-        <https://www.wikidata.org/wiki/Q25337> ;
-    ot:hasBeginning <http://rdf.bonsai.uno/time#2020start> ;
-    ot:hasDurationDescription brdftime:oneyearlong ;
-    ot:hasEnd <http://rdf.bonsai.uno/time#2020end> ;
-    ot:inXSDDate "2020-01-01"^^xsd:date .
-
-<http://rdf.bonsai.uno/time#2010end> a ot:Instant ;
+brdftime:2010end a ot:Instant ;
     ot:inXSDDate "2010-12-31"^^xsd:date .
 
-<http://rdf.bonsai.uno/time#2010start> a ot:Instant ;
+brdftime:2010start a ot:Instant ;
     ot:inXSDDate "2010-01-01"^^xsd:date .
 
-<http://rdf.bonsai.uno/time#2011end> a ot:Instant ;
-    ot:inXSDDate "2011-12-31"^^xsd:date .
-
-<http://rdf.bonsai.uno/time#2011start> a ot:Instant ;
+brdftime:2011 a ot:ProperInterval ;
+    rdfs:label 2011 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2011>,
+        <http://www.wikidata.org/entity/Q1994> ;
+    ot:hasBeginning brdftime:2011start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2011end ;
     ot:inXSDDate "2011-01-01"^^xsd:date .
 
-<http://rdf.bonsai.uno/time#2012end> a ot:Instant ;
-    ot:inXSDDate "2012-12-31"^^xsd:date .
+brdftime:2011end a ot:Instant ;
+    ot:inXSDDate "2011-12-31"^^xsd:date .
 
-<http://rdf.bonsai.uno/time#2012start> a ot:Instant ;
+brdftime:2011start a ot:Instant ;
+    ot:inXSDDate "2011-01-01"^^xsd:date .
+
+brdftime:2012 a ot:ProperInterval ;
+    rdfs:label 2012 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2012>,
+        <http://www.wikidata.org/entity/Q1990> ;
+    ot:hasBeginning brdftime:2012start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2012end ;
     ot:inXSDDate "2012-01-01"^^xsd:date .
 
-<http://rdf.bonsai.uno/time#2013end> a ot:Instant ;
-    ot:inXSDDate "2013-12-31"^^xsd:date .
+brdftime:2012start a ot:Instant ;
+    ot:inXSDDate "2012-01-01"^^xsd:date .
 
-<http://rdf.bonsai.uno/time#2013start> a ot:Instant ;
+brdftime:2013 a ot:ProperInterval ;
+    rdfs:label 2013 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2013>,
+        <http://www.wikidata.org/entity/Q1998> ;
+    ot:hasBeginning brdftime:2013start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2013end ;
     ot:inXSDDate "2013-01-01"^^xsd:date .
 
-<http://rdf.bonsai.uno/time#2014end> a ot:Instant ;
-    ot:inXSDDate "2014-12-31"^^xsd:date .
+brdftime:2013end a ot:Instant ;
+    ot:inXSDDate "2013-12-31"^^xsd:date .
 
-<http://rdf.bonsai.uno/time#2014start> a ot:Instant ;
+brdftime:2013start a ot:Instant ;
+    ot:inXSDDate "2013-01-01"^^xsd:date .
+
+brdftime:2014 a ot:ProperInterval ;
+    rdfs:label 2014 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2014>,
+        <http://www.wikidata.org/entity/Q1999> ;
+    ot:hasBeginning brdftime:2014start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2014end ;
     ot:inXSDDate "2014-01-01"^^xsd:date .
 
-<http://rdf.bonsai.uno/time#2015end> a ot:Instant ;
-    ot:inXSDDate "2015-12-31"^^xsd:date .
+brdftime:2014end a ot:Instant ;
+    ot:inXSDDate "2014-12-31"^^xsd:date .
 
-<http://rdf.bonsai.uno/time#2015start> a ot:Instant ;
+brdftime:2014start a ot:Instant ;
+    ot:inXSDDate "2014-01-01"^^xsd:date .
+
+brdftime:2015 a ot:ProperInterval ;
+    rdfs:label 2015 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2015>,
+        <http://www.wikidata.org/entity/Q2002> ;
+    ot:hasBeginning brdftime:2015start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2015end ;
     ot:inXSDDate "2015-01-01"^^xsd:date .
 
-<http://rdf.bonsai.uno/time#2016end> a ot:Instant ;
-    ot:inXSDDate "2016-12-31"^^xsd:date .
+brdftime:2015end a ot:Instant ;
+    ot:inXSDDate "2015-12-31"^^xsd:date .
 
-<http://rdf.bonsai.uno/time#2016start> a ot:Instant ;
+brdftime:2015start a ot:Instant ;
+    ot:inXSDDate "2015-01-01"^^xsd:date .
+
+brdftime:2016 a ot:ProperInterval ;
+    rdfs:label 2016 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2016>,
+        <http://www.wikidata.org/entity/Q25245> ;
+    ot:hasBeginning brdftime:2016start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2016end ;
     ot:inXSDDate "2016-01-01"^^xsd:date .
 
-<http://rdf.bonsai.uno/time#2017end> a ot:Instant ;
-    ot:inXSDDate "2017-12-31"^^xsd:date .
+brdftime:2016end a ot:Instant ;
+    ot:inXSDDate "2016-12-31"^^xsd:date .
 
-<http://rdf.bonsai.uno/time#2017start> a ot:Instant ;
+brdftime:2016start a ot:Instant ;
+    ot:inXSDDate "2016-01-01"^^xsd:date .
+
+brdftime:2017 a ot:ProperInterval ;
+    rdfs:label 2017 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2017>,
+        <http://www.wikidata.org/entity/Q25290> ;
+    ot:hasBeginning brdftime:2017start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2017end ;
     ot:inXSDDate "2017-01-01"^^xsd:date .
 
-<http://rdf.bonsai.uno/time#2018end> a ot:Instant ;
-    ot:inXSDDate "2018-12-31"^^xsd:date .
+brdftime:2017end a ot:Instant ;
+    ot:inXSDDate "2017-12-31"^^xsd:date .
 
-<http://rdf.bonsai.uno/time#2018start> a ot:Instant ;
+brdftime:2017start a ot:Instant ;
+    ot:inXSDDate "2017-01-01"^^xsd:date .
+
+brdftime:2018 a ot:ProperInterval ;
+    rdfs:label 2018 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2018>,
+        <http://www.wikidata.org/entity/Q25291> ;
+    ot:hasBeginning brdftime:2018start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2018end ;
     ot:inXSDDate "2018-01-01"^^xsd:date .
 
-<http://rdf.bonsai.uno/time#2019end> a ot:Instant ;
-    ot:inXSDDate "2019-12-31"^^xsd:date .
+brdftime:2018end a ot:Instant ;
+    ot:inXSDDate "2018-12-31"^^xsd:date .
 
-<http://rdf.bonsai.uno/time#2019start> a ot:Instant ;
+brdftime:2018start a ot:Instant ;
+    ot:inXSDDate "2018-01-01"^^xsd:date .
+
+brdftime:2019 a ot:ProperInterval ;
+    rdfs:label 2019 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2019>,
+        <http://www.wikidata.org/entity/Q25274> ;
+    ot:hasBeginning brdftime:2019start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2019end ;
     ot:inXSDDate "2019-01-01"^^xsd:date .
 
-<http://rdf.bonsai.uno/time#2020end> a ot:Instant ;
+brdftime:2019end a ot:Instant ;
+    ot:inXSDDate "2019-12-31"^^xsd:date .
+
+brdftime:2019start a ot:Instant ;
+    ot:inXSDDate "2019-01-01"^^xsd:date .
+
+brdftime:2020 a ot:ProperInterval ;
+    rdfs:label 2020 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2020>,
+        <http://www.wikidata.org/entity/Q25337> ;
+    ot:hasBeginning brdftime:2020start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2020end ;
+    ot:inXSDDate "2020-01-01"^^xsd:date .
+
+brdftime:2020end a ot:Instant ;
     ot:inXSDDate "2020-12-31"^^xsd:date .
 
-<http://rdf.bonsai.uno/time#2020start> a ot:Instant ;
+brdftime:2020start a ot:Instant ;
     ot:inXSDDate "2020-01-01"^^xsd:date .
+
+brdftime:2021 a ot:ProperInterval ;
+    rdfs:label 2021 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2021>,
+        <http://www.wikidata.org/entity/Q49628> ;
+    ot:hasBeginning brdftime:2021start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2021end ;
+    ot:inXSDDate "2021-01-01"^^xsd:date .
+
+brdftime:2021end a ot:Instant ;
+    ot:inXSDDate "2021-12-31"^^xsd:date .
+
+brdftime:2021start a ot:Instant ;
+    ot:inXSDDate "2021-01-01"^^xsd:date .
+
+brdftime:2022 a ot:ProperInterval ;
+    rdfs:label 2022 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2022>,
+        <http://www.wikidata.org/entity/Q49625> ;
+    ot:hasBeginning brdftime:2022start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2022end ;
+    ot:inXSDDate "2022-01-01"^^xsd:date .
+
+brdftime:2022end a ot:Instant ;
+    ot:inXSDDate "2022-12-31"^^xsd:date .
+
+brdftime:2022start a ot:Instant ;
+    ot:inXSDDate "2022-01-01"^^xsd:date .
+
+brdftime:2023 a ot:ProperInterval ;
+    rdfs:label 2023 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2023>,
+        <http://www.wikidata.org/entity/Q49622> ;
+    ot:hasBeginning brdftime:2023start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2023end ;
+    ot:inXSDDate "2023-01-01"^^xsd:date .
+
+brdftime:2023end a ot:Instant ;
+    ot:inXSDDate "2023-12-31"^^xsd:date .
+
+brdftime:2023start a ot:Instant ;
+    ot:inXSDDate "2023-01-01"^^xsd:date .
+
+brdftime:2024 a ot:ProperInterval ;
+    rdfs:label 2024 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2024>,
+        <http://www.wikidata.org/entity/Q49619> ;
+    ot:hasBeginning brdftime:2024start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2024end ;
+    ot:inXSDDate "2024-01-01"^^xsd:date .
+
+brdftime:2024end a ot:Instant ;
+    ot:inXSDDate "2024-12-31"^^xsd:date .
+
+brdftime:2024start a ot:Instant ;
+    ot:inXSDDate "2024-01-01"^^xsd:date .
+
+brdftime:2025 a ot:ProperInterval ;
+    rdfs:label 2025 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2025>,
+        <http://www.wikidata.org/entity/Q49616> ;
+    ot:hasBeginning brdftime:2025start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2025end ;
+    ot:inXSDDate "2025-01-01"^^xsd:date .
+
+brdftime:2025end a ot:Instant ;
+    ot:inXSDDate "2025-12-31"^^xsd:date .
+
+brdftime:2025start a ot:Instant ;
+    ot:inXSDDate "2025-01-01"^^xsd:date .
+
+brdftime:2026 a ot:ProperInterval ;
+    rdfs:label 2026 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2026>,
+        <http://www.wikidata.org/entity/Q49613> ;
+    ot:hasBeginning brdftime:2026start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2026end ;
+    ot:inXSDDate "2026-01-01"^^xsd:date .
+
+brdftime:2026end a ot:Instant ;
+    ot:inXSDDate "2026-12-31"^^xsd:date .
+
+brdftime:2026start a ot:Instant ;
+    ot:inXSDDate "2026-01-01"^^xsd:date .
+
+brdftime:2027 a ot:ProperInterval ;
+    rdfs:label 2027 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2027>,
+        <http://www.wikidata.org/entity/Q12814> ;
+    ot:hasBeginning brdftime:2027start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2027end ;
+    ot:inXSDDate "2027-01-01"^^xsd:date .
+
+brdftime:2027end a ot:Instant ;
+    ot:inXSDDate "2027-12-31"^^xsd:date .
+
+brdftime:2027start a ot:Instant ;
+    ot:inXSDDate "2027-01-01"^^xsd:date .
+
+brdftime:2028 a ot:ProperInterval ;
+    rdfs:label 2028 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2028>,
+        <http://www.wikidata.org/entity/Q12809> ;
+    ot:hasBeginning brdftime:2028start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2028end ;
+    ot:inXSDDate "2028-01-01"^^xsd:date .
+
+brdftime:2028end a ot:Instant ;
+    ot:inXSDDate "2028-12-31"^^xsd:date .
+
+brdftime:2028start a ot:Instant ;
+    ot:inXSDDate "2028-01-01"^^xsd:date .
+
+brdftime:2029 a ot:ProperInterval ;
+    rdfs:label 2029 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2029>,
+        <http://www.wikidata.org/entity/Q12803> ;
+    ot:hasBeginning brdftime:2029start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2029end ;
+    ot:inXSDDate "2029-01-01"^^xsd:date .
+
+brdftime:2029end a ot:Instant ;
+    ot:inXSDDate "2029-12-31"^^xsd:date .
+
+brdftime:2029start a ot:Instant ;
+    ot:inXSDDate "2029-01-01"^^xsd:date .
+
+brdftime:2030 a ot:ProperInterval ;
+    rdfs:label 2030 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2030>,
+        <http://www.wikidata.org/entity/Q12799> ;
+    ot:hasBeginning brdftime:2030start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2030end ;
+    ot:inXSDDate "2030-01-01"^^xsd:date .
+
+brdftime:2030end a ot:Instant ;
+    ot:inXSDDate "2030-12-31"^^xsd:date .
+
+brdftime:2030start a ot:Instant ;
+    ot:inXSDDate "2030-01-01"^^xsd:date .
+
+brdftime:2031 a ot:ProperInterval ;
+    rdfs:label 2031 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2031>,
+        <http://www.wikidata.org/entity/Q12794> ;
+    ot:hasBeginning brdftime:2031start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2031end ;
+    ot:inXSDDate "2031-01-01"^^xsd:date .
+
+brdftime:2031end a ot:Instant ;
+    ot:inXSDDate "2031-12-31"^^xsd:date .
+
+brdftime:2031start a ot:Instant ;
+    ot:inXSDDate "2031-01-01"^^xsd:date .
+
+brdftime:2032 a ot:ProperInterval ;
+    rdfs:label 2032 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2032>,
+        <http://www.wikidata.org/entity/Q12790> ;
+    ot:hasBeginning brdftime:2032start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2032end ;
+    ot:inXSDDate "2032-01-01"^^xsd:date .
+
+brdftime:2032end a ot:Instant ;
+    ot:inXSDDate "2032-12-31"^^xsd:date .
+
+brdftime:2032start a ot:Instant ;
+    ot:inXSDDate "2032-01-01"^^xsd:date .
+
+brdftime:2033 a ot:ProperInterval ;
+    rdfs:label 2033 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2033>,
+        <http://www.wikidata.org/entity/Q12786> ;
+    ot:hasBeginning brdftime:2033start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2033end ;
+    ot:inXSDDate "2033-01-01"^^xsd:date .
+
+brdftime:2033end a ot:Instant ;
+    ot:inXSDDate "2033-12-31"^^xsd:date .
+
+brdftime:2033start a ot:Instant ;
+    ot:inXSDDate "2033-01-01"^^xsd:date .
+
+brdftime:2034 a ot:ProperInterval ;
+    rdfs:label 2034 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2034>,
+        <http://www.wikidata.org/entity/Q12775> ;
+    ot:hasBeginning brdftime:2034start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2034end ;
+    ot:inXSDDate "2034-01-01"^^xsd:date .
+
+brdftime:2034end a ot:Instant ;
+    ot:inXSDDate "2034-12-31"^^xsd:date .
+
+brdftime:2034start a ot:Instant ;
+    ot:inXSDDate "2034-01-01"^^xsd:date .
+
+brdftime:2035 a ot:ProperInterval ;
+    rdfs:label 2035 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2035>,
+        <http://www.wikidata.org/entity/Q12127> ;
+    ot:hasBeginning brdftime:2035start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2035end ;
+    ot:inXSDDate "2035-01-01"^^xsd:date .
+
+brdftime:2035end a ot:Instant ;
+    ot:inXSDDate "2035-12-31"^^xsd:date .
+
+brdftime:2035start a ot:Instant ;
+    ot:inXSDDate "2035-01-01"^^xsd:date .
+
+brdftime:2036 a ot:ProperInterval ;
+    rdfs:label 2036 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2036>,
+        <http://www.wikidata.org/entity/Q12123> ;
+    ot:hasBeginning brdftime:2036start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2036end ;
+    ot:inXSDDate "2036-01-01"^^xsd:date .
+
+brdftime:2036end a ot:Instant ;
+    ot:inXSDDate "2036-12-31"^^xsd:date .
+
+brdftime:2036start a ot:Instant ;
+    ot:inXSDDate "2036-01-01"^^xsd:date .
+
+brdftime:2037 a ot:ProperInterval ;
+    rdfs:label 2037 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2037>,
+        <http://www.wikidata.org/entity/Q12120> ;
+    ot:hasBeginning brdftime:2037start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2037end ;
+    ot:inXSDDate "2037-01-01"^^xsd:date .
+
+brdftime:2037end a ot:Instant ;
+    ot:inXSDDate "2037-12-31"^^xsd:date .
+
+brdftime:2037start a ot:Instant ;
+    ot:inXSDDate "2037-01-01"^^xsd:date .
+
+brdftime:2038 a ot:ProperInterval ;
+    rdfs:label 2038 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2038>,
+        <http://www.wikidata.org/entity/Q12118> ;
+    ot:hasBeginning brdftime:2038start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2038end ;
+    ot:inXSDDate "2038-01-01"^^xsd:date .
+
+brdftime:2038end a ot:Instant ;
+    ot:inXSDDate "2038-12-31"^^xsd:date .
+
+brdftime:2038start a ot:Instant ;
+    ot:inXSDDate "2038-01-01"^^xsd:date .
+
+brdftime:2039 a ot:ProperInterval ;
+    rdfs:label 2039 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2039>,
+        <http://www.wikidata.org/entity/Q12112> ;
+    ot:hasBeginning brdftime:2039start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2039end ;
+    ot:inXSDDate "2039-01-01"^^xsd:date .
+
+brdftime:2039end a ot:Instant ;
+    ot:inXSDDate "2039-12-31"^^xsd:date .
+
+brdftime:2039start a ot:Instant ;
+    ot:inXSDDate "2039-01-01"^^xsd:date .
+
+brdftime:2040 a ot:ProperInterval ;
+    rdfs:label 2040 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2040>,
+        <http://www.wikidata.org/entity/Q12108> ;
+    ot:hasBeginning brdftime:2040start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2040end ;
+    ot:inXSDDate "2040-01-01"^^xsd:date .
+
+brdftime:2040end a ot:Instant ;
+    ot:inXSDDate "2040-12-31"^^xsd:date .
+
+brdftime:2040start a ot:Instant ;
+    ot:inXSDDate "2040-01-01"^^xsd:date .
+
+brdftime:2041 a ot:ProperInterval ;
+    rdfs:label 2041 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2041>,
+        <http://www.wikidata.org/entity/Q49914> ;
+    ot:hasBeginning brdftime:2041start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2041end ;
+    ot:inXSDDate "2041-01-01"^^xsd:date .
+
+brdftime:2041end a ot:Instant ;
+    ot:inXSDDate "2041-12-31"^^xsd:date .
+
+brdftime:2041start a ot:Instant ;
+    ot:inXSDDate "2041-01-01"^^xsd:date .
+
+brdftime:2042 a ot:ProperInterval ;
+    rdfs:label 2042 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2042>,
+        <http://www.wikidata.org/entity/Q49915> ;
+    ot:hasBeginning brdftime:2042start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2042end ;
+    ot:inXSDDate "2042-01-01"^^xsd:date .
+
+brdftime:2042end a ot:Instant ;
+    ot:inXSDDate "2042-12-31"^^xsd:date .
+
+brdftime:2042start a ot:Instant ;
+    ot:inXSDDate "2042-01-01"^^xsd:date .
+
+brdftime:2043 a ot:ProperInterval ;
+    rdfs:label 2043 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2043>,
+        <http://www.wikidata.org/entity/Q49917> ;
+    ot:hasBeginning brdftime:2043start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2043end ;
+    ot:inXSDDate "2043-01-01"^^xsd:date .
+
+brdftime:2043end a ot:Instant ;
+    ot:inXSDDate "2043-12-31"^^xsd:date .
+
+brdftime:2043start a ot:Instant ;
+    ot:inXSDDate "2043-01-01"^^xsd:date .
+
+brdftime:2044 a ot:ProperInterval ;
+    rdfs:label 2044 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2044>,
+        <http://www.wikidata.org/entity/Q49919> ;
+    ot:hasBeginning brdftime:2044start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2044end ;
+    ot:inXSDDate "2044-01-01"^^xsd:date .
+
+brdftime:2044end a ot:Instant ;
+    ot:inXSDDate "2044-12-31"^^xsd:date .
+
+brdftime:2044start a ot:Instant ;
+    ot:inXSDDate "2044-01-01"^^xsd:date .
+
+brdftime:2045 a ot:ProperInterval ;
+    rdfs:label 2045 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2045>,
+        <http://www.wikidata.org/entity/Q49920> ;
+    ot:hasBeginning brdftime:2045start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2045end ;
+    ot:inXSDDate "2045-01-01"^^xsd:date .
+
+brdftime:2045end a ot:Instant ;
+    ot:inXSDDate "2045-12-31"^^xsd:date .
+
+brdftime:2045start a ot:Instant ;
+    ot:inXSDDate "2045-01-01"^^xsd:date .
+
+brdftime:2046 a ot:ProperInterval ;
+    rdfs:label 2046 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2046>,
+        <http://www.wikidata.org/entity/Q49921> ;
+    ot:hasBeginning brdftime:2046start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2046end ;
+    ot:inXSDDate "2046-01-01"^^xsd:date .
+
+brdftime:2046end a ot:Instant ;
+    ot:inXSDDate "2046-12-31"^^xsd:date .
+
+brdftime:2046start a ot:Instant ;
+    ot:inXSDDate "2046-01-01"^^xsd:date .
+
+brdftime:2047 a ot:ProperInterval ;
+    rdfs:label 2047 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2047>,
+        <http://www.wikidata.org/entity/Q49922> ;
+    ot:hasBeginning brdftime:2047start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2047end ;
+    ot:inXSDDate "2047-01-01"^^xsd:date .
+
+brdftime:2047end a ot:Instant ;
+    ot:inXSDDate "2047-12-31"^^xsd:date .
+
+brdftime:2047start a ot:Instant ;
+    ot:inXSDDate "2047-01-01"^^xsd:date .
+
+brdftime:2048 a ot:ProperInterval ;
+    rdfs:label 2048 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2048>,
+        <http://www.wikidata.org/entity/Q49923> ;
+    ot:hasBeginning brdftime:2048start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2048end ;
+    ot:inXSDDate "2048-01-01"^^xsd:date .
+
+brdftime:2048end a ot:Instant ;
+    ot:inXSDDate "2048-12-31"^^xsd:date .
+
+brdftime:2048start a ot:Instant ;
+    ot:inXSDDate "2048-01-01"^^xsd:date .
+
+brdftime:2049 a ot:ProperInterval ;
+    rdfs:label 2049 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2049>,
+        <http://www.wikidata.org/entity/Q49924> ;
+    ot:hasBeginning brdftime:2049start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2049end ;
+    ot:inXSDDate "2049-01-01"^^xsd:date .
+
+brdftime:2049end a ot:Instant ;
+    ot:inXSDDate "2049-12-31"^^xsd:date .
+
+brdftime:2049start a ot:Instant ;
+    ot:inXSDDate "2049-01-01"^^xsd:date .
+
+brdftime:2050 a ot:ProperInterval ;
+    rdfs:label 2050 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2050>,
+        <http://www.wikidata.org/entity/Q49925> ;
+    ot:hasBeginning brdftime:2050start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2050end ;
+    ot:inXSDDate "2050-01-01"^^xsd:date .
+
+brdftime:2050end a ot:Instant ;
+    ot:inXSDDate "2050-12-31"^^xsd:date .
+
+brdftime:2050start a ot:Instant ;
+    ot:inXSDDate "2050-01-01"^^xsd:date .
+
+brdftime:2051 a ot:ProperInterval ;
+    rdfs:label 2051 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2051>,
+        <http://www.wikidata.org/entity/Q49926> ;
+    ot:hasBeginning brdftime:2051start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2051end ;
+    ot:inXSDDate "2051-01-01"^^xsd:date .
+
+brdftime:2051end a ot:Instant ;
+    ot:inXSDDate "2051-12-31"^^xsd:date .
+
+brdftime:2051start a ot:Instant ;
+    ot:inXSDDate "2051-01-01"^^xsd:date .
+
+brdftime:2052 a ot:ProperInterval ;
+    rdfs:label 2052 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2052>,
+        <http://www.wikidata.org/entity/Q49927> ;
+    ot:hasBeginning brdftime:2052start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2052end ;
+    ot:inXSDDate "2052-01-01"^^xsd:date .
+
+brdftime:2052end a ot:Instant ;
+    ot:inXSDDate "2052-12-31"^^xsd:date .
+
+brdftime:2052start a ot:Instant ;
+    ot:inXSDDate "2052-01-01"^^xsd:date .
+
+brdftime:2053 a ot:ProperInterval ;
+    rdfs:label 2053 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2053>,
+        <http://www.wikidata.org/entity/Q49928> ;
+    ot:hasBeginning brdftime:2053start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2053end ;
+    ot:inXSDDate "2053-01-01"^^xsd:date .
+
+brdftime:2053end a ot:Instant ;
+    ot:inXSDDate "2053-12-31"^^xsd:date .
+
+brdftime:2053start a ot:Instant ;
+    ot:inXSDDate "2053-01-01"^^xsd:date .
+
+brdftime:2054 a ot:ProperInterval ;
+    rdfs:label 2054 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2054>,
+        <http://www.wikidata.org/entity/Q49929> ;
+    ot:hasBeginning brdftime:2054start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2054end ;
+    ot:inXSDDate "2054-01-01"^^xsd:date .
+
+brdftime:2054end a ot:Instant ;
+    ot:inXSDDate "2054-12-31"^^xsd:date .
+
+brdftime:2054start a ot:Instant ;
+    ot:inXSDDate "2054-01-01"^^xsd:date .
+
+brdftime:2055 a ot:ProperInterval ;
+    rdfs:label 2055 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2055>,
+        <http://www.wikidata.org/entity/Q49930> ;
+    ot:hasBeginning brdftime:2055start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2055end ;
+    ot:inXSDDate "2055-01-01"^^xsd:date .
+
+brdftime:2055end a ot:Instant ;
+    ot:inXSDDate "2055-12-31"^^xsd:date .
+
+brdftime:2055start a ot:Instant ;
+    ot:inXSDDate "2055-01-01"^^xsd:date .
+
+brdftime:2056 a ot:ProperInterval ;
+    rdfs:label 2056 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2056>,
+        <http://www.wikidata.org/entity/Q49931> ;
+    ot:hasBeginning brdftime:2056start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2056end ;
+    ot:inXSDDate "2056-01-01"^^xsd:date .
+
+brdftime:2056end a ot:Instant ;
+    ot:inXSDDate "2056-12-31"^^xsd:date .
+
+brdftime:2056start a ot:Instant ;
+    ot:inXSDDate "2056-01-01"^^xsd:date .
+
+brdftime:2057 a ot:ProperInterval ;
+    rdfs:label 2057 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2057>,
+        <http://www.wikidata.org/entity/Q49932> ;
+    ot:hasBeginning brdftime:2057start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2057end ;
+    ot:inXSDDate "2057-01-01"^^xsd:date .
+
+brdftime:2057end a ot:Instant ;
+    ot:inXSDDate "2057-12-31"^^xsd:date .
+
+brdftime:2057start a ot:Instant ;
+    ot:inXSDDate "2057-01-01"^^xsd:date .
+
+brdftime:2058 a ot:ProperInterval ;
+    rdfs:label 2058 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2058>,
+        <http://www.wikidata.org/entity/Q49933> ;
+    ot:hasBeginning brdftime:2058start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2058end ;
+    ot:inXSDDate "2058-01-01"^^xsd:date .
+
+brdftime:2058end a ot:Instant ;
+    ot:inXSDDate "2058-12-31"^^xsd:date .
+
+brdftime:2058start a ot:Instant ;
+    ot:inXSDDate "2058-01-01"^^xsd:date .
+
+brdftime:2059 a ot:ProperInterval ;
+    rdfs:label 2059 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2059>,
+        <http://www.wikidata.org/entity/Q49935> ;
+    ot:hasBeginning brdftime:2059start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2059end ;
+    ot:inXSDDate "2059-01-01"^^xsd:date .
+
+brdftime:2059end a ot:Instant ;
+    ot:inXSDDate "2059-12-31"^^xsd:date .
+
+brdftime:2059start a ot:Instant ;
+    ot:inXSDDate "2059-01-01"^^xsd:date .
+
+brdftime:2060 a ot:ProperInterval ;
+    rdfs:label 2060 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2060>,
+        <http://www.wikidata.org/entity/Q592410> ;
+    ot:hasBeginning brdftime:2060start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2060end ;
+    ot:inXSDDate "2060-01-01"^^xsd:date .
+
+brdftime:2060end a ot:Instant ;
+    ot:inXSDDate "2060-12-31"^^xsd:date .
+
+brdftime:2060start a ot:Instant ;
+    ot:inXSDDate "2060-01-01"^^xsd:date .
+
+brdftime:2061 a ot:ProperInterval ;
+    rdfs:label 2061 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2061>,
+        <http://www.wikidata.org/entity/Q844737> ;
+    ot:hasBeginning brdftime:2061start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2061end ;
+    ot:inXSDDate "2061-01-01"^^xsd:date .
+
+brdftime:2061end a ot:Instant ;
+    ot:inXSDDate "2061-12-31"^^xsd:date .
+
+brdftime:2061start a ot:Instant ;
+    ot:inXSDDate "2061-01-01"^^xsd:date .
+
+brdftime:2062 a ot:ProperInterval ;
+    rdfs:label 2062 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2062>,
+        <http://www.wikidata.org/entity/Q1046496> ;
+    ot:hasBeginning brdftime:2062start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2062end ;
+    ot:inXSDDate "2062-01-01"^^xsd:date .
+
+brdftime:2062end a ot:Instant ;
+    ot:inXSDDate "2062-12-31"^^xsd:date .
+
+brdftime:2062start a ot:Instant ;
+    ot:inXSDDate "2062-01-01"^^xsd:date .
+
+brdftime:2063 a ot:ProperInterval ;
+    rdfs:label 2063 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2063>,
+        <http://www.wikidata.org/entity/Q1044976> ;
+    ot:hasBeginning brdftime:2063start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2063end ;
+    ot:inXSDDate "2063-01-01"^^xsd:date .
+
+brdftime:2063end a ot:Instant ;
+    ot:inXSDDate "2063-12-31"^^xsd:date .
+
+brdftime:2063start a ot:Instant ;
+    ot:inXSDDate "2063-01-01"^^xsd:date .
+
+brdftime:2064 a ot:ProperInterval ;
+    rdfs:label 2064 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2064>,
+        <http://www.wikidata.org/entity/Q1044959> ;
+    ot:hasBeginning brdftime:2064start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2064end ;
+    ot:inXSDDate "2064-01-01"^^xsd:date .
+
+brdftime:2064end a ot:Instant ;
+    ot:inXSDDate "2064-12-31"^^xsd:date .
+
+brdftime:2064start a ot:Instant ;
+    ot:inXSDDate "2064-01-01"^^xsd:date .
+
+brdftime:2065 a ot:ProperInterval ;
+    rdfs:label 2065 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2065>,
+        <http://www.wikidata.org/entity/Q890604> ;
+    ot:hasBeginning brdftime:2065start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2065end ;
+    ot:inXSDDate "2065-01-01"^^xsd:date .
+
+brdftime:2065end a ot:Instant ;
+    ot:inXSDDate "2065-12-31"^^xsd:date .
+
+brdftime:2065start a ot:Instant ;
+    ot:inXSDDate "2065-01-01"^^xsd:date .
+
+brdftime:2066 a ot:ProperInterval ;
+    rdfs:label 2066 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2066>,
+        <http://www.wikidata.org/entity/Q890609> ;
+    ot:hasBeginning brdftime:2066start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2066end ;
+    ot:inXSDDate "2066-01-01"^^xsd:date .
+
+brdftime:2066end a ot:Instant ;
+    ot:inXSDDate "2066-12-31"^^xsd:date .
+
+brdftime:2066start a ot:Instant ;
+    ot:inXSDDate "2066-01-01"^^xsd:date .
+
+brdftime:2067 a ot:ProperInterval ;
+    rdfs:label 2067 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2067>,
+        <http://www.wikidata.org/entity/Q890597> ;
+    ot:hasBeginning brdftime:2067start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2067end ;
+    ot:inXSDDate "2067-01-01"^^xsd:date .
+
+brdftime:2067end a ot:Instant ;
+    ot:inXSDDate "2067-12-31"^^xsd:date .
+
+brdftime:2067start a ot:Instant ;
+    ot:inXSDDate "2067-01-01"^^xsd:date .
+
+brdftime:2068 a ot:ProperInterval ;
+    rdfs:label 2068 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2068>,
+        <http://www.wikidata.org/entity/Q890596> ;
+    ot:hasBeginning brdftime:2068start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2068end ;
+    ot:inXSDDate "2068-01-01"^^xsd:date .
+
+brdftime:2068end a ot:Instant ;
+    ot:inXSDDate "2068-12-31"^^xsd:date .
+
+brdftime:2068start a ot:Instant ;
+    ot:inXSDDate "2068-01-01"^^xsd:date .
+
+brdftime:2069 a ot:ProperInterval ;
+    rdfs:label 2069 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2069>,
+        <http://www.wikidata.org/entity/Q890591> ;
+    ot:hasBeginning brdftime:2069start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2069end ;
+    ot:inXSDDate "2069-01-01"^^xsd:date .
+
+brdftime:2069end a ot:Instant ;
+    ot:inXSDDate "2069-12-31"^^xsd:date .
+
+brdftime:2069start a ot:Instant ;
+    ot:inXSDDate "2069-01-01"^^xsd:date .
+
+brdftime:2070 a ot:ProperInterval ;
+    rdfs:label 2070 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2070>,
+        <http://www.wikidata.org/entity/Q890619> ;
+    ot:hasBeginning brdftime:2070start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2070end ;
+    ot:inXSDDate "2070-01-01"^^xsd:date .
+
+brdftime:2070end a ot:Instant ;
+    ot:inXSDDate "2070-12-31"^^xsd:date .
+
+brdftime:2070start a ot:Instant ;
+    ot:inXSDDate "2070-01-01"^^xsd:date .
+
+brdftime:2071 a ot:ProperInterval ;
+    rdfs:label 2071 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2071>,
+        <http://www.wikidata.org/entity/Q890598> ;
+    ot:hasBeginning brdftime:2071start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2071end ;
+    ot:inXSDDate "2071-01-01"^^xsd:date .
+
+brdftime:2071end a ot:Instant ;
+    ot:inXSDDate "2071-12-31"^^xsd:date .
+
+brdftime:2071start a ot:Instant ;
+    ot:inXSDDate "2071-01-01"^^xsd:date .
+
+brdftime:2072 a ot:ProperInterval ;
+    rdfs:label 2072 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2072>,
+        <http://www.wikidata.org/entity/Q890576> ;
+    ot:hasBeginning brdftime:2072start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2072end ;
+    ot:inXSDDate "2072-01-01"^^xsd:date .
+
+brdftime:2072end a ot:Instant ;
+    ot:inXSDDate "2072-12-31"^^xsd:date .
+
+brdftime:2072start a ot:Instant ;
+    ot:inXSDDate "2072-01-01"^^xsd:date .
+
+brdftime:2073 a ot:ProperInterval ;
+    rdfs:label 2073 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2073>,
+        <http://www.wikidata.org/entity/Q668404> ;
+    ot:hasBeginning brdftime:2073start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2073end ;
+    ot:inXSDDate "2073-01-01"^^xsd:date .
+
+brdftime:2073end a ot:Instant ;
+    ot:inXSDDate "2073-12-31"^^xsd:date .
+
+brdftime:2073start a ot:Instant ;
+    ot:inXSDDate "2073-01-01"^^xsd:date .
+
+brdftime:2074 a ot:ProperInterval ;
+    rdfs:label 2074 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2074>,
+        <http://www.wikidata.org/entity/Q890581> ;
+    ot:hasBeginning brdftime:2074start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2074end ;
+    ot:inXSDDate "2074-01-01"^^xsd:date .
+
+brdftime:2074end a ot:Instant ;
+    ot:inXSDDate "2074-12-31"^^xsd:date .
+
+brdftime:2074start a ot:Instant ;
+    ot:inXSDDate "2074-01-01"^^xsd:date .
+
+brdftime:2075 a ot:ProperInterval ;
+    rdfs:label 2075 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2075>,
+        <http://www.wikidata.org/entity/Q890559> ;
+    ot:hasBeginning brdftime:2075start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2075end ;
+    ot:inXSDDate "2075-01-01"^^xsd:date .
+
+brdftime:2075end a ot:Instant ;
+    ot:inXSDDate "2075-12-31"^^xsd:date .
+
+brdftime:2075start a ot:Instant ;
+    ot:inXSDDate "2075-01-01"^^xsd:date .
+
+brdftime:2076 a ot:ProperInterval ;
+    rdfs:label 2076 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2076>,
+        <http://www.wikidata.org/entity/Q890563> ;
+    ot:hasBeginning brdftime:2076start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2076end ;
+    ot:inXSDDate "2076-01-01"^^xsd:date .
+
+brdftime:2076end a ot:Instant ;
+    ot:inXSDDate "2076-12-31"^^xsd:date .
+
+brdftime:2076start a ot:Instant ;
+    ot:inXSDDate "2076-01-01"^^xsd:date .
+
+brdftime:2077 a ot:ProperInterval ;
+    rdfs:label 2077 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2077>,
+        <http://www.wikidata.org/entity/Q890569> ;
+    ot:hasBeginning brdftime:2077start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2077end ;
+    ot:inXSDDate "2077-01-01"^^xsd:date .
+
+brdftime:2077end a ot:Instant ;
+    ot:inXSDDate "2077-12-31"^^xsd:date .
+
+brdftime:2077start a ot:Instant ;
+    ot:inXSDDate "2077-01-01"^^xsd:date .
+
+brdftime:2078 a ot:ProperInterval ;
+    rdfs:label 2078 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2078>,
+        <http://www.wikidata.org/entity/Q890571> ;
+    ot:hasBeginning brdftime:2078start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2078end ;
+    ot:inXSDDate "2078-01-01"^^xsd:date .
+
+brdftime:2078end a ot:Instant ;
+    ot:inXSDDate "2078-12-31"^^xsd:date .
+
+brdftime:2078start a ot:Instant ;
+    ot:inXSDDate "2078-01-01"^^xsd:date .
+
+brdftime:2079 a ot:ProperInterval ;
+    rdfs:label 2079 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2079>,
+        <http://www.wikidata.org/entity/Q890584> ;
+    ot:hasBeginning brdftime:2079start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2079end ;
+    ot:inXSDDate "2079-01-01"^^xsd:date .
+
+brdftime:2079end a ot:Instant ;
+    ot:inXSDDate "2079-12-31"^^xsd:date .
+
+brdftime:2079start a ot:Instant ;
+    ot:inXSDDate "2079-01-01"^^xsd:date .
+
+brdftime:2080 a ot:ProperInterval ;
+    rdfs:label 2080 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2080>,
+        <http://www.wikidata.org/entity/Q972030> ;
+    ot:hasBeginning brdftime:2080start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2080end ;
+    ot:inXSDDate "2080-01-01"^^xsd:date .
+
+brdftime:2080end a ot:Instant ;
+    ot:inXSDDate "2080-12-31"^^xsd:date .
+
+brdftime:2080start a ot:Instant ;
+    ot:inXSDDate "2080-01-01"^^xsd:date .
+
+brdftime:2081 a ot:ProperInterval ;
+    rdfs:label 2081 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2081>,
+        <http://www.wikidata.org/entity/Q972085> ;
+    ot:hasBeginning brdftime:2081start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2081end ;
+    ot:inXSDDate "2081-01-01"^^xsd:date .
+
+brdftime:2081end a ot:Instant ;
+    ot:inXSDDate "2081-12-31"^^xsd:date .
+
+brdftime:2081start a ot:Instant ;
+    ot:inXSDDate "2081-01-01"^^xsd:date .
+
+brdftime:2082 a ot:ProperInterval ;
+    rdfs:label 2082 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2082>,
+        <http://www.wikidata.org/entity/Q972651> ;
+    ot:hasBeginning brdftime:2082start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2082end ;
+    ot:inXSDDate "2082-01-01"^^xsd:date .
+
+brdftime:2082end a ot:Instant ;
+    ot:inXSDDate "2082-12-31"^^xsd:date .
+
+brdftime:2082start a ot:Instant ;
+    ot:inXSDDate "2082-01-01"^^xsd:date .
+
+brdftime:2083 a ot:ProperInterval ;
+    rdfs:label 2083 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2083>,
+        <http://www.wikidata.org/entity/Q972505> ;
+    ot:hasBeginning brdftime:2083start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2083end ;
+    ot:inXSDDate "2083-01-01"^^xsd:date .
+
+brdftime:2083end a ot:Instant ;
+    ot:inXSDDate "2083-12-31"^^xsd:date .
+
+brdftime:2083start a ot:Instant ;
+    ot:inXSDDate "2083-01-01"^^xsd:date .
+
+brdftime:2084 a ot:ProperInterval ;
+    rdfs:label 2084 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2084>,
+        <http://www.wikidata.org/entity/Q972519> ;
+    ot:hasBeginning brdftime:2084start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2084end ;
+    ot:inXSDDate "2084-01-01"^^xsd:date .
+
+brdftime:2084end a ot:Instant ;
+    ot:inXSDDate "2084-12-31"^^xsd:date .
+
+brdftime:2084start a ot:Instant ;
+    ot:inXSDDate "2084-01-01"^^xsd:date .
+
+brdftime:2085 a ot:ProperInterval ;
+    rdfs:label 2085 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2085>,
+        <http://www.wikidata.org/entity/Q972493> ;
+    ot:hasBeginning brdftime:2085start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2085end ;
+    ot:inXSDDate "2085-01-01"^^xsd:date .
+
+brdftime:2085end a ot:Instant ;
+    ot:inXSDDate "2085-12-31"^^xsd:date .
+
+brdftime:2085start a ot:Instant ;
+    ot:inXSDDate "2085-01-01"^^xsd:date .
+
+brdftime:2086 a ot:ProperInterval ;
+    rdfs:label 2086 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2086>,
+        <http://www.wikidata.org/entity/Q971970> ;
+    ot:hasBeginning brdftime:2086start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2086end ;
+    ot:inXSDDate "2086-01-01"^^xsd:date .
+
+brdftime:2086end a ot:Instant ;
+    ot:inXSDDate "2086-12-31"^^xsd:date .
+
+brdftime:2086start a ot:Instant ;
+    ot:inXSDDate "2086-01-01"^^xsd:date .
+
+brdftime:2087 a ot:ProperInterval ;
+    rdfs:label 2087 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2087>,
+        <http://www.wikidata.org/entity/Q971996> ;
+    ot:hasBeginning brdftime:2087start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2087end ;
+    ot:inXSDDate "2087-01-01"^^xsd:date .
+
+brdftime:2087end a ot:Instant ;
+    ot:inXSDDate "2087-12-31"^^xsd:date .
+
+brdftime:2087start a ot:Instant ;
+    ot:inXSDDate "2087-01-01"^^xsd:date .
+
+brdftime:2088 a ot:ProperInterval ;
+    rdfs:label 2088 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2088>,
+        <http://www.wikidata.org/entity/Q972009> ;
+    ot:hasBeginning brdftime:2088start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2088end ;
+    ot:inXSDDate "2088-01-01"^^xsd:date .
+
+brdftime:2088end a ot:Instant ;
+    ot:inXSDDate "2088-12-31"^^xsd:date .
+
+brdftime:2088start a ot:Instant ;
+    ot:inXSDDate "2088-01-01"^^xsd:date .
+
+brdftime:2089 a ot:ProperInterval ;
+    rdfs:label 2089 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2089>,
+        <http://www.wikidata.org/entity/Q971983> ;
+    ot:hasBeginning brdftime:2089start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2089end ;
+    ot:inXSDDate "2089-01-01"^^xsd:date .
+
+brdftime:2089end a ot:Instant ;
+    ot:inXSDDate "2089-12-31"^^xsd:date .
+
+brdftime:2089start a ot:Instant ;
+    ot:inXSDDate "2089-01-01"^^xsd:date .
+
+brdftime:2090 a ot:ProperInterval ;
+    rdfs:label 2090 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2090>,
+        <http://www.wikidata.org/entity/Q972326> ;
+    ot:hasBeginning brdftime:2090start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2090end ;
+    ot:inXSDDate "2090-01-01"^^xsd:date .
+
+brdftime:2090end a ot:Instant ;
+    ot:inXSDDate "2090-12-31"^^xsd:date .
+
+brdftime:2090start a ot:Instant ;
+    ot:inXSDDate "2090-01-01"^^xsd:date .
+
+brdftime:2091 a ot:ProperInterval ;
+    rdfs:label 2091 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2091>,
+        <http://www.wikidata.org/entity/Q972454> ;
+    ot:hasBeginning brdftime:2091start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2091end ;
+    ot:inXSDDate "2091-01-01"^^xsd:date .
+
+brdftime:2091end a ot:Instant ;
+    ot:inXSDDate "2091-12-31"^^xsd:date .
+
+brdftime:2091start a ot:Instant ;
+    ot:inXSDDate "2091-01-01"^^xsd:date .
+
+brdftime:2092 a ot:ProperInterval ;
+    rdfs:label 2092 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2092>,
+        <http://www.wikidata.org/entity/Q972071> ;
+    ot:hasBeginning brdftime:2092start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2092end ;
+    ot:inXSDDate "2092-01-01"^^xsd:date .
+
+brdftime:2092end a ot:Instant ;
+    ot:inXSDDate "2092-12-31"^^xsd:date .
+
+brdftime:2092start a ot:Instant ;
+    ot:inXSDDate "2092-01-01"^^xsd:date .
+
+brdftime:2093 a ot:ProperInterval ;
+    rdfs:label 2093 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2093>,
+        <http://www.wikidata.org/entity/Q972053> ;
+    ot:hasBeginning brdftime:2093start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2093end ;
+    ot:inXSDDate "2093-01-01"^^xsd:date .
+
+brdftime:2093end a ot:Instant ;
+    ot:inXSDDate "2093-12-31"^^xsd:date .
+
+brdftime:2093start a ot:Instant ;
+    ot:inXSDDate "2093-01-01"^^xsd:date .
+
+brdftime:2094 a ot:ProperInterval ;
+    rdfs:label 2094 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2094>,
+        <http://www.wikidata.org/entity/Q972633> ;
+    ot:hasBeginning brdftime:2094start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2094end ;
+    ot:inXSDDate "2094-01-01"^^xsd:date .
+
+brdftime:2094end a ot:Instant ;
+    ot:inXSDDate "2094-12-31"^^xsd:date .
+
+brdftime:2094start a ot:Instant ;
+    ot:inXSDDate "2094-01-01"^^xsd:date .
+
+brdftime:2095 a ot:ProperInterval ;
+    rdfs:label 2095 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2095>,
+        <http://www.wikidata.org/entity/Q972426> ;
+    ot:hasBeginning brdftime:2095start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2095end ;
+    ot:inXSDDate "2095-01-01"^^xsd:date .
+
+brdftime:2095end a ot:Instant ;
+    ot:inXSDDate "2095-12-31"^^xsd:date .
+
+brdftime:2095start a ot:Instant ;
+    ot:inXSDDate "2095-01-01"^^xsd:date .
+
+brdftime:2096 a ot:ProperInterval ;
+    rdfs:label 2096 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2096>,
+        <http://www.wikidata.org/entity/Q972412> ;
+    ot:hasBeginning brdftime:2096start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2096end ;
+    ot:inXSDDate "2096-01-01"^^xsd:date .
+
+brdftime:2096end a ot:Instant ;
+    ot:inXSDDate "2096-12-31"^^xsd:date .
+
+brdftime:2096start a ot:Instant ;
+    ot:inXSDDate "2096-01-01"^^xsd:date .
+
+brdftime:2097 a ot:ProperInterval ;
+    rdfs:label 2097 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2097>,
+        <http://www.wikidata.org/entity/Q692765> ;
+    ot:hasBeginning brdftime:2097start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2097end ;
+    ot:inXSDDate "2097-01-01"^^xsd:date .
+
+brdftime:2097end a ot:Instant ;
+    ot:inXSDDate "2097-12-31"^^xsd:date .
+
+brdftime:2097start a ot:Instant ;
+    ot:inXSDDate "2097-01-01"^^xsd:date .
+
+brdftime:2098 a ot:ProperInterval ;
+    rdfs:label 2098 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2098>,
+        <http://www.wikidata.org/entity/Q972019> ;
+    ot:hasBeginning brdftime:2098start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2098end ;
+    ot:inXSDDate "2098-01-01"^^xsd:date .
+
+brdftime:2098end a ot:Instant ;
+    ot:inXSDDate "2098-12-31"^^xsd:date .
+
+brdftime:2098start a ot:Instant ;
+    ot:inXSDDate "2098-01-01"^^xsd:date .
+
+brdftime:2099 a ot:ProperInterval ;
+    rdfs:label 2099 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2099>,
+        <http://www.wikidata.org/entity/Q972339> ;
+    ot:hasBeginning brdftime:2099start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2099end ;
+    ot:inXSDDate "2099-01-01"^^xsd:date .
+
+brdftime:2099end a ot:Instant ;
+    ot:inXSDDate "2099-12-31"^^xsd:date .
+
+brdftime:2099start a ot:Instant ;
+    ot:inXSDDate "2099-01-01"^^xsd:date .
+
+brdftime:2100 a ot:ProperInterval ;
+    rdfs:label 2100 ;
+    owl:sameAs <http://reference.data.gov.uk/doc/year/2100>,
+        <http://www.wikidata.org/entity/Q11183> ;
+    ot:hasBeginning brdftime:2100start ;
+    ot:hasDurationDescription brdftime:oneyearlong ;
+    ot:hasEnd brdftime:2100end ;
+    ot:inXSDDate "2100-01-01"^^xsd:date .
+
+brdftime:2100end a ot:Instant ;
+    ot:inXSDDate "2100-12-31"^^xsd:date .
+
+brdftime:2100start a ot:Instant ;
+    ot:inXSDDate "2100-01-01"^^xsd:date .
+
+brdftime:1845start a ot:Instant ;
+    ot:inXSDDate "1845-01-01"^^xsd:date .
+
+brdftime:1899end a ot:Instant ;
+    ot:inXSDDate "1899-12-31"^^xsd:date .
+
+brdftime:1900start a ot:Instant ;
+    ot:inXSDDate "1900-01-01"^^xsd:date .
+
+brdftime:1909end a ot:Instant ;
+    ot:inXSDDate "1909-12-31"^^xsd:date .
+
+brdftime:1910start a ot:Instant ;
+    ot:inXSDDate "1910-01-01"^^xsd:date .
+
+brdftime:1919end a ot:Instant ;
+    ot:inXSDDate "1919-12-31"^^xsd:date .
+
+brdftime:1920start a ot:Instant ;
+    ot:inXSDDate "1920-01-01"^^xsd:date .
+
+brdftime:1929end a ot:Instant ;
+    ot:inXSDDate "1929-12-31"^^xsd:date .
+
+brdftime:1930start a ot:Instant ;
+    ot:inXSDDate "1930-01-01"^^xsd:date .
+
+brdftime:1939end a ot:Instant ;
+    ot:inXSDDate "1939-12-31"^^xsd:date .
+
+brdftime:1940start a ot:Instant ;
+    ot:inXSDDate "1940-01-01"^^xsd:date .
+
+brdftime:1949end a ot:Instant ;
+    ot:inXSDDate "1949-12-31"^^xsd:date .
+
+brdftime:1950start a ot:Instant ;
+    ot:inXSDDate "1950-01-01"^^xsd:date .
+
+brdftime:1959end a ot:Instant ;
+    ot:inXSDDate "1959-12-31"^^xsd:date .
+
+brdftime:1960start a ot:Instant ;
+    ot:inXSDDate "1960-01-01"^^xsd:date .
+
+brdftime:1969end a ot:Instant ;
+    ot:inXSDDate "1969-12-31"^^xsd:date .
+
+brdftime:1970start a ot:Instant ;
+    ot:inXSDDate "1970-01-01"^^xsd:date .
+
+brdftime:1979end a ot:Instant ;
+    ot:inXSDDate "1979-12-31"^^xsd:date .
+
+brdftime:1980start a ot:Instant ;
+    ot:inXSDDate "1980-01-01"^^xsd:date .
+
+brdftime:1989end a ot:Instant ;
+    ot:inXSDDate "1989-12-31"^^xsd:date .
+
+brdftime:1990start a ot:Instant ;
+    ot:inXSDDate "1990-01-01"^^xsd:date .
+
+brdftime:1995start a ot:Instant ;
+    ot:inXSDDate "1995-01-01"^^xsd:date .
+
+brdftime:1999end a ot:Instant ;
+    ot:inXSDDate "1999-12-31"^^xsd:date .
+
+brdftime:2005end a ot:Instant ;
+    ot:inXSDDate "2005-12-31"^^xsd:date .
+
+brdftime:2007end a ot:Instant ;
+    ot:inXSDDate "2007-12-31"^^xsd:date .
+
+brdftime:2012end a ot:Instant ;
+    ot:inXSDDate "2012-12-31"^^xsd:date .
+
+brdftime:2000start a ot:Instant ;
+    ot:inXSDDate "2000-01-01"^^xsd:date .
 
 brdftime:oneyearlong a ot:DurationDescription ;
     ot:years 1 .
