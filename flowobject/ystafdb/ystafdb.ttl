@@ -1,0 +1,2545 @@
+@prefix bfoaf: <http://rdf.bonsai.uno/foaf/ystafdb#> .
+@prefix bont: <http://ontology.bonsai.uno/core#> .
+@prefix bprov: <http://rdf.bonsai.uno/prov/ystafdb#> .
+@prefix brdffo: <http://rdf.bonsai.uno/flowobject/ystafdb#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dtype: <http://purl.org/dc/dcmitype/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://purl.org/vocab/vann/> .
+@prefix ns2: <http://creativecommons.org/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://rdf.bonsai.uno/flowobject/ystafdb> a dtype:Dataset,
+        prov:Collection ;
+    ns2:license <http://creativecommons.org/licenses/by/3.0/> ;
+    dc:creator bfoaf:bonsai ;
+    dc:description "FlowObject instances needed for BONSAI modelling of YSTAFDB version 1.0" ;
+    dc:modified "2020-06-17"^^xsd:date ;
+    dc:publisher bfoaf:bonsai ;
+    dc:title "Yale Stocks and Flows Database Flow Objects" ;
+    ns1:preferredNamespaceUri brdffo: ;
+    owl:versionInfo "0.4" ;
+    prov:generatedAtTime "2020-06-17"^^xsd:date ;
+    prov:hadMember brdffo:C_0,
+        brdffo:C_1,
+        brdffo:C_10,
+        brdffo:C_100,
+        brdffo:C_101,
+        brdffo:C_102,
+        brdffo:C_103,
+        brdffo:C_104,
+        brdffo:C_105,
+        brdffo:C_106,
+        brdffo:C_107,
+        brdffo:C_108,
+        brdffo:C_109,
+        brdffo:C_11,
+        brdffo:C_110,
+        brdffo:C_111,
+        brdffo:C_112,
+        brdffo:C_113,
+        brdffo:C_114,
+        brdffo:C_115,
+        brdffo:C_116,
+        brdffo:C_117,
+        brdffo:C_118,
+        brdffo:C_119,
+        brdffo:C_12,
+        brdffo:C_120,
+        brdffo:C_121,
+        brdffo:C_122,
+        brdffo:C_123,
+        brdffo:C_124,
+        brdffo:C_125,
+        brdffo:C_126,
+        brdffo:C_127,
+        brdffo:C_128,
+        brdffo:C_129,
+        brdffo:C_13,
+        brdffo:C_130,
+        brdffo:C_131,
+        brdffo:C_132,
+        brdffo:C_133,
+        brdffo:C_134,
+        brdffo:C_135,
+        brdffo:C_136,
+        brdffo:C_137,
+        brdffo:C_138,
+        brdffo:C_139,
+        brdffo:C_14,
+        brdffo:C_140,
+        brdffo:C_141,
+        brdffo:C_142,
+        brdffo:C_143,
+        brdffo:C_144,
+        brdffo:C_145,
+        brdffo:C_146,
+        brdffo:C_147,
+        brdffo:C_148,
+        brdffo:C_149,
+        brdffo:C_15,
+        brdffo:C_150,
+        brdffo:C_151,
+        brdffo:C_152,
+        brdffo:C_153,
+        brdffo:C_154,
+        brdffo:C_155,
+        brdffo:C_156,
+        brdffo:C_157,
+        brdffo:C_158,
+        brdffo:C_159,
+        brdffo:C_16,
+        brdffo:C_160,
+        brdffo:C_161,
+        brdffo:C_162,
+        brdffo:C_163,
+        brdffo:C_164,
+        brdffo:C_165,
+        brdffo:C_166,
+        brdffo:C_167,
+        brdffo:C_168,
+        brdffo:C_169,
+        brdffo:C_17,
+        brdffo:C_170,
+        brdffo:C_171,
+        brdffo:C_172,
+        brdffo:C_173,
+        brdffo:C_174,
+        brdffo:C_175,
+        brdffo:C_176,
+        brdffo:C_177,
+        brdffo:C_178,
+        brdffo:C_179,
+        brdffo:C_18,
+        brdffo:C_180,
+        brdffo:C_181,
+        brdffo:C_182,
+        brdffo:C_183,
+        brdffo:C_184,
+        brdffo:C_185,
+        brdffo:C_186,
+        brdffo:C_187,
+        brdffo:C_188,
+        brdffo:C_189,
+        brdffo:C_19,
+        brdffo:C_190,
+        brdffo:C_191,
+        brdffo:C_192,
+        brdffo:C_193,
+        brdffo:C_194,
+        brdffo:C_195,
+        brdffo:C_196,
+        brdffo:C_197,
+        brdffo:C_198,
+        brdffo:C_199,
+        brdffo:C_2,
+        brdffo:C_20,
+        brdffo:C_200,
+        brdffo:C_201,
+        brdffo:C_202,
+        brdffo:C_203,
+        brdffo:C_204,
+        brdffo:C_205,
+        brdffo:C_206,
+        brdffo:C_207,
+        brdffo:C_208,
+        brdffo:C_209,
+        brdffo:C_21,
+        brdffo:C_210,
+        brdffo:C_211,
+        brdffo:C_212,
+        brdffo:C_213,
+        brdffo:C_214,
+        brdffo:C_215,
+        brdffo:C_216,
+        brdffo:C_217,
+        brdffo:C_218,
+        brdffo:C_219,
+        brdffo:C_22,
+        brdffo:C_220,
+        brdffo:C_221,
+        brdffo:C_222,
+        brdffo:C_223,
+        brdffo:C_224,
+        brdffo:C_225,
+        brdffo:C_226,
+        brdffo:C_227,
+        brdffo:C_228,
+        brdffo:C_229,
+        brdffo:C_23,
+        brdffo:C_230,
+        brdffo:C_231,
+        brdffo:C_232,
+        brdffo:C_233,
+        brdffo:C_234,
+        brdffo:C_235,
+        brdffo:C_236,
+        brdffo:C_237,
+        brdffo:C_238,
+        brdffo:C_239,
+        brdffo:C_24,
+        brdffo:C_240,
+        brdffo:C_241,
+        brdffo:C_242,
+        brdffo:C_243,
+        brdffo:C_244,
+        brdffo:C_245,
+        brdffo:C_246,
+        brdffo:C_247,
+        brdffo:C_248,
+        brdffo:C_249,
+        brdffo:C_25,
+        brdffo:C_250,
+        brdffo:C_251,
+        brdffo:C_252,
+        brdffo:C_253,
+        brdffo:C_254,
+        brdffo:C_255,
+        brdffo:C_256,
+        brdffo:C_257,
+        brdffo:C_258,
+        brdffo:C_259,
+        brdffo:C_26,
+        brdffo:C_260,
+        brdffo:C_261,
+        brdffo:C_262,
+        brdffo:C_263,
+        brdffo:C_264,
+        brdffo:C_265,
+        brdffo:C_266,
+        brdffo:C_267,
+        brdffo:C_268,
+        brdffo:C_269,
+        brdffo:C_27,
+        brdffo:C_270,
+        brdffo:C_271,
+        brdffo:C_272,
+        brdffo:C_273,
+        brdffo:C_274,
+        brdffo:C_275,
+        brdffo:C_276,
+        brdffo:C_277,
+        brdffo:C_278,
+        brdffo:C_279,
+        brdffo:C_28,
+        brdffo:C_280,
+        brdffo:C_281,
+        brdffo:C_282,
+        brdffo:C_283,
+        brdffo:C_284,
+        brdffo:C_285,
+        brdffo:C_286,
+        brdffo:C_287,
+        brdffo:C_288,
+        brdffo:C_289,
+        brdffo:C_29,
+        brdffo:C_290,
+        brdffo:C_291,
+        brdffo:C_292,
+        brdffo:C_293,
+        brdffo:C_294,
+        brdffo:C_295,
+        brdffo:C_296,
+        brdffo:C_297,
+        brdffo:C_298,
+        brdffo:C_299,
+        brdffo:C_3,
+        brdffo:C_30,
+        brdffo:C_300,
+        brdffo:C_301,
+        brdffo:C_302,
+        brdffo:C_303,
+        brdffo:C_304,
+        brdffo:C_305,
+        brdffo:C_306,
+        brdffo:C_307,
+        brdffo:C_308,
+        brdffo:C_309,
+        brdffo:C_31,
+        brdffo:C_310,
+        brdffo:C_311,
+        brdffo:C_312,
+        brdffo:C_313,
+        brdffo:C_314,
+        brdffo:C_315,
+        brdffo:C_316,
+        brdffo:C_317,
+        brdffo:C_318,
+        brdffo:C_319,
+        brdffo:C_32,
+        brdffo:C_320,
+        brdffo:C_321,
+        brdffo:C_322,
+        brdffo:C_323,
+        brdffo:C_324,
+        brdffo:C_325,
+        brdffo:C_326,
+        brdffo:C_327,
+        brdffo:C_328,
+        brdffo:C_329,
+        brdffo:C_33,
+        brdffo:C_330,
+        brdffo:C_331,
+        brdffo:C_332,
+        brdffo:C_333,
+        brdffo:C_334,
+        brdffo:C_335,
+        brdffo:C_336,
+        brdffo:C_337,
+        brdffo:C_338,
+        brdffo:C_339,
+        brdffo:C_34,
+        brdffo:C_340,
+        brdffo:C_341,
+        brdffo:C_342,
+        brdffo:C_343,
+        brdffo:C_344,
+        brdffo:C_345,
+        brdffo:C_346,
+        brdffo:C_347,
+        brdffo:C_348,
+        brdffo:C_349,
+        brdffo:C_35,
+        brdffo:C_350,
+        brdffo:C_351,
+        brdffo:C_352,
+        brdffo:C_353,
+        brdffo:C_354,
+        brdffo:C_355,
+        brdffo:C_356,
+        brdffo:C_357,
+        brdffo:C_358,
+        brdffo:C_359,
+        brdffo:C_36,
+        brdffo:C_360,
+        brdffo:C_361,
+        brdffo:C_362,
+        brdffo:C_363,
+        brdffo:C_364,
+        brdffo:C_365,
+        brdffo:C_366,
+        brdffo:C_367,
+        brdffo:C_368,
+        brdffo:C_369,
+        brdffo:C_37,
+        brdffo:C_370,
+        brdffo:C_371,
+        brdffo:C_372,
+        brdffo:C_373,
+        brdffo:C_374,
+        brdffo:C_375,
+        brdffo:C_376,
+        brdffo:C_377,
+        brdffo:C_378,
+        brdffo:C_379,
+        brdffo:C_38,
+        brdffo:C_380,
+        brdffo:C_381,
+        brdffo:C_382,
+        brdffo:C_383,
+        brdffo:C_384,
+        brdffo:C_385,
+        brdffo:C_386,
+        brdffo:C_387,
+        brdffo:C_388,
+        brdffo:C_389,
+        brdffo:C_39,
+        brdffo:C_390,
+        brdffo:C_391,
+        brdffo:C_392,
+        brdffo:C_393,
+        brdffo:C_394,
+        brdffo:C_395,
+        brdffo:C_396,
+        brdffo:C_397,
+        brdffo:C_398,
+        brdffo:C_399,
+        brdffo:C_4,
+        brdffo:C_40,
+        brdffo:C_400,
+        brdffo:C_401,
+        brdffo:C_402,
+        brdffo:C_403,
+        brdffo:C_404,
+        brdffo:C_405,
+        brdffo:C_406,
+        brdffo:C_407,
+        brdffo:C_408,
+        brdffo:C_409,
+        brdffo:C_41,
+        brdffo:C_410,
+        brdffo:C_411,
+        brdffo:C_412,
+        brdffo:C_413,
+        brdffo:C_414,
+        brdffo:C_415,
+        brdffo:C_416,
+        brdffo:C_417,
+        brdffo:C_418,
+        brdffo:C_419,
+        brdffo:C_42,
+        brdffo:C_420,
+        brdffo:C_421,
+        brdffo:C_422,
+        brdffo:C_423,
+        brdffo:C_424,
+        brdffo:C_425,
+        brdffo:C_426,
+        brdffo:C_427,
+        brdffo:C_428,
+        brdffo:C_429,
+        brdffo:C_43,
+        brdffo:C_430,
+        brdffo:C_431,
+        brdffo:C_432,
+        brdffo:C_433,
+        brdffo:C_434,
+        brdffo:C_435,
+        brdffo:C_436,
+        brdffo:C_437,
+        brdffo:C_438,
+        brdffo:C_439,
+        brdffo:C_44,
+        brdffo:C_440,
+        brdffo:C_441,
+        brdffo:C_442,
+        brdffo:C_443,
+        brdffo:C_444,
+        brdffo:C_445,
+        brdffo:C_446,
+        brdffo:C_447,
+        brdffo:C_448,
+        brdffo:C_449,
+        brdffo:C_45,
+        brdffo:C_450,
+        brdffo:C_451,
+        brdffo:C_452,
+        brdffo:C_453,
+        brdffo:C_454,
+        brdffo:C_455,
+        brdffo:C_456,
+        brdffo:C_457,
+        brdffo:C_458,
+        brdffo:C_459,
+        brdffo:C_46,
+        brdffo:C_460,
+        brdffo:C_461,
+        brdffo:C_462,
+        brdffo:C_463,
+        brdffo:C_464,
+        brdffo:C_465,
+        brdffo:C_466,
+        brdffo:C_467,
+        brdffo:C_468,
+        brdffo:C_469,
+        brdffo:C_47,
+        brdffo:C_470,
+        brdffo:C_471,
+        brdffo:C_472,
+        brdffo:C_473,
+        brdffo:C_474,
+        brdffo:C_475,
+        brdffo:C_476,
+        brdffo:C_477,
+        brdffo:C_478,
+        brdffo:C_479,
+        brdffo:C_48,
+        brdffo:C_480,
+        brdffo:C_481,
+        brdffo:C_482,
+        brdffo:C_483,
+        brdffo:C_484,
+        brdffo:C_485,
+        brdffo:C_486,
+        brdffo:C_487,
+        brdffo:C_488,
+        brdffo:C_489,
+        brdffo:C_49,
+        brdffo:C_490,
+        brdffo:C_491,
+        brdffo:C_492,
+        brdffo:C_493,
+        brdffo:C_494,
+        brdffo:C_495,
+        brdffo:C_496,
+        brdffo:C_497,
+        brdffo:C_498,
+        brdffo:C_499,
+        brdffo:C_5,
+        brdffo:C_50,
+        brdffo:C_500,
+        brdffo:C_501,
+        brdffo:C_502,
+        brdffo:C_503,
+        brdffo:C_504,
+        brdffo:C_505,
+        brdffo:C_506,
+        brdffo:C_507,
+        brdffo:C_508,
+        brdffo:C_509,
+        brdffo:C_51,
+        brdffo:C_510,
+        brdffo:C_511,
+        brdffo:C_512,
+        brdffo:C_513,
+        brdffo:C_514,
+        brdffo:C_515,
+        brdffo:C_516,
+        brdffo:C_517,
+        brdffo:C_518,
+        brdffo:C_519,
+        brdffo:C_52,
+        brdffo:C_520,
+        brdffo:C_521,
+        brdffo:C_522,
+        brdffo:C_523,
+        brdffo:C_524,
+        brdffo:C_525,
+        brdffo:C_526,
+        brdffo:C_527,
+        brdffo:C_528,
+        brdffo:C_529,
+        brdffo:C_53,
+        brdffo:C_530,
+        brdffo:C_531,
+        brdffo:C_532,
+        brdffo:C_533,
+        brdffo:C_534,
+        brdffo:C_535,
+        brdffo:C_536,
+        brdffo:C_537,
+        brdffo:C_538,
+        brdffo:C_539,
+        brdffo:C_54,
+        brdffo:C_540,
+        brdffo:C_541,
+        brdffo:C_542,
+        brdffo:C_543,
+        brdffo:C_544,
+        brdffo:C_545,
+        brdffo:C_546,
+        brdffo:C_547,
+        brdffo:C_548,
+        brdffo:C_549,
+        brdffo:C_55,
+        brdffo:C_550,
+        brdffo:C_551,
+        brdffo:C_552,
+        brdffo:C_553,
+        brdffo:C_554,
+        brdffo:C_555,
+        brdffo:C_556,
+        brdffo:C_557,
+        brdffo:C_558,
+        brdffo:C_559,
+        brdffo:C_56,
+        brdffo:C_560,
+        brdffo:C_561,
+        brdffo:C_562,
+        brdffo:C_563,
+        brdffo:C_564,
+        brdffo:C_565,
+        brdffo:C_566,
+        brdffo:C_567,
+        brdffo:C_568,
+        brdffo:C_569,
+        brdffo:C_57,
+        brdffo:C_570,
+        brdffo:C_571,
+        brdffo:C_572,
+        brdffo:C_573,
+        brdffo:C_574,
+        brdffo:C_575,
+        brdffo:C_576,
+        brdffo:C_577,
+        brdffo:C_578,
+        brdffo:C_579,
+        brdffo:C_58,
+        brdffo:C_580,
+        brdffo:C_581,
+        brdffo:C_582,
+        brdffo:C_583,
+        brdffo:C_584,
+        brdffo:C_585,
+        brdffo:C_586,
+        brdffo:C_587,
+        brdffo:C_588,
+        brdffo:C_589,
+        brdffo:C_59,
+        brdffo:C_590,
+        brdffo:C_591,
+        brdffo:C_592,
+        brdffo:C_593,
+        brdffo:C_594,
+        brdffo:C_595,
+        brdffo:C_596,
+        brdffo:C_597,
+        brdffo:C_598,
+        brdffo:C_599,
+        brdffo:C_6,
+        brdffo:C_60,
+        brdffo:C_600,
+        brdffo:C_601,
+        brdffo:C_602,
+        brdffo:C_603,
+        brdffo:C_604,
+        brdffo:C_605,
+        brdffo:C_606,
+        brdffo:C_607,
+        brdffo:C_608,
+        brdffo:C_609,
+        brdffo:C_61,
+        brdffo:C_610,
+        brdffo:C_611,
+        brdffo:C_612,
+        brdffo:C_613,
+        brdffo:C_614,
+        brdffo:C_615,
+        brdffo:C_616,
+        brdffo:C_617,
+        brdffo:C_618,
+        brdffo:C_619,
+        brdffo:C_62,
+        brdffo:C_620,
+        brdffo:C_621,
+        brdffo:C_622,
+        brdffo:C_623,
+        brdffo:C_624,
+        brdffo:C_625,
+        brdffo:C_626,
+        brdffo:C_627,
+        brdffo:C_628,
+        brdffo:C_63,
+        brdffo:C_64,
+        brdffo:C_65,
+        brdffo:C_66,
+        brdffo:C_67,
+        brdffo:C_68,
+        brdffo:C_69,
+        brdffo:C_7,
+        brdffo:C_70,
+        brdffo:C_71,
+        brdffo:C_72,
+        brdffo:C_73,
+        brdffo:C_74,
+        brdffo:C_75,
+        brdffo:C_76,
+        brdffo:C_77,
+        brdffo:C_78,
+        brdffo:C_79,
+        brdffo:C_8,
+        brdffo:C_80,
+        brdffo:C_81,
+        brdffo:C_82,
+        brdffo:C_83,
+        brdffo:C_84,
+        brdffo:C_85,
+        brdffo:C_86,
+        brdffo:C_87,
+        brdffo:C_88,
+        brdffo:C_89,
+        brdffo:C_9,
+        brdffo:C_90,
+        brdffo:C_91,
+        brdffo:C_92,
+        brdffo:C_93,
+        brdffo:C_94,
+        brdffo:C_95,
+        brdffo:C_96,
+        brdffo:C_97,
+        brdffo:C_98,
+        brdffo:C_99 ;
+    prov:wasAttributedTo bfoaf:bonsai ;
+    prov:wasGeneratedBy bprov:dataExtractionActivity_0 ;
+    foaf:homepage <http://rdf.bonsai.uno/flowobject/ystafdbdocumentation.html> .
+
+brdffo:C_0 a bont:FlowObject ;
+    rdfs:label "lithosphere economic resources output;La" .
+
+brdffo:C_1 a bont:FlowObject ;
+    rdfs:label "tailings output;La" .
+
+brdffo:C_10 a bont:FlowObject ;
+    rdfs:label "tailings output;Ce" .
+
+brdffo:C_100 a bont:FlowObject ;
+    rdfs:label "lithosphere economic resources output;Ho" .
+
+brdffo:C_101 a bont:FlowObject ;
+    rdfs:label "fabrication and manufacturing output;Er" .
+
+brdffo:C_102 a bont:FlowObject ;
+    rdfs:label "lithosphere economic resources output;Er" .
+
+brdffo:C_103 a bont:FlowObject ;
+    rdfs:label "fabrication and manufacturing output;Tm" .
+
+brdffo:C_104 a bont:FlowObject ;
+    rdfs:label "lithosphere economic resources output;Tm" .
+
+brdffo:C_105 a bont:FlowObject ;
+    rdfs:label "fabrication and manufacturing output;Yb" .
+
+brdffo:C_106 a bont:FlowObject ;
+    rdfs:label "lithosphere economic resources output;Yb" .
+
+brdffo:C_107 a bont:FlowObject ;
+    rdfs:label "fabrication and manufacturing output;Lu" .
+
+brdffo:C_108 a bont:FlowObject ;
+    rdfs:label "lithosphere economic resources output;Lu" .
+
+brdffo:C_109 a bont:FlowObject ;
+    rdfs:label "fabrication and manufacturing output;Y" .
+
+brdffo:C_11 a bont:FlowObject ;
+    rdfs:label "concentrate output;Ce" .
+
+brdffo:C_110 a bont:FlowObject ;
+    rdfs:label "lithosphere economic resources output;Se" .
+
+brdffo:C_111 a bont:FlowObject ;
+    rdfs:label "tailings output;Se" .
+
+brdffo:C_112 a bont:FlowObject ;
+    rdfs:label "product output;Se" .
+
+brdffo:C_113 a bont:FlowObject ;
+    rdfs:label "slag & other residues output;Se" .
+
+brdffo:C_114 a bont:FlowObject ;
+    rdfs:label "residues output;Se" .
+
+brdffo:C_115 a bont:FlowObject ;
+    rdfs:label "scrap output;Se" .
+
+brdffo:C_116 a bont:FlowObject ;
+    rdfs:label "dissipative output;Se" .
+
+brdffo:C_117 a bont:FlowObject ;
+    rdfs:label "non-dissipative output;Se" .
+
+brdffo:C_118 a bont:FlowObject ;
+    rdfs:label "waste output;Se" .
+
+brdffo:C_119 a bont:FlowObject ;
+    rdfs:label "recycled scrap output;Se" .
+
+brdffo:C_12 a bont:FlowObject ;
+    rdfs:label "slag output;Ce" .
+
+brdffo:C_120 a bont:FlowObject ;
+    rdfs:label "production of engineering materials output;Se" .
+
+brdffo:C_121 a bont:FlowObject ;
+    rdfs:label "lithosphere economic resources output;Te" .
+
+brdffo:C_122 a bont:FlowObject ;
+    rdfs:label "tailings output;Te" .
+
+brdffo:C_123 a bont:FlowObject ;
+    rdfs:label "product output;Te" .
+
+brdffo:C_124 a bont:FlowObject ;
+    rdfs:label "slag & other residues output;Te" .
+
+brdffo:C_125 a bont:FlowObject ;
+    rdfs:label "residues output;Te" .
+
+brdffo:C_126 a bont:FlowObject ;
+    rdfs:label "scrap output;Te" .
+
+brdffo:C_127 a bont:FlowObject ;
+    rdfs:label "dissipative output;Te" .
+
+brdffo:C_128 a bont:FlowObject ;
+    rdfs:label "non-dissipative output;Te" .
+
+brdffo:C_129 a bont:FlowObject ;
+    rdfs:label "waste output;Te" .
+
+brdffo:C_13 a bont:FlowObject ;
+    rdfs:label "compounds output;Ce" .
+
+brdffo:C_130 a bont:FlowObject ;
+    rdfs:label "recycled scrap output;Te" .
+
+brdffo:C_131 a bont:FlowObject ;
+    rdfs:label "production of engineering materials output;Te" .
+
+brdffo:C_132 a bont:FlowObject ;
+    rdfs:label "waste output;Pt" .
+
+brdffo:C_133 a bont:FlowObject ;
+    rdfs:label "dissipative output;Pt" .
+
+brdffo:C_134 a bont:FlowObject ;
+    rdfs:label "waste output;Pd" .
+
+brdffo:C_135 a bont:FlowObject ;
+    rdfs:label "dissipative output;Pd" .
+
+brdffo:C_136 a bont:FlowObject ;
+    rdfs:label "waste output;Rh" .
+
+brdffo:C_137 a bont:FlowObject ;
+    rdfs:label "dissipative output;Rh" .
+
+brdffo:C_138 a bont:FlowObject ;
+    rdfs:label "waste output;Ru" .
+
+brdffo:C_139 a bont:FlowObject ;
+    rdfs:label "waste output;Ir" .
+
+brdffo:C_14 a bont:FlowObject ;
+    rdfs:label "waste output;Ce" .
+
+brdffo:C_140 a bont:FlowObject ;
+    rdfs:label "other output;Pt" .
+
+brdffo:C_141 a bont:FlowObject ;
+    rdfs:label "industrial output;Pt" .
+
+brdffo:C_142 a bont:FlowObject ;
+    rdfs:label "autocatalysts output;Pt" .
+
+brdffo:C_143 a bont:FlowObject ;
+    rdfs:label "other output;Pd" .
+
+brdffo:C_144 a bont:FlowObject ;
+    rdfs:label "industrial output;Pd" .
+
+brdffo:C_145 a bont:FlowObject ;
+    rdfs:label "autocatalysts output;Pd" .
+
+brdffo:C_146 a bont:FlowObject ;
+    rdfs:label "industrial output;Rh" .
+
+brdffo:C_147 a bont:FlowObject ;
+    rdfs:label "autocatalysts output;Rh" .
+
+brdffo:C_148 a bont:FlowObject ;
+    rdfs:label "medical biomedical and dental output;Pt" .
+
+brdffo:C_149 a bont:FlowObject ;
+    rdfs:label "electrical and electronic output;Pt" .
+
+brdffo:C_15 a bont:FlowObject ;
+    rdfs:label "product output;Ce" .
+
+brdffo:C_150 a bont:FlowObject ;
+    rdfs:label "jewelry output;Pt" .
+
+brdffo:C_151 a bont:FlowObject ;
+    rdfs:label "electrical and electronic output;Pd" .
+
+brdffo:C_152 a bont:FlowObject ;
+    rdfs:label "jewelry output;Pd" .
+
+brdffo:C_153 a bont:FlowObject ;
+    rdfs:label "other output;Rh" .
+
+brdffo:C_154 a bont:FlowObject ;
+    rdfs:label "electrical and electronic output;Rh" .
+
+brdffo:C_155 a bont:FlowObject ;
+    rdfs:label "other output;Ru" .
+
+brdffo:C_156 a bont:FlowObject ;
+    rdfs:label "industrial output;Ru" .
+
+brdffo:C_157 a bont:FlowObject ;
+    rdfs:label "electrical and electronic output;Ru" .
+
+brdffo:C_158 a bont:FlowObject ;
+    rdfs:label "other output;Ir" .
+
+brdffo:C_159 a bont:FlowObject ;
+    rdfs:label "industrial output;Ir" .
+
+brdffo:C_16 a bont:FlowObject ;
+    rdfs:label "scrap output;Ce" .
+
+brdffo:C_160 a bont:FlowObject ;
+    rdfs:label "electrical and electronic output;Ir" .
+
+brdffo:C_161 a bont:FlowObject ;
+    rdfs:label "medical biomedical and dental output;Pd" .
+
+brdffo:C_162 a bont:FlowObject ;
+    rdfs:label "research reactors output;Cs" .
+
+brdffo:C_163 a bont:FlowObject ;
+    rdfs:label "nuclear powered vessels output;Cs" .
+
+brdffo:C_164 a bont:FlowObject ;
+    rdfs:label "power plants output;Cs" .
+
+brdffo:C_165 a bont:FlowObject ;
+    rdfs:label "unsealed and sealed sources output;Cs" .
+
+brdffo:C_166 a bont:FlowObject ;
+    rdfs:label "products output;Cs" .
+
+brdffo:C_167 a bont:FlowObject ;
+    rdfs:label "source and device fabricators output;Cs" .
+
+brdffo:C_168 a bont:FlowObject ;
+    rdfs:label "devices output;Cs" .
+
+brdffo:C_169 a bont:FlowObject ;
+    rdfs:label "unmanaged devices output;Cs" .
+
+brdffo:C_17 a bont:FlowObject ;
+    rdfs:label "use output;Ce" .
+
+brdffo:C_170 a bont:FlowObject ;
+    rdfs:label "recycled output;Cs" .
+
+brdffo:C_171 a bont:FlowObject ;
+    rdfs:label "not recycled output;Cs" .
+
+brdffo:C_172 a bont:FlowObject ;
+    rdfs:label "metal scrap output;Cs" .
+
+brdffo:C_173 a bont:FlowObject ;
+    rdfs:label "radioactive decay output;Cs" .
+
+brdffo:C_174 a bont:FlowObject ;
+    rdfs:label "lithosphere economic resources output;Fe" .
+
+brdffo:C_175 a bont:FlowObject ;
+    rdfs:label "tailings output;Fe" .
+
+brdffo:C_176 a bont:FlowObject ;
+    rdfs:label "slag output;Fe" .
+
+brdffo:C_177 a bont:FlowObject ;
+    rdfs:label "home scrap output;Fe" .
+
+brdffo:C_178 a bont:FlowObject ;
+    rdfs:label "castings output;Fe" .
+
+brdffo:C_179 a bont:FlowObject ;
+    rdfs:label "raw steel output;Fe" .
+
+brdffo:C_18 a bont:FlowObject ;
+    rdfs:label "lithosphere economic resources output;Pr" .
+
+brdffo:C_180 a bont:FlowObject ;
+    rdfs:label "finished products output;Fe" .
+
+brdffo:C_181 a bont:FlowObject ;
+    rdfs:label "scrap output;Fe" .
+
+brdffo:C_182 a bont:FlowObject ;
+    rdfs:label "fabrication and manufacturing output;Fe" .
+
+brdffo:C_183 a bont:FlowObject ;
+    rdfs:label "non-dissipative output;Fe" .
+
+brdffo:C_184 a bont:FlowObject ;
+    rdfs:label "dissipative output;Fe" .
+
+brdffo:C_185 a bont:FlowObject ;
+    rdfs:label "industrial waste output;Fe" .
+
+brdffo:C_186 a bont:FlowObject ;
+    rdfs:label "waste output;Fe" .
+
+brdffo:C_187 a bont:FlowObject ;
+    rdfs:label "on-site sand waste output;P" .
+
+brdffo:C_188 a bont:FlowObject ;
+    rdfs:label "mining phosphate mine slimes output;P" .
+
+brdffo:C_189 a bont:FlowObject ;
+    rdfs:label "phosphoric tailings output;P" .
+
+brdffo:C_19 a bont:FlowObject ;
+    rdfs:label "tailings output;Pr" .
+
+brdffo:C_190 a bont:FlowObject ;
+    rdfs:label "beneficiation phosphate mine slimes output;P" .
+
+brdffo:C_191 a bont:FlowObject ;
+    rdfs:label "phosphogypsum output;P" .
+
+brdffo:C_192 a bont:FlowObject ;
+    rdfs:label "ferrophosphorus output;P" .
+
+brdffo:C_193 a bont:FlowObject ;
+    rdfs:label "phosphorus slag output;P" .
+
+brdffo:C_194 a bont:FlowObject ;
+    rdfs:label "crop residues output;P" .
+
+brdffo:C_195 a bont:FlowObject ;
+    rdfs:label "animal waste output;P" .
+
+brdffo:C_196 a bont:FlowObject ;
+    rdfs:label "excreta output;P" .
+
+brdffo:C_197 a bont:FlowObject ;
+    rdfs:label "other human waste output;P" .
+
+brdffo:C_198 a bont:FlowObject ;
+    rdfs:label "food waste output;P" .
+
+brdffo:C_199 a bont:FlowObject ;
+    rdfs:label "waste output;P" .
+
+brdffo:C_2 a bont:FlowObject ;
+    rdfs:label "concentrate output;La" .
+
+brdffo:C_20 a bont:FlowObject ;
+    rdfs:label "concentrate output;Pr" .
+
+brdffo:C_200 a bont:FlowObject ;
+    rdfs:label "runoff output;P" .
+
+brdffo:C_201 a bont:FlowObject ;
+    rdfs:label "leaching output;P" .
+
+brdffo:C_202 a bont:FlowObject ;
+    rdfs:label "phosphate rock mining output;P" .
+
+brdffo:C_203 a bont:FlowObject ;
+    rdfs:label "industrial production output;P" .
+
+brdffo:C_204 a bont:FlowObject ;
+    rdfs:label "agricultural production output;P" .
+
+brdffo:C_205 a bont:FlowObject ;
+    rdfs:label "societal consumption output;P" .
+
+brdffo:C_206 a bont:FlowObject ;
+    rdfs:label "mining output;P" .
+
+brdffo:C_207 a bont:FlowObject ;
+    rdfs:label "phosphate rock output;P" .
+
+brdffo:C_208 a bont:FlowObject ;
+    rdfs:label "marketable phosphate rock concentrate output;P" .
+
+brdffo:C_209 a bont:FlowObject ;
+    rdfs:label "food processing output;P" .
+
+brdffo:C_21 a bont:FlowObject ;
+    rdfs:label "slag output;Pr" .
+
+brdffo:C_210 a bont:FlowObject ;
+    rdfs:label "food product output;P" .
+
+brdffo:C_211 a bont:FlowObject ;
+    rdfs:label "phosphoric acid output;P" .
+
+brdffo:C_212 a bont:FlowObject ;
+    rdfs:label "maketable phosphate rock concentrate output;P" .
+
+brdffo:C_213 a bont:FlowObject ;
+    rdfs:label "chemical fertilizer output;P" .
+
+brdffo:C_214 a bont:FlowObject ;
+    rdfs:label "other P products output;P" .
+
+brdffo:C_215 a bont:FlowObject ;
+    rdfs:label "detergents output;P" .
+
+brdffo:C_216 a bont:FlowObject ;
+    rdfs:label "industrial uses output;P" .
+
+brdffo:C_217 a bont:FlowObject ;
+    rdfs:label "food and feed additives output;P" .
+
+brdffo:C_218 a bont:FlowObject ;
+    rdfs:label "other uses output;P" .
+
+brdffo:C_219 a bont:FlowObject ;
+    rdfs:label "atmosphere output;P" .
+
+brdffo:C_22 a bont:FlowObject ;
+    rdfs:label "compounds output;Pr" .
+
+brdffo:C_220 a bont:FlowObject ;
+    rdfs:label "harvesting crops output;P" .
+
+brdffo:C_221 a bont:FlowObject ;
+    rdfs:label "grass output;P" .
+
+brdffo:C_222 a bont:FlowObject ;
+    rdfs:label "agricultural soil output;P" .
+
+brdffo:C_223 a bont:FlowObject ;
+    rdfs:label "animal food output;P" .
+
+brdffo:C_224 a bont:FlowObject ;
+    rdfs:label "feed processing output;P" .
+
+brdffo:C_225 a bont:FlowObject ;
+    rdfs:label "feed additives output;P" .
+
+brdffo:C_226 a bont:FlowObject ;
+    rdfs:label "food crops product output;P" .
+
+brdffo:C_227 a bont:FlowObject ;
+    rdfs:label "lithosphere economic resources output;Zn" .
+
+brdffo:C_228 a bont:FlowObject ;
+    rdfs:label "recycled scrap output;Zn" .
+
+brdffo:C_229 a bont:FlowObject ;
+    rdfs:label "production of engineering materials refined Zn output;Zn" .
+
+brdffo:C_23 a bont:FlowObject ;
+    rdfs:label "waste output;Pr" .
+
+brdffo:C_230 a bont:FlowObject ;
+    rdfs:label "tailings output;Zn" .
+
+brdffo:C_231 a bont:FlowObject ;
+    rdfs:label "slag output;Zn" .
+
+brdffo:C_232 a bont:FlowObject ;
+    rdfs:label "refined Zn output;Zn" .
+
+brdffo:C_233 a bont:FlowObject ;
+    rdfs:label "finished products output;Zn" .
+
+brdffo:C_234 a bont:FlowObject ;
+    rdfs:label "discards output;Zn" .
+
+brdffo:C_235 a bont:FlowObject ;
+    rdfs:label "non-dissipative output;Zn" .
+
+brdffo:C_236 a bont:FlowObject ;
+    rdfs:label "not recycled output;Zn" .
+
+brdffo:C_237 a bont:FlowObject ;
+    rdfs:label "lithosphere economic resources output;Cu" .
+
+brdffo:C_238 a bont:FlowObject ;
+    rdfs:label "tailings output;Cu" .
+
+brdffo:C_239 a bont:FlowObject ;
+    rdfs:label "new scrap output;Cu" .
+
+brdffo:C_24 a bont:FlowObject ;
+    rdfs:label "product output;Pr" .
+
+brdffo:C_240 a bont:FlowObject ;
+    rdfs:label "old scrap output;Cu" .
+
+brdffo:C_241 a bont:FlowObject ;
+    rdfs:label "Cu metal output;Cu" .
+
+brdffo:C_242 a bont:FlowObject ;
+    rdfs:label "Cu alloy output;Cu" .
+
+brdffo:C_243 a bont:FlowObject ;
+    rdfs:label "slag output;Cu" .
+
+brdffo:C_244 a bont:FlowObject ;
+    rdfs:label "finished products output;Cu" .
+
+brdffo:C_245 a bont:FlowObject ;
+    rdfs:label "scrap output;Cu" .
+
+brdffo:C_246 a bont:FlowObject ;
+    rdfs:label "non-dissipative output;Cu" .
+
+brdffo:C_247 a bont:FlowObject ;
+    rdfs:label "not recycled output;Cu" .
+
+brdffo:C_248 a bont:FlowObject ;
+    rdfs:label "lithosphere economic resources output;Pb" .
+
+brdffo:C_249 a bont:FlowObject ;
+    rdfs:label "scrap output;Pb" .
+
+brdffo:C_25 a bont:FlowObject ;
+    rdfs:label "scrap output;Pr" .
+
+brdffo:C_250 a bont:FlowObject ;
+    rdfs:label "refined Pb output;Pb" .
+
+brdffo:C_251 a bont:FlowObject ;
+    rdfs:label "tailings output;Pb" .
+
+brdffo:C_252 a bont:FlowObject ;
+    rdfs:label "slag output;Pb" .
+
+brdffo:C_253 a bont:FlowObject ;
+    rdfs:label "finished products output;Pb" .
+
+brdffo:C_254 a bont:FlowObject ;
+    rdfs:label "discards output;Pb" .
+
+brdffo:C_255 a bont:FlowObject ;
+    rdfs:label "dissipative output;Pb" .
+
+brdffo:C_256 a bont:FlowObject ;
+    rdfs:label "non-dissipative output;Pb" .
+
+brdffo:C_257 a bont:FlowObject ;
+    rdfs:label "waste output;Pb" .
+
+brdffo:C_258 a bont:FlowObject ;
+    rdfs:label "lithosphere economic resources output;Cr" .
+
+brdffo:C_259 a bont:FlowObject ;
+    rdfs:label "tailings output;Cr" .
+
+brdffo:C_26 a bont:FlowObject ;
+    rdfs:label "use output;Pr" .
+
+brdffo:C_260 a bont:FlowObject ;
+    rdfs:label "slag output;Cr" .
+
+brdffo:C_261 a bont:FlowObject ;
+    rdfs:label "FeCr alloys output;Cr" .
+
+brdffo:C_262 a bont:FlowObject ;
+    rdfs:label "old scrap output;Cr" .
+
+brdffo:C_263 a bont:FlowObject ;
+    rdfs:label "downgraded scrap output;Cr" .
+
+brdffo:C_264 a bont:FlowObject ;
+    rdfs:label "industrial waste and scrap output;Cr" .
+
+brdffo:C_265 a bont:FlowObject ;
+    rdfs:label "fabrication and manufacturing output;Cr" .
+
+brdffo:C_266 a bont:FlowObject ;
+    rdfs:label "non-dissipative output;Cr" .
+
+brdffo:C_267 a bont:FlowObject ;
+    rdfs:label "industrial waste output;Cr" .
+
+brdffo:C_268 a bont:FlowObject ;
+    rdfs:label "not recycled output;Cr" .
+
+brdffo:C_269 a bont:FlowObject ;
+    rdfs:label "lithosphere economic resources output;Ag" .
+
+brdffo:C_27 a bont:FlowObject ;
+    rdfs:label "lithosphere economic resources output;Nd" .
+
+brdffo:C_270 a bont:FlowObject ;
+    rdfs:label "recycled scrap output;Ag" .
+
+brdffo:C_271 a bont:FlowObject ;
+    rdfs:label "refined metal output;Ag" .
+
+brdffo:C_272 a bont:FlowObject ;
+    rdfs:label "slag and leachate output;Ag" .
+
+brdffo:C_273 a bont:FlowObject ;
+    rdfs:label "new scrap output;Ag" .
+
+brdffo:C_274 a bont:FlowObject ;
+    rdfs:label "finished products output;Ag" .
+
+brdffo:C_275 a bont:FlowObject ;
+    rdfs:label "discards output;Ag" .
+
+brdffo:C_276 a bont:FlowObject ;
+    rdfs:label "non-dissipative output;Ag" .
+
+brdffo:C_277 a bont:FlowObject ;
+    rdfs:label "recycled old scrap output;Ag" .
+
+brdffo:C_278 a bont:FlowObject ;
+    rdfs:label "recycled new scrap output;Ag" .
+
+brdffo:C_279 a bont:FlowObject ;
+    rdfs:label "not recycled output;Ag" .
+
+brdffo:C_28 a bont:FlowObject ;
+    rdfs:label "tailings output;Nd" .
+
+brdffo:C_280 a bont:FlowObject ;
+    rdfs:label "tailings output;Ag" .
+
+brdffo:C_281 a bont:FlowObject ;
+    rdfs:label "slag output;Ag" .
+
+brdffo:C_282 a bont:FlowObject ;
+    rdfs:label "leachate output;Ag" .
+
+brdffo:C_283 a bont:FlowObject ;
+    rdfs:label "dissipated output;Ag" .
+
+brdffo:C_284 a bont:FlowObject ;
+    rdfs:label "cement output;Ag" .
+
+brdffo:C_285 a bont:FlowObject ;
+    rdfs:label "coal output;Ag" .
+
+brdffo:C_286 a bont:FlowObject ;
+    rdfs:label "waste electronic and electrical equipment output;Ag" .
+
+brdffo:C_287 a bont:FlowObject ;
+    rdfs:label "AgO batteries output;Ag" .
+
+brdffo:C_288 a bont:FlowObject ;
+    rdfs:label "amalgam;Ag" .
+
+brdffo:C_289 a bont:FlowObject ;
+    rdfs:label "hazardous industrial waste;Ag" .
+
+brdffo:C_29 a bont:FlowObject ;
+    rdfs:label "concentrate output;Nd" .
+
+brdffo:C_290 a bont:FlowObject ;
+    rdfs:label "non-hazardous industrial waste and hazardous industrial waste output;Ag" .
+
+brdffo:C_291 a bont:FlowObject ;
+    rdfs:label "municipal solid waste output;Ag" .
+
+brdffo:C_292 a bont:FlowObject ;
+    rdfs:label "sewage output;Ag" .
+
+brdffo:C_293 a bont:FlowObject ;
+    rdfs:label "sewage sludge output;Ag" .
+
+brdffo:C_294 a bont:FlowObject ;
+    rdfs:label "photography output;Ag" .
+
+brdffo:C_295 a bont:FlowObject ;
+    rdfs:label "end of life output;Ag" .
+
+brdffo:C_296 a bont:FlowObject ;
+    rdfs:label "hibernating output;Ag" .
+
+brdffo:C_297 a bont:FlowObject ;
+    rdfs:label "downcycled carbon steel scrap output;Stainless steel" .
+
+brdffo:C_298 a bont:FlowObject ;
+    rdfs:label "primary metals output;Stainless steel" .
+
+brdffo:C_299 a bont:FlowObject ;
+    rdfs:label "slag output;Stainless steel" .
+
+brdffo:C_3 a bont:FlowObject ;
+    rdfs:label "slag output;La" .
+
+brdffo:C_30 a bont:FlowObject ;
+    rdfs:label "slag output;Nd" .
+
+brdffo:C_300 a bont:FlowObject ;
+    rdfs:label "product output;Stainless steel" .
+
+brdffo:C_301 a bont:FlowObject ;
+    rdfs:label "scrap output;Stainless steel" .
+
+brdffo:C_302 a bont:FlowObject ;
+    rdfs:label "waste output;Stainless steel" .
+
+brdffo:C_303 a bont:FlowObject ;
+    rdfs:label "non-dissipative output;Stainless steel" .
+
+brdffo:C_304 a bont:FlowObject ;
+    rdfs:label "hot rolling output;Stainless steel" .
+
+brdffo:C_305 a bont:FlowObject ;
+    rdfs:label "lithosphere economic resources output;Ni" .
+
+brdffo:C_306 a bont:FlowObject ;
+    rdfs:label "concentrate output;Ni" .
+
+brdffo:C_307 a bont:FlowObject ;
+    rdfs:label "tailings output;Ni" .
+
+brdffo:C_308 a bont:FlowObject ;
+    rdfs:label "scrap output;Ni" .
+
+brdffo:C_309 a bont:FlowObject ;
+    rdfs:label "slag output;Ni" .
+
+brdffo:C_31 a bont:FlowObject ;
+    rdfs:label "compounds output;Nd" .
+
+brdffo:C_310 a bont:FlowObject ;
+    rdfs:label "Ni matte output;Ni" .
+
+brdffo:C_311 a bont:FlowObject ;
+    rdfs:label "refined Ni output;Ni" .
+
+brdffo:C_312 a bont:FlowObject ;
+    rdfs:label "waste output;Ni" .
+
+brdffo:C_313 a bont:FlowObject ;
+    rdfs:label "product output;Ni" .
+
+brdffo:C_314 a bont:FlowObject ;
+    rdfs:label "non-dissipative output;Ni" .
+
+brdffo:C_315 a bont:FlowObject ;
+    rdfs:label "downcycled other scrap markets output;Ni" .
+
+brdffo:C_316 a bont:FlowObject ;
+    rdfs:label "iron ore output;Fe" .
+
+brdffo:C_317 a bont:FlowObject ;
+    rdfs:label "pig iron output;Fe" .
+
+brdffo:C_318 a bont:FlowObject ;
+    rdfs:label "open hearth output;Fe" .
+
+brdffo:C_319 a bont:FlowObject ;
+    rdfs:label "bessemer output;Fe" .
+
+brdffo:C_32 a bont:FlowObject ;
+    rdfs:label "waste output;Nd" .
+
+brdffo:C_320 a bont:FlowObject ;
+    rdfs:label "crucible output;Fe" .
+
+brdffo:C_321 a bont:FlowObject ;
+    rdfs:label "basic oxygen furnace output;Fe" .
+
+brdffo:C_322 a bont:FlowObject ;
+    rdfs:label "electric arc furnace output;Fe" .
+
+brdffo:C_323 a bont:FlowObject ;
+    rdfs:label "finished steel output;Fe" .
+
+brdffo:C_324 a bont:FlowObject ;
+    rdfs:label "product output;Fe" .
+
+brdffo:C_325 a bont:FlowObject ;
+    rdfs:label "scrap and waste output;Fe" .
+
+brdffo:C_326 a bont:FlowObject ;
+    rdfs:label "construction product output;Fe" .
+
+brdffo:C_327 a bont:FlowObject ;
+    rdfs:label "transportation product output;Fe" .
+
+brdffo:C_328 a bont:FlowObject ;
+    rdfs:label "machinery and appliances product output;Fe" .
+
+brdffo:C_329 a bont:FlowObject ;
+    rdfs:label "others product output;Fe" .
+
+brdffo:C_33 a bont:FlowObject ;
+    rdfs:label "product output;Nd" .
+
+brdffo:C_330 a bont:FlowObject ;
+    rdfs:label "other;Fe" .
+
+brdffo:C_331 a bont:FlowObject ;
+    rdfs:label "recycled output;Fe" .
+
+brdffo:C_332 a bont:FlowObject ;
+    rdfs:label "not recycled output;Fe" .
+
+brdffo:C_333 a bont:FlowObject ;
+    rdfs:label "mining and beneficiation product output;Zn" .
+
+brdffo:C_334 a bont:FlowObject ;
+    rdfs:label "mining and beneficiation waste output;Zn" .
+
+brdffo:C_335 a bont:FlowObject ;
+    rdfs:label "primary production product output;Zn" .
+
+brdffo:C_336 a bont:FlowObject ;
+    rdfs:label "secondary production product output;Zn" .
+
+brdffo:C_337 a bont:FlowObject ;
+    rdfs:label "primary refining waste;Zn" .
+
+brdffo:C_338 a bont:FlowObject ;
+    rdfs:label "recycle scrap output;Zn" .
+
+brdffo:C_339 a bont:FlowObject ;
+    rdfs:label "product output;Zn" .
+
+brdffo:C_34 a bont:FlowObject ;
+    rdfs:label "scrap output;Nd" .
+
+brdffo:C_340 a bont:FlowObject ;
+    rdfs:label "waste output;Zn" .
+
+brdffo:C_341 a bont:FlowObject ;
+    rdfs:label "scrap output;Zn" .
+
+brdffo:C_342 a bont:FlowObject ;
+    rdfs:label "construction product output;Zn" .
+
+brdffo:C_343 a bont:FlowObject ;
+    rdfs:label "transport product output;Zn" .
+
+brdffo:C_344 a bont:FlowObject ;
+    rdfs:label "industrial machinery product output;Zn" .
+
+brdffo:C_345 a bont:FlowObject ;
+    rdfs:label "electrical and electronics product output;Zn" .
+
+brdffo:C_346 a bont:FlowObject ;
+    rdfs:label "agriculture product output;Zn" .
+
+brdffo:C_347 a bont:FlowObject ;
+    rdfs:label "miscellaneous product output;Zn" .
+
+brdffo:C_348 a bont:FlowObject ;
+    rdfs:label "construction output;Zn" .
+
+brdffo:C_349 a bont:FlowObject ;
+    rdfs:label "transport output;Zn" .
+
+brdffo:C_35 a bont:FlowObject ;
+    rdfs:label "use output;Nd" .
+
+brdffo:C_350 a bont:FlowObject ;
+    rdfs:label "industrial machinery output;Zn" .
+
+brdffo:C_351 a bont:FlowObject ;
+    rdfs:label "electrical and electronics output;Zn" .
+
+brdffo:C_352 a bont:FlowObject ;
+    rdfs:label "agriculture output;Zn" .
+
+brdffo:C_353 a bont:FlowObject ;
+    rdfs:label "miscellaneous output;Zn" .
+
+brdffo:C_354 a bont:FlowObject ;
+    rdfs:label "recycled old scrap output;Zn" .
+
+brdffo:C_355 a bont:FlowObject ;
+    rdfs:label "recycled new scrap output;Zn" .
+
+brdffo:C_356 a bont:FlowObject ;
+    rdfs:label "landfill output;Zn" .
+
+brdffo:C_357 a bont:FlowObject ;
+    rdfs:label "products output;Ag" .
+
+brdffo:C_358 a bont:FlowObject ;
+    rdfs:label "Cu metal and alloys;Cu" .
+
+brdffo:C_359 a bont:FlowObject ;
+    rdfs:label "manufacturing output;Cu" .
+
+brdffo:C_36 a bont:FlowObject ;
+    rdfs:label "lithosphere economic resources output;Sm" .
+
+brdffo:C_360 a bont:FlowObject ;
+    rdfs:label "recycled old scrap output;Cu" .
+
+brdffo:C_361 a bont:FlowObject ;
+    rdfs:label "recycled new scrap output;Cu" .
+
+brdffo:C_362 a bont:FlowObject ;
+    rdfs:label "production of engineering materials output;Pb" .
+
+brdffo:C_363 a bont:FlowObject ;
+    rdfs:label "not recycled output;Pb" .
+
+brdffo:C_364 a bont:FlowObject ;
+    rdfs:label "old scrap output;Pb" .
+
+brdffo:C_365 a bont:FlowObject ;
+    rdfs:label "new scrap output;Pb" .
+
+brdffo:C_366 a bont:FlowObject ;
+    rdfs:label "recycled output;Pb" .
+
+brdffo:C_367 a bont:FlowObject ;
+    rdfs:label "production of engineering materials output;Cr" .
+
+brdffo:C_368 a bont:FlowObject ;
+    rdfs:label "finished products output;Cr" .
+
+brdffo:C_369 a bont:FlowObject ;
+    rdfs:label "new scrap output;Cr" .
+
+brdffo:C_37 a bont:FlowObject ;
+    rdfs:label "tailings output;Sm" .
+
+brdffo:C_370 a bont:FlowObject ;
+    rdfs:label "recycled output;Cr" .
+
+brdffo:C_371 a bont:FlowObject ;
+    rdfs:label "production of engineering materials output;Fe" .
+
+brdffo:C_372 a bont:FlowObject ;
+    rdfs:label "old scrap output;Fe" .
+
+brdffo:C_373 a bont:FlowObject ;
+    rdfs:label "new scrap output;Fe" .
+
+brdffo:C_374 a bont:FlowObject ;
+    rdfs:label "production of engineering materials output;Ni" .
+
+brdffo:C_375 a bont:FlowObject ;
+    rdfs:label "finished products output;Ni" .
+
+brdffo:C_376 a bont:FlowObject ;
+    rdfs:label "not recycled output;Ni" .
+
+brdffo:C_377 a bont:FlowObject ;
+    rdfs:label "old scrap output;Ni" .
+
+brdffo:C_378 a bont:FlowObject ;
+    rdfs:label "new scrap output;Ni" .
+
+brdffo:C_379 a bont:FlowObject ;
+    rdfs:label "recycled output;Ni" .
+
+brdffo:C_38 a bont:FlowObject ;
+    rdfs:label "concentrate output;Sm" .
+
+brdffo:C_380 a bont:FlowObject ;
+    rdfs:label "mining output;Ag" .
+
+brdffo:C_381 a bont:FlowObject ;
+    rdfs:label "jewelry and silverware output;Ag" .
+
+brdffo:C_382 a bont:FlowObject ;
+    rdfs:label "electronics output;Ag" .
+
+brdffo:C_383 a bont:FlowObject ;
+    rdfs:label "brazing alloys and solder output;Ag" .
+
+brdffo:C_384 a bont:FlowObject ;
+    rdfs:label "coins and medals output;Ag" .
+
+brdffo:C_385 a bont:FlowObject ;
+    rdfs:label "other output;Ag" .
+
+brdffo:C_386 a bont:FlowObject ;
+    rdfs:label "manufacturing output;Ag" .
+
+brdffo:C_387 a bont:FlowObject ;
+    rdfs:label "sewage and sewage sludge output;Ag" .
+
+brdffo:C_388 a bont:FlowObject ;
+    rdfs:label "non-hazardous industrial waste output;Ag" .
+
+brdffo:C_389 a bont:FlowObject ;
+    rdfs:label "hazardous industrial waste output;Ag" .
+
+brdffo:C_39 a bont:FlowObject ;
+    rdfs:label "slag output;Sm" .
+
+brdffo:C_390 a bont:FlowObject ;
+    rdfs:label "separation treatment output;Ag" .
+
+brdffo:C_391 a bont:FlowObject ;
+    rdfs:label "incineration output;Ag" .
+
+brdffo:C_392 a bont:FlowObject ;
+    rdfs:label "production of engineering materials output;Zn" .
+
+brdffo:C_393 a bont:FlowObject ;
+    rdfs:label "fabrication and manufacturing output;Zn" .
+
+brdffo:C_394 a bont:FlowObject ;
+    rdfs:label "use output;Zn" .
+
+brdffo:C_395 a bont:FlowObject ;
+    rdfs:label "waste management output;Zn" .
+
+brdffo:C_396 a bont:FlowObject ;
+    rdfs:label "earth orbit output;Zn" .
+
+brdffo:C_397 a bont:FlowObject ;
+    rdfs:label "atmosphere output;Zn" .
+
+brdffo:C_398 a bont:FlowObject ;
+    rdfs:label "fossil fuel resources output;Zn" .
+
+brdffo:C_399 a bont:FlowObject ;
+    rdfs:label "agricultural biomass output;Zn" .
+
+brdffo:C_4 a bont:FlowObject ;
+    rdfs:label "compounds output;La" .
+
+brdffo:C_40 a bont:FlowObject ;
+    rdfs:label "compounds output;Sm" .
+
+brdffo:C_400 a bont:FlowObject ;
+    rdfs:label "terrestrial biomass output;Zn" .
+
+brdffo:C_401 a bont:FlowObject ;
+    rdfs:label "soil output;Zn" .
+
+brdffo:C_402 a bont:FlowObject ;
+    rdfs:label "freshwater output;Zn" .
+
+brdffo:C_403 a bont:FlowObject ;
+    rdfs:label "oceans output;Zn" .
+
+brdffo:C_404 a bont:FlowObject ;
+    rdfs:label "ocean biomass output;Zn" .
+
+brdffo:C_405 a bont:FlowObject ;
+    rdfs:label "seafloor regolith output;Zn" .
+
+brdffo:C_406 a bont:FlowObject ;
+    rdfs:label "upper continental crust output;Zn" .
+
+brdffo:C_407 a bont:FlowObject ;
+    rdfs:label "lower continental crust output;Zn" .
+
+brdffo:C_408 a bont:FlowObject ;
+    rdfs:label "mantle output;Zn" .
+
+brdffo:C_409 a bont:FlowObject ;
+    rdfs:label "production of engineering materials output;Ag" .
+
+brdffo:C_41 a bont:FlowObject ;
+    rdfs:label "waste output;Sm" .
+
+brdffo:C_410 a bont:FlowObject ;
+    rdfs:label "fabrication and manufacturing output;Ag" .
+
+brdffo:C_411 a bont:FlowObject ;
+    rdfs:label "use output;Ag" .
+
+brdffo:C_412 a bont:FlowObject ;
+    rdfs:label "waste management output;Ag" .
+
+brdffo:C_413 a bont:FlowObject ;
+    rdfs:label "earth orbit output;Ag" .
+
+brdffo:C_414 a bont:FlowObject ;
+    rdfs:label "atmosphere output;Ag" .
+
+brdffo:C_415 a bont:FlowObject ;
+    rdfs:label "fossil fuel resources output;Ag" .
+
+brdffo:C_416 a bont:FlowObject ;
+    rdfs:label "agricultural biomass output;Ag" .
+
+brdffo:C_417 a bont:FlowObject ;
+    rdfs:label "terrestrial biomass output;Ag" .
+
+brdffo:C_418 a bont:FlowObject ;
+    rdfs:label "soil output;Ag" .
+
+brdffo:C_419 a bont:FlowObject ;
+    rdfs:label "freshwater output;Ag" .
+
+brdffo:C_42 a bont:FlowObject ;
+    rdfs:label "product output;Sm" .
+
+brdffo:C_420 a bont:FlowObject ;
+    rdfs:label "oceans output;Ag" .
+
+brdffo:C_421 a bont:FlowObject ;
+    rdfs:label "ocean biomass output;Ag" .
+
+brdffo:C_422 a bont:FlowObject ;
+    rdfs:label "seafloor regolith output;Ag" .
+
+brdffo:C_423 a bont:FlowObject ;
+    rdfs:label "upper continental crust output;Ag" .
+
+brdffo:C_424 a bont:FlowObject ;
+    rdfs:label "lower continental crust output;Ag" .
+
+brdffo:C_425 a bont:FlowObject ;
+    rdfs:label "mantle output;Ag" .
+
+brdffo:C_426 a bont:FlowObject ;
+    rdfs:label "production of engineering materials output;Cu" .
+
+brdffo:C_427 a bont:FlowObject ;
+    rdfs:label "fabrication and manufacturing output;Cu" .
+
+brdffo:C_428 a bont:FlowObject ;
+    rdfs:label "use output;Cu" .
+
+brdffo:C_429 a bont:FlowObject ;
+    rdfs:label "waste management output;Cu" .
+
+brdffo:C_43 a bont:FlowObject ;
+    rdfs:label "scrap output;Sm" .
+
+brdffo:C_430 a bont:FlowObject ;
+    rdfs:label "universe non earth planetary bodies output;Cu" .
+
+brdffo:C_431 a bont:FlowObject ;
+    rdfs:label "earth orbit output;Cu" .
+
+brdffo:C_432 a bont:FlowObject ;
+    rdfs:label "atmosphere output;Cu" .
+
+brdffo:C_433 a bont:FlowObject ;
+    rdfs:label "fossil fuel resources output;Cu" .
+
+brdffo:C_434 a bont:FlowObject ;
+    rdfs:label "agricultural biomass output;Cu" .
+
+brdffo:C_435 a bont:FlowObject ;
+    rdfs:label "terrestrial biomass output;Cu" .
+
+brdffo:C_436 a bont:FlowObject ;
+    rdfs:label "soil output;Cu" .
+
+brdffo:C_437 a bont:FlowObject ;
+    rdfs:label "freshwater output;Cu" .
+
+brdffo:C_438 a bont:FlowObject ;
+    rdfs:label "oceans output;Cu" .
+
+brdffo:C_439 a bont:FlowObject ;
+    rdfs:label "ocean biomass output;Cu" .
+
+brdffo:C_44 a bont:FlowObject ;
+    rdfs:label "use output;Sm" .
+
+brdffo:C_440 a bont:FlowObject ;
+    rdfs:label "seafloor regolith output;Cu" .
+
+brdffo:C_441 a bont:FlowObject ;
+    rdfs:label "upper continental crust output;Cu" .
+
+brdffo:C_442 a bont:FlowObject ;
+    rdfs:label "lower continental crust output;Cu" .
+
+brdffo:C_443 a bont:FlowObject ;
+    rdfs:label "mantle output;Cu" .
+
+brdffo:C_444 a bont:FlowObject ;
+    rdfs:label "production of engineering materials output;Al" .
+
+brdffo:C_445 a bont:FlowObject ;
+    rdfs:label "fabrication and manufacturing output;Al" .
+
+brdffo:C_446 a bont:FlowObject ;
+    rdfs:label "use output;Al" .
+
+brdffo:C_447 a bont:FlowObject ;
+    rdfs:label "waste management output;Al" .
+
+brdffo:C_448 a bont:FlowObject ;
+    rdfs:label "earth orbit output;Al" .
+
+brdffo:C_449 a bont:FlowObject ;
+    rdfs:label "atmosphere output;Al" .
+
+brdffo:C_45 a bont:FlowObject ;
+    rdfs:label "lithosphere economic resources output;Eu" .
+
+brdffo:C_450 a bont:FlowObject ;
+    rdfs:label "fossil fuel resources output;Al" .
+
+brdffo:C_451 a bont:FlowObject ;
+    rdfs:label "agricultural biomass output;Al" .
+
+brdffo:C_452 a bont:FlowObject ;
+    rdfs:label "terrestrial biomass output;Al" .
+
+brdffo:C_453 a bont:FlowObject ;
+    rdfs:label "soil output;Al" .
+
+brdffo:C_454 a bont:FlowObject ;
+    rdfs:label "freshwater output;Al" .
+
+brdffo:C_455 a bont:FlowObject ;
+    rdfs:label "oceans output;Al" .
+
+brdffo:C_456 a bont:FlowObject ;
+    rdfs:label "ocean biomass output;Al" .
+
+brdffo:C_457 a bont:FlowObject ;
+    rdfs:label "seafloor regolith output;Al" .
+
+brdffo:C_458 a bont:FlowObject ;
+    rdfs:label "upper continental crust output;Al" .
+
+brdffo:C_459 a bont:FlowObject ;
+    rdfs:label "lower continental crust output;Al" .
+
+brdffo:C_46 a bont:FlowObject ;
+    rdfs:label "tailings output;Eu" .
+
+brdffo:C_460 a bont:FlowObject ;
+    rdfs:label "mantle output;Al" .
+
+brdffo:C_461 a bont:FlowObject ;
+    rdfs:label "fabrication and manufacturing output;Pb" .
+
+brdffo:C_462 a bont:FlowObject ;
+    rdfs:label "use output;Pb" .
+
+brdffo:C_463 a bont:FlowObject ;
+    rdfs:label "waste management output;Pb" .
+
+brdffo:C_464 a bont:FlowObject ;
+    rdfs:label "earth orbit output;Pb" .
+
+brdffo:C_465 a bont:FlowObject ;
+    rdfs:label "atmosphere output;Pb" .
+
+brdffo:C_466 a bont:FlowObject ;
+    rdfs:label "fossil fuel resources output;Pb" .
+
+brdffo:C_467 a bont:FlowObject ;
+    rdfs:label "agricultural biomass output;Pb" .
+
+brdffo:C_468 a bont:FlowObject ;
+    rdfs:label "terrestrial biomass output;Pb" .
+
+brdffo:C_469 a bont:FlowObject ;
+    rdfs:label "soil output;Pb" .
+
+brdffo:C_47 a bont:FlowObject ;
+    rdfs:label "concentrate output;Eu" .
+
+brdffo:C_470 a bont:FlowObject ;
+    rdfs:label "freshwater output;Pb" .
+
+brdffo:C_471 a bont:FlowObject ;
+    rdfs:label "oceans output;Pb" .
+
+brdffo:C_472 a bont:FlowObject ;
+    rdfs:label "ocean biomass output;Pb" .
+
+brdffo:C_473 a bont:FlowObject ;
+    rdfs:label "seafloor regolith output;Pb" .
+
+brdffo:C_474 a bont:FlowObject ;
+    rdfs:label "upper continental crust output;Pb" .
+
+brdffo:C_475 a bont:FlowObject ;
+    rdfs:label "lower continental crust output;Pb" .
+
+brdffo:C_476 a bont:FlowObject ;
+    rdfs:label "mantle output;Pb" .
+
+brdffo:C_477 a bont:FlowObject ;
+    rdfs:label "use output;Cr" .
+
+brdffo:C_478 a bont:FlowObject ;
+    rdfs:label "waste management output;Cr" .
+
+brdffo:C_479 a bont:FlowObject ;
+    rdfs:label "universe non earth planetary bodies output;Cr" .
+
+brdffo:C_48 a bont:FlowObject ;
+    rdfs:label "slag output;Eu" .
+
+brdffo:C_480 a bont:FlowObject ;
+    rdfs:label "earth orbit output;Cr" .
+
+brdffo:C_481 a bont:FlowObject ;
+    rdfs:label "atmosphere output;Cr" .
+
+brdffo:C_482 a bont:FlowObject ;
+    rdfs:label "fossil fuel resources output;Cr" .
+
+brdffo:C_483 a bont:FlowObject ;
+    rdfs:label "agricultural biomass output;Cr" .
+
+brdffo:C_484 a bont:FlowObject ;
+    rdfs:label "terrestrial biomass output;Cr" .
+
+brdffo:C_485 a bont:FlowObject ;
+    rdfs:label "soil output;Cr" .
+
+brdffo:C_486 a bont:FlowObject ;
+    rdfs:label "freshwater output;Cr" .
+
+brdffo:C_487 a bont:FlowObject ;
+    rdfs:label "oceans output;Cr" .
+
+brdffo:C_488 a bont:FlowObject ;
+    rdfs:label "ocean biomass output;Cr" .
+
+brdffo:C_489 a bont:FlowObject ;
+    rdfs:label "seafloor regolith output;Cr" .
+
+brdffo:C_49 a bont:FlowObject ;
+    rdfs:label "compounds output;Eu" .
+
+brdffo:C_490 a bont:FlowObject ;
+    rdfs:label "upper continental crust output;Cr" .
+
+brdffo:C_491 a bont:FlowObject ;
+    rdfs:label "lower continental crust output;Cr" .
+
+brdffo:C_492 a bont:FlowObject ;
+    rdfs:label "mantle output;Cr" .
+
+brdffo:C_493 a bont:FlowObject ;
+    rdfs:label "use output;Fe" .
+
+brdffo:C_494 a bont:FlowObject ;
+    rdfs:label "waste management output;Fe" .
+
+brdffo:C_495 a bont:FlowObject ;
+    rdfs:label "universe non earth planetary bodies output;Fe" .
+
+brdffo:C_496 a bont:FlowObject ;
+    rdfs:label "earth orbit output;Fe" .
+
+brdffo:C_497 a bont:FlowObject ;
+    rdfs:label "atmosphere output;Fe" .
+
+brdffo:C_498 a bont:FlowObject ;
+    rdfs:label "fossil fuel resources output;Fe" .
+
+brdffo:C_499 a bont:FlowObject ;
+    rdfs:label "agricultural biomass output;Fe" .
+
+brdffo:C_5 a bont:FlowObject ;
+    rdfs:label "waste output;La" .
+
+brdffo:C_50 a bont:FlowObject ;
+    rdfs:label "waste output;Eu" .
+
+brdffo:C_500 a bont:FlowObject ;
+    rdfs:label "terrestrial biomass output;Fe" .
+
+brdffo:C_501 a bont:FlowObject ;
+    rdfs:label "soil output;Fe" .
+
+brdffo:C_502 a bont:FlowObject ;
+    rdfs:label "freshwater output;Fe" .
+
+brdffo:C_503 a bont:FlowObject ;
+    rdfs:label "oceans output;Fe" .
+
+brdffo:C_504 a bont:FlowObject ;
+    rdfs:label "ocean biomass output;Fe" .
+
+brdffo:C_505 a bont:FlowObject ;
+    rdfs:label "seafloor regolith output;Fe" .
+
+brdffo:C_506 a bont:FlowObject ;
+    rdfs:label "upper continental crust output;Fe" .
+
+brdffo:C_507 a bont:FlowObject ;
+    rdfs:label "lower continental crust output;Fe" .
+
+brdffo:C_508 a bont:FlowObject ;
+    rdfs:label "mantle output;Fe" .
+
+brdffo:C_509 a bont:FlowObject ;
+    rdfs:label "fabrication and manufacturing output;Ni" .
+
+brdffo:C_51 a bont:FlowObject ;
+    rdfs:label "product output;Eu" .
+
+brdffo:C_510 a bont:FlowObject ;
+    rdfs:label "use output;Ni" .
+
+brdffo:C_511 a bont:FlowObject ;
+    rdfs:label "waste management output;Ni" .
+
+brdffo:C_512 a bont:FlowObject ;
+    rdfs:label "universe non earth planetary bodies output;Ni" .
+
+brdffo:C_513 a bont:FlowObject ;
+    rdfs:label "earth orbit output;Ni" .
+
+brdffo:C_514 a bont:FlowObject ;
+    rdfs:label "atmosphere output;Ni" .
+
+brdffo:C_515 a bont:FlowObject ;
+    rdfs:label "fossil fuel resources output;Ni" .
+
+brdffo:C_516 a bont:FlowObject ;
+    rdfs:label "agricultural biomass output;Ni" .
+
+brdffo:C_517 a bont:FlowObject ;
+    rdfs:label "terrestrial biomass output;Ni" .
+
+brdffo:C_518 a bont:FlowObject ;
+    rdfs:label "soil output;Ni" .
+
+brdffo:C_519 a bont:FlowObject ;
+    rdfs:label "freshwater output;Ni" .
+
+brdffo:C_52 a bont:FlowObject ;
+    rdfs:label "scrap output;Eu" .
+
+brdffo:C_520 a bont:FlowObject ;
+    rdfs:label "oceans output;Ni" .
+
+brdffo:C_521 a bont:FlowObject ;
+    rdfs:label "ocean biomass output;Ni" .
+
+brdffo:C_522 a bont:FlowObject ;
+    rdfs:label "seafloor regolith output;Ni" .
+
+brdffo:C_523 a bont:FlowObject ;
+    rdfs:label "upper continental crust output;Ni" .
+
+brdffo:C_524 a bont:FlowObject ;
+    rdfs:label "lower continental crust output;Ni" .
+
+brdffo:C_525 a bont:FlowObject ;
+    rdfs:label "mantle output;Ni" .
+
+brdffo:C_526 a bont:FlowObject ;
+    rdfs:label "lithosphere economic resources output;Co" .
+
+brdffo:C_527 a bont:FlowObject ;
+    rdfs:label "product output;Co" .
+
+brdffo:C_528 a bont:FlowObject ;
+    rdfs:label "tailings output;Co" .
+
+brdffo:C_529 a bont:FlowObject ;
+    rdfs:label "waste output;Co" .
+
+brdffo:C_53 a bont:FlowObject ;
+    rdfs:label "use output;Eu" .
+
+brdffo:C_530 a bont:FlowObject ;
+    rdfs:label "production of engineering materials output;Co" .
+
+brdffo:C_531 a bont:FlowObject ;
+    rdfs:label "non-dissipative output;Co" .
+
+brdffo:C_532 a bont:FlowObject ;
+    rdfs:label "downcycle output;Co" .
+
+brdffo:C_533 a bont:FlowObject ;
+    rdfs:label "recycle output;Co" .
+
+brdffo:C_534 a bont:FlowObject ;
+    rdfs:label "batteries output;Co" .
+
+brdffo:C_535 a bont:FlowObject ;
+    rdfs:label "municipal solid waste output;Cu" .
+
+brdffo:C_536 a bont:FlowObject ;
+    rdfs:label "construction and demolition waste output;Cu" .
+
+brdffo:C_537 a bont:FlowObject ;
+    rdfs:label "sewage and sewage sludge output;Cu" .
+
+brdffo:C_538 a bont:FlowObject ;
+    rdfs:label "industrial waste output;Cu" .
+
+brdffo:C_539 a bont:FlowObject ;
+    rdfs:label "hazardous waste output;Cu" .
+
+brdffo:C_54 a bont:FlowObject ;
+    rdfs:label "lithosphere economic resources output;Gd" .
+
+brdffo:C_540 a bont:FlowObject ;
+    rdfs:label "waste electronic and electrical equipment output;Cu" .
+
+brdffo:C_541 a bont:FlowObject ;
+    rdfs:label "end of life vehicles;Cu" .
+
+brdffo:C_542 a bont:FlowObject ;
+    rdfs:label "cathode Cu output;Cu" .
+
+brdffo:C_543 a bont:FlowObject ;
+    rdfs:label "waste output;Cu" .
+
+brdffo:C_544 a bont:FlowObject ;
+    rdfs:label "Cu metal products output;Cu" .
+
+brdffo:C_545 a bont:FlowObject ;
+    rdfs:label "Cu alloy products output;Cu" .
+
+brdffo:C_546 a bont:FlowObject ;
+    rdfs:label "continental regolith output;Cu" .
+
+brdffo:C_547 a bont:FlowObject ;
+    rdfs:label "oceanic regolith output;Cu" .
+
+brdffo:C_548 a bont:FlowObject ;
+    rdfs:label "consolidated crust output;Cu" .
+
+brdffo:C_549 a bont:FlowObject ;
+    rdfs:label "wiring output;Cu" .
+
+brdffo:C_55 a bont:FlowObject ;
+    rdfs:label "tailings output;Gd" .
+
+brdffo:C_550 a bont:FlowObject ;
+    rdfs:label "plumbing output;Cu" .
+
+brdffo:C_551 a bont:FlowObject ;
+    rdfs:label "other hardware output;Cu" .
+
+brdffo:C_552 a bont:FlowObject ;
+    rdfs:label "hvac and air conditioning and refrigeration output;Cu" .
+
+brdffo:C_553 a bont:FlowObject ;
+    rdfs:label "elevators escalators dumbwaiters output;Cu" .
+
+brdffo:C_554 a bont:FlowObject ;
+    rdfs:label "architectural roofing gutters etc output;Cu" .
+
+brdffo:C_555 a bont:FlowObject ;
+    rdfs:label "other built-in appliances output;Cu" .
+
+brdffo:C_556 a bont:FlowObject ;
+    rdfs:label "chromated copper arsenate lumber output;Cu" .
+
+brdffo:C_557 a bont:FlowObject ;
+    rdfs:label "electrical output;Cu" .
+
+brdffo:C_558 a bont:FlowObject ;
+    rdfs:label "electronic output;Cu" .
+
+brdffo:C_559 a bont:FlowObject ;
+    rdfs:label "industrial machinery and equipment output;Cu" .
+
+brdffo:C_56 a bont:FlowObject ;
+    rdfs:label "concentrate output;Gd" .
+
+brdffo:C_560 a bont:FlowObject ;
+    rdfs:label "auto vehicles output;Cu" .
+
+brdffo:C_561 a bont:FlowObject ;
+    rdfs:label "air output;Cu" .
+
+brdffo:C_562 a bont:FlowObject ;
+    rdfs:label "marine output;Cu" .
+
+brdffo:C_563 a bont:FlowObject ;
+    rdfs:label "electrical power cable output;Cu" .
+
+brdffo:C_564 a bont:FlowObject ;
+    rdfs:label "transformers output;Cu" .
+
+brdffo:C_565 a bont:FlowObject ;
+    rdfs:label "railway overhead contact system wire;Cu" .
+
+brdffo:C_566 a bont:FlowObject ;
+    rdfs:label "power stations output;Cu" .
+
+brdffo:C_567 a bont:FlowObject ;
+    rdfs:label "telecommunications output;Cu" .
+
+brdffo:C_568 a bont:FlowObject ;
+    rdfs:label "water distribution output;Cu" .
+
+brdffo:C_569 a bont:FlowObject ;
+    rdfs:label "gas distribution output;Cu" .
+
+brdffo:C_57 a bont:FlowObject ;
+    rdfs:label "slag output;Gd" .
+
+brdffo:C_570 a bont:FlowObject ;
+    rdfs:label "streetscape electrical wire output;Cu" .
+
+brdffo:C_571 a bont:FlowObject ;
+    rdfs:label "building wire output;Cu" .
+
+brdffo:C_572 a bont:FlowObject ;
+    rdfs:label "tube output;Cu" .
+
+brdffo:C_573 a bont:FlowObject ;
+    rdfs:label "motor vehicle wire output;Cu" .
+
+brdffo:C_574 a bont:FlowObject ;
+    rdfs:label "magnet wire output;Cu" .
+
+brdffo:C_575 a bont:FlowObject ;
+    rdfs:label "telecommunications wire output;Cu" .
+
+brdffo:C_576 a bont:FlowObject ;
+    rdfs:label "power cable output;Cu" .
+
+brdffo:C_577 a bont:FlowObject ;
+    rdfs:label "sheet strip output;Cu" .
+
+brdffo:C_578 a bont:FlowObject ;
+    rdfs:label "other output;Cu" .
+
+brdffo:C_579 a bont:FlowObject ;
+    rdfs:label "casting alloy output;Cu" .
+
+brdffo:C_58 a bont:FlowObject ;
+    rdfs:label "compounds output;Gd" .
+
+brdffo:C_580 a bont:FlowObject ;
+    rdfs:label "rod output;Cu" .
+
+brdffo:C_581 a bont:FlowObject ;
+    rdfs:label "other alloy output;Cu" .
+
+brdffo:C_582 a bont:FlowObject ;
+    rdfs:label "industrial and hazardous waste output;Cu" .
+
+brdffo:C_583 a bont:FlowObject ;
+    rdfs:label "single family houses output;Cu" .
+
+brdffo:C_584 a bont:FlowObject ;
+    rdfs:label "units in shared living complexes output;Cu" .
+
+brdffo:C_585 a bont:FlowObject ;
+    rdfs:label "commercial output;Cu" .
+
+brdffo:C_586 a bont:FlowObject ;
+    rdfs:label "industrial output;Cu" .
+
+brdffo:C_587 a bont:FlowObject ;
+    rdfs:label "building and construction output;Cu" .
+
+brdffo:C_588 a bont:FlowObject ;
+    rdfs:label "electricity transmission and distribution output;Cu" .
+
+brdffo:C_589 a bont:FlowObject ;
+    rdfs:label "rail output;Cu" .
+
+brdffo:C_59 a bont:FlowObject ;
+    rdfs:label "waste output;Gd" .
+
+brdffo:C_590 a bont:FlowObject ;
+    rdfs:label "consumer durables output;Cu" .
+
+brdffo:C_591 a bont:FlowObject ;
+    rdfs:label "commercial durables output;Cu" .
+
+brdffo:C_592 a bont:FlowObject ;
+    rdfs:label "other dwellings output;Cu" .
+
+brdffo:C_593 a bont:FlowObject ;
+    rdfs:label "industrial;Cu" .
+
+brdffo:C_594 a bont:FlowObject ;
+    rdfs:label "power stations;Cu" .
+
+brdffo:C_595 a bont:FlowObject ;
+    rdfs:label "telecommunications;Cu" .
+
+brdffo:C_596 a bont:FlowObject ;
+    rdfs:label "auto vehicles;Cu" .
+
+brdffo:C_597 a bont:FlowObject ;
+    rdfs:label "municipal solid waste and construction demolition waste output;Cu" .
+
+brdffo:C_598 a bont:FlowObject ;
+    rdfs:label "end of life vehicles output;Cu" .
+
+brdffo:C_599 a bont:FlowObject ;
+    rdfs:label "lithosphere economic resources output;Al" .
+
+brdffo:C_6 a bont:FlowObject ;
+    rdfs:label "product output;La" .
+
+brdffo:C_60 a bont:FlowObject ;
+    rdfs:label "product output;Gd" .
+
+brdffo:C_600 a bont:FlowObject ;
+    rdfs:label "bauxite mining metal product output;Al" .
+
+brdffo:C_601 a bont:FlowObject ;
+    rdfs:label "bauxite mining waste output;Al" .
+
+brdffo:C_602 a bont:FlowObject ;
+    rdfs:label "bauxite mining output;non-metal" .
+
+brdffo:C_603 a bont:FlowObject ;
+    rdfs:label "alumina refining metal product output;Al" .
+
+brdffo:C_604 a bont:FlowObject ;
+    rdfs:label "alumina refining waste output;Al" .
+
+brdffo:C_605 a bont:FlowObject ;
+    rdfs:label "primary aluminum smelting metal product output;Al" .
+
+brdffo:C_606 a bont:FlowObject ;
+    rdfs:label "primary aluminum smelting waste output;Al" .
+
+brdffo:C_607 a bont:FlowObject ;
+    rdfs:label "ingot casting product output;Al" .
+
+brdffo:C_608 a bont:FlowObject ;
+    rdfs:label "ingot casting waste output;Al" .
+
+brdffo:C_609 a bont:FlowObject ;
+    rdfs:label "fabrication scrap output;Al" .
+
+brdffo:C_61 a bont:FlowObject ;
+    rdfs:label "scrap output;Gd" .
+
+brdffo:C_610 a bont:FlowObject ;
+    rdfs:label "fabrication output;Al" .
+
+brdffo:C_611 a bont:FlowObject ;
+    rdfs:label "fabrication waste output;Al" .
+
+brdffo:C_612 a bont:FlowObject ;
+    rdfs:label "foundry casting scrap output;Al" .
+
+brdffo:C_613 a bont:FlowObject ;
+    rdfs:label "foundry casting product output;Al" .
+
+brdffo:C_614 a bont:FlowObject ;
+    rdfs:label "foundry casting waste output;Al" .
+
+brdffo:C_615 a bont:FlowObject ;
+    rdfs:label "rolling scrap output;Al" .
+
+brdffo:C_616 a bont:FlowObject ;
+    rdfs:label "rolling output;Al" .
+
+brdffo:C_617 a bont:FlowObject ;
+    rdfs:label "rolling waste output;Al" .
+
+brdffo:C_618 a bont:FlowObject ;
+    rdfs:label "extrusion drawing scrap output;Al" .
+
+brdffo:C_619 a bont:FlowObject ;
+    rdfs:label "extrusion drawing output;Al" .
+
+brdffo:C_62 a bont:FlowObject ;
+    rdfs:label "use output;Gd" .
+
+brdffo:C_620 a bont:FlowObject ;
+    rdfs:label "extrusion drawing waste output;Al" .
+
+brdffo:C_621 a bont:FlowObject ;
+    rdfs:label "other scrap output;Al" .
+
+brdffo:C_622 a bont:FlowObject ;
+    rdfs:label "other product output;Al" .
+
+brdffo:C_623 a bont:FlowObject ;
+    rdfs:label "other waste output;Al" .
+
+brdffo:C_624 a bont:FlowObject ;
+    rdfs:label "sand castings scrap output;Al" .
+
+brdffo:C_625 a bont:FlowObject ;
+    rdfs:label "sand castings output;Al" .
+
+brdffo:C_626 a bont:FlowObject ;
+    rdfs:label "sand castings waste output;Al" .
+
+brdffo:C_627 a bont:FlowObject ;
+    rdfs:label "mold castings scrap output;Al" .
+
+brdffo:C_628 a bont:FlowObject ;
+    rdfs:label "mold castings output;Al" .
+
+brdffo:C_63 a bont:FlowObject ;
+    rdfs:label "lithosphere economic resources output;Tb" .
+
+brdffo:C_64 a bont:FlowObject ;
+    rdfs:label "tailings output;Tb" .
+
+brdffo:C_65 a bont:FlowObject ;
+    rdfs:label "concentrate output;Tb" .
+
+brdffo:C_66 a bont:FlowObject ;
+    rdfs:label "slag output;Tb" .
+
+brdffo:C_67 a bont:FlowObject ;
+    rdfs:label "compounds output;Tb" .
+
+brdffo:C_68 a bont:FlowObject ;
+    rdfs:label "waste output;Tb" .
+
+brdffo:C_69 a bont:FlowObject ;
+    rdfs:label "product output;Tb" .
+
+brdffo:C_7 a bont:FlowObject ;
+    rdfs:label "scrap output;La" .
+
+brdffo:C_70 a bont:FlowObject ;
+    rdfs:label "scrap output;Tb" .
+
+brdffo:C_71 a bont:FlowObject ;
+    rdfs:label "use output;Tb" .
+
+brdffo:C_72 a bont:FlowObject ;
+    rdfs:label "lithosphere economic resources output;Dy" .
+
+brdffo:C_73 a bont:FlowObject ;
+    rdfs:label "tailings output;Dy" .
+
+brdffo:C_74 a bont:FlowObject ;
+    rdfs:label "concentrate output;Dy" .
+
+brdffo:C_75 a bont:FlowObject ;
+    rdfs:label "slag output;Dy" .
+
+brdffo:C_76 a bont:FlowObject ;
+    rdfs:label "compounds output;Dy" .
+
+brdffo:C_77 a bont:FlowObject ;
+    rdfs:label "waste output;Dy" .
+
+brdffo:C_78 a bont:FlowObject ;
+    rdfs:label "product output;Dy" .
+
+brdffo:C_79 a bont:FlowObject ;
+    rdfs:label "scrap output;Dy" .
+
+brdffo:C_8 a bont:FlowObject ;
+    rdfs:label "use output;La" .
+
+brdffo:C_80 a bont:FlowObject ;
+    rdfs:label "use output;Dy" .
+
+brdffo:C_81 a bont:FlowObject ;
+    rdfs:label "lithosphere economic resources output;Y" .
+
+brdffo:C_82 a bont:FlowObject ;
+    rdfs:label "tailings output;Y" .
+
+brdffo:C_83 a bont:FlowObject ;
+    rdfs:label "concentrate output;Y" .
+
+brdffo:C_84 a bont:FlowObject ;
+    rdfs:label "slag output;Y" .
+
+brdffo:C_85 a bont:FlowObject ;
+    rdfs:label "compounds output;Y" .
+
+brdffo:C_86 a bont:FlowObject ;
+    rdfs:label "waste output;Y" .
+
+brdffo:C_87 a bont:FlowObject ;
+    rdfs:label "product output;Y" .
+
+brdffo:C_88 a bont:FlowObject ;
+    rdfs:label "scrap output;Y" .
+
+brdffo:C_89 a bont:FlowObject ;
+    rdfs:label "use output;Y" .
+
+brdffo:C_9 a bont:FlowObject ;
+    rdfs:label "lithosphere economic resources output;Ce" .
+
+brdffo:C_90 a bont:FlowObject ;
+    rdfs:label "fabrication and manufacturing output;La" .
+
+brdffo:C_91 a bont:FlowObject ;
+    rdfs:label "fabrication and manufacturing output;Ce" .
+
+brdffo:C_92 a bont:FlowObject ;
+    rdfs:label "fabrication and manufacturing output;Pr" .
+
+brdffo:C_93 a bont:FlowObject ;
+    rdfs:label "fabrication and manufacturing output;Nd" .
+
+brdffo:C_94 a bont:FlowObject ;
+    rdfs:label "fabrication and manufacturing output;Sm" .
+
+brdffo:C_95 a bont:FlowObject ;
+    rdfs:label "fabrication and manufacturing output;Eu" .
+
+brdffo:C_96 a bont:FlowObject ;
+    rdfs:label "fabrication and manufacturing output;Gd" .
+
+brdffo:C_97 a bont:FlowObject ;
+    rdfs:label "fabrication and manufacturing output;Tb" .
+
+brdffo:C_98 a bont:FlowObject ;
+    rdfs:label "fabrication and manufacturing output;Dy" .
+
+brdffo:C_99 a bont:FlowObject ;
+    rdfs:label "fabrication and manufacturing output;Ho" .
+
