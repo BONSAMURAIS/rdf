@@ -1,36 +1,36 @@
 @prefix bfoaf: <http://rdf.bonsai.uno/foaf/ystafdb#> .
+@prefix bonsaifoaf: <http://rdf.bonsai.uno/foaf/bonsai#> .
+@prefix bprov: <http://rdf.bonsai.uno/prov/ystafdb#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dtype: <http://purl.org/dc/dcmitype/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix org: <https://www.w3.org/TR/vocab-org/> .
+@prefix ns1: <http://creativecommons.org/ns#> .
+@prefix org1: <https://www.w3.org/TR/vocab-org/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix prov: <http://www.w3.org/ns/prov/ystafdb#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://rdf.bonsai.uno/foaf/ystafdb> a dtype:Dataset ;
-    dc:contributor "BONSAI team" ;
-    dc:creator bfoaf:bonsai ;
+<http://rdf.bonsai.uno/foaf/ystafdb> a dtype:Dataset,
+        prov:Collection ;
+    ns1:license <http://creativecommons.org/licenses/by/3.0/> ;
+    dc:creator bonsaifoaf:bonsai ;
     dc:description "Instances of Organizations" ;
-    dc:license <https://creativecommons.org/licenses/by/3.0/> ;
-    dc:modified "2020-06-17"^^xsd:date ;
-    dc:publisher "bonsai.uno" ;
+    dc:publisher bonsaifoaf:bonsai ;
     dc:title "Organizations" ;
+    dcterms:license <https://creativecommons.org/licenses/by/3.0/> ;
+    dcterms:modified "2022-07-26"^^xsd:date ;
     vann:preferredNamespaceUri bfoaf: ;
-    owl:versionInfo "0.4" .
+    owl:versionInfo "0.6.1" ;
+    prov:generatedAtTime "2022-07-26"^^xsd:date ;
+    prov:hadMember bfoaf:provider_0 ;
+    prov:wasAttributedTo bonsaifoaf:bonsai ;
+    prov:wasGeneratedBy bprov:dataExtractionActivity_0_6_1 .
 
 bfoaf:provider_0 a prov:Agent,
-        org:Organization ;
+        org1:Organization ;
     dc:description "Center for Industrial Ecology at Yale University" ;
     dc:title "Yale University" ;
     foaf:homepage <https://cie.research.yale.edu/> .
-
-bfoaf:bonsai a prov:Agent,
-        org:Organization ;
-    skos:prefLabel "BONSAI – Big Open Network for Sustainability Assessment Information" ;
-    foaf:homepage <https://bonsai.uno> ;
-    foaf:interest <https://www.wikidata.org/wiki/Q131201>,
-        <https://www.wikidata.org/wiki/Q18692990>,
-        <https://www.wikidata.org/wiki/Q2323664> .
 

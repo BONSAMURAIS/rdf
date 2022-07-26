@@ -1,36 +1,36 @@
 @prefix bfoaf: <http://rdf.bonsai.uno/foaf/ystafdb#> .
+@prefix bonsaifoaf: <http://rdf.bonsai.uno/foaf/bonsai#> .
 @prefix bprov: <http://rdf.bonsai.uno/prov/ystafdb#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dtype: <http://purl.org/dc/dcmitype/> .
-@prefix flow: <http://rdf.bonsai.uno/data/ystafdb/huse#> .
-@prefix ns1: <http://www.w3.org/ns/prov/ystafdb#> .
-@prefix ns2: <http://purl.org/spar/datacite/> .
+@prefix flow: <http://rdf.bonsai.uno/data/ystafdb/huse/> .
+@prefix ns1: <http://purl.org/spar/datacite/> .
+@prefix ns2: <http://creativecommons.org/ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://rdf.bonsai.uno/prov/ystafdb> a dtype:Dataset ;
-    dc:contributor "BONSAI team" ;
-    dc:creator bfoaf:bonsai ;
+<http://rdf.bonsai.uno/prov/ystafdb> a dtype:Dataset,
+        prov:Collection ;
+    ns2:license <http://creativecommons.org/licenses/by/3.0/> ;
+    dc:creator bonsaifoaf:bonsai ;
     dc:description "Provenance information about datasets and data extraction activities" ;
-    dc:license <https://creativecommons.org/licenses/by/3.0/> ;
-    dc:modified "2020-06-17"^^xsd:date ;
-    dc:publisher "bonsai.uno" ;
+    dc:publisher bonsaifoaf:bonsai ;
     dc:title "Provenance information" ;
+    dcterms:license <https://creativecommons.org/licenses/by/3.0/> ;
+    dcterms:modified "2022-07-26"^^xsd:date ;
     vann:preferredNamespaceUri bprov: ;
-    owl:versionInfo "0.4" .
-
-bprov:dataExtractionActivity_0 a prov:Activity ;
-    rdfs:label "Activity to create instances of flowObjects, activityTypes and Locations for dataset ystafdb" ;
-    owl:versionInfo "0.4" ;
-    prov:hadPlan bprov:extractionScript ;
-    prov:used <http://ontology.bonsai.uno/core>,
+    owl:versionInfo "0.6.1" ;
+    prov:generatedAtTime "2022-07-26"^^xsd:date ;
+    prov:hadMember bprov:dataExtractionActivity_0,
         bprov:dataset_0 ;
-    prov:wasAssociatedWith bfoaf:bonsai .
+    prov:wasAttributedTo bonsaifoaf:bonsai ;
+    prov:wasGeneratedBy bprov:dataExtractionActivity_0_6_1 .
 
-bprov:dataset_12 ns1:hadMember flow:F_11242,
+bprov:dataset_12 prov:hadMember flow:F_11242,
         flow:F_11243,
         flow:F_11244,
         flow:F_11245,
@@ -1526,7 +1526,7 @@ bprov:dataset_12 ns1:hadMember flow:F_11242,
         flow:F_12735,
         flow:F_12736 .
 
-bprov:dataset_16 ns1:hadMember flow:F_40870,
+bprov:dataset_16 prov:hadMember flow:F_40870,
         flow:F_40871,
         flow:F_40872,
         flow:F_40873,
@@ -1680,7 +1680,7 @@ bprov:dataset_16 ns1:hadMember flow:F_40870,
         flow:F_41021,
         flow:F_41022 .
 
-bprov:dataset_18 ns1:hadMember flow:F_41397,
+bprov:dataset_18 prov:hadMember flow:F_41397,
         flow:F_41398,
         flow:F_41399,
         flow:F_41400,
@@ -1785,7 +1785,7 @@ bprov:dataset_18 ns1:hadMember flow:F_41397,
         flow:F_41499,
         flow:F_41500 .
 
-bprov:dataset_2 ns1:hadMember flow:F_25229,
+bprov:dataset_2 prov:hadMember flow:F_25229,
         flow:F_25230,
         flow:F_25231,
         flow:F_25232,
@@ -13210,7 +13210,7 @@ bprov:dataset_2 ns1:hadMember flow:F_25229,
         flow:F_36651,
         flow:F_36652 .
 
-bprov:dataset_22 ns1:hadMember flow:F_41612,
+bprov:dataset_22 prov:hadMember flow:F_41612,
         flow:F_41613,
         flow:F_41614,
         flow:F_41615,
@@ -14667,7 +14667,7 @@ bprov:dataset_22 ns1:hadMember flow:F_41612,
         flow:F_43066,
         flow:F_43067 .
 
-bprov:dataset_24 ns1:hadMember flow:F_43110,
+bprov:dataset_24 prov:hadMember flow:F_43110,
         flow:F_43111,
         flow:F_43112,
         flow:F_43113,
@@ -14694,7 +14694,7 @@ bprov:dataset_24 ns1:hadMember flow:F_43110,
         flow:F_43134,
         flow:F_43135 .
 
-bprov:dataset_28 ns1:hadMember flow:F_43148,
+bprov:dataset_28 prov:hadMember flow:F_43148,
         flow:F_43149,
         flow:F_43150,
         flow:F_43151,
@@ -14827,7 +14827,7 @@ bprov:dataset_28 ns1:hadMember flow:F_43148,
         flow:F_43278,
         flow:F_43279 .
 
-bprov:dataset_30 ns1:hadMember flow:F_43280,
+bprov:dataset_30 prov:hadMember flow:F_43280,
         flow:F_43281,
         flow:F_43282,
         flow:F_43283,
@@ -15008,7 +15008,7 @@ bprov:dataset_30 ns1:hadMember flow:F_43280,
         flow:F_43458,
         flow:F_43459 .
 
-bprov:dataset_32 ns1:hadMember flow:F_43613,
+bprov:dataset_32 prov:hadMember flow:F_43613,
         flow:F_43614,
         flow:F_43615,
         flow:F_43616,
@@ -20930,7 +20930,7 @@ bprov:dataset_32 ns1:hadMember flow:F_43613,
         flow:F_49532,
         flow:F_49533 .
 
-bprov:dataset_4 ns1:hadMember flow:F_37787,
+bprov:dataset_4 prov:hadMember flow:F_37787,
         flow:F_37788,
         flow:F_37789,
         flow:F_37790,
@@ -23922,7 +23922,7 @@ bprov:dataset_4 ns1:hadMember flow:F_37787,
         flow:F_40776,
         flow:F_40777 .
 
-bprov:dataset_44 ns1:hadMember flow:F_246,
+bprov:dataset_44 prov:hadMember flow:F_246,
         flow:F_247,
         flow:F_248,
         flow:F_249,
@@ -24133,7 +24133,7 @@ bprov:dataset_44 ns1:hadMember flow:F_246,
         flow:F_454,
         flow:F_455 .
 
-bprov:dataset_46 ns1:hadMember flow:F_1000,
+bprov:dataset_46 prov:hadMember flow:F_1000,
         flow:F_1001,
         flow:F_1002,
         flow:F_1003,
@@ -26619,7 +26619,7 @@ bprov:dataset_46 ns1:hadMember flow:F_1000,
         flow:F_998,
         flow:F_999 .
 
-bprov:dataset_48 ns1:hadMember flow:F_5284,
+bprov:dataset_48 prov:hadMember flow:F_5284,
         flow:F_5285,
         flow:F_5286,
         flow:F_5287,
@@ -26788,7 +26788,7 @@ bprov:dataset_48 ns1:hadMember flow:F_5284,
         flow:F_5450,
         flow:F_5451 .
 
-bprov:dataset_52 ns1:hadMember flow:F_5489,
+bprov:dataset_52 prov:hadMember flow:F_5489,
         flow:F_5490,
         flow:F_5491,
         flow:F_5492,
@@ -28445,7 +28445,7 @@ bprov:dataset_52 ns1:hadMember flow:F_5489,
         flow:F_7143,
         flow:F_7144 .
 
-bprov:dataset_54 ns1:hadMember flow:F_10000,
+bprov:dataset_54 prov:hadMember flow:F_10000,
         flow:F_10001,
         flow:F_10002,
         flow:F_10003,
@@ -32315,7 +32315,7 @@ bprov:dataset_54 ns1:hadMember flow:F_10000,
         flow:F_9998,
         flow:F_9999 .
 
-bprov:dataset_56 ns1:hadMember flow:F_19884,
+bprov:dataset_56 prov:hadMember flow:F_19884,
         flow:F_19885,
         flow:F_19886,
         flow:F_19887,
@@ -33947,7 +33947,7 @@ bprov:dataset_56 ns1:hadMember flow:F_19884,
         flow:F_21513,
         flow:F_21514 .
 
-bprov:dataset_58 ns1:hadMember flow:F_15467,
+bprov:dataset_58 prov:hadMember flow:F_15467,
         flow:F_15468,
         flow:F_15469,
         flow:F_15470,
@@ -36657,110 +36657,47 @@ bprov:dataset_58 ns1:hadMember flow:F_15467,
         flow:F_18174,
         flow:F_18175 .
 
-bprov:dataset_0 a prov:Entity ;
-    rdfs:label "The Yale Stocks and Flows Database" ;
-    dc:date "2019-06-07"^^xsd:date ;
-    dc:license <http://creativecommons.org/licenses/by/4.0/> ;
-    dc:rights "Open Access" ;
-    dc:title "YSTAFDB" ;
-    owl:versionInfo "1.0" ;
-    prov:hadMember bprov:dataset_1,
-        bprov:dataset_101,
-        bprov:dataset_103,
-        bprov:dataset_105,
-        bprov:dataset_107,
-        bprov:dataset_109,
-        bprov:dataset_11,
-        bprov:dataset_111,
-        bprov:dataset_113,
-        bprov:dataset_115,
-        bprov:dataset_117,
-        bprov:dataset_119,
-        bprov:dataset_121,
-        bprov:dataset_13,
-        bprov:dataset_15,
-        bprov:dataset_17,
-        bprov:dataset_19,
-        bprov:dataset_21,
-        bprov:dataset_23,
-        bprov:dataset_25,
-        bprov:dataset_27,
-        bprov:dataset_29,
-        bprov:dataset_3,
-        bprov:dataset_31,
-        bprov:dataset_33,
-        bprov:dataset_35,
-        bprov:dataset_37,
-        bprov:dataset_39,
-        bprov:dataset_41,
-        bprov:dataset_43,
-        bprov:dataset_45,
-        bprov:dataset_47,
-        bprov:dataset_49,
-        bprov:dataset_5,
-        bprov:dataset_51,
-        bprov:dataset_53,
-        bprov:dataset_55,
-        bprov:dataset_57,
-        bprov:dataset_59,
-        bprov:dataset_61,
-        bprov:dataset_63,
-        bprov:dataset_65,
-        bprov:dataset_67,
-        bprov:dataset_69,
-        bprov:dataset_7,
-        bprov:dataset_71,
-        bprov:dataset_73,
-        bprov:dataset_75,
-        bprov:dataset_77,
-        bprov:dataset_79,
-        bprov:dataset_81,
-        bprov:dataset_83,
-        bprov:dataset_85,
-        bprov:dataset_87,
-        bprov:dataset_89,
-        bprov:dataset_9,
-        bprov:dataset_91,
-        bprov:dataset_93,
-        bprov:dataset_95,
-        bprov:dataset_97,
-        bprov:dataset_99 ;
-    prov:hadPrimarySource <https://www.sciencebase.gov/catalog/file/get/5b9a7c28e4b0d966b485d915?f=__disk__0f%2F58%2Fa7%2F0f58a74db669ee5418f36a698bc85781e867e0ab> ;
-    prov:wasAttributedTo bfoaf:provider_0 .
+bprov:dataExtractionActivity_0 a prov:Activity ;
+    rdfs:label "Activity to create instances of flowObjects, activityTypes and Locations for dataset ystafdb" ;
+    owl:versionInfo "0.6.0" ;
+    prov:hadPlan bprov:extractionScript ;
+    prov:used <http://ontology.bonsai.uno/core>,
+        bprov:dataset_0 ;
+    prov:wasAssociatedWith bfoaf:bonsai .
 
 bprov:dataset_1 a prov:Entity ;
     rdfs:label "unpublished work"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset .
+    ns1:hasGeneralResourceType dtype:Dataset .
 
 bprov:dataset_101 a prov:Entity ;
     dc:title "Exploring the engine of anthropogenic iron cycles"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1073/pnas.0603375103"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1073/pnas.0603375103"^^xsd:string .
 
 bprov:dataset_103 a prov:Entity ;
     dc:title "Forging the anthropogenic iron cycle"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1021/es062761t"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1021/es062761t"^^xsd:string .
 
 bprov:dataset_105 a prov:Entity ;
     dc:title "'Bottom-up' study of in-use nickel stocks in New Haven, CT"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1016/j.resconrec.2006.05.009"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1016/j.resconrec.2006.05.009"^^xsd:string .
 
 bprov:dataset_107 a prov:Entity ;
     dc:title "A half-century of global phosphorus flows, stocks, production, consumption, recycling, and environmental impacts"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1016/j.gloenvcha.2015.12.005"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1016/j.gloenvcha.2015.12.005"^^xsd:string .
 
 bprov:dataset_109 a prov:Entity ;
     dc:title "Grand challenges in metal life cycles"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1007/s11053-017-9333-8"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1007/s11053-017-9333-8"^^xsd:string .
 
 bprov:dataset_11 a prov:Entity ;
     dc:title "United Nations commodity trade statistics database"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns1:hadMember flow:F_11014,
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    prov:hadMember flow:F_11014,
         flow:F_11015,
         flow:F_11016,
         flow:F_11017,
@@ -36991,39 +36928,39 @@ bprov:dataset_11 a prov:Entity ;
 
 bprov:dataset_111 a prov:Entity ;
     dc:title "Anthropogenic nickel cycle - insights into use, trade, and recycling"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1021/es072108l"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1021/es072108l"^^xsd:string .
 
 bprov:dataset_113 a prov:Entity ;
     dc:title "Comparing growth rates of nickel and stainless steel use in the early 2000s"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1111/j.1530-9290.2012.00499.x"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1111/j.1530-9290.2012.00499.x"^^xsd:string .
 
 bprov:dataset_115 a prov:Entity ;
     dc:title "Global stainless steel cycle exemplifies China's rise to metal dominance"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1021/es903584q"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1021/es903584q"^^xsd:string .
 
 bprov:dataset_117 a prov:Entity ;
     rdfs:label "in: Thome-Kozmiensky, K.J., Goldmann, D. (Eds.), Recycling und Rohstoffe (Recycling and Resources). TK Verlag Karl Thome-Kozmiensky, Neuruppin, Germany"^^xsd:string ;
     dc:title "Funktionelles und nicht-funktionelles Recycling am Beispiel Edelstahl (Functional and non-functional recycling - the example of stainless steel)"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset .
+    ns1:hasGeneralResourceType dtype:Dataset .
 
 bprov:dataset_119 a prov:Entity ;
     dc:title "Lost by design"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1021/es505515z"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1021/es505515z"^^xsd:string .
 
 bprov:dataset_121 a prov:Entity ;
     rdfs:label "UNEP. A Report of the Working Group on the Global Metal Flows to the International Resource Panel"^^xsd:string ;
     dc:title "Recycling Rates of Metals - A Status Report"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset .
+    ns1:hasGeneralResourceType dtype:Dataset .
 
 bprov:dataset_13 a prov:Entity ;
     dc:title "The 'Hidden' Trade of Metals in the United States"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1111/j.1530-9290.2008.00092.x"^^xsd:string ;
-    ns1:hadMember flow:F_12737,
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1111/j.1530-9290.2008.00092.x"^^xsd:string ;
+    prov:hadMember flow:F_12737,
         flow:F_12738,
         flow:F_12739,
         flow:F_12740,
@@ -39756,9 +39693,9 @@ bprov:dataset_13 a prov:Entity ;
 
 bprov:dataset_15 a prov:Entity ;
     dc:title "Global mapping of Al, Cu, Fe and Zn in-use stocks and in-ground resources"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1073/pnas.0900658106"^^xsd:string ;
-    ns1:hadMember flow:F_40778,
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1073/pnas.0900658106"^^xsd:string ;
+    prov:hadMember flow:F_40778,
         flow:F_40779,
         flow:F_40780,
         flow:F_40781,
@@ -39853,8 +39790,8 @@ bprov:dataset_15 a prov:Entity ;
 
 bprov:dataset_17 a prov:Entity ;
     dc:title "The Magnitude and Spatial Distribution of In-Use Zinc Stocks in Cape Town, South Africa"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns1:hadMember flow:F_41023,
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    prov:hadMember flow:F_41023,
         flow:F_41024,
         flow:F_41025,
         flow:F_41026,
@@ -40231,9 +40168,9 @@ bprov:dataset_17 a prov:Entity ;
 
 bprov:dataset_19 a prov:Entity ;
     dc:title "Spatial characterisation of multi-level in-use copper and zinc stocks in Australia"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1016/j.jclepro.2006.06.022"^^xsd:string ;
-    ns1:hadMember flow:F_41501,
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1016/j.jclepro.2006.06.022"^^xsd:string ;
+    prov:hadMember flow:F_41501,
         flow:F_41502,
         flow:F_41503,
         flow:F_41504,
@@ -40347,15 +40284,15 @@ bprov:dataset_19 a prov:Entity ;
 
 bprov:dataset_21 a prov:Entity ;
     dc:title "Anthropogenic metal cycles in China"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1007/s10163-008-0203-7"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1007/s10163-008-0203-7"^^xsd:string .
 
 bprov:dataset_23 a prov:Entity ;
     rdfs:label "SI available"^^xsd:string ;
     dc:title "Contemporary Anthropogenic Silver Cycle - A Multilevel Analysis"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1021/es048319x"^^xsd:string ;
-    ns1:hadMember flow:F_43068,
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1021/es048319x"^^xsd:string ;
+    prov:hadMember flow:F_43068,
         flow:F_43069,
         flow:F_43070,
         flow:F_43071,
@@ -40400,9 +40337,9 @@ bprov:dataset_23 a prov:Entity ;
 
 bprov:dataset_25 a prov:Entity ;
     dc:title "Silver Emissions and their Environmental Impacts - A Multilevel Assessment"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1021/es062970d"^^xsd:string ;
-    ns1:hadMember flow:F_43136,
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1021/es062970d"^^xsd:string ;
+    prov:hadMember flow:F_43136,
         flow:F_43137,
         flow:F_43138,
         flow:F_43139,
@@ -40417,19 +40354,19 @@ bprov:dataset_25 a prov:Entity ;
 
 bprov:dataset_27 a prov:Entity ;
     dc:title "In-Use Stocks of Metals - Status and Implications"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1021/es800420p"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1021/es800420p"^^xsd:string .
 
 bprov:dataset_29 a prov:Entity ;
     dc:title "The contemporary Asian silver cycle - 1-year stocks and flows"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1007/s10163-005-0132-7"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1007/s10163-005-0132-7"^^xsd:string .
 
 bprov:dataset_3 a prov:Entity ;
     dc:title "The anthropogenic cycle of zinc - Status quo and perspectives"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1016/j.resconrec.2016.01.006"^^xsd:string ;
-    ns1:hadMember flow:F_36653,
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1016/j.resconrec.2016.01.006"^^xsd:string ;
+    prov:hadMember flow:F_36653,
         flow:F_36654,
         flow:F_36655,
         flow:F_36656,
@@ -41566,9 +41503,9 @@ bprov:dataset_3 a prov:Entity ;
 
 bprov:dataset_31 a prov:Entity ;
     dc:title "The contemporary European silver cycle"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1016/j.resconrec.2005.06.003"^^xsd:string ;
-    ns1:hadMember flow:F_43460,
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1016/j.resconrec.2005.06.003"^^xsd:string ;
+    prov:hadMember flow:F_43460,
         flow:F_43461,
         flow:F_43462,
         flow:F_43463,
@@ -41724,34 +41661,34 @@ bprov:dataset_31 a prov:Entity ;
 
 bprov:dataset_33 a prov:Entity ;
     dc:title "Earth's global Ag, Al, Cr, Cu, Fe, Ni, Pb, and Zn cycles"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1029/2008GB003376"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1029/2008GB003376"^^xsd:string .
 
 bprov:dataset_35 a prov:Entity ;
     dc:title "Tracking the Metal of the Goblins - Cobalt's Cycle of Use"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1021/es201874e"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1021/es201874e"^^xsd:string .
 
 bprov:dataset_37 a prov:Entity ;
     dc:title "The contemporary European copper cycle - waste management subsystem"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1016/S0921-8009(02)00100-3"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1016/S0921-8009(02)00100-3"^^xsd:string .
 
 bprov:dataset_39 a prov:Entity ;
     dc:title "Metal capital sustaining a North American city - Iron and copper in New Haven, CT"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1016/j.resconrec.2006.05.005"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1016/j.resconrec.2006.05.005"^^xsd:string .
 
 bprov:dataset_41 a prov:Entity ;
     dc:title "Production residues in copper technological cycles"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1016/S0921-3449(02)00019-8"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1016/S0921-3449(02)00019-8"^^xsd:string .
 
 bprov:dataset_43 a prov:Entity ;
     dc:title "Multilevel cycle of anthropogenic copper"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1021/es030433c"^^xsd:string ;
-    ns1:hadMember flow:F_0,
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1021/es030433c"^^xsd:string ;
+    prov:hadMember flow:F_0,
         flow:F_1,
         flow:F_10,
         flow:F_100,
@@ -42000,14 +41937,14 @@ bprov:dataset_43 a prov:Entity ;
 
 bprov:dataset_45 a prov:Entity ;
     dc:title "Earth's anthrobiogeochemical copper cycle"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1029/2006GB002850"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1029/2006GB002850"^^xsd:string .
 
 bprov:dataset_47 a prov:Entity ;
     rdfs:label "Yale F&ES Publication Series: Report Number 10"^^xsd:string ;
     dc:title "Copper in-use stock and copper scrap in the state of Connecticut, USA"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns1:hadMember flow:F_2941,
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    prov:hadMember flow:F_2941,
         flow:F_2942,
         flow:F_2943,
         flow:F_2944,
@@ -44353,9 +44290,9 @@ bprov:dataset_47 a prov:Entity ;
 
 bprov:dataset_49 a prov:Entity ;
     dc:title "The contemporary European copper cycle - 1 year stocks and flows"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1016/S0921-8009(02)00103-9"^^xsd:string ;
-    ns1:hadMember flow:F_5452,
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1016/S0921-8009(02)00103-9"^^xsd:string ;
+    prov:hadMember flow:F_5452,
         flow:F_5453,
         flow:F_5454,
         flow:F_5455,
@@ -44395,14 +44332,14 @@ bprov:dataset_49 a prov:Entity ;
 
 bprov:dataset_5 a prov:Entity ;
     dc:title "The Multilevel Cycle of Anthropogenic Zinc"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1162/1088198054821573"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1162/1088198054821573"^^xsd:string .
 
 bprov:dataset_51 a prov:Entity ;
     dc:title "Twentieth century copper stocks and flows in North America - A dynamic analysis"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1016/j.ecolecon.2004.11.018"^^xsd:string ;
-    ns1:hadMember flow:F_21515,
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1016/j.ecolecon.2004.11.018"^^xsd:string ;
+    prov:hadMember flow:F_21515,
         flow:F_21516,
         flow:F_21517,
         flow:F_21518,
@@ -48073,17 +48010,17 @@ bprov:dataset_51 a prov:Entity ;
 
 bprov:dataset_53 a prov:Entity ;
     dc:title "The magnitude and spatial distribution of in-use copper stocks in Cape Town, South Africa"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset .
+    ns1:hasGeneralResourceType dtype:Dataset .
 
 bprov:dataset_55 a prov:Entity ;
     dc:title "The contemporary African copper cycle - One year stocks and flows"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset .
+    ns1:hasGeneralResourceType dtype:Dataset .
 
 bprov:dataset_57 a prov:Entity ;
     rdfs:label "4th Australian Life Cycle Assessment Conference; Sydney"^^xsd:string ;
     dc:title "The application of material flow analysis for the evaluation of the recovery potential of secondary metals in Australia"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns1:hadMember flow:F_18176,
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    prov:hadMember flow:F_18176,
         flow:F_18177,
         flow:F_18178,
         flow:F_18179,
@@ -49794,9 +49731,9 @@ bprov:dataset_57 a prov:Entity ;
 
 bprov:dataset_59 a prov:Entity ;
     dc:title "Copper and zinc recyclin in Australia - potential quantities and policy options"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1016/j.jclepro.2006.06.023"^^xsd:string ;
-    ns1:hadMember flow:F_25183,
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1016/j.jclepro.2006.06.023"^^xsd:string ;
+    prov:hadMember flow:F_25183,
         flow:F_25184,
         flow:F_25185,
         flow:F_25186,
@@ -49845,117 +49782,188 @@ bprov:dataset_59 a prov:Entity ;
 
 bprov:dataset_61 a prov:Entity ;
     dc:title "The contemporary Latin American and Caribbean copper cycle - 1 year stocks and flows"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1016/j.resconrec.2003.08.002"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1016/j.resconrec.2003.08.002"^^xsd:string .
 
 bprov:dataset_63 a prov:Entity ;
     dc:title "Dynamic analysis of aluminum stocks and flows in the United States - 1900-2009"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1016/j.ecolecon.2012.06.008"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1016/j.ecolecon.2012.06.008"^^xsd:string .
 
 bprov:dataset_65 a prov:Entity ;
     dc:title "Aluminum in-use stocks in China - a bottom-up study"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1007/s10163-009-0271-3"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1007/s10163-009-0271-3"^^xsd:string .
 
 bprov:dataset_67 a prov:Entity ;
     dc:title "Historical evolution of anthropogenic aluminum stocks and flows in Italy"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1016/j.resconrec.2012.12.004"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1016/j.resconrec.2012.12.004"^^xsd:string .
 
 bprov:dataset_69 a prov:Entity ;
     rdfs:label "www.pnas.org/lookup/suppl/doi:10.1073/pnas.1500415112/-/DCSupplemental"^^xsd:string ;
     dc:title "Criticality of metals and metalloids"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1073/pnas.1500415112"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1073/pnas.1500415112"^^xsd:string .
 
 bprov:dataset_7 a prov:Entity ;
     dc:title "Metal spectra as indicators of development"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1073/pnas.1011019107"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1073/pnas.1011019107"^^xsd:string .
 
 bprov:dataset_71 a prov:Entity ;
     dc:title "The contemporary Latin America and the Caribbean zinc cycle - One year stocks and flows"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1016/j.resconrec.2005.10.005"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1016/j.resconrec.2005.10.005"^^xsd:string .
 
 bprov:dataset_73 a prov:Entity ;
     dc:title "The multilevel cycle of anthropogenic lead - II. Results and discussion"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1016/j.resconrec.2008.04.005"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1016/j.resconrec.2008.04.005"^^xsd:string .
 
 bprov:dataset_75 a prov:Entity ;
     dc:title "Lead in-use stock - a dynamic analysis"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1111/j.1530-9290.2009.00109.x"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1111/j.1530-9290.2009.00109.x"^^xsd:string .
 
 bprov:dataset_77 a prov:Entity ;
     dc:title "Illuminating tungsten's life cycle in the United States - 1975-2000"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1021/es070646s"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1021/es070646s"^^xsd:string .
 
 bprov:dataset_79 a prov:Entity ;
     rdfs:label "Final report on USGS research grant G14AP00059"^^xsd:string ;
     dc:title "Comprehensive global and United States cycles of gallium, germanium, rhenium, and tungsten in 2008"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset .
+    ns1:hasGeneralResourceType dtype:Dataset .
 
 bprov:dataset_81 a prov:Entity ;
     dc:title "The contemporary anthropogenic chromium cycle"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1021/es060061i"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1021/es060061i"^^xsd:string .
 
 bprov:dataset_83 a prov:Entity ;
     rdfs:label "Yale F&ES working paper number 8"^^xsd:string ;
     dc:title "The industrial platinum cycle for Russia - a case study of materials accounting"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset .
+    ns1:hasGeneralResourceType dtype:Dataset .
 
 bprov:dataset_85 a prov:Entity ;
     dc:title "Uncovering the global life cycles of rare earth elements"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1038/srep00145"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1038/srep00145"^^xsd:string .
 
 bprov:dataset_87 a prov:Entity ;
     dc:title "Global in-use stocks of the rare earth elements - a first estimate"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1021/es102836s"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1021/es102836s"^^xsd:string .
 
 bprov:dataset_89 a prov:Entity ;
     dc:title "Will metal scarcity impede routine industrial use?"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1557/mrs.2012.34"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1557/mrs.2012.34"^^xsd:string .
 
 bprov:dataset_9 a prov:Entity ;
     dc:title "The World Factbook"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset .
+    ns1:hasGeneralResourceType dtype:Dataset .
 
 bprov:dataset_91 a prov:Entity ;
     dc:title "Global anthropogenic selenium cycles for 1940-2010"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1016/j.resconrec.2013.01.013"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1016/j.resconrec.2013.01.013"^^xsd:string .
 
 bprov:dataset_93 a prov:Entity ;
     dc:title "Global anthropogenic tellurium cycles for 1940-2010"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1016/j.resconrec.2013.04.007"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1016/j.resconrec.2013.04.007"^^xsd:string .
 
 bprov:dataset_95 a prov:Entity ;
     rdfs:label "Chapter 7 in Element Recovery and Sustainability; The Royal Society of Chemistry; pp 185"^^xsd:string ;
     dc:title "Anthropogenic losses of platinum group elements"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1039/9781849737340-00185"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1039/9781849737340-00185"^^xsd:string .
 
 bprov:dataset_97 a prov:Entity ;
     dc:title "The contemporary materials cycle for radioactive 137Cs in the United States"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset ;
-    ns2:hasIdentifier "10.1097/01.HP.0000185579.20291.8f"^^xsd:string .
+    ns1:hasGeneralResourceType dtype:Dataset ;
+    ns1:hasIdentifier "10.1097/01.HP.0000185579.20291.8f"^^xsd:string .
 
 bprov:dataset_99 a prov:Entity ;
     rdfs:label "Yale School of Forestry & Environmental Studies Publication Series; Working Paper Number 11"^^xsd:string ;
     dc:title "In-Use Stocks of Iron in the State of Connecticut, USA"^^xsd:string ;
-    ns2:hasGeneralResourceType dtype:Dataset .
+    ns1:hasGeneralResourceType dtype:Dataset .
 
 bprov:extractionScript a prov:Entity,
         prov:Plan ;
     rdfs:label "Entity representing the latest version of the YSTAFDB Script" ;
-    prov:hadPrimarySource <https://github.com/BONSAMURAIS/ystafdb/tree/v0_4> .
+    prov:hadPrimarySource <https://github.com/BONSAMURAIS/ystafdb/tree/v0_6_0> .
+
+bprov:dataset_0 a prov:Entity ;
+    rdfs:label "The Yale Stocks and Flows Database" ;
+    dc:date "2019-06-07"^^xsd:date ;
+    dc:rights "Open Access" ;
+    dc:title "YSTAFDB" ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    owl:versionInfo "1.0" ;
+    prov:hadMember bprov:dataset_1,
+        bprov:dataset_101,
+        bprov:dataset_103,
+        bprov:dataset_105,
+        bprov:dataset_107,
+        bprov:dataset_109,
+        bprov:dataset_11,
+        bprov:dataset_111,
+        bprov:dataset_113,
+        bprov:dataset_115,
+        bprov:dataset_117,
+        bprov:dataset_119,
+        bprov:dataset_121,
+        bprov:dataset_13,
+        bprov:dataset_15,
+        bprov:dataset_17,
+        bprov:dataset_19,
+        bprov:dataset_21,
+        bprov:dataset_23,
+        bprov:dataset_25,
+        bprov:dataset_27,
+        bprov:dataset_29,
+        bprov:dataset_3,
+        bprov:dataset_31,
+        bprov:dataset_33,
+        bprov:dataset_35,
+        bprov:dataset_37,
+        bprov:dataset_39,
+        bprov:dataset_41,
+        bprov:dataset_43,
+        bprov:dataset_45,
+        bprov:dataset_47,
+        bprov:dataset_49,
+        bprov:dataset_5,
+        bprov:dataset_51,
+        bprov:dataset_53,
+        bprov:dataset_55,
+        bprov:dataset_57,
+        bprov:dataset_59,
+        bprov:dataset_61,
+        bprov:dataset_63,
+        bprov:dataset_65,
+        bprov:dataset_67,
+        bprov:dataset_69,
+        bprov:dataset_7,
+        bprov:dataset_71,
+        bprov:dataset_73,
+        bprov:dataset_75,
+        bprov:dataset_77,
+        bprov:dataset_79,
+        bprov:dataset_81,
+        bprov:dataset_83,
+        bprov:dataset_85,
+        bprov:dataset_87,
+        bprov:dataset_89,
+        bprov:dataset_9,
+        bprov:dataset_91,
+        bprov:dataset_93,
+        bprov:dataset_95,
+        bprov:dataset_97,
+        bprov:dataset_99 ;
+    prov:hadPrimarySource <https://www.sciencebase.gov/catalog/file/get/5b9a7c28e4b0d966b485d915?f=__disk__0f%2F58%2Fa7%2F0f58a74db669ee5418f36a698bc85781e867e0ab> ;
+    prov:wasAttributedTo bfoaf:provider_0 .
 

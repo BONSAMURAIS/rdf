@@ -2,27 +2,28 @@
 @prefix bprov: <http://rdf.bonsai.uno/prov/ystafdb#> .
 @prefix brdflo: <http://rdf.bonsai.uno/location/ystafdb#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dtype: <http://purl.org/dc/dcmitype/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ns1: <http://purl.org/vocab/vann/> .
-@prefix ns2: <http://creativecommons.org/ns#> .
+@prefix ns1: <http://creativecommons.org/ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix schema: <http://schema.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://rdf.bonsai.uno/location/ystafdb> a dtype:Dataset,
         prov:Collection ;
-    ns2:license <http://creativecommons.org/licenses/by/3.0/> ;
+    ns1:license <http://creativecommons.org/licenses/by/3.0/> ;
     dc:creator bfoaf:bonsai ;
     dc:description "Country groupings used for YSTAFDB" ;
-    dc:modified "2020-06-17"^^xsd:date ;
     dc:publisher bfoaf:bonsai ;
     dc:title "Custom locations for YSTAFDB" ;
-    ns1:preferredNamespaceUri brdflo: ;
-    owl:versionInfo "0.4" ;
-    prov:generatedAtTime "2020-06-17"^^xsd:date ;
+    dcterms:modified "2022-07-26"^^xsd:date ;
+    vann:preferredNamespaceUri brdflo: ;
+    owl:versionInfo "0.6.1" ;
+    prov:generatedAtTime "2022-07-26"^^xsd:date ;
     prov:hadMember brdflo:L_1,
         brdflo:L_10,
         brdflo:L_100,
@@ -1713,5061 +1714,5061 @@
     prov:wasGeneratedBy bprov:dataExtractionActivity_0 ;
     foaf:homepage <http://rdf.bonsai.uno/location/ystafdbdocumentation.html> .
 
-brdflo:L_1 a schema:Place ;
+brdflo:L_1 a schema1:Place ;
     rdfs:label "Afghanistan" .
 
-brdflo:L_10 a schema:Place ;
+brdflo:L_10 a schema1:Place ;
     rdfs:label "Argentina" .
 
-brdflo:L_100 a schema:Place ;
+brdflo:L_100 a schema1:Place ;
     rdfs:label "Iceland" .
 
-brdflo:L_1000 a schema:Place ;
+brdflo:L_1000 a schema1:Place ;
     rdfs:label "Australia; Gundagai (A)" .
 
-brdflo:L_1001 a schema:Place ;
+brdflo:L_1001 a schema1:Place ;
     rdfs:label "Australia; Gunnedah (A)" .
 
-brdflo:L_1002 a schema:Place ;
+brdflo:L_1002 a schema1:Place ;
     rdfs:label "Australia; Gunning (A)" .
 
-brdflo:L_1003 a schema:Place ;
+brdflo:L_1003 a schema1:Place ;
     rdfs:label "Australia; Guyra (A)" .
 
-brdflo:L_1004 a schema:Place ;
+brdflo:L_1004 a schema1:Place ;
     rdfs:label "Australia; Harden (A)" .
 
-brdflo:L_1005 a schema:Place ;
+brdflo:L_1005 a schema1:Place ;
     rdfs:label "Australia; Hastings (A)" .
 
-brdflo:L_1006 a schema:Place ;
+brdflo:L_1006 a schema1:Place ;
     rdfs:label "Australia; Hawkesbury (C)" .
 
-brdflo:L_1007 a schema:Place ;
+brdflo:L_1007 a schema1:Place ;
     rdfs:label "Australia; Hay (A)" .
 
-brdflo:L_1008 a schema:Place ;
+brdflo:L_1008 a schema1:Place ;
     rdfs:label "Australia; Holbrook (A)" .
 
-brdflo:L_1009 a schema:Place ;
+brdflo:L_1009 a schema1:Place ;
     rdfs:label "Australia; Holroyd (C)" .
 
-brdflo:L_101 a schema:Place ;
+brdflo:L_101 a schema1:Place ;
     rdfs:label "India" .
 
-brdflo:L_1010 a schema:Place ;
+brdflo:L_1010 a schema1:Place ;
     rdfs:label "Australia; Hornsby (A)" .
 
-brdflo:L_1011 a schema:Place ;
+brdflo:L_1011 a schema1:Place ;
     rdfs:label "Australia; Hume (A)" .
 
-brdflo:L_1012 a schema:Place ;
+brdflo:L_1012 a schema1:Place ;
     rdfs:label "Australia; Hunter's Hill (A)" .
 
-brdflo:L_1013 a schema:Place ;
+brdflo:L_1013 a schema1:Place ;
     rdfs:label "Australia; Hurstville (C)" .
 
-brdflo:L_1014 a schema:Place ;
+brdflo:L_1014 a schema1:Place ;
     rdfs:label "Australia; Inverell (A)" .
 
-brdflo:L_1015 a schema:Place ;
+brdflo:L_1015 a schema1:Place ;
     rdfs:label "Australia; Jerilderie (A)" .
 
-brdflo:L_1016 a schema:Place ;
+brdflo:L_1016 a schema1:Place ;
     rdfs:label "Australia; Junee (A)" .
 
-brdflo:L_1017 a schema:Place ;
+brdflo:L_1017 a schema1:Place ;
     rdfs:label "Australia; Kempsey (A)" .
 
-brdflo:L_1018 a schema:Place ;
+brdflo:L_1018 a schema1:Place ;
     rdfs:label "Australia; Kiama (A)" .
 
-brdflo:L_1019 a schema:Place ;
+brdflo:L_1019 a schema1:Place ;
     rdfs:label "Australia; Kogarah (A)" .
 
-brdflo:L_102 a schema:Place ;
+brdflo:L_102 a schema1:Place ;
     rdfs:label "Indonesia" .
 
-brdflo:L_1020 a schema:Place ;
+brdflo:L_1020 a schema1:Place ;
     rdfs:label "Australia; Ku-ring-gai (A)" .
 
-brdflo:L_1021 a schema:Place ;
+brdflo:L_1021 a schema1:Place ;
     rdfs:label "Australia; Kyogle (A)" .
 
-brdflo:L_1022 a schema:Place ;
+brdflo:L_1022 a schema1:Place ;
     rdfs:label "Australia; Lachlan (A)" .
 
-brdflo:L_1023 a schema:Place ;
+brdflo:L_1023 a schema1:Place ;
     rdfs:label "Australia; Lake Macquarie (C)" .
 
-brdflo:L_1024 a schema:Place ;
+brdflo:L_1024 a schema1:Place ;
     rdfs:label "Australia; Lane Cove (A)" .
 
-brdflo:L_1025 a schema:Place ;
+brdflo:L_1025 a schema1:Place ;
     rdfs:label "Australia; Leeton (A)" .
 
-brdflo:L_1026 a schema:Place ;
+brdflo:L_1026 a schema1:Place ;
     rdfs:label "Australia; Leichhardt (A)" .
 
-brdflo:L_1027 a schema:Place ;
+brdflo:L_1027 a schema1:Place ;
     rdfs:label "Australia; Lismore (C)" .
 
-brdflo:L_1028 a schema:Place ;
+brdflo:L_1028 a schema1:Place ;
     rdfs:label "Australia; Liverpool (C)" .
 
-brdflo:L_1029 a schema:Place ;
+brdflo:L_1029 a schema1:Place ;
     rdfs:label "Australia; Lockhart (A)" .
 
-brdflo:L_103 a schema:Place ;
+brdflo:L_103 a schema1:Place ;
     rdfs:label "Iran (Islamic Republic of)" .
 
-brdflo:L_1030 a schema:Place ;
+brdflo:L_1030 a schema1:Place ;
     rdfs:label "Australia; Maclean (A)" .
 
-brdflo:L_1031 a schema:Place ;
+brdflo:L_1031 a schema1:Place ;
     rdfs:label "Australia; Maitland (C)" .
 
-brdflo:L_1032 a schema:Place ;
+brdflo:L_1032 a schema1:Place ;
     rdfs:label "Australia; Manilla (A)" .
 
-brdflo:L_1033 a schema:Place ;
+brdflo:L_1033 a schema1:Place ;
     rdfs:label "Australia; Manly (A)" .
 
-brdflo:L_1034 a schema:Place ;
+brdflo:L_1034 a schema1:Place ;
     rdfs:label "Australia; Marrickville (A)" .
 
-brdflo:L_1035 a schema:Place ;
+brdflo:L_1035 a schema1:Place ;
     rdfs:label "Australia; Merriwa (A)" .
 
-brdflo:L_1036 a schema:Place ;
+brdflo:L_1036 a schema1:Place ;
     rdfs:label "Australia; Moree Plains (A)" .
 
-brdflo:L_1037 a schema:Place ;
+brdflo:L_1037 a schema1:Place ;
     rdfs:label "Australia; Mosman (A)" .
 
-brdflo:L_1038 a schema:Place ;
+brdflo:L_1038 a schema1:Place ;
     rdfs:label "Australia; Mudgee (A)" .
 
-brdflo:L_1039 a schema:Place ;
+brdflo:L_1039 a schema1:Place ;
     rdfs:label "Australia; Mulwaree (A)" .
 
-brdflo:L_104 a schema:Place ;
+brdflo:L_104 a schema1:Place ;
     rdfs:label "Iraq" .
 
-brdflo:L_1040 a schema:Place ;
+brdflo:L_1040 a schema1:Place ;
     rdfs:label "Australia; Murray (A)" .
 
-brdflo:L_1041 a schema:Place ;
+brdflo:L_1041 a schema1:Place ;
     rdfs:label "Australia; Murrumbidgee (A)" .
 
-brdflo:L_1042 a schema:Place ;
+brdflo:L_1042 a schema1:Place ;
     rdfs:label "Australia; Murrurundi (A)" .
 
-brdflo:L_1043 a schema:Place ;
+brdflo:L_1043 a schema1:Place ;
     rdfs:label "Australia; Muswellbrook (A)" .
 
-brdflo:L_1044 a schema:Place ;
+brdflo:L_1044 a schema1:Place ;
     rdfs:label "Australia; Nambucca (A)" .
 
-brdflo:L_1045 a schema:Place ;
+brdflo:L_1045 a schema1:Place ;
     rdfs:label "Australia; Narrabri (A)" .
 
-brdflo:L_1046 a schema:Place ;
+brdflo:L_1046 a schema1:Place ;
     rdfs:label "Australia; Narrandera (A)" .
 
-brdflo:L_1047 a schema:Place ;
+brdflo:L_1047 a schema1:Place ;
     rdfs:label "Australia; Narromine (A)" .
 
-brdflo:L_1048 a schema:Place ;
+brdflo:L_1048 a schema1:Place ;
     rdfs:label "Australia; Newcastle (C)" .
 
-brdflo:L_1049 a schema:Place ;
+brdflo:L_1049 a schema1:Place ;
     rdfs:label "Australia; North Sydney (A)" .
 
-brdflo:L_105 a schema:Place ;
+brdflo:L_105 a schema1:Place ;
     rdfs:label "Ireland" .
 
-brdflo:L_1050 a schema:Place ;
+brdflo:L_1050 a schema1:Place ;
     rdfs:label "Australia; Nundle (A)" .
 
-brdflo:L_1051 a schema:Place ;
+brdflo:L_1051 a schema1:Place ;
     rdfs:label "Australia; Nymboida (A)" .
 
-brdflo:L_1052 a schema:Place ;
+brdflo:L_1052 a schema1:Place ;
     rdfs:label "Australia; Oberon (A)" .
 
-brdflo:L_1053 a schema:Place ;
+brdflo:L_1053 a schema1:Place ;
     rdfs:label "Australia; Orange (C)" .
 
-brdflo:L_1054 a schema:Place ;
+brdflo:L_1054 a schema1:Place ;
     rdfs:label "Australia; Parkes (A)" .
 
-brdflo:L_1055 a schema:Place ;
+brdflo:L_1055 a schema1:Place ;
     rdfs:label "Australia; Parramatta (C)" .
 
-brdflo:L_1056 a schema:Place ;
+brdflo:L_1056 a schema1:Place ;
     rdfs:label "Australia; Parry (A)" .
 
-brdflo:L_1057 a schema:Place ;
+brdflo:L_1057 a schema1:Place ;
     rdfs:label "Australia; Penrith (C)" .
 
-brdflo:L_1058 a schema:Place ;
+brdflo:L_1058 a schema1:Place ;
     rdfs:label "Australia; Pittwater (A)" .
 
-brdflo:L_1059 a schema:Place ;
+brdflo:L_1059 a schema1:Place ;
     rdfs:label "Australia; Port Stephens (A)" .
 
-brdflo:L_106 a schema:Place ;
+brdflo:L_106 a schema1:Place ;
     rdfs:label "Isle of Man" .
 
-brdflo:L_1060 a schema:Place ;
+brdflo:L_1060 a schema1:Place ;
     rdfs:label "Australia; Queanbeyan (C)" .
 
-brdflo:L_1061 a schema:Place ;
+brdflo:L_1061 a schema1:Place ;
     rdfs:label "Australia; Quirindi (A)" .
 
-brdflo:L_1062 a schema:Place ;
+brdflo:L_1062 a schema1:Place ;
     rdfs:label "Australia; Randwick (C)" .
 
-brdflo:L_1063 a schema:Place ;
+brdflo:L_1063 a schema1:Place ;
     rdfs:label "Australia; Richmond River (A)" .
 
-brdflo:L_1064 a schema:Place ;
+brdflo:L_1064 a schema1:Place ;
     rdfs:label "Australia; Rockdale (C)" .
 
-brdflo:L_1065 a schema:Place ;
+brdflo:L_1065 a schema1:Place ;
     rdfs:label "Australia; Ryde (C)" .
 
-brdflo:L_1066 a schema:Place ;
+brdflo:L_1066 a schema1:Place ;
     rdfs:label "Australia; Rylstone (A)" .
 
-brdflo:L_1067 a schema:Place ;
+brdflo:L_1067 a schema1:Place ;
     rdfs:label "Australia; Scone (A)" .
 
-brdflo:L_1068 a schema:Place ;
+brdflo:L_1068 a schema1:Place ;
     rdfs:label "Australia; Severn (A)" .
 
-brdflo:L_1069 a schema:Place ;
+brdflo:L_1069 a schema1:Place ;
     rdfs:label "Australia; Shellharbour (A)" .
 
-brdflo:L_107 a schema:Place ;
+brdflo:L_107 a schema1:Place ;
     rdfs:label "Israel" .
 
-brdflo:L_1070 a schema:Place ;
+brdflo:L_1070 a schema1:Place ;
     rdfs:label "Australia; Shoalhaven (C)" .
 
-brdflo:L_1071 a schema:Place ;
+brdflo:L_1071 a schema1:Place ;
     rdfs:label "Australia; Singleton (A)" .
 
-brdflo:L_1072 a schema:Place ;
+brdflo:L_1072 a schema1:Place ;
     rdfs:label "Australia; Snowy River (A)" .
 
-brdflo:L_1073 a schema:Place ;
+brdflo:L_1073 a schema1:Place ;
     rdfs:label "Australia; South Sydney (C)" .
 
-brdflo:L_1074 a schema:Place ;
+brdflo:L_1074 a schema1:Place ;
     rdfs:label "Australia; Strathfield (A)" .
 
-brdflo:L_1075 a schema:Place ;
+brdflo:L_1075 a schema1:Place ;
     rdfs:label "Australia; Sutherland Shire (A)" .
 
-brdflo:L_1076 a schema:Place ;
+brdflo:L_1076 a schema1:Place ;
     rdfs:label "Australia; Sydney (C)" .
 
-brdflo:L_1077 a schema:Place ;
+brdflo:L_1077 a schema1:Place ;
     rdfs:label "Australia; Tallaganda (A)" .
 
-brdflo:L_1078 a schema:Place ;
+brdflo:L_1078 a schema1:Place ;
     rdfs:label "Australia; Tamworth (C)" .
 
-brdflo:L_1079 a schema:Place ;
+brdflo:L_1079 a schema1:Place ;
     rdfs:label "Australia; Temora (A)" .
 
-brdflo:L_108 a schema:Place ;
+brdflo:L_108 a schema1:Place ;
     rdfs:label "Italy" .
 
-brdflo:L_1080 a schema:Place ;
+brdflo:L_1080 a schema1:Place ;
     rdfs:label "Australia; Tenterfield (A)" .
 
-brdflo:L_1081 a schema:Place ;
+brdflo:L_1081 a schema1:Place ;
     rdfs:label "Australia; Tumbarumba (A)" .
 
-brdflo:L_1082 a schema:Place ;
+brdflo:L_1082 a schema1:Place ;
     rdfs:label "Australia; Tumut (A)" .
 
-brdflo:L_1083 a schema:Place ;
+brdflo:L_1083 a schema1:Place ;
     rdfs:label "Australia; Tweed (A)" .
 
-brdflo:L_1084 a schema:Place ;
+brdflo:L_1084 a schema1:Place ;
     rdfs:label "Australia; Ulmarra (A)" .
 
-brdflo:L_1085 a schema:Place ;
+brdflo:L_1085 a schema1:Place ;
     rdfs:label "Australia; Uralla (A)" .
 
-brdflo:L_1086 a schema:Place ;
+brdflo:L_1086 a schema1:Place ;
     rdfs:label "Australia; Urana (A)" .
 
-brdflo:L_1087 a schema:Place ;
+brdflo:L_1087 a schema1:Place ;
     rdfs:label "Australia; Wagga Wagga (C)" .
 
-brdflo:L_1088 a schema:Place ;
+brdflo:L_1088 a schema1:Place ;
     rdfs:label "Australia; Wakool (A)" .
 
-brdflo:L_1089 a schema:Place ;
+brdflo:L_1089 a schema1:Place ;
     rdfs:label "Australia; Walcha (A)" .
 
-brdflo:L_109 a schema:Place ;
+brdflo:L_109 a schema1:Place ;
     rdfs:label "Jamaica" .
 
-brdflo:L_1090 a schema:Place ;
+brdflo:L_1090 a schema1:Place ;
     rdfs:label "Australia; Walgett (A)" .
 
-brdflo:L_1091 a schema:Place ;
+brdflo:L_1091 a schema1:Place ;
     rdfs:label "Australia; Warren (A)" .
 
-brdflo:L_1092 a schema:Place ;
+brdflo:L_1092 a schema1:Place ;
     rdfs:label "Australia; Warringah (A)" .
 
-brdflo:L_1093 a schema:Place ;
+brdflo:L_1093 a schema1:Place ;
     rdfs:label "Australia; Waverley (A)" .
 
-brdflo:L_1094 a schema:Place ;
+brdflo:L_1094 a schema1:Place ;
     rdfs:label "Australia; Weddin (A)" .
 
-brdflo:L_1095 a schema:Place ;
+brdflo:L_1095 a schema1:Place ;
     rdfs:label "Australia; Wellington (A)" .
 
-brdflo:L_1096 a schema:Place ;
+brdflo:L_1096 a schema1:Place ;
     rdfs:label "Australia; Wentworth (A)" .
 
-brdflo:L_1097 a schema:Place ;
+brdflo:L_1097 a schema1:Place ;
     rdfs:label "Australia; Willoughby (C)" .
 
-brdflo:L_1098 a schema:Place ;
+brdflo:L_1098 a schema1:Place ;
     rdfs:label "Australia; Windouran (A)" .
 
-brdflo:L_1099 a schema:Place ;
+brdflo:L_1099 a schema1:Place ;
     rdfs:label "Australia; Wingecarribee (A)" .
 
-brdflo:L_11 a schema:Place ;
+brdflo:L_11 a schema1:Place ;
     rdfs:label "Armenia" .
 
-brdflo:L_110 a schema:Place ;
+brdflo:L_110 a schema1:Place ;
     rdfs:label "Japan" .
 
-brdflo:L_1100 a schema:Place ;
+brdflo:L_1100 a schema1:Place ;
     rdfs:label "Australia; Wollondilly (A)" .
 
-brdflo:L_1101 a schema:Place ;
+brdflo:L_1101 a schema1:Place ;
     rdfs:label "Australia; Wollongong (C)" .
 
-brdflo:L_1102 a schema:Place ;
+brdflo:L_1102 a schema1:Place ;
     rdfs:label "Australia; Woollahra (A)" .
 
-brdflo:L_1103 a schema:Place ;
+brdflo:L_1103 a schema1:Place ;
     rdfs:label "Australia; Wyong (A)" .
 
-brdflo:L_1104 a schema:Place ;
+brdflo:L_1104 a schema1:Place ;
     rdfs:label "Australia; Yallaroi (A)" .
 
-brdflo:L_1105 a schema:Place ;
+brdflo:L_1105 a schema1:Place ;
     rdfs:label "Australia; Yarrowlumla (A)" .
 
-brdflo:L_1106 a schema:Place ;
+brdflo:L_1106 a schema1:Place ;
     rdfs:label "Australia; Yass (A)" .
 
-brdflo:L_1107 a schema:Place ;
+brdflo:L_1107 a schema1:Place ;
     rdfs:label "Australia; Young (A)" .
 
-brdflo:L_1108 a schema:Place ;
+brdflo:L_1108 a schema1:Place ;
     rdfs:label "Australia; Unincorporated NSW" .
 
-brdflo:L_1109 a schema:Place ;
+brdflo:L_1109 a schema1:Place ;
     rdfs:label "Australia; Alpine (S)" .
 
-brdflo:L_111 a schema:Place ;
+brdflo:L_111 a schema1:Place ;
     rdfs:label "Jersey" .
 
-brdflo:L_1110 a schema:Place ;
+brdflo:L_1110 a schema1:Place ;
     rdfs:label "Australia; Ararat (RC)" .
 
-brdflo:L_1111 a schema:Place ;
+brdflo:L_1111 a schema1:Place ;
     rdfs:label "Australia; Ballarat (C)" .
 
-brdflo:L_1112 a schema:Place ;
+brdflo:L_1112 a schema1:Place ;
     rdfs:label "Australia; Banyule (C)" .
 
-brdflo:L_1113 a schema:Place ;
+brdflo:L_1113 a schema1:Place ;
     rdfs:label "Australia; Bass Coast (S)" .
 
-brdflo:L_1114 a schema:Place ;
+brdflo:L_1114 a schema1:Place ;
     rdfs:label "Australia; Baw Baw (S)" .
 
-brdflo:L_1115 a schema:Place ;
+brdflo:L_1115 a schema1:Place ;
     rdfs:label "Australia; Bayside (C)" .
 
-brdflo:L_1116 a schema:Place ;
+brdflo:L_1116 a schema1:Place ;
     rdfs:label "Australia; Boroondara (C)" .
 
-brdflo:L_1117 a schema:Place ;
+brdflo:L_1117 a schema1:Place ;
     rdfs:label "Australia; Brimbank (C)" .
 
-brdflo:L_1118 a schema:Place ;
+brdflo:L_1118 a schema1:Place ;
     rdfs:label "Australia; Buloke (S)" .
 
-brdflo:L_1119 a schema:Place ;
+brdflo:L_1119 a schema1:Place ;
     rdfs:label "Australia; Campaspe (S)" .
 
-brdflo:L_112 a schema:Place ;
+brdflo:L_112 a schema1:Place ;
     rdfs:label "Jordan" .
 
-brdflo:L_1120 a schema:Place ;
+brdflo:L_1120 a schema1:Place ;
     rdfs:label "Australia; Cardinia (S)" .
 
-brdflo:L_1121 a schema:Place ;
+brdflo:L_1121 a schema1:Place ;
     rdfs:label "Australia; Casey (C)" .
 
-brdflo:L_1122 a schema:Place ;
+brdflo:L_1122 a schema1:Place ;
     rdfs:label "Australia; Central Goldfields (S)" .
 
-brdflo:L_1123 a schema:Place ;
+brdflo:L_1123 a schema1:Place ;
     rdfs:label "Australia; Colac-Otway (S)" .
 
-brdflo:L_1124 a schema:Place ;
+brdflo:L_1124 a schema1:Place ;
     rdfs:label "Australia; Corangamite (S)" .
 
-brdflo:L_1125 a schema:Place ;
+brdflo:L_1125 a schema1:Place ;
     rdfs:label "Australia; Darebin (C)" .
 
-brdflo:L_1126 a schema:Place ;
+brdflo:L_1126 a schema1:Place ;
     rdfs:label "Australia; Delatite (S)" .
 
-brdflo:L_1127 a schema:Place ;
+brdflo:L_1127 a schema1:Place ;
     rdfs:label "Australia; East Gippsland (S)" .
 
-brdflo:L_1128 a schema:Place ;
+brdflo:L_1128 a schema1:Place ;
     rdfs:label "Australia; Frankston (C)" .
 
-brdflo:L_1129 a schema:Place ;
+brdflo:L_1129 a schema1:Place ;
     rdfs:label "Australia; Gannawarra (S)" .
 
-brdflo:L_113 a schema:Place ;
+brdflo:L_113 a schema1:Place ;
     rdfs:label "Kazakhstan" .
 
-brdflo:L_1130 a schema:Place ;
+brdflo:L_1130 a schema1:Place ;
     rdfs:label "Australia; Glen Eira (C)" .
 
-brdflo:L_1131 a schema:Place ;
+brdflo:L_1131 a schema1:Place ;
     rdfs:label "Australia; Glenelg (S)" .
 
-brdflo:L_1132 a schema:Place ;
+brdflo:L_1132 a schema1:Place ;
     rdfs:label "Australia; Golden Plains (S)" .
 
-brdflo:L_1133 a schema:Place ;
+brdflo:L_1133 a schema1:Place ;
     rdfs:label "Australia; Greater Bendigo (C)" .
 
-brdflo:L_1134 a schema:Place ;
+brdflo:L_1134 a schema1:Place ;
     rdfs:label "Australia; Greater Dandenong (C)" .
 
-brdflo:L_1135 a schema:Place ;
+brdflo:L_1135 a schema1:Place ;
     rdfs:label "Australia; Greater Geelong (C)" .
 
-brdflo:L_1136 a schema:Place ;
+brdflo:L_1136 a schema1:Place ;
     rdfs:label "Australia; Greater Shepparton (C)" .
 
-brdflo:L_1137 a schema:Place ;
+brdflo:L_1137 a schema1:Place ;
     rdfs:label "Australia; Hepburn (S)" .
 
-brdflo:L_1138 a schema:Place ;
+brdflo:L_1138 a schema1:Place ;
     rdfs:label "Australia; Hindmarsh (S)" .
 
-brdflo:L_1139 a schema:Place ;
+brdflo:L_1139 a schema1:Place ;
     rdfs:label "Australia; Hobsons Bay (C)" .
 
-brdflo:L_114 a schema:Place ;
+brdflo:L_114 a schema1:Place ;
     rdfs:label "Kenya" .
 
-brdflo:L_1140 a schema:Place ;
+brdflo:L_1140 a schema1:Place ;
     rdfs:label "Australia; Horsham (RC)" .
 
-brdflo:L_1141 a schema:Place ;
+brdflo:L_1141 a schema1:Place ;
     rdfs:label "Australia; Hume (C)" .
 
-brdflo:L_1142 a schema:Place ;
+brdflo:L_1142 a schema1:Place ;
     rdfs:label "Australia; Indigo (S)" .
 
-brdflo:L_1143 a schema:Place ;
+brdflo:L_1143 a schema1:Place ;
     rdfs:label "Australia; Kingston (C)" .
 
-brdflo:L_1144 a schema:Place ;
+brdflo:L_1144 a schema1:Place ;
     rdfs:label "Australia; Knox (C)" .
 
-brdflo:L_1145 a schema:Place ;
+brdflo:L_1145 a schema1:Place ;
     rdfs:label "Australia; La Trobe (S)" .
 
-brdflo:L_1146 a schema:Place ;
+brdflo:L_1146 a schema1:Place ;
     rdfs:label "Australia; Loddon (S)" .
 
-brdflo:L_1147 a schema:Place ;
+brdflo:L_1147 a schema1:Place ;
     rdfs:label "Australia; Macedon Ranges (S)" .
 
-brdflo:L_1148 a schema:Place ;
+brdflo:L_1148 a schema1:Place ;
     rdfs:label "Australia; Manningham (C)" .
 
-brdflo:L_1149 a schema:Place ;
+brdflo:L_1149 a schema1:Place ;
     rdfs:label "Australia; Maribyrnong (C)" .
 
-brdflo:L_115 a schema:Place ;
+brdflo:L_115 a schema1:Place ;
     rdfs:label "Kiribati" .
 
-brdflo:L_1150 a schema:Place ;
+brdflo:L_1150 a schema1:Place ;
     rdfs:label "Australia; Maroondah (C)" .
 
-brdflo:L_1151 a schema:Place ;
+brdflo:L_1151 a schema1:Place ;
     rdfs:label "Australia; Melbourne (C)" .
 
-brdflo:L_1152 a schema:Place ;
+brdflo:L_1152 a schema1:Place ;
     rdfs:label "Australia; Melton (S)" .
 
-brdflo:L_1153 a schema:Place ;
+brdflo:L_1153 a schema1:Place ;
     rdfs:label "Australia; Mildura (RC)" .
 
-brdflo:L_1154 a schema:Place ;
+brdflo:L_1154 a schema1:Place ;
     rdfs:label "Australia; Mitchell (S)" .
 
-brdflo:L_1155 a schema:Place ;
+brdflo:L_1155 a schema1:Place ;
     rdfs:label "Australia; Moira (S)" .
 
-brdflo:L_1156 a schema:Place ;
+brdflo:L_1156 a schema1:Place ;
     rdfs:label "Australia; Monash (C)" .
 
-brdflo:L_1157 a schema:Place ;
+brdflo:L_1157 a schema1:Place ;
     rdfs:label "Australia; Moonee Valley (C)" .
 
-brdflo:L_1158 a schema:Place ;
+brdflo:L_1158 a schema1:Place ;
     rdfs:label "Australia; Moorabool (S)" .
 
-brdflo:L_1159 a schema:Place ;
+brdflo:L_1159 a schema1:Place ;
     rdfs:label "Australia; Moreland (C)" .
 
-brdflo:L_116 a schema:Place ;
+brdflo:L_116 a schema1:Place ;
     rdfs:label "Kuwait" .
 
-brdflo:L_1160 a schema:Place ;
+brdflo:L_1160 a schema1:Place ;
     rdfs:label "Australia; Mornington Peninsula (S)" .
 
-brdflo:L_1161 a schema:Place ;
+brdflo:L_1161 a schema1:Place ;
     rdfs:label "Australia; Mount Alexander (S)" .
 
-brdflo:L_1162 a schema:Place ;
+brdflo:L_1162 a schema1:Place ;
     rdfs:label "Australia; Moyne (S)" .
 
-brdflo:L_1163 a schema:Place ;
+brdflo:L_1163 a schema1:Place ;
     rdfs:label "Australia; Murrindindi (S)" .
 
-brdflo:L_1164 a schema:Place ;
+brdflo:L_1164 a schema1:Place ;
     rdfs:label "Australia; Nillumbik (S)" .
 
-brdflo:L_1165 a schema:Place ;
+brdflo:L_1165 a schema1:Place ;
     rdfs:label "Australia; Northern Grampians (S)" .
 
-brdflo:L_1166 a schema:Place ;
+brdflo:L_1166 a schema1:Place ;
     rdfs:label "Australia; Port Phillip (C)" .
 
-brdflo:L_1167 a schema:Place ;
+brdflo:L_1167 a schema1:Place ;
     rdfs:label "Australia; Pyrenees (S)" .
 
-brdflo:L_1168 a schema:Place ;
+brdflo:L_1168 a schema1:Place ;
     rdfs:label "Australia; Queenscliffe (B)" .
 
-brdflo:L_1169 a schema:Place ;
+brdflo:L_1169 a schema1:Place ;
     rdfs:label "Australia; South Gippsland (S)" .
 
-brdflo:L_117 a schema:Place ;
+brdflo:L_117 a schema1:Place ;
     rdfs:label "Kyrgyzstan" .
 
-brdflo:L_1170 a schema:Place ;
+brdflo:L_1170 a schema1:Place ;
     rdfs:label "Australia; Southern Grampians (S)" .
 
-brdflo:L_1171 a schema:Place ;
+brdflo:L_1171 a schema1:Place ;
     rdfs:label "Australia; Stonnington (C)" .
 
-brdflo:L_1172 a schema:Place ;
+brdflo:L_1172 a schema1:Place ;
     rdfs:label "Australia; Strathbogie (S)" .
 
-brdflo:L_1173 a schema:Place ;
+brdflo:L_1173 a schema1:Place ;
     rdfs:label "Australia; Surf Coast (S)" .
 
-brdflo:L_1174 a schema:Place ;
+brdflo:L_1174 a schema1:Place ;
     rdfs:label "Australia; Swan Hill (RC)" .
 
-brdflo:L_1175 a schema:Place ;
+brdflo:L_1175 a schema1:Place ;
     rdfs:label "Australia; Towong (S)" .
 
-brdflo:L_1176 a schema:Place ;
+brdflo:L_1176 a schema1:Place ;
     rdfs:label "Australia; Wangaratta (RC)" .
 
-brdflo:L_1177 a schema:Place ;
+brdflo:L_1177 a schema1:Place ;
     rdfs:label "Australia; Warrnambool (C)" .
 
-brdflo:L_1178 a schema:Place ;
+brdflo:L_1178 a schema1:Place ;
     rdfs:label "Australia; Wellington (S)" .
 
-brdflo:L_1179 a schema:Place ;
+brdflo:L_1179 a schema1:Place ;
     rdfs:label "Australia; West Wimmera (S)" .
 
-brdflo:L_118 a schema:Place ;
+brdflo:L_118 a schema1:Place ;
     rdfs:label "Laos (People's Democratic Republic)" .
 
-brdflo:L_1180 a schema:Place ;
+brdflo:L_1180 a schema1:Place ;
     rdfs:label "Australia; Whitehorse (C)" .
 
-brdflo:L_1181 a schema:Place ;
+brdflo:L_1181 a schema1:Place ;
     rdfs:label "Australia; Whittlesea (C)" .
 
-brdflo:L_1182 a schema:Place ;
+brdflo:L_1182 a schema1:Place ;
     rdfs:label "Australia; Wodonga (RC)" .
 
-brdflo:L_1183 a schema:Place ;
+brdflo:L_1183 a schema1:Place ;
     rdfs:label "Australia; Wyndham (C)" .
 
-brdflo:L_1184 a schema:Place ;
+brdflo:L_1184 a schema1:Place ;
     rdfs:label "Australia; Yarra (C)" .
 
-brdflo:L_1185 a schema:Place ;
+brdflo:L_1185 a schema1:Place ;
     rdfs:label "Australia; Yarra Ranges (S)" .
 
-brdflo:L_1186 a schema:Place ;
+brdflo:L_1186 a schema1:Place ;
     rdfs:label "Australia; Yarriambiack (S)" .
 
-brdflo:L_1187 a schema:Place ;
+brdflo:L_1187 a schema1:Place ;
     rdfs:label "Australia; Unincorporated Vic" .
 
-brdflo:L_1188 a schema:Place ;
+brdflo:L_1188 a schema1:Place ;
     rdfs:label "Australia; Aramac (S)" .
 
-brdflo:L_1189 a schema:Place ;
+brdflo:L_1189 a schema1:Place ;
     rdfs:label "Australia; Atherton (S)" .
 
-brdflo:L_119 a schema:Place ;
+brdflo:L_119 a schema1:Place ;
     rdfs:label "Latvia" .
 
-brdflo:L_1190 a schema:Place ;
+brdflo:L_1190 a schema1:Place ;
     rdfs:label "Australia; Aurukun (S)" .
 
-brdflo:L_1191 a schema:Place ;
+brdflo:L_1191 a schema1:Place ;
     rdfs:label "Australia; Balonne (S)" .
 
-brdflo:L_1192 a schema:Place ;
+brdflo:L_1192 a schema1:Place ;
     rdfs:label "Australia; Banana (S)" .
 
-brdflo:L_1193 a schema:Place ;
+brdflo:L_1193 a schema1:Place ;
     rdfs:label "Australia; Barcaldine (S)" .
 
-brdflo:L_1194 a schema:Place ;
+brdflo:L_1194 a schema1:Place ;
     rdfs:label "Australia; Barcoo (S)" .
 
-brdflo:L_1195 a schema:Place ;
+brdflo:L_1195 a schema1:Place ;
     rdfs:label "Australia; Bauhinia (S)" .
 
-brdflo:L_1196 a schema:Place ;
+brdflo:L_1196 a schema1:Place ;
     rdfs:label "Australia; Beaudesert (S)" .
 
-brdflo:L_1197 a schema:Place ;
+brdflo:L_1197 a schema1:Place ;
     rdfs:label "Australia; Belyando (S)" .
 
-brdflo:L_1198 a schema:Place ;
+brdflo:L_1198 a schema1:Place ;
     rdfs:label "Australia; Bendemere (S)" .
 
-brdflo:L_1199 a schema:Place ;
+brdflo:L_1199 a schema1:Place ;
     rdfs:label "Australia; Biggenden (S)" .
 
-brdflo:L_12 a schema:Place ;
+brdflo:L_12 a schema1:Place ;
     rdfs:label "Aruba" .
 
-brdflo:L_120 a schema:Place ;
+brdflo:L_120 a schema1:Place ;
     rdfs:label "Lebanon" .
 
-brdflo:L_1200 a schema:Place ;
+brdflo:L_1200 a schema1:Place ;
     rdfs:label "Australia; Blackall (S)" .
 
-brdflo:L_1201 a schema:Place ;
+brdflo:L_1201 a schema1:Place ;
     rdfs:label "Australia; Boonah (S)" .
 
-brdflo:L_1202 a schema:Place ;
+brdflo:L_1202 a schema1:Place ;
     rdfs:label "Australia; Booringa (S)" .
 
-brdflo:L_1203 a schema:Place ;
+brdflo:L_1203 a schema1:Place ;
     rdfs:label "Australia; Boulia (S)" .
 
-brdflo:L_1204 a schema:Place ;
+brdflo:L_1204 a schema1:Place ;
     rdfs:label "Australia; Bowen (S)" .
 
-brdflo:L_1205 a schema:Place ;
+brdflo:L_1205 a schema1:Place ;
     rdfs:label "Australia; Brisbane (C)" .
 
-brdflo:L_1206 a schema:Place ;
+brdflo:L_1206 a schema1:Place ;
     rdfs:label "Australia; Broadsound (S)" .
 
-brdflo:L_1207 a schema:Place ;
+brdflo:L_1207 a schema1:Place ;
     rdfs:label "Australia; Bulloo (S)" .
 
-brdflo:L_1208 a schema:Place ;
+brdflo:L_1208 a schema1:Place ;
     rdfs:label "Australia; Bundaberg (C)" .
 
-brdflo:L_1209 a schema:Place ;
+brdflo:L_1209 a schema1:Place ;
     rdfs:label "Australia; Bungil (S)" .
 
-brdflo:L_121 a schema:Place ;
+brdflo:L_121 a schema1:Place ;
     rdfs:label "Lesotho" .
 
-brdflo:L_1210 a schema:Place ;
+brdflo:L_1210 a schema1:Place ;
     rdfs:label "Australia; Burdekin (S)" .
 
-brdflo:L_1211 a schema:Place ;
+brdflo:L_1211 a schema1:Place ;
     rdfs:label "Australia; Burke (S)" .
 
-brdflo:L_1212 a schema:Place ;
+brdflo:L_1212 a schema1:Place ;
     rdfs:label "Australia; Burnett (S)" .
 
-brdflo:L_1213 a schema:Place ;
+brdflo:L_1213 a schema1:Place ;
     rdfs:label "Australia; Caboolture (S)" .
 
-brdflo:L_1214 a schema:Place ;
+brdflo:L_1214 a schema1:Place ;
     rdfs:label "Australia; Cairns (C)" .
 
-brdflo:L_1215 a schema:Place ;
+brdflo:L_1215 a schema1:Place ;
     rdfs:label "Australia; Calliope (S)" .
 
-brdflo:L_1216 a schema:Place ;
+brdflo:L_1216 a schema1:Place ;
     rdfs:label "Australia; Caloundra (C)" .
 
-brdflo:L_1217 a schema:Place ;
+brdflo:L_1217 a schema1:Place ;
     rdfs:label "Australia; Cambooya (S)" .
 
-brdflo:L_1218 a schema:Place ;
+brdflo:L_1218 a schema1:Place ;
     rdfs:label "Australia; Cardwell (S)" .
 
-brdflo:L_1219 a schema:Place ;
+brdflo:L_1219 a schema1:Place ;
     rdfs:label "Australia; Carpentaria (S)" .
 
-brdflo:L_122 a schema:Place ;
+brdflo:L_122 a schema1:Place ;
     rdfs:label "Liberia" .
 
-brdflo:L_1220 a schema:Place ;
+brdflo:L_1220 a schema1:Place ;
     rdfs:label "Australia; Charters Towers (C)" .
 
-brdflo:L_1221 a schema:Place ;
+brdflo:L_1221 a schema1:Place ;
     rdfs:label "Australia; Chinchilla (S)" .
 
-brdflo:L_1222 a schema:Place ;
+brdflo:L_1222 a schema1:Place ;
     rdfs:label "Australia; Clifton (S)" .
 
-brdflo:L_1223 a schema:Place ;
+brdflo:L_1223 a schema1:Place ;
     rdfs:label "Australia; Cloncurry (S)" .
 
-brdflo:L_1224 a schema:Place ;
+brdflo:L_1224 a schema1:Place ;
     rdfs:label "Australia; Cook (S)" .
 
-brdflo:L_1225 a schema:Place ;
+brdflo:L_1225 a schema1:Place ;
     rdfs:label "Australia; Cooloola (S)" .
 
-brdflo:L_1226 a schema:Place ;
+brdflo:L_1226 a schema1:Place ;
     rdfs:label "Australia; Crow's Nest (S)" .
 
-brdflo:L_1227 a schema:Place ;
+brdflo:L_1227 a schema1:Place ;
     rdfs:label "Australia; Croydon (S)" .
 
-brdflo:L_1228 a schema:Place ;
+brdflo:L_1228 a schema1:Place ;
     rdfs:label "Australia; Dalby (T)" .
 
-brdflo:L_1229 a schema:Place ;
+brdflo:L_1229 a schema1:Place ;
     rdfs:label "Australia; Dalrymple (S)" .
 
-brdflo:L_123 a schema:Place ;
+brdflo:L_123 a schema1:Place ;
     rdfs:label "Libya" .
 
-brdflo:L_1230 a schema:Place ;
+brdflo:L_1230 a schema1:Place ;
     rdfs:label "Australia; Diamantina (S)" .
 
-brdflo:L_1231 a schema:Place ;
+brdflo:L_1231 a schema1:Place ;
     rdfs:label "Australia; Douglas (S)" .
 
-brdflo:L_1232 a schema:Place ;
+brdflo:L_1232 a schema1:Place ;
     rdfs:label "Australia; Duaringa (S)" .
 
-brdflo:L_1233 a schema:Place ;
+brdflo:L_1233 a schema1:Place ;
     rdfs:label "Australia; Eacham (S)" .
 
-brdflo:L_1234 a schema:Place ;
+brdflo:L_1234 a schema1:Place ;
     rdfs:label "Australia; Eidsvold (S)" .
 
-brdflo:L_1235 a schema:Place ;
+brdflo:L_1235 a schema1:Place ;
     rdfs:label "Australia; Emerald (S)" .
 
-brdflo:L_1236 a schema:Place ;
+brdflo:L_1236 a schema1:Place ;
     rdfs:label "Australia; Esk (S)" .
 
-brdflo:L_1237 a schema:Place ;
+brdflo:L_1237 a schema1:Place ;
     rdfs:label "Australia; Etheridge (S)" .
 
-brdflo:L_1238 a schema:Place ;
+brdflo:L_1238 a schema1:Place ;
     rdfs:label "Australia; Fitzroy (S)" .
 
-brdflo:L_1239 a schema:Place ;
+brdflo:L_1239 a schema1:Place ;
     rdfs:label "Australia; Flinders (S)" .
 
-brdflo:L_124 a schema:Place ;
+brdflo:L_124 a schema1:Place ;
     rdfs:label "Liechtenstein" .
 
-brdflo:L_1240 a schema:Place ;
+brdflo:L_1240 a schema1:Place ;
     rdfs:label "Australia; Gatton (S)" .
 
-brdflo:L_1241 a schema:Place ;
+brdflo:L_1241 a schema1:Place ;
     rdfs:label "Australia; Gayndah (S)" .
 
-brdflo:L_1242 a schema:Place ;
+brdflo:L_1242 a schema1:Place ;
     rdfs:label "Australia; Gladstone (C)" .
 
-brdflo:L_1243 a schema:Place ;
+brdflo:L_1243 a schema1:Place ;
     rdfs:label "Australia; Gold Coast (C)" .
 
-brdflo:L_1244 a schema:Place ;
+brdflo:L_1244 a schema1:Place ;
     rdfs:label "Australia; Goondiwindi (T)" .
 
-brdflo:L_1245 a schema:Place ;
+brdflo:L_1245 a schema1:Place ;
     rdfs:label "Australia; Herberton (S)" .
 
-brdflo:L_1246 a schema:Place ;
+brdflo:L_1246 a schema1:Place ;
     rdfs:label "Australia; Hervey Bay (C)" .
 
-brdflo:L_1247 a schema:Place ;
+brdflo:L_1247 a schema1:Place ;
     rdfs:label "Australia; Hinchinbrook (S)" .
 
-brdflo:L_1248 a schema:Place ;
+brdflo:L_1248 a schema1:Place ;
     rdfs:label "Australia; Ilfracombe (S)" .
 
-brdflo:L_1249 a schema:Place ;
+brdflo:L_1249 a schema1:Place ;
     rdfs:label "Australia; Inglewood (S)" .
 
-brdflo:L_125 a schema:Place ;
+brdflo:L_125 a schema1:Place ;
     rdfs:label "Lithuania" .
 
-brdflo:L_1250 a schema:Place ;
+brdflo:L_1250 a schema1:Place ;
     rdfs:label "Australia; Ipswich (C)" .
 
-brdflo:L_1251 a schema:Place ;
+brdflo:L_1251 a schema1:Place ;
     rdfs:label "Australia; Isis (S)" .
 
-brdflo:L_1252 a schema:Place ;
+brdflo:L_1252 a schema1:Place ;
     rdfs:label "Australia; Isisford (S)" .
 
-brdflo:L_1253 a schema:Place ;
+brdflo:L_1253 a schema1:Place ;
     rdfs:label "Australia; Jericho (S)" .
 
-brdflo:L_1254 a schema:Place ;
+brdflo:L_1254 a schema1:Place ;
     rdfs:label "Australia; Johnstone (S)" .
 
-brdflo:L_1255 a schema:Place ;
+brdflo:L_1255 a schema1:Place ;
     rdfs:label "Australia; Jondaryan (S)" .
 
-brdflo:L_1256 a schema:Place ;
+brdflo:L_1256 a schema1:Place ;
     rdfs:label "Australia; Kilcoy (S)" .
 
-brdflo:L_1257 a schema:Place ;
+brdflo:L_1257 a schema1:Place ;
     rdfs:label "Australia; Kilkivan (S)" .
 
-brdflo:L_1258 a schema:Place ;
+brdflo:L_1258 a schema1:Place ;
     rdfs:label "Australia; Kingaroy (S)" .
 
-brdflo:L_1259 a schema:Place ;
+brdflo:L_1259 a schema1:Place ;
     rdfs:label "Australia; Kolan (S)" .
 
-brdflo:L_126 a schema:Place ;
+brdflo:L_126 a schema1:Place ;
     rdfs:label "Luxembourg" .
 
-brdflo:L_1260 a schema:Place ;
+brdflo:L_1260 a schema1:Place ;
     rdfs:label "Australia; Laidley (S)" .
 
-brdflo:L_1261 a schema:Place ;
+brdflo:L_1261 a schema1:Place ;
     rdfs:label "Australia; Livingstone (S)" .
 
-brdflo:L_1262 a schema:Place ;
+brdflo:L_1262 a schema1:Place ;
     rdfs:label "Australia; Logan (C)" .
 
-brdflo:L_1263 a schema:Place ;
+brdflo:L_1263 a schema1:Place ;
     rdfs:label "Australia; Longreach (S)" .
 
-brdflo:L_1264 a schema:Place ;
+brdflo:L_1264 a schema1:Place ;
     rdfs:label "Australia; Mackay (C)" .
 
-brdflo:L_1265 a schema:Place ;
+brdflo:L_1265 a schema1:Place ;
     rdfs:label "Australia; McKinlay (S)" .
 
-brdflo:L_1266 a schema:Place ;
+brdflo:L_1266 a schema1:Place ;
     rdfs:label "Australia; Mareeba (S)" .
 
-brdflo:L_1267 a schema:Place ;
+brdflo:L_1267 a schema1:Place ;
     rdfs:label "Australia; Maroochy (S)" .
 
-brdflo:L_1268 a schema:Place ;
+brdflo:L_1268 a schema1:Place ;
     rdfs:label "Australia; Maryborough (C)" .
 
-brdflo:L_1269 a schema:Place ;
+brdflo:L_1269 a schema1:Place ;
     rdfs:label "Australia; Millmerran (S)" .
 
-brdflo:L_127 a schema:Place ;
+brdflo:L_127 a schema1:Place ;
     rdfs:label "Madagascar" .
 
-brdflo:L_1270 a schema:Place ;
+brdflo:L_1270 a schema1:Place ;
     rdfs:label "Australia; Mirani (S)" .
 
-brdflo:L_1271 a schema:Place ;
+brdflo:L_1271 a schema1:Place ;
     rdfs:label "Australia; Miriam Vale (S)" .
 
-brdflo:L_1272 a schema:Place ;
+brdflo:L_1272 a schema1:Place ;
     rdfs:label "Australia; Monto (S)" .
 
-brdflo:L_1273 a schema:Place ;
+brdflo:L_1273 a schema1:Place ;
     rdfs:label "Australia; Mornington (S)" .
 
-brdflo:L_1274 a schema:Place ;
+brdflo:L_1274 a schema1:Place ;
     rdfs:label "Australia; Mount Isa (C)" .
 
-brdflo:L_1275 a schema:Place ;
+brdflo:L_1275 a schema1:Place ;
     rdfs:label "Australia; Mount Morgan (S)" .
 
-brdflo:L_1276 a schema:Place ;
+brdflo:L_1276 a schema1:Place ;
     rdfs:label "Australia; Mundubbera (S)" .
 
-brdflo:L_1277 a schema:Place ;
+brdflo:L_1277 a schema1:Place ;
     rdfs:label "Australia; Murgon (S)" .
 
-brdflo:L_1278 a schema:Place ;
+brdflo:L_1278 a schema1:Place ;
     rdfs:label "Australia; Murilla (S)" .
 
-brdflo:L_1279 a schema:Place ;
+brdflo:L_1279 a schema1:Place ;
     rdfs:label "Australia; Murweh (S)" .
 
-brdflo:L_128 a schema:Place ;
+brdflo:L_128 a schema1:Place ;
     rdfs:label "Malawi" .
 
-brdflo:L_1280 a schema:Place ;
+brdflo:L_1280 a schema1:Place ;
     rdfs:label "Australia; Nanango (S)" .
 
-brdflo:L_1281 a schema:Place ;
+brdflo:L_1281 a schema1:Place ;
     rdfs:label "Australia; Nebo (S)" .
 
-brdflo:L_1282 a schema:Place ;
+brdflo:L_1282 a schema1:Place ;
     rdfs:label "Australia; Noosa (S)" .
 
-brdflo:L_1283 a schema:Place ;
+brdflo:L_1283 a schema1:Place ;
     rdfs:label "Australia; Paroo (S)" .
 
-brdflo:L_1284 a schema:Place ;
+brdflo:L_1284 a schema1:Place ;
     rdfs:label "Australia; Peak Downs (S)" .
 
-brdflo:L_1285 a schema:Place ;
+brdflo:L_1285 a schema1:Place ;
     rdfs:label "Australia; Perry (S)" .
 
-brdflo:L_1286 a schema:Place ;
+brdflo:L_1286 a schema1:Place ;
     rdfs:label "Australia; Pine Rivers (S)" .
 
-brdflo:L_1287 a schema:Place ;
+brdflo:L_1287 a schema1:Place ;
     rdfs:label "Australia; Pittsworth (S)" .
 
-brdflo:L_1288 a schema:Place ;
+brdflo:L_1288 a schema1:Place ;
     rdfs:label "Australia; Quilpie (S)" .
 
-brdflo:L_1289 a schema:Place ;
+brdflo:L_1289 a schema1:Place ;
     rdfs:label "Australia; Redcliffe (C)" .
 
-brdflo:L_129 a schema:Place ;
+brdflo:L_129 a schema1:Place ;
     rdfs:label "Malaysia" .
 
-brdflo:L_1290 a schema:Place ;
+brdflo:L_1290 a schema1:Place ;
     rdfs:label "Australia; Redland (S)" .
 
-brdflo:L_1291 a schema:Place ;
+brdflo:L_1291 a schema1:Place ;
     rdfs:label "Australia; Richmond (S)" .
 
-brdflo:L_1292 a schema:Place ;
+brdflo:L_1292 a schema1:Place ;
     rdfs:label "Australia; Rockhampton (C)" .
 
-brdflo:L_1293 a schema:Place ;
+brdflo:L_1293 a schema1:Place ;
     rdfs:label "Australia; Roma (T)" .
 
-brdflo:L_1294 a schema:Place ;
+brdflo:L_1294 a schema1:Place ;
     rdfs:label "Australia; Rosalie (S)" .
 
-brdflo:L_1295 a schema:Place ;
+brdflo:L_1295 a schema1:Place ;
     rdfs:label "Australia; Sarina (S)" .
 
-brdflo:L_1296 a schema:Place ;
+brdflo:L_1296 a schema1:Place ;
     rdfs:label "Australia; Stanthorpe (S)" .
 
-brdflo:L_1297 a schema:Place ;
+brdflo:L_1297 a schema1:Place ;
     rdfs:label "Australia; Tambo (S)" .
 
-brdflo:L_1298 a schema:Place ;
+brdflo:L_1298 a schema1:Place ;
     rdfs:label "Australia; Tara (S)" .
 
-brdflo:L_1299 a schema:Place ;
+brdflo:L_1299 a schema1:Place ;
     rdfs:label "Australia; Taroom (S)" .
 
-brdflo:L_13 a schema:Place ;
+brdflo:L_13 a schema1:Place ;
     rdfs:label "Australia" .
 
-brdflo:L_130 a schema:Place ;
+brdflo:L_130 a schema1:Place ;
     rdfs:label "Maldives" .
 
-brdflo:L_1300 a schema:Place ;
+brdflo:L_1300 a schema1:Place ;
     rdfs:label "Australia; Thuringowa (C)" .
 
-brdflo:L_1301 a schema:Place ;
+brdflo:L_1301 a schema1:Place ;
     rdfs:label "Australia; Tiaro (S)" .
 
-brdflo:L_1302 a schema:Place ;
+brdflo:L_1302 a schema1:Place ;
     rdfs:label "Australia; Toowoomba (C)" .
 
-brdflo:L_1303 a schema:Place ;
+brdflo:L_1303 a schema1:Place ;
     rdfs:label "Australia; Torres (S)" .
 
-brdflo:L_1304 a schema:Place ;
+brdflo:L_1304 a schema1:Place ;
     rdfs:label "Australia; Townsville (C)" .
 
-brdflo:L_1305 a schema:Place ;
+brdflo:L_1305 a schema1:Place ;
     rdfs:label "Australia; Waggamba (S)" .
 
-brdflo:L_1306 a schema:Place ;
+brdflo:L_1306 a schema1:Place ;
     rdfs:label "Australia; Wambo (S)" .
 
-brdflo:L_1307 a schema:Place ;
+brdflo:L_1307 a schema1:Place ;
     rdfs:label "Australia; Warroo (S)" .
 
-brdflo:L_1308 a schema:Place ;
+brdflo:L_1308 a schema1:Place ;
     rdfs:label "Australia; Warwick (S)" .
 
-brdflo:L_1309 a schema:Place ;
+brdflo:L_1309 a schema1:Place ;
     rdfs:label "Australia; Whitsunday (S)" .
 
-brdflo:L_131 a schema:Place ;
+brdflo:L_131 a schema1:Place ;
     rdfs:label "Mali" .
 
-brdflo:L_1310 a schema:Place ;
+brdflo:L_1310 a schema1:Place ;
     rdfs:label "Australia; Winton (S)" .
 
-brdflo:L_1311 a schema:Place ;
+brdflo:L_1311 a schema1:Place ;
     rdfs:label "Australia; Wondai (S)" .
 
-brdflo:L_1312 a schema:Place ;
+brdflo:L_1312 a schema1:Place ;
     rdfs:label "Australia; Woocoo (S)" .
 
-brdflo:L_1313 a schema:Place ;
+brdflo:L_1313 a schema1:Place ;
     rdfs:label "Australia; Unincorporated Qld" .
 
-brdflo:L_1314 a schema:Place ;
+brdflo:L_1314 a schema1:Place ;
     rdfs:label "Australia; Adelaide (C)" .
 
-brdflo:L_1315 a schema:Place ;
+brdflo:L_1315 a schema1:Place ;
     rdfs:label "Australia; Angaston (DC)" .
 
-brdflo:L_1316 a schema:Place ;
+brdflo:L_1316 a schema1:Place ;
     rdfs:label "Australia; Barmera (DC)" .
 
-brdflo:L_1317 a schema:Place ;
+brdflo:L_1317 a schema1:Place ;
     rdfs:label "Australia; Barossa (DC)" .
 
-brdflo:L_1318 a schema:Place ;
+brdflo:L_1318 a schema1:Place ;
     rdfs:label "Australia; Beachport (DC)" .
 
-brdflo:L_1319 a schema:Place ;
+brdflo:L_1319 a schema1:Place ;
     rdfs:label "Australia; Berri (DC)" .
 
-brdflo:L_132 a schema:Place ;
+brdflo:L_132 a schema1:Place ;
     rdfs:label "Malta" .
 
-brdflo:L_1320 a schema:Place ;
+brdflo:L_1320 a schema1:Place ;
     rdfs:label "Australia; Blyth-Snowtown (DC)" .
 
-brdflo:L_1321 a schema:Place ;
+brdflo:L_1321 a schema1:Place ;
     rdfs:label "Australia; Brighton (C)" .
 
-brdflo:L_1322 a schema:Place ;
+brdflo:L_1322 a schema1:Place ;
     rdfs:label "Australia; Browns Well (DC)" .
 
-brdflo:L_1323 a schema:Place ;
+brdflo:L_1323 a schema1:Place ;
     rdfs:label "Australia; Burnside (C)" .
 
-brdflo:L_1324 a schema:Place ;
+brdflo:L_1324 a schema1:Place ;
     rdfs:label "Australia; Burra Burra (DC)" .
 
-brdflo:L_1325 a schema:Place ;
+brdflo:L_1325 a schema1:Place ;
     rdfs:label "Australia; Bute (DC)" .
 
-brdflo:L_1326 a schema:Place ;
+brdflo:L_1326 a schema1:Place ;
     rdfs:label "Australia; Campbelltown (C)" .
 
-brdflo:L_1327 a schema:Place ;
+brdflo:L_1327 a schema1:Place ;
     rdfs:label "Australia; Carrieton (DC)" .
 
-brdflo:L_1328 a schema:Place ;
+brdflo:L_1328 a schema1:Place ;
     rdfs:label "Australia; Ceduna (DC)" .
 
-brdflo:L_1329 a schema:Place ;
+brdflo:L_1329 a schema1:Place ;
     rdfs:label "Australia; Central Yorke Peninsula (DC)" .
 
-brdflo:L_133 a schema:Place ;
+brdflo:L_133 a schema1:Place ;
     rdfs:label "Marshall Islands" .
 
-brdflo:L_1330 a schema:Place ;
+brdflo:L_1330 a schema1:Place ;
     rdfs:label "Australia; Clare (DC)" .
 
-brdflo:L_1331 a schema:Place ;
+brdflo:L_1331 a schema1:Place ;
     rdfs:label "Australia; Cleve (DC)" .
 
-brdflo:L_1332 a schema:Place ;
+brdflo:L_1332 a schema1:Place ;
     rdfs:label "Australia; Coober Pedy (DC)" .
 
-brdflo:L_1333 a schema:Place ;
+brdflo:L_1333 a schema1:Place ;
     rdfs:label "Australia; Coonalpyn Downs (DC)" .
 
-brdflo:L_1334 a schema:Place ;
+brdflo:L_1334 a schema1:Place ;
     rdfs:label "Australia; Crystal Brook-Redhill (DC)" .
 
-brdflo:L_1335 a schema:Place ;
+brdflo:L_1335 a schema1:Place ;
     rdfs:label "Australia; Dudley (DC)" .
 
-brdflo:L_1336 a schema:Place ;
+brdflo:L_1336 a schema1:Place ;
     rdfs:label "Australia; East Torrens (DC)" .
 
-brdflo:L_1337 a schema:Place ;
+brdflo:L_1337 a schema1:Place ;
     rdfs:label "Australia; Elizabeth (C)" .
 
-brdflo:L_1338 a schema:Place ;
+brdflo:L_1338 a schema1:Place ;
     rdfs:label "Australia; Elliston (DC)" .
 
-brdflo:L_1339 a schema:Place ;
+brdflo:L_1339 a schema1:Place ;
     rdfs:label "Australia; Enfield (C)" .
 
-brdflo:L_134 a schema:Place ;
+brdflo:L_134 a schema1:Place ;
     rdfs:label "Martinique" .
 
-brdflo:L_1340 a schema:Place ;
+brdflo:L_1340 a schema1:Place ;
     rdfs:label "Australia; Eudunda (DC)" .
 
-brdflo:L_1341 a schema:Place ;
+brdflo:L_1341 a schema1:Place ;
     rdfs:label "Australia; Franklin Harbor (DC)" .
 
-brdflo:L_1342 a schema:Place ;
+brdflo:L_1342 a schema1:Place ;
     rdfs:label "Australia; Gawler (M)" .
 
-brdflo:L_1343 a schema:Place ;
+brdflo:L_1343 a schema1:Place ;
     rdfs:label "Australia; Glenelg (C)" .
 
-brdflo:L_1344 a schema:Place ;
+brdflo:L_1344 a schema1:Place ;
     rdfs:label "Australia; Gumeracha (DC)" .
 
-brdflo:L_1345 a schema:Place ;
+brdflo:L_1345 a schema1:Place ;
     rdfs:label "Australia; Hallett (DC)" .
 
-brdflo:L_1346 a schema:Place ;
+brdflo:L_1346 a schema1:Place ;
     rdfs:label "Australia; Happy Valley (C)" .
 
-brdflo:L_1347 a schema:Place ;
+brdflo:L_1347 a schema1:Place ;
     rdfs:label "Australia; Hawker (DC)" .
 
-brdflo:L_1348 a schema:Place ;
+brdflo:L_1348 a schema1:Place ;
     rdfs:label "Australia; Henley & Grange (C)" .
 
-brdflo:L_1349 a schema:Place ;
+brdflo:L_1349 a schema1:Place ;
     rdfs:label "Australia; Hindmarsh and Woodville (C)" .
 
-brdflo:L_135 a schema:Place ;
+brdflo:L_135 a schema1:Place ;
     rdfs:label "Mauritania" .
 
-brdflo:L_1350 a schema:Place ;
+brdflo:L_1350 a schema1:Place ;
     rdfs:label "Australia; Jamestown (DC)" .
 
-brdflo:L_1351 a schema:Place ;
+brdflo:L_1351 a schema1:Place ;
     rdfs:label "Australia; Kanyaka-Quorn (DC)" .
 
-brdflo:L_1352 a schema:Place ;
+brdflo:L_1352 a schema1:Place ;
     rdfs:label "Australia; Kapunda (DC)" .
 
-brdflo:L_1353 a schema:Place ;
+brdflo:L_1353 a schema1:Place ;
     rdfs:label "Australia; Karoonda East Murray (DC)" .
 
-brdflo:L_1354 a schema:Place ;
+brdflo:L_1354 a schema1:Place ;
     rdfs:label "Australia; Kensington & Norwood (C)" .
 
-brdflo:L_1355 a schema:Place ;
+brdflo:L_1355 a schema1:Place ;
     rdfs:label "Australia; Kimba (DC)" .
 
-brdflo:L_1356 a schema:Place ;
+brdflo:L_1356 a schema1:Place ;
     rdfs:label "Australia; Kingscote (DC)" .
 
-brdflo:L_1357 a schema:Place ;
+brdflo:L_1357 a schema1:Place ;
     rdfs:label "Australia; Lacepede (DC)" .
 
-brdflo:L_1358 a schema:Place ;
+brdflo:L_1358 a schema1:Place ;
     rdfs:label "Australia; Lameroo (DC)" .
 
-brdflo:L_1359 a schema:Place ;
+brdflo:L_1359 a schema1:Place ;
     rdfs:label "Australia; Le Hunte (DC)" .
 
-brdflo:L_136 a schema:Place ;
+brdflo:L_136 a schema1:Place ;
     rdfs:label "Mauritius" .
 
-brdflo:L_1360 a schema:Place ;
+brdflo:L_1360 a schema1:Place ;
     rdfs:label "Australia; Light (DC)" .
 
-brdflo:L_1361 a schema:Place ;
+brdflo:L_1361 a schema1:Place ;
     rdfs:label "Australia; Lower Eyre Peninsula (DC)" .
 
-brdflo:L_1362 a schema:Place ;
+brdflo:L_1362 a schema1:Place ;
     rdfs:label "Australia; Loxton (DC)" .
 
-brdflo:L_1363 a schema:Place ;
+brdflo:L_1363 a schema1:Place ;
     rdfs:label "Australia; Lucindale (DC)" .
 
-brdflo:L_1364 a schema:Place ;
+brdflo:L_1364 a schema1:Place ;
     rdfs:label "Australia; Mallala (DC)" .
 
-brdflo:L_1365 a schema:Place ;
+brdflo:L_1365 a schema1:Place ;
     rdfs:label "Australia; Mannum (DC)" .
 
-brdflo:L_1366 a schema:Place ;
+brdflo:L_1366 a schema1:Place ;
     rdfs:label "Australia; Marion (C)" .
 
-brdflo:L_1367 a schema:Place ;
+brdflo:L_1367 a schema1:Place ;
     rdfs:label "Australia; Meningie (DC)" .
 
-brdflo:L_1368 a schema:Place ;
+brdflo:L_1368 a schema1:Place ;
     rdfs:label "Australia; Millicent (DC)" .
 
-brdflo:L_1369 a schema:Place ;
+brdflo:L_1369 a schema1:Place ;
     rdfs:label "Australia; Minlaton (DC)" .
 
-brdflo:L_137 a schema:Place ;
+brdflo:L_137 a schema1:Place ;
     rdfs:label "Mayotte" .
 
-brdflo:L_1370 a schema:Place ;
+brdflo:L_1370 a schema1:Place ;
     rdfs:label "Australia; Mitcham (C)" .
 
-brdflo:L_1371 a schema:Place ;
+brdflo:L_1371 a schema1:Place ;
     rdfs:label "Australia; Morgan (DC)" .
 
-brdflo:L_1372 a schema:Place ;
+brdflo:L_1372 a schema1:Place ;
     rdfs:label "Australia; Mount Barker (DC)" .
 
-brdflo:L_1373 a schema:Place ;
+brdflo:L_1373 a schema1:Place ;
     rdfs:label "Australia; Mount Gambier (C)" .
 
-brdflo:L_1374 a schema:Place ;
+brdflo:L_1374 a schema1:Place ;
     rdfs:label "Australia; Mount Gambier (DC)" .
 
-brdflo:L_1375 a schema:Place ;
+brdflo:L_1375 a schema1:Place ;
     rdfs:label "Australia; Mount Pleasant (DC)" .
 
-brdflo:L_1376 a schema:Place ;
+brdflo:L_1376 a schema1:Place ;
     rdfs:label "Australia; Mount Remarkable (DC)" .
 
-brdflo:L_1377 a schema:Place ;
+brdflo:L_1377 a schema1:Place ;
     rdfs:label "Australia; Munno Para (C)" .
 
-brdflo:L_1378 a schema:Place ;
+brdflo:L_1378 a schema1:Place ;
     rdfs:label "Australia; Murray Bridge (RC)" .
 
-brdflo:L_1379 a schema:Place ;
+brdflo:L_1379 a schema1:Place ;
     rdfs:label "Australia; Naracoorte (M)" .
 
-brdflo:L_138 a schema:Place ;
+brdflo:L_138 a schema1:Place ;
     rdfs:label "Mexico" .
 
-brdflo:L_1380 a schema:Place ;
+brdflo:L_1380 a schema1:Place ;
     rdfs:label "Australia; Naracoorte (DC)" .
 
-brdflo:L_1381 a schema:Place ;
+brdflo:L_1381 a schema1:Place ;
     rdfs:label "Australia; Noarlunga (C)" .
 
-brdflo:L_1382 a schema:Place ;
+brdflo:L_1382 a schema1:Place ;
     rdfs:label "Australia; Northern Yorke Peninsula (DC)" .
 
-brdflo:L_1383 a schema:Place ;
+brdflo:L_1383 a schema1:Place ;
     rdfs:label "Australia; Onkaparinga (DC)" .
 
-brdflo:L_1384 a schema:Place ;
+brdflo:L_1384 a schema1:Place ;
     rdfs:label "Australia; Orroroo (DC)" .
 
-brdflo:L_1385 a schema:Place ;
+brdflo:L_1385 a schema1:Place ;
     rdfs:label "Australia; Paringa (DC)" .
 
-brdflo:L_1386 a schema:Place ;
+brdflo:L_1386 a schema1:Place ;
     rdfs:label "Australia; Payneham (C)" .
 
-brdflo:L_1387 a schema:Place ;
+brdflo:L_1387 a schema1:Place ;
     rdfs:label "Australia; Peake (DC)" .
 
-brdflo:L_1388 a schema:Place ;
+brdflo:L_1388 a schema1:Place ;
     rdfs:label "Australia; Penola (DC)" .
 
-brdflo:L_1389 a schema:Place ;
+brdflo:L_1389 a schema1:Place ;
     rdfs:label "Australia; Peterborough (M)" .
 
-brdflo:L_139 a schema:Place ;
+brdflo:L_139 a schema1:Place ;
     rdfs:label "Micronesia, Federated States of" .
 
-brdflo:L_1390 a schema:Place ;
+brdflo:L_1390 a schema1:Place ;
     rdfs:label "Australia; Peterborough (DC)" .
 
-brdflo:L_1391 a schema:Place ;
+brdflo:L_1391 a schema1:Place ;
     rdfs:label "Australia; Pinnaroo (DC)" .
 
-brdflo:L_1392 a schema:Place ;
+brdflo:L_1392 a schema1:Place ;
     rdfs:label "Australia; Pirie (DC)" .
 
-brdflo:L_1393 a schema:Place ;
+brdflo:L_1393 a schema1:Place ;
     rdfs:label "Australia; Port Adelaide (C)" .
 
-brdflo:L_1394 a schema:Place ;
+brdflo:L_1394 a schema1:Place ;
     rdfs:label "Australia; Port Augusta (C)" .
 
-brdflo:L_1395 a schema:Place ;
+brdflo:L_1395 a schema1:Place ;
     rdfs:label "Australia; Port Broughton (DC)" .
 
-brdflo:L_1396 a schema:Place ;
+brdflo:L_1396 a schema1:Place ;
     rdfs:label "Australia; Port Elliot & Goolwa (DC)" .
 
-brdflo:L_1397 a schema:Place ;
+brdflo:L_1397 a schema1:Place ;
     rdfs:label "Australia; Port Lincoln (C)" .
 
-brdflo:L_1398 a schema:Place ;
+brdflo:L_1398 a schema1:Place ;
     rdfs:label "Australia; Port MacDonnell (DC)" .
 
-brdflo:L_1399 a schema:Place ;
+brdflo:L_1399 a schema1:Place ;
     rdfs:label "Australia; Port Pirie (C)" .
 
-brdflo:L_14 a schema:Place ;
+brdflo:L_14 a schema1:Place ;
     rdfs:label "Austria" .
 
-brdflo:L_140 a schema:Place ;
+brdflo:L_140 a schema1:Place ;
     rdfs:label "Monaco" .
 
-brdflo:L_1400 a schema:Place ;
+brdflo:L_1400 a schema1:Place ;
     rdfs:label "Australia; Prospect (C)" .
 
-brdflo:L_1401 a schema:Place ;
+brdflo:L_1401 a schema1:Place ;
     rdfs:label "Australia; Renmark (M)" .
 
-brdflo:L_1402 a schema:Place ;
+brdflo:L_1402 a schema1:Place ;
     rdfs:label "Australia; Ridley-Truro (DC)" .
 
-brdflo:L_1403 a schema:Place ;
+brdflo:L_1403 a schema1:Place ;
     rdfs:label "Australia; Riverton (DC)" .
 
-brdflo:L_1404 a schema:Place ;
+brdflo:L_1404 a schema1:Place ;
     rdfs:label "Australia; Robe (DC)" .
 
-brdflo:L_1405 a schema:Place ;
+brdflo:L_1405 a schema1:Place ;
     rdfs:label "Australia; Robertstown (DC)" .
 
-brdflo:L_1406 a schema:Place ;
+brdflo:L_1406 a schema1:Place ;
     rdfs:label "Australia; Rocky River (DC)" .
 
-brdflo:L_1407 a schema:Place ;
+brdflo:L_1407 a schema1:Place ;
     rdfs:label "Australia; Roxby Downs (M)" .
 
-brdflo:L_1408 a schema:Place ;
+brdflo:L_1408 a schema1:Place ;
     rdfs:label "Australia; Saddleworth & Auburn (DC)" .
 
-brdflo:L_1409 a schema:Place ;
+brdflo:L_1409 a schema1:Place ;
     rdfs:label "Australia; St Peters (M)" .
 
-brdflo:L_141 a schema:Place ;
+brdflo:L_141 a schema1:Place ;
     rdfs:label "Mongolia" .
 
-brdflo:L_1410 a schema:Place ;
+brdflo:L_1410 a schema1:Place ;
     rdfs:label "Australia; Salisbury (C)" .
 
-brdflo:L_1411 a schema:Place ;
+brdflo:L_1411 a schema1:Place ;
     rdfs:label "Australia; Spalding (DC)" .
 
-brdflo:L_1412 a schema:Place ;
+brdflo:L_1412 a schema1:Place ;
     rdfs:label "Australia; Stirling (DC)" .
 
-brdflo:L_1413 a schema:Place ;
+brdflo:L_1413 a schema1:Place ;
     rdfs:label "Australia; Strathalbyn (DC)" .
 
-brdflo:L_1414 a schema:Place ;
+brdflo:L_1414 a schema1:Place ;
     rdfs:label "Australia; Streaky Bay (DC)" .
 
-brdflo:L_1415 a schema:Place ;
+brdflo:L_1415 a schema1:Place ;
     rdfs:label "Australia; Tanunda (DC)" .
 
-brdflo:L_1416 a schema:Place ;
+brdflo:L_1416 a schema1:Place ;
     rdfs:label "Australia; Tatiara (DC)" .
 
-brdflo:L_1417 a schema:Place ;
+brdflo:L_1417 a schema1:Place ;
     rdfs:label "Australia; Tea Tree Gully (C)" .
 
-brdflo:L_1418 a schema:Place ;
+brdflo:L_1418 a schema1:Place ;
     rdfs:label "Australia; Thebarton (M)" .
 
-brdflo:L_1419 a schema:Place ;
+brdflo:L_1419 a schema1:Place ;
     rdfs:label "Australia; Tumby Bay (DC)" .
 
-brdflo:L_142 a schema:Place ;
+brdflo:L_142 a schema1:Place ;
     rdfs:label "Montenegro" .
 
-brdflo:L_1420 a schema:Place ;
+brdflo:L_1420 a schema1:Place ;
     rdfs:label "Australia; Unley (C)" .
 
-brdflo:L_1421 a schema:Place ;
+brdflo:L_1421 a schema1:Place ;
     rdfs:label "Australia; Victor Harbor (DC)" .
 
-brdflo:L_1422 a schema:Place ;
+brdflo:L_1422 a schema1:Place ;
     rdfs:label "Australia; Waikerie (DC)" .
 
-brdflo:L_1423 a schema:Place ;
+brdflo:L_1423 a schema1:Place ;
     rdfs:label "Australia; Wakefield Plains (DC)" .
 
-brdflo:L_1424 a schema:Place ;
+brdflo:L_1424 a schema1:Place ;
     rdfs:label "Australia; Walkerville (M)" .
 
-brdflo:L_1425 a schema:Place ;
+brdflo:L_1425 a schema1:Place ;
     rdfs:label "Australia; Wallaroo (M)" .
 
-brdflo:L_1426 a schema:Place ;
+brdflo:L_1426 a schema1:Place ;
     rdfs:label "Australia; Warooka (DC)" .
 
-brdflo:L_1427 a schema:Place ;
+brdflo:L_1427 a schema1:Place ;
     rdfs:label "Australia; West Torrens (C)" .
 
-brdflo:L_1428 a schema:Place ;
+brdflo:L_1428 a schema1:Place ;
     rdfs:label "Australia; Whyalla (C)" .
 
-brdflo:L_1429 a schema:Place ;
+brdflo:L_1429 a schema1:Place ;
     rdfs:label "Australia; Willunga (DC)" .
 
-brdflo:L_143 a schema:Place ;
+brdflo:L_143 a schema1:Place ;
     rdfs:label "Montserrat" .
 
-brdflo:L_1430 a schema:Place ;
+brdflo:L_1430 a schema1:Place ;
     rdfs:label "Australia; Yankalilla (DC)" .
 
-brdflo:L_1431 a schema:Place ;
+brdflo:L_1431 a schema1:Place ;
     rdfs:label "Australia; Yorketown (DC)" .
 
-brdflo:L_1432 a schema:Place ;
+brdflo:L_1432 a schema1:Place ;
     rdfs:label "Australia; Unincorporated SA" .
 
-brdflo:L_1433 a schema:Place ;
+brdflo:L_1433 a schema1:Place ;
     rdfs:label "Australia; Albany (T)" .
 
-brdflo:L_1434 a schema:Place ;
+brdflo:L_1434 a schema1:Place ;
     rdfs:label "Australia; Albany (S)" .
 
-brdflo:L_1435 a schema:Place ;
+brdflo:L_1435 a schema1:Place ;
     rdfs:label "Australia; Armadale (C)" .
 
-brdflo:L_1436 a schema:Place ;
+brdflo:L_1436 a schema1:Place ;
     rdfs:label "Australia; Ashburton (S)" .
 
-brdflo:L_1437 a schema:Place ;
+brdflo:L_1437 a schema1:Place ;
     rdfs:label "Australia; Augusta-Margaret River (S)" .
 
-brdflo:L_1438 a schema:Place ;
+brdflo:L_1438 a schema1:Place ;
     rdfs:label "Australia; Bassendean (T)" .
 
-brdflo:L_1439 a schema:Place ;
+brdflo:L_1439 a schema1:Place ;
     rdfs:label "Australia; Bayswater (C)" .
 
-brdflo:L_144 a schema:Place ;
+brdflo:L_144 a schema1:Place ;
     rdfs:label "Morocco" .
 
-brdflo:L_1440 a schema:Place ;
+brdflo:L_1440 a schema1:Place ;
     rdfs:label "Australia; Belmont (C)" .
 
-brdflo:L_1441 a schema:Place ;
+brdflo:L_1441 a schema1:Place ;
     rdfs:label "Australia; Beverley (S)" .
 
-brdflo:L_1442 a schema:Place ;
+brdflo:L_1442 a schema1:Place ;
     rdfs:label "Australia; Boddington (S)" .
 
-brdflo:L_1443 a schema:Place ;
+brdflo:L_1443 a schema1:Place ;
     rdfs:label "Australia; Boyup Brook (S)" .
 
-brdflo:L_1444 a schema:Place ;
+brdflo:L_1444 a schema1:Place ;
     rdfs:label "Australia; Bridgetown-Greenbushes (S)" .
 
-brdflo:L_1445 a schema:Place ;
+brdflo:L_1445 a schema1:Place ;
     rdfs:label "Australia; Brookton (S)" .
 
-brdflo:L_1446 a schema:Place ;
+brdflo:L_1446 a schema1:Place ;
     rdfs:label "Australia; Broome (S)" .
 
-brdflo:L_1447 a schema:Place ;
+brdflo:L_1447 a schema1:Place ;
     rdfs:label "Australia; Broomehill (S)" .
 
-brdflo:L_1448 a schema:Place ;
+brdflo:L_1448 a schema1:Place ;
     rdfs:label "Australia; Bruce Rock (S)" .
 
-brdflo:L_1449 a schema:Place ;
+brdflo:L_1449 a schema1:Place ;
     rdfs:label "Australia; Bunbury (C)" .
 
-brdflo:L_145 a schema:Place ;
+brdflo:L_145 a schema1:Place ;
     rdfs:label "Mozambique" .
 
-brdflo:L_1450 a schema:Place ;
+brdflo:L_1450 a schema1:Place ;
     rdfs:label "Australia; Busselton (S)" .
 
-brdflo:L_1451 a schema:Place ;
+brdflo:L_1451 a schema1:Place ;
     rdfs:label "Australia; Cambridge (T)" .
 
-brdflo:L_1452 a schema:Place ;
+brdflo:L_1452 a schema1:Place ;
     rdfs:label "Australia; Canning (C)" .
 
-brdflo:L_1453 a schema:Place ;
+brdflo:L_1453 a schema1:Place ;
     rdfs:label "Australia; Capel (S)" .
 
-brdflo:L_1454 a schema:Place ;
+brdflo:L_1454 a schema1:Place ;
     rdfs:label "Australia; Carnamah (S)" .
 
-brdflo:L_1455 a schema:Place ;
+brdflo:L_1455 a schema1:Place ;
     rdfs:label "Australia; Carnarvon (S)" .
 
-brdflo:L_1456 a schema:Place ;
+brdflo:L_1456 a schema1:Place ;
     rdfs:label "Australia; Chapman Valley (S)" .
 
-brdflo:L_1457 a schema:Place ;
+brdflo:L_1457 a schema1:Place ;
     rdfs:label "Australia; Chittering (S)" .
 
-brdflo:L_1458 a schema:Place ;
+brdflo:L_1458 a schema1:Place ;
     rdfs:label "Australia; Claremont (T)" .
 
-brdflo:L_1459 a schema:Place ;
+brdflo:L_1459 a schema1:Place ;
     rdfs:label "Australia; Cockburn (C)" .
 
-brdflo:L_146 a schema:Place ;
+brdflo:L_146 a schema1:Place ;
     rdfs:label "Myanmar (Burma)" .
 
-brdflo:L_1460 a schema:Place ;
+brdflo:L_1460 a schema1:Place ;
     rdfs:label "Australia; Collie (S)" .
 
-brdflo:L_1461 a schema:Place ;
+brdflo:L_1461 a schema1:Place ;
     rdfs:label "Australia; Coolgardie (S)" .
 
-brdflo:L_1462 a schema:Place ;
+brdflo:L_1462 a schema1:Place ;
     rdfs:label "Australia; Coorow (S)" .
 
-brdflo:L_1463 a schema:Place ;
+brdflo:L_1463 a schema1:Place ;
     rdfs:label "Australia; Corrigin (S)" .
 
-brdflo:L_1464 a schema:Place ;
+brdflo:L_1464 a schema1:Place ;
     rdfs:label "Australia; Cottesloe (T)" .
 
-brdflo:L_1465 a schema:Place ;
+brdflo:L_1465 a schema1:Place ;
     rdfs:label "Australia; Cranbrook (S)" .
 
-brdflo:L_1466 a schema:Place ;
+brdflo:L_1466 a schema1:Place ;
     rdfs:label "Australia; Cuballing (S)" .
 
-brdflo:L_1467 a schema:Place ;
+brdflo:L_1467 a schema1:Place ;
     rdfs:label "Australia; Cue (S)" .
 
-brdflo:L_1468 a schema:Place ;
+brdflo:L_1468 a schema1:Place ;
     rdfs:label "Australia; Cunderdin (S)" .
 
-brdflo:L_1469 a schema:Place ;
+brdflo:L_1469 a schema1:Place ;
     rdfs:label "Australia; Dalwallinu (S)" .
 
-brdflo:L_147 a schema:Place ;
+brdflo:L_147 a schema1:Place ;
     rdfs:label "Namibia" .
 
-brdflo:L_1470 a schema:Place ;
+brdflo:L_1470 a schema1:Place ;
     rdfs:label "Australia; Dandaragan (S)" .
 
-brdflo:L_1471 a schema:Place ;
+brdflo:L_1471 a schema1:Place ;
     rdfs:label "Australia; Dardanup (S)" .
 
-brdflo:L_1472 a schema:Place ;
+brdflo:L_1472 a schema1:Place ;
     rdfs:label "Australia; Denmark (S)" .
 
-brdflo:L_1473 a schema:Place ;
+brdflo:L_1473 a schema1:Place ;
     rdfs:label "Australia; Derby-West Kimberley (S)" .
 
-brdflo:L_1474 a schema:Place ;
+brdflo:L_1474 a schema1:Place ;
     rdfs:label "Australia; Donnybrook-Balingup (S)" .
 
-brdflo:L_1475 a schema:Place ;
+brdflo:L_1475 a schema1:Place ;
     rdfs:label "Australia; Dowerin (S)" .
 
-brdflo:L_1476 a schema:Place ;
+brdflo:L_1476 a schema1:Place ;
     rdfs:label "Australia; Dumbleyung (S)" .
 
-brdflo:L_1477 a schema:Place ;
+brdflo:L_1477 a schema1:Place ;
     rdfs:label "Australia; Dundas (S)" .
 
-brdflo:L_1478 a schema:Place ;
+brdflo:L_1478 a schema1:Place ;
     rdfs:label "Australia; East Fremantle (T)" .
 
-brdflo:L_1479 a schema:Place ;
+brdflo:L_1479 a schema1:Place ;
     rdfs:label "Australia; East Pilbara (S)" .
 
-brdflo:L_148 a schema:Place ;
+brdflo:L_148 a schema1:Place ;
     rdfs:label "Nauru" .
 
-brdflo:L_1480 a schema:Place ;
+brdflo:L_1480 a schema1:Place ;
     rdfs:label "Australia; Esperance (S)" .
 
-brdflo:L_1481 a schema:Place ;
+brdflo:L_1481 a schema1:Place ;
     rdfs:label "Australia; Exmouth (S)" .
 
-brdflo:L_1482 a schema:Place ;
+brdflo:L_1482 a schema1:Place ;
     rdfs:label "Australia; Fremantle (C)" .
 
-brdflo:L_1483 a schema:Place ;
+brdflo:L_1483 a schema1:Place ;
     rdfs:label "Australia; Geraldton (C)" .
 
-brdflo:L_1484 a schema:Place ;
+brdflo:L_1484 a schema1:Place ;
     rdfs:label "Australia; Gingin (S)" .
 
-brdflo:L_1485 a schema:Place ;
+brdflo:L_1485 a schema1:Place ;
     rdfs:label "Australia; Gnowangerup (S)" .
 
-brdflo:L_1486 a schema:Place ;
+brdflo:L_1486 a schema1:Place ;
     rdfs:label "Australia; Goomalling (S)" .
 
-brdflo:L_1487 a schema:Place ;
+brdflo:L_1487 a schema1:Place ;
     rdfs:label "Australia; Gosnells (C)" .
 
-brdflo:L_1488 a schema:Place ;
+brdflo:L_1488 a schema1:Place ;
     rdfs:label "Australia; Greenough (S)" .
 
-brdflo:L_1489 a schema:Place ;
+brdflo:L_1489 a schema1:Place ;
     rdfs:label "Australia; Halls Creek (S)" .
 
-brdflo:L_149 a schema:Place ;
+brdflo:L_149 a schema1:Place ;
     rdfs:label "Nepal" .
 
-brdflo:L_1490 a schema:Place ;
+brdflo:L_1490 a schema1:Place ;
     rdfs:label "Australia; Harvey (S)" .
 
-brdflo:L_1491 a schema:Place ;
+brdflo:L_1491 a schema1:Place ;
     rdfs:label "Australia; Irwin (S)" .
 
-brdflo:L_1492 a schema:Place ;
+brdflo:L_1492 a schema1:Place ;
     rdfs:label "Australia; Jerramungup (S)" .
 
-brdflo:L_1493 a schema:Place ;
+brdflo:L_1493 a schema1:Place ;
     rdfs:label "Australia; Kalamunda (S)" .
 
-brdflo:L_1494 a schema:Place ;
+brdflo:L_1494 a schema1:Place ;
     rdfs:label "Australia; Kalgoorlie/Boulder (C)" .
 
-brdflo:L_1495 a schema:Place ;
+brdflo:L_1495 a schema1:Place ;
     rdfs:label "Australia; Katanning (S)" .
 
-brdflo:L_1496 a schema:Place ;
+brdflo:L_1496 a schema1:Place ;
     rdfs:label "Australia; Kellerberrin (S)" .
 
-brdflo:L_1497 a schema:Place ;
+brdflo:L_1497 a schema1:Place ;
     rdfs:label "Australia; Kent (S)" .
 
-brdflo:L_1498 a schema:Place ;
+brdflo:L_1498 a schema1:Place ;
     rdfs:label "Australia; Kojonup (S)" .
 
-brdflo:L_1499 a schema:Place ;
+brdflo:L_1499 a schema1:Place ;
     rdfs:label "Australia; Kondinin (S)" .
 
-brdflo:L_15 a schema:Place ;
+brdflo:L_15 a schema1:Place ;
     rdfs:label "Azerbaijan" .
 
-brdflo:L_150 a schema:Place ;
+brdflo:L_150 a schema1:Place ;
     rdfs:label "Netherlands" .
 
-brdflo:L_1500 a schema:Place ;
+brdflo:L_1500 a schema1:Place ;
     rdfs:label "Australia; Koorda (S)" .
 
-brdflo:L_1501 a schema:Place ;
+brdflo:L_1501 a schema1:Place ;
     rdfs:label "Australia; Kulin (S)" .
 
-brdflo:L_1502 a schema:Place ;
+brdflo:L_1502 a schema1:Place ;
     rdfs:label "Australia; Kwinana (T)" .
 
-brdflo:L_1503 a schema:Place ;
+brdflo:L_1503 a schema1:Place ;
     rdfs:label "Australia; Lake Grace (S)" .
 
-brdflo:L_1504 a schema:Place ;
+brdflo:L_1504 a schema1:Place ;
     rdfs:label "Australia; Laverton (S)" .
 
-brdflo:L_1505 a schema:Place ;
+brdflo:L_1505 a schema1:Place ;
     rdfs:label "Australia; Leonora (S)" .
 
-brdflo:L_1506 a schema:Place ;
+brdflo:L_1506 a schema1:Place ;
     rdfs:label "Australia; Mandurah (C)" .
 
-brdflo:L_1507 a schema:Place ;
+brdflo:L_1507 a schema1:Place ;
     rdfs:label "Australia; Manjimup (S)" .
 
-brdflo:L_1508 a schema:Place ;
+brdflo:L_1508 a schema1:Place ;
     rdfs:label "Australia; Meekatharra (S)" .
 
-brdflo:L_1509 a schema:Place ;
+brdflo:L_1509 a schema1:Place ;
     rdfs:label "Australia; Melville (C)" .
 
-brdflo:L_151 a schema:Place ;
+brdflo:L_151 a schema1:Place ;
     rdfs:label "New Caledonia" .
 
-brdflo:L_1510 a schema:Place ;
+brdflo:L_1510 a schema1:Place ;
     rdfs:label "Australia; Menzies (S)" .
 
-brdflo:L_1511 a schema:Place ;
+brdflo:L_1511 a schema1:Place ;
     rdfs:label "Australia; Merredin (S)" .
 
-brdflo:L_1512 a schema:Place ;
+brdflo:L_1512 a schema1:Place ;
     rdfs:label "Australia; Mingenew (S)" .
 
-brdflo:L_1513 a schema:Place ;
+brdflo:L_1513 a schema1:Place ;
     rdfs:label "Australia; Moora (S)" .
 
-brdflo:L_1514 a schema:Place ;
+brdflo:L_1514 a schema1:Place ;
     rdfs:label "Australia; Morawa (S)" .
 
-brdflo:L_1515 a schema:Place ;
+brdflo:L_1515 a schema1:Place ;
     rdfs:label "Australia; Mosman Park (T)" .
 
-brdflo:L_1516 a schema:Place ;
+brdflo:L_1516 a schema1:Place ;
     rdfs:label "Australia; Mount Magnet (S)" .
 
-brdflo:L_1517 a schema:Place ;
+brdflo:L_1517 a schema1:Place ;
     rdfs:label "Australia; Mount Marshall (S)" .
 
-brdflo:L_1518 a schema:Place ;
+brdflo:L_1518 a schema1:Place ;
     rdfs:label "Australia; Mukinbudin (S)" .
 
-brdflo:L_1519 a schema:Place ;
+brdflo:L_1519 a schema1:Place ;
     rdfs:label "Australia; Mullewa (S)" .
 
-brdflo:L_152 a schema:Place ;
+brdflo:L_152 a schema1:Place ;
     rdfs:label "New Zealand" .
 
-brdflo:L_1520 a schema:Place ;
+brdflo:L_1520 a schema1:Place ;
     rdfs:label "Australia; Mundaring (S)" .
 
-brdflo:L_1521 a schema:Place ;
+brdflo:L_1521 a schema1:Place ;
     rdfs:label "Australia; Murchison (S)" .
 
-brdflo:L_1522 a schema:Place ;
+brdflo:L_1522 a schema1:Place ;
     rdfs:label "Australia; Murray (S)" .
 
-brdflo:L_1523 a schema:Place ;
+brdflo:L_1523 a schema1:Place ;
     rdfs:label "Australia; Nannup (S)" .
 
-brdflo:L_1524 a schema:Place ;
+brdflo:L_1524 a schema1:Place ;
     rdfs:label "Australia; Narembeen (S)" .
 
-brdflo:L_1525 a schema:Place ;
+brdflo:L_1525 a schema1:Place ;
     rdfs:label "Australia; Narrogin (T)" .
 
-brdflo:L_1526 a schema:Place ;
+brdflo:L_1526 a schema1:Place ;
     rdfs:label "Australia; Narrogin (S)" .
 
-brdflo:L_1527 a schema:Place ;
+brdflo:L_1527 a schema1:Place ;
     rdfs:label "Australia; Nedlands (C)" .
 
-brdflo:L_1528 a schema:Place ;
+brdflo:L_1528 a schema1:Place ;
     rdfs:label "Australia; Ngaanyatjarraku (S)" .
 
-brdflo:L_1529 a schema:Place ;
+brdflo:L_1529 a schema1:Place ;
     rdfs:label "Australia; Northam (T)" .
 
-brdflo:L_153 a schema:Place ;
+brdflo:L_153 a schema1:Place ;
     rdfs:label "Nicaragua" .
 
-brdflo:L_1530 a schema:Place ;
+brdflo:L_1530 a schema1:Place ;
     rdfs:label "Australia; Northam (S)" .
 
-brdflo:L_1531 a schema:Place ;
+brdflo:L_1531 a schema1:Place ;
     rdfs:label "Australia; Northampton (S)" .
 
-brdflo:L_1532 a schema:Place ;
+brdflo:L_1532 a schema1:Place ;
     rdfs:label "Australia; Nungarin (S)" .
 
-brdflo:L_1533 a schema:Place ;
+brdflo:L_1533 a schema1:Place ;
     rdfs:label "Australia; Peppermint Grove (S)" .
 
-brdflo:L_1534 a schema:Place ;
+brdflo:L_1534 a schema1:Place ;
     rdfs:label "Australia; Perenjori (S)" .
 
-brdflo:L_1535 a schema:Place ;
+brdflo:L_1535 a schema1:Place ;
     rdfs:label "Australia; Perth (C)" .
 
-brdflo:L_1536 a schema:Place ;
+brdflo:L_1536 a schema1:Place ;
     rdfs:label "Australia; Pingelly (S)" .
 
-brdflo:L_1537 a schema:Place ;
+brdflo:L_1537 a schema1:Place ;
     rdfs:label "Australia; Plantagenet (S)" .
 
-brdflo:L_1538 a schema:Place ;
+brdflo:L_1538 a schema1:Place ;
     rdfs:label "Australia; Port Hedland (T)" .
 
-brdflo:L_1539 a schema:Place ;
+brdflo:L_1539 a schema1:Place ;
     rdfs:label "Australia; Quairading (S)" .
 
-brdflo:L_154 a schema:Place ;
+brdflo:L_154 a schema1:Place ;
     rdfs:label "Niger (the)" .
 
-brdflo:L_1540 a schema:Place ;
+brdflo:L_1540 a schema1:Place ;
     rdfs:label "Australia; Ravensthorpe (S)" .
 
-brdflo:L_1541 a schema:Place ;
+brdflo:L_1541 a schema1:Place ;
     rdfs:label "Australia; Rockingham (C)" .
 
-brdflo:L_1542 a schema:Place ;
+brdflo:L_1542 a schema1:Place ;
     rdfs:label "Australia; Roebourne (S)" .
 
-brdflo:L_1543 a schema:Place ;
+brdflo:L_1543 a schema1:Place ;
     rdfs:label "Australia; Sandstone (S)" .
 
-brdflo:L_1544 a schema:Place ;
+brdflo:L_1544 a schema1:Place ;
     rdfs:label "Australia; Serpentine-Jarrahdale (S)" .
 
-brdflo:L_1545 a schema:Place ;
+brdflo:L_1545 a schema1:Place ;
     rdfs:label "Australia; Shark Bay (S)" .
 
-brdflo:L_1546 a schema:Place ;
+brdflo:L_1546 a schema1:Place ;
     rdfs:label "Australia; South Perth (C)" .
 
-brdflo:L_1547 a schema:Place ;
+brdflo:L_1547 a schema1:Place ;
     rdfs:label "Australia; Stirling (C)" .
 
-brdflo:L_1548 a schema:Place ;
+brdflo:L_1548 a schema1:Place ;
     rdfs:label "Australia; Subiaco (C)" .
 
-brdflo:L_1549 a schema:Place ;
+brdflo:L_1549 a schema1:Place ;
     rdfs:label "Australia; Swan (S)" .
 
-brdflo:L_155 a schema:Place ;
+brdflo:L_155 a schema1:Place ;
     rdfs:label "Nigeria" .
 
-brdflo:L_1550 a schema:Place ;
+brdflo:L_1550 a schema1:Place ;
     rdfs:label "Australia; Tambellup (S)" .
 
-brdflo:L_1551 a schema:Place ;
+brdflo:L_1551 a schema1:Place ;
     rdfs:label "Australia; Tammin (S)" .
 
-brdflo:L_1552 a schema:Place ;
+brdflo:L_1552 a schema1:Place ;
     rdfs:label "Australia; Three Springs (S)" .
 
-brdflo:L_1553 a schema:Place ;
+brdflo:L_1553 a schema1:Place ;
     rdfs:label "Australia; Toodyay (S)" .
 
-brdflo:L_1554 a schema:Place ;
+brdflo:L_1554 a schema1:Place ;
     rdfs:label "Australia; Trayning (S)" .
 
-brdflo:L_1555 a schema:Place ;
+brdflo:L_1555 a schema1:Place ;
     rdfs:label "Australia; Upper Gascoyne (S)" .
 
-brdflo:L_1556 a schema:Place ;
+brdflo:L_1556 a schema1:Place ;
     rdfs:label "Australia; Victoria Park (T)" .
 
-brdflo:L_1557 a schema:Place ;
+brdflo:L_1557 a schema1:Place ;
     rdfs:label "Australia; Victoria Plains (S)" .
 
-brdflo:L_1558 a schema:Place ;
+brdflo:L_1558 a schema1:Place ;
     rdfs:label "Australia; Vincent (T)" .
 
-brdflo:L_1559 a schema:Place ;
+brdflo:L_1559 a schema1:Place ;
     rdfs:label "Australia; Wagin (S)" .
 
-brdflo:L_156 a schema:Place ;
+brdflo:L_156 a schema1:Place ;
     rdfs:label "Niue" .
 
-brdflo:L_1560 a schema:Place ;
+brdflo:L_1560 a schema1:Place ;
     rdfs:label "Australia; Wandering (S)" .
 
-brdflo:L_1561 a schema:Place ;
+brdflo:L_1561 a schema1:Place ;
     rdfs:label "Australia; Wanneroo (C)" .
 
-brdflo:L_1562 a schema:Place ;
+brdflo:L_1562 a schema1:Place ;
     rdfs:label "Australia; Waroona (S)" .
 
-brdflo:L_1563 a schema:Place ;
+brdflo:L_1563 a schema1:Place ;
     rdfs:label "Australia; West Arthur (S)" .
 
-brdflo:L_1564 a schema:Place ;
+brdflo:L_1564 a schema1:Place ;
     rdfs:label "Australia; Westonia (S)" .
 
-brdflo:L_1565 a schema:Place ;
+brdflo:L_1565 a schema1:Place ;
     rdfs:label "Australia; Wickepin (S)" .
 
-brdflo:L_1566 a schema:Place ;
+brdflo:L_1566 a schema1:Place ;
     rdfs:label "Australia; Williams (S)" .
 
-brdflo:L_1567 a schema:Place ;
+brdflo:L_1567 a schema1:Place ;
     rdfs:label "Australia; Wiluna (S)" .
 
-brdflo:L_1568 a schema:Place ;
+brdflo:L_1568 a schema1:Place ;
     rdfs:label "Australia; Wongan-Ballidu (S)" .
 
-brdflo:L_1569 a schema:Place ;
+brdflo:L_1569 a schema1:Place ;
     rdfs:label "Australia; Woodanilling (S)" .
 
-brdflo:L_157 a schema:Place ;
+brdflo:L_157 a schema1:Place ;
     rdfs:label "Norfolk Island" .
 
-brdflo:L_1570 a schema:Place ;
+brdflo:L_1570 a schema1:Place ;
     rdfs:label "Australia; Wyalkatchem (S)" .
 
-brdflo:L_1571 a schema:Place ;
+brdflo:L_1571 a schema1:Place ;
     rdfs:label "Australia; Wyndham-East Kimberley (S)" .
 
-brdflo:L_1572 a schema:Place ;
+brdflo:L_1572 a schema1:Place ;
     rdfs:label "Australia; Yalgoo (S)" .
 
-brdflo:L_1573 a schema:Place ;
+brdflo:L_1573 a schema1:Place ;
     rdfs:label "Australia; Yilgarn (S)" .
 
-brdflo:L_1574 a schema:Place ;
+brdflo:L_1574 a schema1:Place ;
     rdfs:label "Australia; York (S)" .
 
-brdflo:L_1575 a schema:Place ;
+brdflo:L_1575 a schema1:Place ;
     rdfs:label "Australia; Break O'Day (M)" .
 
-brdflo:L_1576 a schema:Place ;
+brdflo:L_1576 a schema1:Place ;
     rdfs:label "Australia; Brighton (M)" .
 
-brdflo:L_1577 a schema:Place ;
+brdflo:L_1577 a schema1:Place ;
     rdfs:label "Australia; Burnie (C)" .
 
-brdflo:L_1578 a schema:Place ;
+brdflo:L_1578 a schema1:Place ;
     rdfs:label "Australia; Central Coast (M)" .
 
-brdflo:L_1579 a schema:Place ;
+brdflo:L_1579 a schema1:Place ;
     rdfs:label "Australia; Central Highlands (M)" .
 
-brdflo:L_158 a schema:Place ;
+brdflo:L_158 a schema1:Place ;
     rdfs:label "Northern Mariana Islands" .
 
-brdflo:L_1580 a schema:Place ;
+brdflo:L_1580 a schema1:Place ;
     rdfs:label "Australia; Circular Head (M)" .
 
-brdflo:L_1581 a schema:Place ;
+brdflo:L_1581 a schema1:Place ;
     rdfs:label "Australia; Clarence (C)" .
 
-brdflo:L_1582 a schema:Place ;
+brdflo:L_1582 a schema1:Place ;
     rdfs:label "Australia; Derwent Valley (M)" .
 
-brdflo:L_1583 a schema:Place ;
+brdflo:L_1583 a schema1:Place ;
     rdfs:label "Australia; Devonport (C)" .
 
-brdflo:L_1584 a schema:Place ;
+brdflo:L_1584 a schema1:Place ;
     rdfs:label "Australia; Dorset (M)" .
 
-brdflo:L_1585 a schema:Place ;
+brdflo:L_1585 a schema1:Place ;
     rdfs:label "Australia; Flinders (M)" .
 
-brdflo:L_1586 a schema:Place ;
+brdflo:L_1586 a schema1:Place ;
     rdfs:label "Australia; George Town (M)" .
 
-brdflo:L_1587 a schema:Place ;
+brdflo:L_1587 a schema1:Place ;
     rdfs:label "Australia; Glamorgan/Spring Bay (M)" .
 
-brdflo:L_1588 a schema:Place ;
+brdflo:L_1588 a schema1:Place ;
     rdfs:label "Australia; Glenorchy (C)" .
 
-brdflo:L_1589 a schema:Place ;
+brdflo:L_1589 a schema1:Place ;
     rdfs:label "Australia; Hobart (C)" .
 
-brdflo:L_159 a schema:Place ;
+brdflo:L_159 a schema1:Place ;
     rdfs:label "Norway" .
 
-brdflo:L_1590 a schema:Place ;
+brdflo:L_1590 a schema1:Place ;
     rdfs:label "Australia; Huon Valley (M)" .
 
-brdflo:L_1591 a schema:Place ;
+brdflo:L_1591 a schema1:Place ;
     rdfs:label "Australia; Kentish (M)" .
 
-brdflo:L_1592 a schema:Place ;
+brdflo:L_1592 a schema1:Place ;
     rdfs:label "Australia; King Island (M)" .
 
-brdflo:L_1593 a schema:Place ;
+brdflo:L_1593 a schema1:Place ;
     rdfs:label "Australia; Kingborough (M)" .
 
-brdflo:L_1594 a schema:Place ;
+brdflo:L_1594 a schema1:Place ;
     rdfs:label "Australia; Latrobe (M)" .
 
-brdflo:L_1595 a schema:Place ;
+brdflo:L_1595 a schema1:Place ;
     rdfs:label "Australia; Launceston (C)" .
 
-brdflo:L_1596 a schema:Place ;
+brdflo:L_1596 a schema1:Place ;
     rdfs:label "Australia; Meander Valley (M)" .
 
-brdflo:L_1597 a schema:Place ;
+brdflo:L_1597 a schema1:Place ;
     rdfs:label "Australia; North Midlands (M)" .
 
-brdflo:L_1598 a schema:Place ;
+brdflo:L_1598 a schema1:Place ;
     rdfs:label "Australia; Sorell (M)" .
 
-brdflo:L_1599 a schema:Place ;
+brdflo:L_1599 a schema1:Place ;
     rdfs:label "Australia; Southern Midlands (M)" .
 
-brdflo:L_16 a schema:Place ;
+brdflo:L_16 a schema1:Place ;
     rdfs:label "Bahamas, The" .
 
-brdflo:L_160 a schema:Place ;
+brdflo:L_160 a schema1:Place ;
     rdfs:label "Oman" .
 
-brdflo:L_1600 a schema:Place ;
+brdflo:L_1600 a schema1:Place ;
     rdfs:label "Australia; Tasman (M)" .
 
-brdflo:L_1601 a schema:Place ;
+brdflo:L_1601 a schema1:Place ;
     rdfs:label "Australia; Waratah/Wynyard (M)" .
 
-brdflo:L_1602 a schema:Place ;
+brdflo:L_1602 a schema1:Place ;
     rdfs:label "Australia; West Coast (M)" .
 
-brdflo:L_1603 a schema:Place ;
+brdflo:L_1603 a schema1:Place ;
     rdfs:label "Australia; West Tamar (M)" .
 
-brdflo:L_1604 a schema:Place ;
+brdflo:L_1604 a schema1:Place ;
     rdfs:label "Australia; Alice Springs (T)" .
 
-brdflo:L_1605 a schema:Place ;
+brdflo:L_1605 a schema1:Place ;
     rdfs:label "Australia; Coomalie (CGC)" .
 
-brdflo:L_1606 a schema:Place ;
+brdflo:L_1606 a schema1:Place ;
     rdfs:label "Australia; Darwin (C)" .
 
-brdflo:L_1607 a schema:Place ;
+brdflo:L_1607 a schema1:Place ;
     rdfs:label "Australia; Jabiru (T)" .
 
-brdflo:L_1608 a schema:Place ;
+brdflo:L_1608 a schema1:Place ;
     rdfs:label "Australia; Katherine (T)" .
 
-brdflo:L_1609 a schema:Place ;
+brdflo:L_1609 a schema1:Place ;
     rdfs:label "Australia; Litchfield (S)" .
 
-brdflo:L_161 a schema:Place ;
+brdflo:L_161 a schema1:Place ;
     rdfs:label "Pakistan" .
 
-brdflo:L_1610 a schema:Place ;
+brdflo:L_1610 a schema1:Place ;
     rdfs:label "Australia; Palmerston (T)" .
 
-brdflo:L_1611 a schema:Place ;
+brdflo:L_1611 a schema1:Place ;
     rdfs:label "Australia; Tennant Creek (T)" .
 
-brdflo:L_1612 a schema:Place ;
+brdflo:L_1612 a schema1:Place ;
     rdfs:label "Australia; Unincorporated NT" .
 
-brdflo:L_1613 a schema:Place ;
+brdflo:L_1613 a schema1:Place ;
     rdfs:label "Australia; Unincorporated ACT" .
 
-brdflo:L_1614 a schema:Place ;
+brdflo:L_1614 a schema1:Place ;
     rdfs:label "Australia; Unincorp. Other Territories" .
 
-brdflo:L_1615 a schema:Place ;
+brdflo:L_1615 a schema1:Place ;
     rdfs:label "Gaza Strip" .
 
-brdflo:L_1616 a schema:Place ;
+brdflo:L_1616 a schema1:Place ;
     rdfs:label "Netherlands Antilles" .
 
-brdflo:L_1617 a schema:Place ;
+brdflo:L_1617 a schema1:Place ;
     rdfs:label "West Bank" .
 
-brdflo:L_1618 a schema:Place ;
+brdflo:L_1618 a schema1:Place ;
     rdfs:label "Western Samoa" .
 
-brdflo:L_1619 a schema:Place ;
+brdflo:L_1619 a schema1:Place ;
     rdfs:label "Zaire" .
 
-brdflo:L_162 a schema:Place ;
+brdflo:L_162 a schema1:Place ;
     rdfs:label "Palau" .
 
-brdflo:L_1620 a schema:Place ;
+brdflo:L_1620 a schema1:Place ;
     rdfs:label "United States of America; New Haven" .
 
-brdflo:L_1621 a schema:Place ;
+brdflo:L_1621 a schema1:Place ;
     rdfs:label "North America" .
 
-brdflo:L_1622 a schema:Place ;
+brdflo:L_1622 a schema1:Place ;
     rdfs:label "Western Europe" .
 
-brdflo:L_1623 a schema:Place ;
+brdflo:L_1623 a schema1:Place ;
     rdfs:label "Austria; Steiemark" .
 
-brdflo:L_1624 a schema:Place ;
+brdflo:L_1624 a schema1:Place ;
     rdfs:label "United States of America; Connecticut" .
 
-brdflo:L_1625 a schema:Place ;
+brdflo:L_1625 a schema1:Place ;
     rdfs:label "Australia; Sydney city center" .
 
-brdflo:L_1626 a schema:Place ;
+brdflo:L_1626 a schema1:Place ;
     rdfs:label "China; Beijing city center" .
 
-brdflo:L_1627 a schema:Place ;
+brdflo:L_1627 a schema1:Place ;
     rdfs:label "Benelux (Netherlands and Belgium and Luxembourg)" .
 
-brdflo:L_1628 a schema:Place ;
+brdflo:L_1628 a schema1:Place ;
     rdfs:label "Scandinavia (Finland and Sweden and Denmark and Norway)" .
 
-brdflo:L_1629 a schema:Place ;
+brdflo:L_1629 a schema1:Place ;
     rdfs:label "Universe" .
 
-brdflo:L_163 a schema:Place ;
+brdflo:L_163 a schema1:Place ;
     rdfs:label "Panama" .
 
-brdflo:L_1630 a schema:Place ;
+brdflo:L_1630 a schema1:Place ;
     rdfs:label "Europe" .
 
-brdflo:L_1631 a schema:Place ;
+brdflo:L_1631 a schema1:Place ;
     rdfs:label "North America" .
 
-brdflo:L_1632 a schema:Place ;
+brdflo:L_1632 a schema1:Place ;
     rdfs:label "Australia; Melbourne" .
 
-brdflo:L_1633 a schema:Place ;
+brdflo:L_1633 a schema1:Place ;
     rdfs:label "Australia; Perth" .
 
-brdflo:L_1634 a schema:Place ;
+brdflo:L_1634 a schema1:Place ;
     rdfs:label "Australia; Brisbane" .
 
-brdflo:L_1635 a schema:Place ;
+brdflo:L_1635 a schema1:Place ;
     rdfs:label "Australia; Adelaide" .
 
-brdflo:L_1636 a schema:Place ;
+brdflo:L_1636 a schema1:Place ;
     rdfs:label "Latin America and Caribbean" .
 
-brdflo:L_1637 a schema:Place ;
+brdflo:L_1637 a schema1:Place ;
     rdfs:label "Akrotiri" .
 
-brdflo:L_1638 a schema:Place ;
+brdflo:L_1638 a schema1:Place ;
     rdfs:label "Antarctica" .
 
-brdflo:L_1639 a schema:Place ;
+brdflo:L_1639 a schema1:Place ;
     rdfs:label "Ashmore and Cartier Islands" .
 
-brdflo:L_164 a schema:Place ;
+brdflo:L_164 a schema1:Place ;
     rdfs:label "Papua New Guinea" .
 
-brdflo:L_1640 a schema:Place ;
+brdflo:L_1640 a schema1:Place ;
     rdfs:label "Baker Island" .
 
-brdflo:L_1641 a schema:Place ;
+brdflo:L_1641 a schema1:Place ;
     rdfs:label "Bassas da India" .
 
-brdflo:L_1642 a schema:Place ;
+brdflo:L_1642 a schema1:Place ;
     rdfs:label "Bouvet Island" .
 
-brdflo:L_1643 a schema:Place ;
+brdflo:L_1643 a schema1:Place ;
     rdfs:label "British Indian Ocean Territory" .
 
-brdflo:L_1644 a schema:Place ;
+brdflo:L_1644 a schema1:Place ;
     rdfs:label "Christmas Island" .
 
-brdflo:L_1645 a schema:Place ;
+brdflo:L_1645 a schema1:Place ;
     rdfs:label "Clipperton Island" .
 
-brdflo:L_1646 a schema:Place ;
+brdflo:L_1646 a schema1:Place ;
     rdfs:label "Cocos (Keeling) Islands" .
 
-brdflo:L_1647 a schema:Place ;
+brdflo:L_1647 a schema1:Place ;
     rdfs:label "Coral Sea Islands" .
 
-brdflo:L_1648 a schema:Place ;
+brdflo:L_1648 a schema1:Place ;
     rdfs:label "Dhekelia" .
 
-brdflo:L_1649 a schema:Place ;
+brdflo:L_1649 a schema1:Place ;
     rdfs:label "Diego Garcia" .
 
-brdflo:L_165 a schema:Place ;
+brdflo:L_165 a schema1:Place ;
     rdfs:label "Paraguay" .
 
-brdflo:L_1650 a schema:Place ;
+brdflo:L_1650 a schema1:Place ;
     rdfs:label "Etorofu, Habomai, Kunashiri, and Shikotan Islands" .
 
-brdflo:L_1651 a schema:Place ;
+brdflo:L_1651 a schema1:Place ;
     rdfs:label "Europa Island" .
 
-brdflo:L_1652 a schema:Place ;
+brdflo:L_1652 a schema1:Place ;
     rdfs:label "French Southern and Antarctic Lands" .
 
-brdflo:L_1653 a schema:Place ;
+brdflo:L_1653 a schema1:Place ;
     rdfs:label "Glorioso Islands" .
 
-brdflo:L_1654 a schema:Place ;
+brdflo:L_1654 a schema1:Place ;
     rdfs:label "Guantanamo Bay Naval Base" .
 
-brdflo:L_1655 a schema:Place ;
+brdflo:L_1655 a schema1:Place ;
     rdfs:label "Heard Island and McDonald Islands" .
 
-brdflo:L_1656 a schema:Place ;
+brdflo:L_1656 a schema1:Place ;
     rdfs:label "Howland Island" .
 
-brdflo:L_1657 a schema:Place ;
+brdflo:L_1657 a schema1:Place ;
     rdfs:label "Jan Mayen" .
 
-brdflo:L_1658 a schema:Place ;
+brdflo:L_1658 a schema1:Place ;
     rdfs:label "Jarvis Island" .
 
-brdflo:L_1659 a schema:Place ;
+brdflo:L_1659 a schema1:Place ;
     rdfs:label "Johnston Atoll" .
 
-brdflo:L_166 a schema:Place ;
+brdflo:L_166 a schema1:Place ;
     rdfs:label "Peru" .
 
-brdflo:L_1660 a schema:Place ;
+brdflo:L_1660 a schema1:Place ;
     rdfs:label "Juan de Nova Island" .
 
-brdflo:L_1661 a schema:Place ;
+brdflo:L_1661 a schema1:Place ;
     rdfs:label "Kingman Reef" .
 
-brdflo:L_1662 a schema:Place ;
+brdflo:L_1662 a schema1:Place ;
     rdfs:label "Kosovo" .
 
-brdflo:L_1663 a schema:Place ;
+brdflo:L_1663 a schema1:Place ;
     rdfs:label "Midway Islands" .
 
-brdflo:L_1664 a schema:Place ;
+brdflo:L_1664 a schema1:Place ;
     rdfs:label "Navassa Island" .
 
-brdflo:L_1665 a schema:Place ;
+brdflo:L_1665 a schema1:Place ;
     rdfs:label "Palmyra Atoll" .
 
-brdflo:L_1666 a schema:Place ;
+brdflo:L_1666 a schema1:Place ;
     rdfs:label "Paracel Islands" .
 
-brdflo:L_1667 a schema:Place ;
+brdflo:L_1667 a schema1:Place ;
     rdfs:label "South Georgia and South Sandwich Islands" .
 
-brdflo:L_1668 a schema:Place ;
+brdflo:L_1668 a schema1:Place ;
     rdfs:label "Spratly Islands" .
 
-brdflo:L_1669 a schema:Place ;
+brdflo:L_1669 a schema1:Place ;
     rdfs:label "Tromelin Island" .
 
-brdflo:L_167 a schema:Place ;
+brdflo:L_167 a schema1:Place ;
     rdfs:label "Philippines" .
 
-brdflo:L_1670 a schema:Place ;
+brdflo:L_1670 a schema1:Place ;
     rdfs:label "Wake Island" .
 
-brdflo:L_1671 a schema:Place ;
+brdflo:L_1671 a schema1:Place ;
     rdfs:label "National" .
 
-brdflo:L_1672 a schema:Place ;
+brdflo:L_1672 a schema1:Place ;
     rdfs:label "Corporation" .
 
-brdflo:L_1673 a schema:Place ;
+brdflo:L_1673 a schema1:Place ;
     rdfs:label "National or corporation" .
 
-brdflo:L_1674 a schema:Place ;
+brdflo:L_1674 a schema1:Place ;
     rdfs:label "All spatial boundaries" .
 
-brdflo:L_1675 a schema:Place ;
+brdflo:L_1675 a schema1:Place ;
     rdfs:label "Africa" .
 
-brdflo:L_1676 a schema:Place ;
+brdflo:L_1676 a schema1:Place ;
     rdfs:label "Asia" .
 
-brdflo:L_1677 a schema:Place ;
+brdflo:L_1677 a schema1:Place ;
     rdfs:label "European Union" .
 
-brdflo:L_1678 a schema:Place ;
+brdflo:L_1678 a schema1:Place ;
     rdfs:label "Austria; Vienna" .
 
-brdflo:L_1679 a schema:Place ;
+brdflo:L_1679 a schema1:Place ;
     rdfs:label "Middle East" .
 
-brdflo:L_168 a schema:Place ;
+brdflo:L_168 a schema1:Place ;
     rdfs:label "Pitcairn Islands" .
 
-brdflo:L_1680 a schema:Place ;
+brdflo:L_1680 a schema1:Place ;
     rdfs:label "Oceania" .
 
-brdflo:L_1681 a schema:Place ;
+brdflo:L_1681 a schema1:Place ;
     rdfs:label "Steiermark; Austria" .
 
-brdflo:L_1682 a schema:Place ;
+brdflo:L_1682 a schema1:Place ;
     rdfs:label "China; urban" .
 
-brdflo:L_1683 a schema:Place ;
+brdflo:L_1683 a schema1:Place ;
     rdfs:label "China; rural" .
 
-brdflo:L_1684 a schema:Place ;
+brdflo:L_1684 a schema1:Place ;
     rdfs:label "Japan; Kitikyushu" .
 
-brdflo:L_1685 a schema:Place ;
+brdflo:L_1685 a schema1:Place ;
     rdfs:label "China; Beijing" .
 
-brdflo:L_1686 a schema:Place ;
+brdflo:L_1686 a schema1:Place ;
     rdfs:label "China and Hong Kong" .
 
-brdflo:L_169 a schema:Place ;
+brdflo:L_169 a schema1:Place ;
     rdfs:label "Poland" .
 
-brdflo:L_17 a schema:Place ;
+brdflo:L_17 a schema1:Place ;
     rdfs:label "Bahrain" .
 
-brdflo:L_170 a schema:Place ;
+brdflo:L_170 a schema1:Place ;
     rdfs:label "Portugal" .
 
-brdflo:L_171 a schema:Place ;
+brdflo:L_171 a schema1:Place ;
     rdfs:label "Puerto Rico" .
 
-brdflo:L_172 a schema:Place ;
+brdflo:L_172 a schema1:Place ;
     rdfs:label "Qatar" .
 
-brdflo:L_173 a schema:Place ;
+brdflo:L_173 a schema1:Place ;
     rdfs:label "South Korea (Republic of Korea)" .
 
-brdflo:L_174 a schema:Place ;
+brdflo:L_174 a schema1:Place ;
     rdfs:label "Moldova (Republic of)" .
 
-brdflo:L_175 a schema:Place ;
+brdflo:L_175 a schema1:Place ;
     rdfs:label "Reunion" .
 
-brdflo:L_176 a schema:Place ;
+brdflo:L_176 a schema1:Place ;
     rdfs:label "Romania" .
 
-brdflo:L_177 a schema:Place ;
+brdflo:L_177 a schema1:Place ;
     rdfs:label "Russian Federation" .
 
-brdflo:L_178 a schema:Place ;
+brdflo:L_178 a schema1:Place ;
     rdfs:label "Rwanda" .
 
-brdflo:L_179 a schema:Place ;
+brdflo:L_179 a schema1:Place ;
     rdfs:label "Saint Helena, Ascension, and Tristan da Cunha" .
 
-brdflo:L_18 a schema:Place ;
+brdflo:L_18 a schema1:Place ;
     rdfs:label "Bangladesh" .
 
-brdflo:L_180 a schema:Place ;
+brdflo:L_180 a schema1:Place ;
     rdfs:label "Saint Kitts and Nevis" .
 
-brdflo:L_181 a schema:Place ;
+brdflo:L_181 a schema1:Place ;
     rdfs:label "Saint Lucia" .
 
-brdflo:L_182 a schema:Place ;
+brdflo:L_182 a schema1:Place ;
     rdfs:label "Saint Martin" .
 
-brdflo:L_183 a schema:Place ;
+brdflo:L_183 a schema1:Place ;
     rdfs:label "Saint Pierre and Miquelon" .
 
-brdflo:L_184 a schema:Place ;
+brdflo:L_184 a schema1:Place ;
     rdfs:label "Saint Vincent and the Grenadines" .
 
-brdflo:L_185 a schema:Place ;
+brdflo:L_185 a schema1:Place ;
     rdfs:label "Saint Barthelemy" .
 
-brdflo:L_186 a schema:Place ;
+brdflo:L_186 a schema1:Place ;
     rdfs:label "Samoa" .
 
-brdflo:L_187 a schema:Place ;
+brdflo:L_187 a schema1:Place ;
     rdfs:label "San Marino" .
 
-brdflo:L_188 a schema:Place ;
+brdflo:L_188 a schema1:Place ;
     rdfs:label "Sao Tome and Principe" .
 
-brdflo:L_189 a schema:Place ;
+brdflo:L_189 a schema1:Place ;
     rdfs:label "Sark" .
 
-brdflo:L_19 a schema:Place ;
+brdflo:L_19 a schema1:Place ;
     rdfs:label "Barbados" .
 
-brdflo:L_190 a schema:Place ;
+brdflo:L_190 a schema1:Place ;
     rdfs:label "Saudi Arabia" .
 
-brdflo:L_191 a schema:Place ;
+brdflo:L_191 a schema1:Place ;
     rdfs:label "Senegal" .
 
-brdflo:L_192 a schema:Place ;
+brdflo:L_192 a schema1:Place ;
     rdfs:label "Serbia" .
 
-brdflo:L_193 a schema:Place ;
+brdflo:L_193 a schema1:Place ;
     rdfs:label "Seychelles" .
 
-brdflo:L_194 a schema:Place ;
+brdflo:L_194 a schema1:Place ;
     rdfs:label "Sierra Leone" .
 
-brdflo:L_195 a schema:Place ;
+brdflo:L_195 a schema1:Place ;
     rdfs:label "Singapore" .
 
-brdflo:L_196 a schema:Place ;
+brdflo:L_196 a schema1:Place ;
     rdfs:label "Sint Maarten" .
 
-brdflo:L_197 a schema:Place ;
+brdflo:L_197 a schema1:Place ;
     rdfs:label "Slovakia" .
 
-brdflo:L_198 a schema:Place ;
+brdflo:L_198 a schema1:Place ;
     rdfs:label "Slovenia" .
 
-brdflo:L_199 a schema:Place ;
+brdflo:L_199 a schema1:Place ;
     rdfs:label "Solomon Islands (the)" .
 
-brdflo:L_2 a schema:Place ;
+brdflo:L_2 a schema1:Place ;
     rdfs:label "Aland Islands" .
 
-brdflo:L_20 a schema:Place ;
+brdflo:L_20 a schema1:Place ;
     rdfs:label "Belarus" .
 
-brdflo:L_200 a schema:Place ;
+brdflo:L_200 a schema1:Place ;
     rdfs:label "Somalia" .
 
-brdflo:L_201 a schema:Place ;
+brdflo:L_201 a schema1:Place ;
     rdfs:label "South Africa" .
 
-brdflo:L_202 a schema:Place ;
+brdflo:L_202 a schema1:Place ;
     rdfs:label "South Sudan" .
 
-brdflo:L_203 a schema:Place ;
+brdflo:L_203 a schema1:Place ;
     rdfs:label "Spain" .
 
-brdflo:L_204 a schema:Place ;
+brdflo:L_204 a schema1:Place ;
     rdfs:label "Sri Lanka" .
 
-brdflo:L_205 a schema:Place ;
+brdflo:L_205 a schema1:Place ;
     rdfs:label "Palestinian Territory (State of Palestine)" .
 
-brdflo:L_206 a schema:Place ;
+brdflo:L_206 a schema1:Place ;
     rdfs:label "Sudan (the)" .
 
-brdflo:L_207 a schema:Place ;
+brdflo:L_207 a schema1:Place ;
     rdfs:label "Suriname" .
 
-brdflo:L_208 a schema:Place ;
+brdflo:L_208 a schema1:Place ;
     rdfs:label "Svalbard (and Jan Mayen Islands)" .
 
-brdflo:L_209 a schema:Place ;
+brdflo:L_209 a schema1:Place ;
     rdfs:label "Swaziland" .
 
-brdflo:L_21 a schema:Place ;
+brdflo:L_21 a schema1:Place ;
     rdfs:label "Belgium" .
 
-brdflo:L_210 a schema:Place ;
+brdflo:L_210 a schema1:Place ;
     rdfs:label "Sweden" .
 
-brdflo:L_211 a schema:Place ;
+brdflo:L_211 a schema1:Place ;
     rdfs:label "Switzerland" .
 
-brdflo:L_212 a schema:Place ;
+brdflo:L_212 a schema1:Place ;
     rdfs:label "Syria (Arab Republic)" .
 
-brdflo:L_213 a schema:Place ;
+brdflo:L_213 a schema1:Place ;
     rdfs:label "Tajikistan" .
 
-brdflo:L_214 a schema:Place ;
+brdflo:L_214 a schema1:Place ;
     rdfs:label "Thailand" .
 
-brdflo:L_215 a schema:Place ;
+brdflo:L_215 a schema1:Place ;
     rdfs:label "Macedonia (the former Yugoslav Republic of)" .
 
-brdflo:L_216 a schema:Place ;
+brdflo:L_216 a schema1:Place ;
     rdfs:label "Timor-Leste" .
 
-brdflo:L_217 a schema:Place ;
+brdflo:L_217 a schema1:Place ;
     rdfs:label "Togo" .
 
-brdflo:L_218 a schema:Place ;
+brdflo:L_218 a schema1:Place ;
     rdfs:label "Tokelau" .
 
-brdflo:L_219 a schema:Place ;
+brdflo:L_219 a schema1:Place ;
     rdfs:label "Tonga" .
 
-brdflo:L_22 a schema:Place ;
+brdflo:L_22 a schema1:Place ;
     rdfs:label "Belize" .
 
-brdflo:L_220 a schema:Place ;
+brdflo:L_220 a schema1:Place ;
     rdfs:label "Trinidad and Tobago" .
 
-brdflo:L_221 a schema:Place ;
+brdflo:L_221 a schema1:Place ;
     rdfs:label "Tunisia" .
 
-brdflo:L_222 a schema:Place ;
+brdflo:L_222 a schema1:Place ;
     rdfs:label "Turkey" .
 
-brdflo:L_223 a schema:Place ;
+brdflo:L_223 a schema1:Place ;
     rdfs:label "Turkmenistan" .
 
-brdflo:L_224 a schema:Place ;
+brdflo:L_224 a schema1:Place ;
     rdfs:label "Turks and Caicos Islands (the)" .
 
-brdflo:L_225 a schema:Place ;
+brdflo:L_225 a schema1:Place ;
     rdfs:label "Tuvalu" .
 
-brdflo:L_226 a schema:Place ;
+brdflo:L_226 a schema1:Place ;
     rdfs:label "Uganda" .
 
-brdflo:L_227 a schema:Place ;
+brdflo:L_227 a schema1:Place ;
     rdfs:label "Ukraine" .
 
-brdflo:L_228 a schema:Place ;
+brdflo:L_228 a schema1:Place ;
     rdfs:label "United Arab Emirates" .
 
-brdflo:L_229 a schema:Place ;
+brdflo:L_229 a schema1:Place ;
     rdfs:label "United Kingdom of Great Britain and Northern Ireland" .
 
-brdflo:L_23 a schema:Place ;
+brdflo:L_23 a schema1:Place ;
     rdfs:label "Benin" .
 
-brdflo:L_230 a schema:Place ;
+brdflo:L_230 a schema1:Place ;
     rdfs:label "Tanzania (United Republic of)" .
 
-brdflo:L_231 a schema:Place ;
+brdflo:L_231 a schema1:Place ;
     rdfs:label "United States of America" .
 
-brdflo:L_232 a schema:Place ;
+brdflo:L_232 a schema1:Place ;
     rdfs:label "United States Virgin Islands" .
 
-brdflo:L_233 a schema:Place ;
+brdflo:L_233 a schema1:Place ;
     rdfs:label "Uruguay" .
 
-brdflo:L_234 a schema:Place ;
+brdflo:L_234 a schema1:Place ;
     rdfs:label "Uzbekistan" .
 
-brdflo:L_235 a schema:Place ;
+brdflo:L_235 a schema1:Place ;
     rdfs:label "Vanuatu" .
 
-brdflo:L_236 a schema:Place ;
+brdflo:L_236 a schema1:Place ;
     rdfs:label "Venezuela (Bolivarian Republic of)" .
 
-brdflo:L_237 a schema:Place ;
+brdflo:L_237 a schema1:Place ;
     rdfs:label "Vietnam" .
 
-brdflo:L_238 a schema:Place ;
+brdflo:L_238 a schema1:Place ;
     rdfs:label "Wallis and Futuna" .
 
-brdflo:L_239 a schema:Place ;
+brdflo:L_239 a schema1:Place ;
     rdfs:label "Western Sahara" .
 
-brdflo:L_24 a schema:Place ;
+brdflo:L_24 a schema1:Place ;
     rdfs:label "Bermuda" .
 
-brdflo:L_240 a schema:Place ;
+brdflo:L_240 a schema1:Place ;
     rdfs:label "Yemen" .
 
-brdflo:L_241 a schema:Place ;
+brdflo:L_241 a schema1:Place ;
     rdfs:label "Zambia" .
 
-brdflo:L_242 a schema:Place ;
+brdflo:L_242 a schema1:Place ;
     rdfs:label "Zimbabwe" .
 
-brdflo:L_243 a schema:Place ;
+brdflo:L_243 a schema1:Place ;
     rdfs:label "Global" .
 
-brdflo:L_244 a schema:Place ;
+brdflo:L_244 a schema1:Place ;
     rdfs:label "South Africa; Cape Town" .
 
-brdflo:L_245 a schema:Place ;
+brdflo:L_245 a schema1:Place ;
     rdfs:label "Sweden; Stockholm" .
 
-brdflo:L_246 a schema:Place ;
+brdflo:L_246 a schema1:Place ;
     rdfs:label "Belgium and Luxembourg" .
 
-brdflo:L_247 a schema:Place ;
+brdflo:L_247 a schema1:Place ;
     rdfs:label "Commonwealth of Independent States (CIS)" .
 
-brdflo:L_248 a schema:Place ;
+brdflo:L_248 a schema1:Place ;
     rdfs:label "Australia; NSW" .
 
-brdflo:L_249 a schema:Place ;
+brdflo:L_249 a schema1:Place ;
     rdfs:label "Australia; VIC" .
 
-brdflo:L_25 a schema:Place ;
+brdflo:L_25 a schema1:Place ;
     rdfs:label "Bhutan" .
 
-brdflo:L_250 a schema:Place ;
+brdflo:L_250 a schema1:Place ;
     rdfs:label "Australia; QLD" .
 
-brdflo:L_251 a schema:Place ;
+brdflo:L_251 a schema1:Place ;
     rdfs:label "Australia; SA" .
 
-brdflo:L_252 a schema:Place ;
+brdflo:L_252 a schema1:Place ;
     rdfs:label "Australia; WA" .
 
-brdflo:L_253 a schema:Place ;
+brdflo:L_253 a schema1:Place ;
     rdfs:label "Australia; TA" .
 
-brdflo:L_254 a schema:Place ;
+brdflo:L_254 a schema1:Place ;
     rdfs:label "Australia; NT" .
 
-brdflo:L_255 a schema:Place ;
+brdflo:L_255 a schema1:Place ;
     rdfs:label "Australia; ACT" .
 
-brdflo:L_256 a schema:Place ;
+brdflo:L_256 a schema1:Place ;
     rdfs:label "Australia; Sydney" .
 
-brdflo:L_257 a schema:Place ;
+brdflo:L_257 a schema1:Place ;
     rdfs:label "South Africa and Namibia" .
 
-brdflo:L_258 a schema:Place ;
+brdflo:L_258 a schema1:Place ;
     rdfs:label "United Kingdom and Ireland" .
 
-brdflo:L_259 a schema:Place ;
+brdflo:L_259 a schema1:Place ;
     rdfs:label "Earth and orbital bodies" .
 
-brdflo:L_26 a schema:Place ;
+brdflo:L_26 a schema1:Place ;
     rdfs:label "Bolivia" .
 
-brdflo:L_260 a schema:Place ;
+brdflo:L_260 a schema1:Place ;
     rdfs:label "Cape Town; Avondal" .
 
-brdflo:L_261 a schema:Place ;
+brdflo:L_261 a schema1:Place ;
     rdfs:label "Cape Town; Belhar" .
 
-brdflo:L_262 a schema:Place ;
+brdflo:L_262 a schema1:Place ;
     rdfs:label "Cape Town; Bellair" .
 
-brdflo:L_263 a schema:Place ;
+brdflo:L_263 a schema1:Place ;
     rdfs:label "Cape Town; Bellville Central" .
 
-brdflo:L_264 a schema:Place ;
+brdflo:L_264 a schema1:Place ;
     rdfs:label "Cape Town; Bellville Industria" .
 
-brdflo:L_265 a schema:Place ;
+brdflo:L_265 a schema1:Place ;
     rdfs:label "Cape Town; Bellville South" .
 
-brdflo:L_266 a schema:Place ;
+brdflo:L_266 a schema1:Place ;
     rdfs:label "Cape Town; Bellville West" .
 
-brdflo:L_267 a schema:Place ;
+brdflo:L_267 a schema1:Place ;
     rdfs:label "Cape Town; Blomtuin" .
 
-brdflo:L_268 a schema:Place ;
+brdflo:L_268 a schema1:Place ;
     rdfs:label "Cape Town; Bosbell" .
 
-brdflo:L_269 a schema:Place ;
+brdflo:L_269 a schema1:Place ;
     rdfs:label "Cape Town; Boston" .
 
-brdflo:L_27 a schema:Place ;
+brdflo:L_27 a schema1:Place ;
     rdfs:label "Bonaire, Sint Eustatius, and Saba" .
 
-brdflo:L_270 a schema:Place ;
+brdflo:L_270 a schema1:Place ;
     rdfs:label "Cape Town; Chrismar" .
 
-brdflo:L_271 a schema:Place ;
+brdflo:L_271 a schema1:Place ;
     rdfs:label "Cape Town; Churchill Estate" .
 
-brdflo:L_272 a schema:Place ;
+brdflo:L_272 a schema1:Place ;
     rdfs:label "Cape Town; Clamhall" .
 
-brdflo:L_273 a schema:Place ;
+brdflo:L_273 a schema1:Place ;
     rdfs:label "Cape Town; De Tijger" .
 
-brdflo:L_274 a schema:Place ;
+brdflo:L_274 a schema1:Place ;
     rdfs:label "Cape Town; Delft" .
 
-brdflo:L_275 a schema:Place ;
+brdflo:L_275 a schema1:Place ;
     rdfs:label "Cape Town; Door de Kraal" .
 
-brdflo:L_276 a schema:Place ;
+brdflo:L_276 a schema1:Place ;
     rdfs:label "Cape Town; Durbanville" .
 
-brdflo:L_277 a schema:Place ;
+brdflo:L_277 a schema1:Place ;
     rdfs:label "Cape Town; Durbanville Hills" .
 
-brdflo:L_278 a schema:Place ;
+brdflo:L_278 a schema1:Place ;
     rdfs:label "Cape Town; Eversdal" .
 
-brdflo:L_279 a schema:Place ;
+brdflo:L_279 a schema1:Place ;
     rdfs:label "Cape Town; Fairfield" .
 
-brdflo:L_28 a schema:Place ;
+brdflo:L_28 a schema1:Place ;
     rdfs:label "Bosnia and Herzegovina" .
 
-brdflo:L_280 a schema:Place ;
+brdflo:L_280 a schema1:Place ;
     rdfs:label "Cape Town; Glen Haven" .
 
-brdflo:L_281 a schema:Place ;
+brdflo:L_281 a schema1:Place ;
     rdfs:label "Cape Town; Glen Lily" .
 
-brdflo:L_282 a schema:Place ;
+brdflo:L_282 a schema1:Place ;
     rdfs:label "Cape Town; Groen Vallei" .
 
-brdflo:L_283 a schema:Place ;
+brdflo:L_283 a schema1:Place ;
     rdfs:label "Cape Town; Hoheiza" .
 
-brdflo:L_284 a schema:Place ;
+brdflo:L_284 a schema1:Place ;
     rdfs:label "Cape Town; Kenridge" .
 
-brdflo:L_285 a schema:Place ;
+brdflo:L_285 a schema1:Place ;
     rdfs:label "Cape Town; Kuilsrivier" .
 
-brdflo:L_286 a schema:Place ;
+brdflo:L_286 a schema1:Place ;
     rdfs:label "Cape Town; La Rochelle" .
 
-brdflo:L_287 a schema:Place ;
+brdflo:L_287 a schema1:Place ;
     rdfs:label "Cape Town; Labiance" .
 
-brdflo:L_288 a schema:Place ;
+brdflo:L_288 a schema1:Place ;
     rdfs:label "Cape Town; Loevenstein" .
 
-brdflo:L_289 a schema:Place ;
+brdflo:L_289 a schema1:Place ;
     rdfs:label "Cape Town; Maastrecht" .
 
-brdflo:L_29 a schema:Place ;
+brdflo:L_29 a schema1:Place ;
     rdfs:label "Botswana" .
 
-brdflo:L_290 a schema:Place ;
+brdflo:L_290 a schema1:Place ;
     rdfs:label "Cape Town; Morning Star" .
 
-brdflo:L_291 a schema:Place ;
+brdflo:L_291 a schema1:Place ;
     rdfs:label "Cape Town; Oak Glen" .
 
-brdflo:L_292 a schema:Place ;
+brdflo:L_292 a schema1:Place ;
     rdfs:label "Cape Town; Oakdale" .
 
-brdflo:L_293 a schema:Place ;
+brdflo:L_293 a schema1:Place ;
     rdfs:label "Cape Town; Oosterzee" .
 
-brdflo:L_294 a schema:Place ;
+brdflo:L_294 a schema1:Place ;
     rdfs:label "Cape Town; Panorama" .
 
-brdflo:L_295 a schema:Place ;
+brdflo:L_295 a schema1:Place ;
     rdfs:label "Cape Town; Parow Central" .
 
-brdflo:L_296 a schema:Place ;
+brdflo:L_296 a schema1:Place ;
     rdfs:label "Cape Town; Parow Industria" .
 
-brdflo:L_297 a schema:Place ;
+brdflo:L_297 a schema1:Place ;
     rdfs:label "Cape Town; Parow North" .
 
-brdflo:L_298 a schema:Place ;
+brdflo:L_298 a schema1:Place ;
     rdfs:label "Cape Town; Parow Valley" .
 
-brdflo:L_299 a schema:Place ;
+brdflo:L_299 a schema1:Place ;
     rdfs:label "Cape Town; Plattekloof" .
 
-brdflo:L_3 a schema:Place ;
+brdflo:L_3 a schema1:Place ;
     rdfs:label "Albania" .
 
-brdflo:L_30 a schema:Place ;
+brdflo:L_30 a schema1:Place ;
     rdfs:label "Brazil" .
 
-brdflo:L_300 a schema:Place ;
+brdflo:L_300 a schema1:Place ;
     rdfs:label "Cape Town; Protea Valley" .
 
-brdflo:L_301 a schema:Place ;
+brdflo:L_301 a schema1:Place ;
     rdfs:label "Cape Town; Ravensmead" .
 
-brdflo:L_302 a schema:Place ;
+brdflo:L_302 a schema1:Place ;
     rdfs:label "Cape Town; Ridgeworth" .
 
-brdflo:L_303 a schema:Place ;
+brdflo:L_303 a schema1:Place ;
     rdfs:label "Cape Town; Sanlam Hof" .
 
-brdflo:L_304 a schema:Place ;
+brdflo:L_304 a schema1:Place ;
     rdfs:label "Cape Town; Springfield" .
 
-brdflo:L_305 a schema:Place ;
+brdflo:L_305 a schema1:Place ;
     rdfs:label "Cape Town; Stellenberg" .
 
-brdflo:L_306 a schema:Place ;
+brdflo:L_306 a schema1:Place ;
     rdfs:label "Cape Town; Stikland" .
 
-brdflo:L_307 a schema:Place ;
+brdflo:L_307 a schema1:Place ;
     rdfs:label "Cape Town; Thalman/De La Haye" .
 
-brdflo:L_308 a schema:Place ;
+brdflo:L_308 a schema1:Place ;
     rdfs:label "Cape Town; Triangle Farm" .
 
-brdflo:L_309 a schema:Place ;
+brdflo:L_309 a schema1:Place ;
     rdfs:label "Cape Town; Vredenberg" .
 
-brdflo:L_31 a schema:Place ;
+brdflo:L_31 a schema1:Place ;
     rdfs:label "British Virgin Islands" .
 
-brdflo:L_310 a schema:Place ;
+brdflo:L_310 a schema1:Place ;
     rdfs:label "Cape Town; Welgedacht Estates" .
 
-brdflo:L_311 a schema:Place ;
+brdflo:L_311 a schema1:Place ;
     rdfs:label "Cape Town; Welgelegen" .
 
-brdflo:L_312 a schema:Place ;
+brdflo:L_312 a schema1:Place ;
     rdfs:label "Cape Town; Welgemoed" .
 
-brdflo:L_313 a schema:Place ;
+brdflo:L_313 a schema1:Place ;
     rdfs:label "Cape Town; Bellville NU" .
 
-brdflo:L_314 a schema:Place ;
+brdflo:L_314 a schema1:Place ;
     rdfs:label "Cape Town; Cape Town Airport" .
 
-brdflo:L_315 a schema:Place ;
+brdflo:L_315 a schema1:Place ;
     rdfs:label "Cape Town; Adriaanse" .
 
-brdflo:L_316 a schema:Place ;
+brdflo:L_316 a schema1:Place ;
     rdfs:label "Cape Town; Akasia Park" .
 
-brdflo:L_317 a schema:Place ;
+brdflo:L_317 a schema1:Place ;
     rdfs:label "Cape Town; Avon" .
 
-brdflo:L_318 a schema:Place ;
+brdflo:L_318 a schema1:Place ;
     rdfs:label "Cape Town; Avonwood" .
 
-brdflo:L_319 a schema:Place ;
+brdflo:L_319 a schema1:Place ;
     rdfs:label "Cape Town; Balvenie" .
 
-brdflo:L_32 a schema:Place ;
+brdflo:L_32 a schema1:Place ;
     rdfs:label "Brunei" .
 
-brdflo:L_320 a schema:Place ;
+brdflo:L_320 a schema1:Place ;
     rdfs:label "Cape Town; Bishop Lavis" .
 
-brdflo:L_321 a schema:Place ;
+brdflo:L_321 a schema1:Place ;
     rdfs:label "Cape Town; Bonteheuwel" .
 
-brdflo:L_322 a schema:Place ;
+brdflo:L_322 a schema1:Place ;
     rdfs:label "Cape Town; Boquinar Industria" .
 
-brdflo:L_323 a schema:Place ;
+brdflo:L_323 a schema1:Place ;
     rdfs:label "Cape Town; Bothasig" .
 
-brdflo:L_324 a schema:Place ;
+brdflo:L_324 a schema1:Place ;
     rdfs:label "Cape Town; Charlesville" .
 
-brdflo:L_325 a schema:Place ;
+brdflo:L_325 a schema1:Place ;
     rdfs:label "Cape Town; Clarkes Estate" .
 
-brdflo:L_326 a schema:Place ;
+brdflo:L_326 a schema1:Place ;
     rdfs:label "Cape Town; Connaught" .
 
-brdflo:L_327 a schema:Place ;
+brdflo:L_327 a schema1:Place ;
     rdfs:label "Cape Town; Cravenby" .
 
-brdflo:L_328 a schema:Place ;
+brdflo:L_328 a schema1:Place ;
     rdfs:label "Cape Town; Edgemead" .
 
-brdflo:L_329 a schema:Place ;
+brdflo:L_329 a schema1:Place ;
     rdfs:label "Cape Town; Elnor" .
 
-brdflo:L_33 a schema:Place ;
+brdflo:L_33 a schema1:Place ;
     rdfs:label "Bulgaria" .
 
-brdflo:L_330 a schema:Place ;
+brdflo:L_330 a schema1:Place ;
     rdfs:label "Cape Town; Elsies River" .
 
-brdflo:L_331 a schema:Place ;
+brdflo:L_331 a schema1:Place ;
     rdfs:label "Cape Town; Epping Forest" .
 
-brdflo:L_332 a schema:Place ;
+brdflo:L_332 a schema1:Place ;
     rdfs:label "Cape Town; Epping Industria" .
 
-brdflo:L_333 a schema:Place ;
+brdflo:L_333 a schema1:Place ;
     rdfs:label "Cape Town; Eureka" .
 
-brdflo:L_334 a schema:Place ;
+brdflo:L_334 a schema1:Place ;
     rdfs:label "Cape Town; Goodwood Estate" .
 
-brdflo:L_335 a schema:Place ;
+brdflo:L_335 a schema1:Place ;
     rdfs:label "Cape Town; Kalksteenfontein" .
 
-brdflo:L_336 a schema:Place ;
+brdflo:L_336 a schema1:Place ;
     rdfs:label "Cape Town; Langa" .
 
-brdflo:L_337 a schema:Place ;
+brdflo:L_337 a schema1:Place ;
     rdfs:label "Cape Town; Leonsdale" .
 
-brdflo:L_338 a schema:Place ;
+brdflo:L_338 a schema1:Place ;
     rdfs:label "Cape Town; Matroosfontein" .
 
-brdflo:L_339 a schema:Place ;
+brdflo:L_339 a schema1:Place ;
     rdfs:label "Cape Town; Modderdam" .
 
-brdflo:L_34 a schema:Place ;
+brdflo:L_34 a schema1:Place ;
     rdfs:label "Burkina Faso" .
 
-brdflo:L_340 a schema:Place ;
+brdflo:L_340 a schema1:Place ;
     rdfs:label "Cape Town; Montana" .
 
-brdflo:L_341 a schema:Place ;
+brdflo:L_341 a schema1:Place ;
     rdfs:label "Cape Town; Monte Vista" .
 
-brdflo:L_342 a schema:Place ;
+brdflo:L_342 a schema1:Place ;
     rdfs:label "Cape Town; Mowbray" .
 
-brdflo:L_343 a schema:Place ;
+brdflo:L_343 a schema1:Place ;
     rdfs:label "Cape Town; Ndabeni" .
 
-brdflo:L_344 a schema:Place ;
+brdflo:L_344 a schema1:Place ;
     rdfs:label "Cape Town; Nooitgedacht" .
 
-brdflo:L_345 a schema:Place ;
+brdflo:L_345 a schema1:Place ;
     rdfs:label "Cape Town; North Camp-Wingfield" .
 
-brdflo:L_346 a schema:Place ;
+brdflo:L_346 a schema1:Place ;
     rdfs:label "Cape Town; Norwood" .
 
-brdflo:L_347 a schema:Place ;
+brdflo:L_347 a schema1:Place ;
     rdfs:label "Cape Town; Pinelands" .
 
-brdflo:L_348 a schema:Place ;
+brdflo:L_348 a schema1:Place ;
     rdfs:label "Cape Town; Richmond Estate" .
 
-brdflo:L_349 a schema:Place ;
+brdflo:L_349 a schema1:Place ;
     rdfs:label "Cape Town; Richwood" .
 
-brdflo:L_35 a schema:Place ;
+brdflo:L_35 a schema1:Place ;
     rdfs:label "Burundi" .
 
-brdflo:L_350 a schema:Place ;
+brdflo:L_350 a schema1:Place ;
     rdfs:label "Cape Town; Riverton" .
 
-brdflo:L_351 a schema:Place ;
+brdflo:L_351 a schema1:Place ;
     rdfs:label "Cape Town; Ruyterwacht" .
 
-brdflo:L_352 a schema:Place ;
+brdflo:L_352 a schema1:Place ;
     rdfs:label "Cape Town; Salberau" .
 
-brdflo:L_353 a schema:Place ;
+brdflo:L_353 a schema1:Place ;
     rdfs:label "Cape Town; The Range" .
 
-brdflo:L_354 a schema:Place ;
+brdflo:L_354 a schema1:Place ;
     rdfs:label "Cape Town; Thornton" .
 
-brdflo:L_355 a schema:Place ;
+brdflo:L_355 a schema1:Place ;
     rdfs:label "Cape Town; Townsend Estate" .
 
-brdflo:L_356 a schema:Place ;
+brdflo:L_356 a schema1:Place ;
     rdfs:label "Cape Town; Tygerdal" .
 
-brdflo:L_357 a schema:Place ;
+brdflo:L_357 a schema1:Place ;
     rdfs:label "Cape Town; Uitsig" .
 
-brdflo:L_358 a schema:Place ;
+brdflo:L_358 a schema1:Place ;
     rdfs:label "Cape Town; Valhalla" .
 
-brdflo:L_359 a schema:Place ;
+brdflo:L_359 a schema1:Place ;
     rdfs:label "Cape Town; Valhalla Park" .
 
-brdflo:L_36 a schema:Place ;
+brdflo:L_36 a schema1:Place ;
     rdfs:label "Cape Verde" .
 
-brdflo:L_360 a schema:Place ;
+brdflo:L_360 a schema1:Place ;
     rdfs:label "Cape Town; Vasco Estate" .
 
-brdflo:L_361 a schema:Place ;
+brdflo:L_361 a schema1:Place ;
     rdfs:label "Cape Town; Wingfield" .
 
-brdflo:L_362 a schema:Place ;
+brdflo:L_362 a schema1:Place ;
     rdfs:label "Cape Town; Bantry Bay" .
 
-brdflo:L_363 a schema:Place ;
+brdflo:L_363 a schema1:Place ;
     rdfs:label "Cape Town; Blouberg Rise" .
 
-brdflo:L_364 a schema:Place ;
+brdflo:L_364 a schema1:Place ;
     rdfs:label "Cape Town; Blouberg Sands" .
 
-brdflo:L_365 a schema:Place ;
+brdflo:L_365 a schema1:Place ;
     rdfs:label "Cape Town; Blouberg Strand" .
 
-brdflo:L_366 a schema:Place ;
+brdflo:L_366 a schema1:Place ;
     rdfs:label "Cape Town; Bloubergrant" .
 
-brdflo:L_367 a schema:Place ;
+brdflo:L_367 a schema1:Place ;
     rdfs:label "Cape Town; Brooklyn" .
 
-brdflo:L_368 a schema:Place ;
+brdflo:L_368 a schema1:Place ;
     rdfs:label "Cape Town; Camps Bay" .
 
-brdflo:L_369 a schema:Place ;
+brdflo:L_369 a schema1:Place ;
     rdfs:label "Cape Town; Cape Central" .
 
-brdflo:L_37 a schema:Place ;
+brdflo:L_37 a schema1:Place ;
     rdfs:label "Cambodia" .
 
-brdflo:L_370 a schema:Place ;
+brdflo:L_370 a schema1:Place ;
     rdfs:label "Cape Town; Clifton" .
 
-brdflo:L_371 a schema:Place ;
+brdflo:L_371 a schema1:Place ;
     rdfs:label "Cape Town; Factreton" .
 
-brdflo:L_372 a schema:Place ;
+brdflo:L_372 a schema1:Place ;
     rdfs:label "Cape Town; Fresnay" .
 
-brdflo:L_373 a schema:Place ;
+brdflo:L_373 a schema1:Place ;
     rdfs:label "Cape Town; Gardens" .
 
-brdflo:L_374 a schema:Place ;
+brdflo:L_374 a schema1:Place ;
     rdfs:label "Cape Town; Green Point" .
 
-brdflo:L_375 a schema:Place ;
+brdflo:L_375 a schema1:Place ;
     rdfs:label "Cape Town; Joe Slovo Informal" .
 
-brdflo:L_376 a schema:Place ;
+brdflo:L_376 a schema1:Place ;
     rdfs:label "Cape Town; Kensington" .
 
-brdflo:L_377 a schema:Place ;
+brdflo:L_377 a schema1:Place ;
     rdfs:label "Cape Town; Maitland" .
 
-brdflo:L_378 a schema:Place ;
+brdflo:L_378 a schema1:Place ;
     rdfs:label "Cape Town; Maitland Garden Village" .
 
-brdflo:L_379 a schema:Place ;
+brdflo:L_379 a schema1:Place ;
     rdfs:label "Cape Town; Marcomi Beam Informal" .
 
-brdflo:L_38 a schema:Place ;
+brdflo:L_38 a schema1:Place ;
     rdfs:label "Cameroon" .
 
-brdflo:L_380 a schema:Place ;
+brdflo:L_380 a schema1:Place ;
     rdfs:label "Cape Town; Milnerton" .
 
-brdflo:L_381 a schema:Place ;
+brdflo:L_381 a schema1:Place ;
     rdfs:label "Cape Town; Milnerton Ridge" .
 
-brdflo:L_382 a schema:Place ;
+brdflo:L_382 a schema1:Place ;
     rdfs:label "Cape Town; Mouille point" .
 
-brdflo:L_383 a schema:Place ;
+brdflo:L_383 a schema1:Place ;
     rdfs:label "Cape Town; Ndabeni" .
 
-brdflo:L_384 a schema:Place ;
+brdflo:L_384 a schema1:Place ;
     rdfs:label "Cape Town; Observatory" .
 
-brdflo:L_385 a schema:Place ;
+brdflo:L_385 a schema1:Place ;
     rdfs:label "Cape Town; Oranjezicht" .
 
-brdflo:L_386 a schema:Place ;
+brdflo:L_386 a schema1:Place ;
     rdfs:label "Cape Town; Oudekraal" .
 
-brdflo:L_387 a schema:Place ;
+brdflo:L_387 a schema1:Place ;
     rdfs:label "Cape Town; Paarden Eiland" .
 
-brdflo:L_388 a schema:Place ;
+brdflo:L_388 a schema1:Place ;
     rdfs:label "Cape Town; Phoenix" .
 
-brdflo:L_389 a schema:Place ;
+brdflo:L_389 a schema1:Place ;
     rdfs:label "Cape Town; Robben Island" .
 
-brdflo:L_39 a schema:Place ;
+brdflo:L_39 a schema1:Place ;
     rdfs:label "Canada" .
 
-brdflo:L_390 a schema:Place ;
+brdflo:L_390 a schema1:Place ;
     rdfs:label "Cape Town; Rugby" .
 
-brdflo:L_391 a schema:Place ;
+brdflo:L_391 a schema1:Place ;
     rdfs:label "Cape Town; Salt River" .
 
-brdflo:L_392 a schema:Place ;
+brdflo:L_392 a schema1:Place ;
     rdfs:label "Cape Town; Schotschekloof" .
 
-brdflo:L_393 a schema:Place ;
+brdflo:L_393 a schema1:Place ;
     rdfs:label "Cape Town; Sea Point" .
 
-brdflo:L_394 a schema:Place ;
+brdflo:L_394 a schema1:Place ;
     rdfs:label "Cape Town; Summer Greens" .
 
-brdflo:L_395 a schema:Place ;
+brdflo:L_395 a schema1:Place ;
     rdfs:label "Cape Town; Sunset Beach" .
 
-brdflo:L_396 a schema:Place ;
+brdflo:L_396 a schema1:Place ;
     rdfs:label "Cape Town; Table View" .
 
-brdflo:L_397 a schema:Place ;
+brdflo:L_397 a schema1:Place ;
     rdfs:label "Cape Town; Tamboerskloof" .
 
-brdflo:L_398 a schema:Place ;
+brdflo:L_398 a schema1:Place ;
     rdfs:label "Cape Town; Three Anchor Bay" .
 
-brdflo:L_399 a schema:Place ;
+brdflo:L_399 a schema1:Place ;
     rdfs:label "Cape Town; Tijgerhof/Sandrift" .
 
-brdflo:L_4 a schema:Place ;
+brdflo:L_4 a schema1:Place ;
     rdfs:label "Algeria" .
 
-brdflo:L_40 a schema:Place ;
+brdflo:L_40 a schema1:Place ;
     rdfs:label "Cayman Islands (the)" .
 
-brdflo:L_400 a schema:Place ;
+brdflo:L_400 a schema1:Place ;
     rdfs:label "Cape Town; Vredehoek" .
 
-brdflo:L_401 a schema:Place ;
+brdflo:L_401 a schema1:Place ;
     rdfs:label "Cape Town; West coast Island" .
 
-brdflo:L_402 a schema:Place ;
+brdflo:L_402 a schema1:Place ;
     rdfs:label "Cape Town; Woodbridge Island" .
 
-brdflo:L_403 a schema:Place ;
+brdflo:L_403 a schema1:Place ;
     rdfs:label "Cape Town; Woodstock" .
 
-brdflo:L_404 a schema:Place ;
+brdflo:L_404 a schema1:Place ;
     rdfs:label "Cape Town; Ysterplaat" .
 
-brdflo:L_405 a schema:Place ;
+brdflo:L_405 a schema1:Place ;
     rdfs:label "Cape Town; Zonnebloem" .
 
-brdflo:L_406 a schema:Place ;
+brdflo:L_406 a schema1:Place ;
     rdfs:label "Cape Town; Clovelly" .
 
-brdflo:L_407 a schema:Place ;
+brdflo:L_407 a schema1:Place ;
     rdfs:label "Cape Town; Coniston" .
 
-brdflo:L_408 a schema:Place ;
+brdflo:L_408 a schema1:Place ;
     rdfs:label "Cape Town; Da Gama Park" .
 
-brdflo:L_409 a schema:Place ;
+brdflo:L_409 a schema1:Place ;
     rdfs:label "Cape Town; Fish Hoek" .
 
-brdflo:L_41 a schema:Place ;
+brdflo:L_41 a schema1:Place ;
     rdfs:label "Central African Republic" .
 
-brdflo:L_410 a schema:Place ;
+brdflo:L_410 a schema1:Place ;
     rdfs:label "Cape Town; Kalk Bay" .
 
-brdflo:L_411 a schema:Place ;
+brdflo:L_411 a schema1:Place ;
     rdfs:label "Cape Town; Kommetjie" .
 
-brdflo:L_412 a schema:Place ;
+brdflo:L_412 a schema1:Place ;
     rdfs:label "Cape Town; Lakeside" .
 
-brdflo:L_413 a schema:Place ;
+brdflo:L_413 a schema1:Place ;
     rdfs:label "Cape Town; Marina Da Gama" .
 
-brdflo:L_414 a schema:Place ;
+brdflo:L_414 a schema1:Place ;
     rdfs:label "Cape Town; Masiphumelele" .
 
-brdflo:L_415 a schema:Place ;
+brdflo:L_415 a schema1:Place ;
     rdfs:label "Cape Town; Muizenberg" .
 
-brdflo:L_416 a schema:Place ;
+brdflo:L_416 a schema1:Place ;
     rdfs:label "Cape Town; Noordhoek" .
 
-brdflo:L_417 a schema:Place ;
+brdflo:L_417 a schema1:Place ;
     rdfs:label "Cape Town; Ocean View" .
 
-brdflo:L_418 a schema:Place ;
+brdflo:L_418 a schema1:Place ;
     rdfs:label "Cape Town; Pelican Park-Coast" .
 
-brdflo:L_419 a schema:Place ;
+brdflo:L_419 a schema1:Place ;
     rdfs:label "Cape Town; Red Hill Informal" .
 
-brdflo:L_42 a schema:Place ;
+brdflo:L_42 a schema1:Place ;
     rdfs:label "Chad" .
 
-brdflo:L_420 a schema:Place ;
+brdflo:L_420 a schema1:Place ;
     rdfs:label "Cape Town; Retreat" .
 
-brdflo:L_421 a schema:Place ;
+brdflo:L_421 a schema1:Place ;
     rdfs:label "Cape Town; Scarborough" .
 
-brdflo:L_422 a schema:Place ;
+brdflo:L_422 a schema1:Place ;
     rdfs:label "Cape Town; Simons Town" .
 
-brdflo:L_423 a schema:Place ;
+brdflo:L_423 a schema1:Place ;
     rdfs:label "Cape Town; St James" .
 
-brdflo:L_424 a schema:Place ;
+brdflo:L_424 a schema1:Place ;
     rdfs:label "Cape Town; Sun Valley" .
 
-brdflo:L_425 a schema:Place ;
+brdflo:L_425 a schema1:Place ;
     rdfs:label "Cape Town; Sunnydale" .
 
-brdflo:L_426 a schema:Place ;
+brdflo:L_426 a schema1:Place ;
     rdfs:label "Cape Town; Vrygrond" .
 
-brdflo:L_427 a schema:Place ;
+brdflo:L_427 a schema1:Place ;
     rdfs:label "Cape Town; Westlake" .
 
-brdflo:L_428 a schema:Place ;
+brdflo:L_428 a schema1:Place ;
     rdfs:label "Cape Town; Zerilda Park" .
 
-brdflo:L_429 a schema:Place ;
+brdflo:L_429 a schema1:Place ;
     rdfs:label "Cape Town; Silvermine" .
 
-brdflo:L_43 a schema:Place ;
+brdflo:L_43 a schema1:Place ;
     rdfs:label "Channel Islands" .
 
-brdflo:L_430 a schema:Place ;
+brdflo:L_430 a schema1:Place ;
     rdfs:label "Cape Town; Simons Town NU" .
 
-brdflo:L_431 a schema:Place ;
+brdflo:L_431 a schema1:Place ;
     rdfs:label "Cape Town; Tokai Forest Reserve" .
 
-brdflo:L_432 a schema:Place ;
+brdflo:L_432 a schema1:Place ;
     rdfs:label "Cape Town; Zeekoevlei Marsh" .
 
-brdflo:L_433 a schema:Place ;
+brdflo:L_433 a schema1:Place ;
     rdfs:label "Cape Town; Athlone" .
 
-brdflo:L_434 a schema:Place ;
+brdflo:L_434 a schema1:Place ;
     rdfs:label "Cape Town; Belgravia" .
 
-brdflo:L_435 a schema:Place ;
+brdflo:L_435 a schema1:Place ;
     rdfs:label "Cape Town; Belthorn Estate" .
 
-brdflo:L_436 a schema:Place ;
+brdflo:L_436 a schema1:Place ;
     rdfs:label "Cape Town; Bergvliet" .
 
-brdflo:L_437 a schema:Place ;
+brdflo:L_437 a schema1:Place ;
     rdfs:label "Cape Town; Bishops Court" .
 
-brdflo:L_438 a schema:Place ;
+brdflo:L_438 a schema1:Place ;
     rdfs:label "Cape Town; Bridgetown" .
 
-brdflo:L_439 a schema:Place ;
+brdflo:L_439 a schema1:Place ;
     rdfs:label "Cape Town; Claremont" .
 
-brdflo:L_44 a schema:Place ;
+brdflo:L_44 a schema1:Place ;
     rdfs:label "Chile" .
 
-brdflo:L_440 a schema:Place ;
+brdflo:L_440 a schema1:Place ;
     rdfs:label "Cape Town; Constantia" .
 
-brdflo:L_441 a schema:Place ;
+brdflo:L_441 a schema1:Place ;
     rdfs:label "Cape Town; Crawford" .
 
-brdflo:L_442 a schema:Place ;
+brdflo:L_442 a schema1:Place ;
     rdfs:label "Cape Town; Diep River" .
 
-brdflo:L_443 a schema:Place ;
+brdflo:L_443 a schema1:Place ;
     rdfs:label "Cape Town; Elfindale" .
 
-brdflo:L_444 a schema:Place ;
+brdflo:L_444 a schema1:Place ;
     rdfs:label "Cape Town; Fairways Estate" .
 
-brdflo:L_445 a schema:Place ;
+brdflo:L_445 a schema1:Place ;
     rdfs:label "Cape Town; Ferness" .
 
-brdflo:L_446 a schema:Place ;
+brdflo:L_446 a schema1:Place ;
     rdfs:label "Cape Town; Gatesville" .
 
-brdflo:L_447 a schema:Place ;
+brdflo:L_447 a schema1:Place ;
     rdfs:label "Cape Town; Grassy Park" .
 
-brdflo:L_448 a schema:Place ;
+brdflo:L_448 a schema1:Place ;
     rdfs:label "Cape Town; Hanover Park" .
 
-brdflo:L_449 a schema:Place ;
+brdflo:L_449 a schema1:Place ;
     rdfs:label "Cape Town; Hazendal" .
 
-brdflo:L_45 a schema:Place ;
+brdflo:L_45 a schema1:Place ;
     rdfs:label "China" .
 
-brdflo:L_450 a schema:Place ;
+brdflo:L_450 a schema1:Place ;
     rdfs:label "Cape Town; Heathfield" .
 
-brdflo:L_451 a schema:Place ;
+brdflo:L_451 a schema1:Place ;
     rdfs:label "Cape Town; Heideveld" .
 
-brdflo:L_452 a schema:Place ;
+brdflo:L_452 a schema1:Place ;
     rdfs:label "Cape Town; Hout Bay" .
 
-brdflo:L_453 a schema:Place ;
+brdflo:L_453 a schema1:Place ;
     rdfs:label "Cape Town; Hout Bay Harbour" .
 
-brdflo:L_454 a schema:Place ;
+brdflo:L_454 a schema1:Place ;
     rdfs:label "Cape Town; Kenilworth" .
 
-brdflo:L_455 a schema:Place ;
+brdflo:L_455 a schema1:Place ;
     rdfs:label "Cape Town; Kew Town" .
 
-brdflo:L_456 a schema:Place ;
+brdflo:L_456 a schema1:Place ;
     rdfs:label "Cape Town; Kirstenhof" .
 
-brdflo:L_457 a schema:Place ;
+brdflo:L_457 a schema1:Place ;
     rdfs:label "Cape Town; Lansdowne" .
 
-brdflo:L_458 a schema:Place ;
+brdflo:L_458 a schema1:Place ;
     rdfs:label "Cape Town; Lavender Hill" .
 
-brdflo:L_459 a schema:Place ;
+brdflo:L_459 a schema1:Place ;
     rdfs:label "Cape Town; Llandudno" .
 
-brdflo:L_46 a schema:Place ;
+brdflo:L_46 a schema1:Place ;
     rdfs:label "China; Hong Kong Special Administrative Region" .
 
-brdflo:L_460 a schema:Place ;
+brdflo:L_460 a schema1:Place ;
     rdfs:label "Cape Town; Lotus River" .
 
-brdflo:L_461 a schema:Place ;
+brdflo:L_461 a schema1:Place ;
     rdfs:label "Cape Town; Manenberg" .
 
-brdflo:L_462 a schema:Place ;
+brdflo:L_462 a schema1:Place ;
     rdfs:label "Cape Town; Meadowridge" .
 
-brdflo:L_463 a schema:Place ;
+brdflo:L_463 a schema1:Place ;
     rdfs:label "Cape Town; Montagu's Gift" .
 
-brdflo:L_464 a schema:Place ;
+brdflo:L_464 a schema1:Place ;
     rdfs:label "Cape Town; Mowbray" .
 
-brdflo:L_465 a schema:Place ;
+brdflo:L_465 a schema1:Place ;
     rdfs:label "Cape Town; Newfields" .
 
-brdflo:L_466 a schema:Place ;
+brdflo:L_466 a schema1:Place ;
     rdfs:label "Cape Town; Newlands" .
 
-brdflo:L_467 a schema:Place ;
+brdflo:L_467 a schema1:Place ;
     rdfs:label "Cape Town; Ottery" .
 
-brdflo:L_468 a schema:Place ;
+brdflo:L_468 a schema1:Place ;
     rdfs:label "Cape Town; Parkwood" .
 
-brdflo:L_469 a schema:Place ;
+brdflo:L_469 a schema1:Place ;
     rdfs:label "Cape Town; Pelican Park" .
 
-brdflo:L_47 a schema:Place ;
+brdflo:L_47 a schema1:Place ;
     rdfs:label "China; Macao Special Administrative Region" .
 
-brdflo:L_470 a schema:Place ;
+brdflo:L_470 a schema1:Place ;
     rdfs:label "Cape Town; Penlyn Estate" .
 
-brdflo:L_471 a schema:Place ;
+brdflo:L_471 a schema1:Place ;
     rdfs:label "Cape Town; Pinati" .
 
-brdflo:L_472 a schema:Place ;
+brdflo:L_472 a schema1:Place ;
     rdfs:label "Cape Town; Plumstead" .
 
-brdflo:L_473 a schema:Place ;
+brdflo:L_473 a schema1:Place ;
     rdfs:label "Cape Town; Pollsmoor" .
 
-brdflo:L_474 a schema:Place ;
+brdflo:L_474 a schema1:Place ;
     rdfs:label "Cape Town; Primrose Park" .
 
-brdflo:L_475 a schema:Place ;
+brdflo:L_475 a schema1:Place ;
     rdfs:label "Cape Town; Retreat" .
 
-brdflo:L_476 a schema:Place ;
+brdflo:L_476 a schema1:Place ;
     rdfs:label "Cape Town; Rondebosch" .
 
-brdflo:L_477 a schema:Place ;
+brdflo:L_477 a schema1:Place ;
     rdfs:label "Cape Town; Rondebosch East" .
 
-brdflo:L_478 a schema:Place ;
+brdflo:L_478 a schema1:Place ;
     rdfs:label "Cape Town; Rosebank" .
 
-brdflo:L_479 a schema:Place ;
+brdflo:L_479 a schema1:Place ;
     rdfs:label "Cape Town; Royal Cape" .
 
-brdflo:L_48 a schema:Place ;
+brdflo:L_48 a schema1:Place ;
     rdfs:label "China; Taiwan" .
 
-brdflo:L_480 a schema:Place ;
+brdflo:L_480 a schema1:Place ;
     rdfs:label "Cape Town; Rylands" .
 
-brdflo:L_481 a schema:Place ;
+brdflo:L_481 a schema1:Place ;
     rdfs:label "Cape Town; Sand Industria" .
 
-brdflo:L_482 a schema:Place ;
+brdflo:L_482 a schema1:Place ;
     rdfs:label "Cape Town; Silvertown" .
 
-brdflo:L_483 a schema:Place ;
+brdflo:L_483 a schema1:Place ;
     rdfs:label "Cape Town; Southfield" .
 
-brdflo:L_484 a schema:Place ;
+brdflo:L_484 a schema1:Place ;
     rdfs:label "Cape Town; Steenberg" .
 
-brdflo:L_485 a schema:Place ;
+brdflo:L_485 a schema1:Place ;
     rdfs:label "Cape Town; Surrey" .
 
-brdflo:L_486 a schema:Place ;
+brdflo:L_486 a schema1:Place ;
     rdfs:label "Cape Town; Sybrandt Park" .
 
-brdflo:L_487 a schema:Place ;
+brdflo:L_487 a schema1:Place ;
     rdfs:label "Cape Town; Tokai" .
 
-brdflo:L_488 a schema:Place ;
+brdflo:L_488 a schema1:Place ;
     rdfs:label "Cape Town; Vanguard Estate" .
 
-brdflo:L_489 a schema:Place ;
+brdflo:L_489 a schema1:Place ;
     rdfs:label "Cape Town; Welcome Estate" .
 
-brdflo:L_49 a schema:Place ;
+brdflo:L_49 a schema1:Place ;
     rdfs:label "Colombia" .
 
-brdflo:L_490 a schema:Place ;
+brdflo:L_490 a schema1:Place ;
     rdfs:label "Cape Town; Westlake" .
 
-brdflo:L_491 a schema:Place ;
+brdflo:L_491 a schema1:Place ;
     rdfs:label "Cape Town; Wetton" .
 
-brdflo:L_492 a schema:Place ;
+brdflo:L_492 a schema1:Place ;
     rdfs:label "Cape Town; Wynberg" .
 
-brdflo:L_493 a schema:Place ;
+brdflo:L_493 a schema1:Place ;
     rdfs:label "Cape Town; Youngsfield" .
 
-brdflo:L_494 a schema:Place ;
+brdflo:L_494 a schema1:Place ;
     rdfs:label "Cape Town; Zeekoevlei" .
 
-brdflo:L_495 a schema:Place ;
+brdflo:L_495 a schema1:Place ;
     rdfs:label "Cape Town; Cecilia Forest" .
 
-brdflo:L_496 a schema:Place ;
+brdflo:L_496 a schema1:Place ;
     rdfs:label "Cape Town; Philippi NU" .
 
-brdflo:L_497 a schema:Place ;
+brdflo:L_497 a schema1:Place ;
     rdfs:label "Cape Town; Tokai Forest Reserve" .
 
-brdflo:L_498 a schema:Place ;
+brdflo:L_498 a schema1:Place ;
     rdfs:label "Cape Town; Zeekoevlei Marsh" .
 
-brdflo:L_499 a schema:Place ;
+brdflo:L_499 a schema1:Place ;
     rdfs:label "Cape Town; Beacon Valley" .
 
-brdflo:L_5 a schema:Place ;
+brdflo:L_5 a schema1:Place ;
     rdfs:label "American Samoa" .
 
-brdflo:L_50 a schema:Place ;
+brdflo:L_50 a schema1:Place ;
     rdfs:label "Comoros" .
 
-brdflo:L_500 a schema:Place ;
+brdflo:L_500 a schema1:Place ;
     rdfs:label "Cape Town; Bongweni" .
 
-brdflo:L_501 a schema:Place ;
+brdflo:L_501 a schema1:Place ;
     rdfs:label "Cape Town; Browns Farm" .
 
-brdflo:L_502 a schema:Place ;
+brdflo:L_502 a schema1:Place ;
     rdfs:label "Cape Town; Browns Farm-S Machel" .
 
-brdflo:L_503 a schema:Place ;
+brdflo:L_503 a schema1:Place ;
     rdfs:label "Cape Town; Colorado" .
 
-brdflo:L_504 a schema:Place ;
+brdflo:L_504 a schema1:Place ;
     rdfs:label "Cape Town; Eastridge" .
 
-brdflo:L_505 a schema:Place ;
+brdflo:L_505 a schema1:Place ;
     rdfs:label "Cape Town; Gugulethu" .
 
-brdflo:L_506 a schema:Place ;
+brdflo:L_506 a schema1:Place ;
     rdfs:label "Cape Town; Gugulethu-Barcelona" .
 
-brdflo:L_507 a schema:Place ;
+brdflo:L_507 a schema1:Place ;
     rdfs:label "Cape Town; Gugulethu-Europe" .
 
-brdflo:L_508 a schema:Place ;
+brdflo:L_508 a schema1:Place ;
     rdfs:label "Cape Town; Gugulethu-Kanana" .
 
-brdflo:L_509 a schema:Place ;
+brdflo:L_509 a schema1:Place ;
     rdfs:label "Cape Town; Gugulethu-Kick Hostels" .
 
-brdflo:L_51 a schema:Place ;
+brdflo:L_51 a schema1:Place ;
     rdfs:label "Congo (Republic of the)" .
 
-brdflo:L_510 a schema:Place ;
+brdflo:L_510 a schema1:Place ;
     rdfs:label "Cape Town; Gugulethu-New Rest" .
 
-brdflo:L_511 a schema:Place ;
+brdflo:L_511 a schema1:Place ;
     rdfs:label "Cape Town; Gugulethu-Phola Park" .
 
-brdflo:L_512 a schema:Place ;
+brdflo:L_512 a schema1:Place ;
     rdfs:label "Cape Town; Gugulethu-Tambo Sq" .
 
-brdflo:L_513 a schema:Place ;
+brdflo:L_513 a schema1:Place ;
     rdfs:label "Cape Town; Gugulethu-Waterfront" .
 
-brdflo:L_514 a schema:Place ;
+brdflo:L_514 a schema1:Place ;
     rdfs:label "Cape Town; Ikwezi Park" .
 
-brdflo:L_515 a schema:Place ;
+brdflo:L_515 a schema1:Place ;
     rdfs:label "Cape Town; Khayelitsha" .
 
-brdflo:L_516 a schema:Place ;
+brdflo:L_516 a schema1:Place ;
     rdfs:label "Cape Town; Khayelitsha-C Hani" .
 
-brdflo:L_517 a schema:Place ;
+brdflo:L_517 a schema1:Place ;
     rdfs:label "Cape Town; Khayelitsha-DM" .
 
-brdflo:L_518 a schema:Place ;
+brdflo:L_518 a schema1:Place ;
     rdfs:label "Cape Town; Khayelitsha-Ekuphumleni" .
 
-brdflo:L_519 a schema:Place ;
+brdflo:L_519 a schema1:Place ;
     rdfs:label "Cape Town; Khayelitsha-G Mxenge" .
 
-brdflo:L_52 a schema:Place ;
+brdflo:L_52 a schema1:Place ;
     rdfs:label "Cook Islands (the)" .
 
-brdflo:L_520 a schema:Place ;
+brdflo:L_520 a schema1:Place ;
     rdfs:label "Cape Town; Khayelitsha-Graceland" .
 
-brdflo:L_521 a schema:Place ;
+brdflo:L_521 a schema1:Place ;
     rdfs:label "Cape Town; Khayelitsha-Green Point" .
 
-brdflo:L_522 a schema:Place ;
+brdflo:L_522 a schema1:Place ;
     rdfs:label "Cape Town; Khayelitsha-H Gwala" .
 
-brdflo:L_523 a schema:Place ;
+brdflo:L_523 a schema1:Place ;
     rdfs:label "Cape Town; Khayelitsha-Harari" .
 
-brdflo:L_524 a schema:Place ;
+brdflo:L_524 a schema1:Place ;
     rdfs:label "Cape Town; Khayelitsha-Ilitha Park" .
 
-brdflo:L_525 a schema:Place ;
+brdflo:L_525 a schema1:Place ;
     rdfs:label "Cape Town; Khayelitsha-Ireland" .
 
-brdflo:L_526 a schema:Place ;
+brdflo:L_526 a schema1:Place ;
     rdfs:label "Cape Town; Khayelitsha-Macassar" .
 
-brdflo:L_527 a schema:Place ;
+brdflo:L_527 a schema1:Place ;
     rdfs:label "Cape Town; Khayelitsha-Makhaya" .
 
-brdflo:L_528 a schema:Place ;
+brdflo:L_528 a schema1:Place ;
     rdfs:label "Cape Town; Khayelitsha-Phakamisa" .
 
-brdflo:L_529 a schema:Place ;
+brdflo:L_529 a schema1:Place ;
     rdfs:label "Cape Town; Khayelitsha-SectA" .
 
-brdflo:L_53 a schema:Place ;
+brdflo:L_53 a schema1:Place ;
     rdfs:label "Costa Rica" .
 
-brdflo:L_530 a schema:Place ;
+brdflo:L_530 a schema1:Place ;
     rdfs:label "Cape Town; Khayelitsha-SectB" .
 
-brdflo:L_531 a schema:Place ;
+brdflo:L_531 a schema1:Place ;
     rdfs:label "Cape Town; Khayelitsha-SectC" .
 
-brdflo:L_532 a schema:Place ;
+brdflo:L_532 a schema1:Place ;
     rdfs:label "Cape Town; Khayelitsha-SectD" .
 
-brdflo:L_533 a schema:Place ;
+brdflo:L_533 a schema1:Place ;
     rdfs:label "Cape Town; Khayelitsha-SectE" .
 
-brdflo:L_534 a schema:Place ;
+brdflo:L_534 a schema1:Place ;
     rdfs:label "Cape Town; Khayelitsha-SectF" .
 
-brdflo:L_535 a schema:Place ;
+brdflo:L_535 a schema1:Place ;
     rdfs:label "Cape Town; Khayelitsha-SectG" .
 
-brdflo:L_536 a schema:Place ;
+brdflo:L_536 a schema1:Place ;
     rdfs:label "Cape Town; Khayelitsha-SectH" .
 
-brdflo:L_537 a schema:Place ;
+brdflo:L_537 a schema1:Place ;
     rdfs:label "Cape Town; Khayelitsha-SectI" .
 
-brdflo:L_538 a schema:Place ;
+brdflo:L_538 a schema1:Place ;
     rdfs:label "Cape Town; Khayelitsha-SectJ" .
 
-brdflo:L_539 a schema:Place ;
+brdflo:L_539 a schema1:Place ;
     rdfs:label "Cape Town; Khayelitsha-SiteB" .
 
-brdflo:L_54 a schema:Place ;
+brdflo:L_54 a schema1:Place ;
     rdfs:label "Ivory Coast (Cote d'Ivoire)" .
 
-brdflo:L_540 a schema:Place ;
+brdflo:L_540 a schema1:Place ;
     rdfs:label "Cape Town; Khayelitsha-SiteC" .
 
-brdflo:L_541 a schema:Place ;
+brdflo:L_541 a schema1:Place ;
     rdfs:label "Cape Town; Khayelitsha-T Vilakazi" .
 
-brdflo:L_542 a schema:Place ;
+brdflo:L_542 a schema1:Place ;
     rdfs:label "Cape Town; Khayelitsha-Taiwan" .
 
-brdflo:L_543 a schema:Place ;
+brdflo:L_543 a schema1:Place ;
     rdfs:label "Cape Town; Khayelitsha-Town2" .
 
-brdflo:L_544 a schema:Place ;
+brdflo:L_544 a schema1:Place ;
     rdfs:label "Cape Town; Lentegeur" .
 
-brdflo:L_545 a schema:Place ;
+brdflo:L_545 a schema1:Place ;
     rdfs:label "Cape Town; Lower Crossroads" .
 
-brdflo:L_546 a schema:Place ;
+brdflo:L_546 a schema1:Place ;
     rdfs:label "Cape Town; Mandalay" .
 
-brdflo:L_547 a schema:Place ;
+brdflo:L_547 a schema1:Place ;
     rdfs:label "Cape Town; Mitchells Plain" .
 
-brdflo:L_548 a schema:Place ;
+brdflo:L_548 a schema1:Place ;
     rdfs:label "Cape Town; New Crossroads" .
 
-brdflo:L_549 a schema:Place ;
+brdflo:L_549 a schema1:Place ;
     rdfs:label "Cape Town; Nyanga" .
 
-brdflo:L_55 a schema:Place ;
+brdflo:L_55 a schema1:Place ;
     rdfs:label "Croatia" .
 
-brdflo:L_550 a schema:Place ;
+brdflo:L_550 a schema1:Place ;
     rdfs:label "Cape Town; Nyanga-Black City" .
 
-brdflo:L_551 a schema:Place ;
+brdflo:L_551 a schema1:Place ;
     rdfs:label "Cape Town; Nyanga-KTC" .
 
-brdflo:L_552 a schema:Place ;
+brdflo:L_552 a schema1:Place ;
     rdfs:label "Cape Town; Nyanga-Lusaka" .
 
-brdflo:L_553 a schema:Place ;
+brdflo:L_553 a schema1:Place ;
     rdfs:label "Cape Town; Nyanga-Mbinga Sq" .
 
-brdflo:L_554 a schema:Place ;
+brdflo:L_554 a schema1:Place ;
     rdfs:label "Cape Town; Nyanga-Mkhonto Sq" .
 
-brdflo:L_555 a schema:Place ;
+brdflo:L_555 a schema1:Place ;
     rdfs:label "Cape Town; Nyanga-Mpeta Sq" .
 
-brdflo:L_556 a schema:Place ;
+brdflo:L_556 a schema1:Place ;
     rdfs:label "Cape Town; Old Crossroads" .
 
-brdflo:L_557 a schema:Place ;
+brdflo:L_557 a schema1:Place ;
     rdfs:label "Cape Town; Old Crossroads-Boys Town" .
 
-brdflo:L_558 a schema:Place ;
+brdflo:L_558 a schema1:Place ;
     rdfs:label "Cape Town; Old Crossroads-Gqobhasi" .
 
-brdflo:L_559 a schema:Place ;
+brdflo:L_559 a schema1:Place ;
     rdfs:label "Cape Town; Phillipi" .
 
-brdflo:L_56 a schema:Place ;
+brdflo:L_56 a schema1:Place ;
     rdfs:label "Cuba" .
 
-brdflo:L_560 a schema:Place ;
+brdflo:L_560 a schema1:Place ;
     rdfs:label "Cape Town; Portlands" .
 
-brdflo:L_561 a schema:Place ;
+brdflo:L_561 a schema1:Place ;
     rdfs:label "Cape Town; Rocklands" .
 
-brdflo:L_562 a schema:Place ;
+brdflo:L_562 a schema1:Place ;
     rdfs:label "Cape Town; Strandfontein" .
 
-brdflo:L_563 a schema:Place ;
+brdflo:L_563 a schema1:Place ;
     rdfs:label "Cape Town; Tafelsig" .
 
-brdflo:L_564 a schema:Place ;
+brdflo:L_564 a schema1:Place ;
     rdfs:label "Cape Town; Tembani" .
 
-brdflo:L_565 a schema:Place ;
+brdflo:L_565 a schema1:Place ;
     rdfs:label "Cape Town; Weltevreden Valley" .
 
-brdflo:L_566 a schema:Place ;
+brdflo:L_566 a schema1:Place ;
     rdfs:label "Cape Town; Weltevreden Valley-Heinzpark" .
 
-brdflo:L_567 a schema:Place ;
+brdflo:L_567 a schema1:Place ;
     rdfs:label "Cape Town; Westridge" .
 
-brdflo:L_568 a schema:Place ;
+brdflo:L_568 a schema1:Place ;
     rdfs:label "Cape Town; Woodlands" .
 
-brdflo:L_569 a schema:Place ;
+brdflo:L_569 a schema1:Place ;
     rdfs:label "Cape Town; Belmont Park" .
 
-brdflo:L_57 a schema:Place ;
+brdflo:L_57 a schema1:Place ;
     rdfs:label "Curacao" .
 
-brdflo:L_570 a schema:Place ;
+brdflo:L_570 a schema1:Place ;
     rdfs:label "Cape Town; Blackheath Industrial" .
 
-brdflo:L_571 a schema:Place ;
+brdflo:L_571 a schema1:Place ;
     rdfs:label "Cape Town; Bloekombos" .
 
-brdflo:L_572 a schema:Place ;
+brdflo:L_572 a schema1:Place ;
     rdfs:label "Cape Town; Bonnie Brook" .
 
-brdflo:L_573 a schema:Place ;
+brdflo:L_573 a schema1:Place ;
     rdfs:label "Cape Town; Bracken Heights" .
 
-brdflo:L_574 a schema:Place ;
+brdflo:L_574 a schema1:Place ;
     rdfs:label "Cape Town; Brackenfell" .
 
-brdflo:L_575 a schema:Place ;
+brdflo:L_575 a schema1:Place ;
     rdfs:label "Cape Town; Brackenfell Central" .
 
-brdflo:L_576 a schema:Place ;
+brdflo:L_576 a schema1:Place ;
     rdfs:label "Cape Town; Brackenfell Industrial" .
 
-brdflo:L_577 a schema:Place ;
+brdflo:L_577 a schema1:Place ;
     rdfs:label "Cape Town; Brentwood Park" .
 
-brdflo:L_578 a schema:Place ;
+brdflo:L_578 a schema1:Place ;
     rdfs:label "Cape Town; Dennemere" .
 
-brdflo:L_579 a schema:Place ;
+brdflo:L_579 a schema1:Place ;
     rdfs:label "Cape Town; Diepwater" .
 
-brdflo:L_58 a schema:Place ;
+brdflo:L_58 a schema1:Place ;
     rdfs:label "Cyprus" .
 
-brdflo:L_580 a schema:Place ;
+brdflo:L_580 a schema1:Place ;
     rdfs:label "Cape Town; Driftsands" .
 
-brdflo:L_581 a schema:Place ;
+brdflo:L_581 a schema1:Place ;
     rdfs:label "Cape Town; Eden Park" .
 
-brdflo:L_582 a schema:Place ;
+brdflo:L_582 a schema1:Place ;
     rdfs:label "Cape Town; Eersterivier" .
 
-brdflo:L_583 a schema:Place ;
+brdflo:L_583 a schema1:Place ;
     rdfs:label "Cape Town; Eersterivier South" .
 
-brdflo:L_584 a schema:Place ;
+brdflo:L_584 a schema1:Place ;
     rdfs:label "Cape Town; Eikendal" .
 
-brdflo:L_585 a schema:Place ;
+brdflo:L_585 a schema1:Place ;
     rdfs:label "Cape Town; Electric City" .
 
-brdflo:L_586 a schema:Place ;
+brdflo:L_586 a schema1:Place ;
     rdfs:label "Cape Town; Ferndale" .
 
-brdflo:L_587 a schema:Place ;
+brdflo:L_587 a schema1:Place ;
     rdfs:label "Cape Town; Forest Village" .
 
-brdflo:L_588 a schema:Place ;
+brdflo:L_588 a schema1:Place ;
     rdfs:label "Cape Town; Fountain Village" .
 
-brdflo:L_589 a schema:Place ;
+brdflo:L_589 a schema1:Place ;
     rdfs:label "Cape Town; Gaylee" .
 
-brdflo:L_59 a schema:Place ;
+brdflo:L_59 a schema1:Place ;
     rdfs:label "Czech Republic" .
 
-brdflo:L_590 a schema:Place ;
+brdflo:L_590 a schema1:Place ;
     rdfs:label "Cape Town; Hagley" .
 
-brdflo:L_591 a schema:Place ;
+brdflo:L_591 a schema1:Place ;
     rdfs:label "Cape Town; Happy Valley" .
 
-brdflo:L_592 a schema:Place ;
+brdflo:L_592 a schema1:Place ;
     rdfs:label "Cape Town; Hillcrest Heights" .
 
-brdflo:L_593 a schema:Place ;
+brdflo:L_593 a schema1:Place ;
     rdfs:label "Cape Town; Holland View" .
 
-brdflo:L_594 a schema:Place ;
+brdflo:L_594 a schema1:Place ;
     rdfs:label "Cape Town; Kleinvlei" .
 
-brdflo:L_595 a schema:Place ;
+brdflo:L_595 a schema1:Place ;
     rdfs:label "Cape Town; Kraaifontein Industrial" .
 
-brdflo:L_596 a schema:Place ;
+brdflo:L_596 a schema1:Place ;
     rdfs:label "Cape Town; Kuilsrivier" .
 
-brdflo:L_597 a schema:Place ;
+brdflo:L_597 a schema1:Place ;
     rdfs:label "Cape Town; Langeberg Ridge" .
 
-brdflo:L_598 a schema:Place ;
+brdflo:L_598 a schema1:Place ;
     rdfs:label "Cape Town; Malibu Village" .
 
-brdflo:L_599 a schema:Place ;
+brdflo:L_599 a schema1:Place ;
     rdfs:label "Cape Town; Mfuleni" .
 
-brdflo:L_6 a schema:Place ;
+brdflo:L_6 a schema1:Place ;
     rdfs:label "Andorra" .
 
-brdflo:L_60 a schema:Place ;
+brdflo:L_60 a schema1:Place ;
     rdfs:label "Korea, North (Democratic People's Republic of)" .
 
-brdflo:L_600 a schema:Place ;
+brdflo:L_600 a schema1:Place ;
     rdfs:label "Cape Town; North Pine" .
 
-brdflo:L_601 a schema:Place ;
+brdflo:L_601 a schema1:Place ;
     rdfs:label "Cape Town; Peerless Park" .
 
-brdflo:L_602 a schema:Place ;
+brdflo:L_602 a schema1:Place ;
     rdfs:label "Cape Town; Penhill" .
 
-brdflo:L_603 a schema:Place ;
+brdflo:L_603 a schema1:Place ;
     rdfs:label "Cape Town; Protea Hoogte" .
 
-brdflo:L_604 a schema:Place ;
+brdflo:L_604 a schema1:Place ;
     rdfs:label "Cape Town; Rotterdam" .
 
-brdflo:L_605 a schema:Place ;
+brdflo:L_605 a schema1:Place ;
     rdfs:label "Cape Town; Rusdal" .
 
-brdflo:L_606 a schema:Place ;
+brdflo:L_606 a schema1:Place ;
     rdfs:label "Cape Town; Rustdal" .
 
-brdflo:L_607 a schema:Place ;
+brdflo:L_607 a schema1:Place ;
     rdfs:label "Cape Town; Sarepta" .
 
-brdflo:L_608 a schema:Place ;
+brdflo:L_608 a schema1:Place ;
     rdfs:label "Cape Town; Scottsdene" .
 
-brdflo:L_609 a schema:Place ;
+brdflo:L_609 a schema1:Place ;
     rdfs:label "Cape Town; Scottsdene Ext" .
 
-brdflo:L_61 a schema:Place ;
+brdflo:L_61 a schema1:Place ;
     rdfs:label "Democratic Republic of the Congo" .
 
-brdflo:L_610 a schema:Place ;
+brdflo:L_610 a schema1:Place ;
     rdfs:label "Cape Town; Scottsville" .
 
-brdflo:L_611 a schema:Place ;
+brdflo:L_611 a schema1:Place ;
     rdfs:label "Cape Town; Silversands" .
 
-brdflo:L_612 a schema:Place ;
+brdflo:L_612 a schema1:Place ;
     rdfs:label "Cape Town; The Conifers" .
 
-brdflo:L_613 a schema:Place ;
+brdflo:L_613 a schema1:Place ;
     rdfs:label "Cape Town; Tuscany Glen" .
 
-brdflo:L_614 a schema:Place ;
+brdflo:L_614 a schema1:Place ;
     rdfs:label "Cape Town; Vredekloof" .
 
-brdflo:L_615 a schema:Place ;
+brdflo:L_615 a schema1:Place ;
     rdfs:label "Cape Town; Vredenburg" .
 
-brdflo:L_616 a schema:Place ;
+brdflo:L_616 a schema1:Place ;
     rdfs:label "Cape Town; Wallacedene" .
 
-brdflo:L_617 a schema:Place ;
+brdflo:L_617 a schema1:Place ;
     rdfs:label "Cape Town; Wembly Park" .
 
-brdflo:L_618 a schema:Place ;
+brdflo:L_618 a schema1:Place ;
     rdfs:label "Cape Town; Windsor Estate" .
 
-brdflo:L_619 a schema:Place ;
+brdflo:L_619 a schema1:Place ;
     rdfs:label "Cape Town; Windsor Park Estate" .
 
-brdflo:L_62 a schema:Place ;
+brdflo:L_62 a schema1:Place ;
     rdfs:label "Denmark" .
 
-brdflo:L_620 a schema:Place ;
+brdflo:L_620 a schema1:Place ;
     rdfs:label "Cape Town; Zoo Park" .
 
-brdflo:L_621 a schema:Place ;
+brdflo:L_621 a schema1:Place ;
     rdfs:label "Cape Town; Kuilsrivier NU" .
 
-brdflo:L_622 a schema:Place ;
+brdflo:L_622 a schema1:Place ;
     rdfs:label "Cape Town; Fairy Land" .
 
-brdflo:L_623 a schema:Place ;
+brdflo:L_623 a schema1:Place ;
     rdfs:label "Cape Town; Mbekweni" .
 
-brdflo:L_624 a schema:Place ;
+brdflo:L_624 a schema1:Place ;
     rdfs:label "Cape Town; Paarl" .
 
-brdflo:L_625 a schema:Place ;
+brdflo:L_625 a schema1:Place ;
     rdfs:label "Cape Town; Park Land" .
 
-brdflo:L_626 a schema:Place ;
+brdflo:L_626 a schema1:Place ;
     rdfs:label "Cape Town; Franschoek" .
 
-brdflo:L_627 a schema:Place ;
+brdflo:L_627 a schema1:Place ;
     rdfs:label "Cape Town; Groendal" .
 
-brdflo:L_628 a schema:Place ;
+brdflo:L_628 a schema1:Place ;
     rdfs:label "Cape Town; Pniel" .
 
-brdflo:L_629 a schema:Place ;
+brdflo:L_629 a schema1:Place ;
     rdfs:label "Cape Town; Paarl NU" .
 
-brdflo:L_63 a schema:Place ;
+brdflo:L_63 a schema1:Place ;
     rdfs:label "Djibouti" .
 
-brdflo:L_630 a schema:Place ;
+brdflo:L_630 a schema1:Place ;
     rdfs:label "Cape Town; Kylemore" .
 
-brdflo:L_631 a schema:Place ;
+brdflo:L_631 a schema1:Place ;
     rdfs:label "Cape Town; Cloetesville" .
 
-brdflo:L_632 a schema:Place ;
+brdflo:L_632 a schema1:Place ;
     rdfs:label "Cape Town; Eureka" .
 
-brdflo:L_633 a schema:Place ;
+brdflo:L_633 a schema1:Place ;
     rdfs:label "Cape Town; Idasvalley" .
 
-brdflo:L_634 a schema:Place ;
+brdflo:L_634 a schema1:Place ;
     rdfs:label "Cape Town; Jamestown" .
 
-brdflo:L_635 a schema:Place ;
+brdflo:L_635 a schema1:Place ;
     rdfs:label "Cape Town; Kaya Mandi" .
 
-brdflo:L_636 a schema:Place ;
+brdflo:L_636 a schema1:Place ;
     rdfs:label "Cape Town; Onder Papegaaiberg" .
 
-brdflo:L_637 a schema:Place ;
+brdflo:L_637 a schema1:Place ;
     rdfs:label "Cape Town; Stellenbosch" .
 
-brdflo:L_638 a schema:Place ;
+brdflo:L_638 a schema1:Place ;
     rdfs:label "Cape Town; Stellenbosch NU" .
 
-brdflo:L_639 a schema:Place ;
+brdflo:L_639 a schema1:Place ;
     rdfs:label "Cape Town; Macassar" .
 
-brdflo:L_64 a schema:Place ;
+brdflo:L_64 a schema1:Place ;
     rdfs:label "Dominica" .
 
-brdflo:L_640 a schema:Place ;
+brdflo:L_640 a schema1:Place ;
     rdfs:label "Cape Town; Rathby" .
 
-brdflo:L_641 a schema:Place ;
+brdflo:L_641 a schema1:Place ;
     rdfs:label "Cape Town; Sir Lowry's Pass" .
 
-brdflo:L_642 a schema:Place ;
+brdflo:L_642 a schema1:Place ;
     rdfs:label "Cape Town; Bridge Water" .
 
-brdflo:L_643 a schema:Place ;
+brdflo:L_643 a schema1:Place ;
     rdfs:label "Cape Town; Briza" .
 
-brdflo:L_644 a schema:Place ;
+brdflo:L_644 a schema1:Place ;
     rdfs:label "Cape Town; Dennegeur" .
 
-brdflo:L_645 a schema:Place ;
+brdflo:L_645 a schema1:Place ;
     rdfs:label "Cape Town; Die Wingerd" .
 
-brdflo:L_646 a schema:Place ;
+brdflo:L_646 a schema1:Place ;
     rdfs:label "Cape Town; Faure" .
 
-brdflo:L_647 a schema:Place ;
+brdflo:L_647 a schema1:Place ;
     rdfs:label "Cape Town; Garden Village" .
 
-brdflo:L_648 a schema:Place ;
+brdflo:L_648 a schema1:Place ;
     rdfs:label "Cape Town; Haumannshof" .
 
-brdflo:L_649 a schema:Place ;
+brdflo:L_649 a schema1:Place ;
     rdfs:label "Cape Town; Helderberg Estates" .
 
-brdflo:L_65 a schema:Place ;
+brdflo:L_65 a schema1:Place ;
     rdfs:label "Dominican Republic (the)" .
 
-brdflo:L_650 a schema:Place ;
+brdflo:L_650 a schema1:Place ;
     rdfs:label "Cape Town; Helderberg Village" .
 
-brdflo:L_651 a schema:Place ;
+brdflo:L_651 a schema1:Place ;
     rdfs:label "Cape Town; Heldervue" .
 
-brdflo:L_652 a schema:Place ;
+brdflo:L_652 a schema1:Place ;
     rdfs:label "Cape Town; Helderzicht & Paardevlei" .
 
-brdflo:L_653 a schema:Place ;
+brdflo:L_653 a schema1:Place ;
     rdfs:label "Cape Town; Helena Heights" .
 
-brdflo:L_654 a schema:Place ;
+brdflo:L_654 a schema1:Place ;
     rdfs:label "Cape Town; Morningside" .
 
-brdflo:L_655 a schema:Place ;
+brdflo:L_655 a schema1:Place ;
     rdfs:label "Cape Town; Rome Glen & Kalamunda" .
 
-brdflo:L_656 a schema:Place ;
+brdflo:L_656 a schema1:Place ;
     rdfs:label "Cape Town; Somerset West" .
 
-brdflo:L_657 a schema:Place ;
+brdflo:L_657 a schema1:Place ;
     rdfs:label "Cape Town; Somerset West Central" .
 
-brdflo:L_658 a schema:Place ;
+brdflo:L_658 a schema1:Place ;
     rdfs:label "Cape Town; Steynsrust" .
 
-brdflo:L_659 a schema:Place ;
+brdflo:L_659 a schema1:Place ;
     rdfs:label "Cape Town; The Links" .
 
-brdflo:L_66 a schema:Place ;
+brdflo:L_66 a schema1:Place ;
     rdfs:label "Ecuador" .
 
-brdflo:L_660 a schema:Place ;
+brdflo:L_660 a schema1:Place ;
     rdfs:label "Cape Town; Somerset West NU" .
 
-brdflo:L_661 a schema:Place ;
+brdflo:L_661 a schema1:Place ;
     rdfs:label "Cape Town; Gordons Bay" .
 
-brdflo:L_662 a schema:Place ;
+brdflo:L_662 a schema1:Place ;
     rdfs:label "Cape Town; Lwandle" .
 
-brdflo:L_663 a schema:Place ;
+brdflo:L_663 a schema1:Place ;
     rdfs:label "Cape Town; Nomzamo" .
 
-brdflo:L_664 a schema:Place ;
+brdflo:L_664 a schema1:Place ;
     rdfs:label "Cape Town; Strand" .
 
-brdflo:L_665 a schema:Place ;
+brdflo:L_665 a schema1:Place ;
     rdfs:label "Cape Town; Strand NU" .
 
-brdflo:L_666 a schema:Place ;
+brdflo:L_666 a schema1:Place ;
     rdfs:label "Cape Town; Newton" .
 
-brdflo:L_667 a schema:Place ;
+brdflo:L_667 a schema1:Place ;
     rdfs:label "Cape Town; Wellington" .
 
-brdflo:L_668 a schema:Place ;
+brdflo:L_668 a schema1:Place ;
     rdfs:label "Cape Town; Wellington NU" .
 
-brdflo:L_669 a schema:Place ;
+brdflo:L_669 a schema1:Place ;
     rdfs:label "Cape Town; Waenhuiskrans & Arniston" .
 
-brdflo:L_67 a schema:Place ;
+brdflo:L_67 a schema1:Place ;
     rdfs:label "Egypt" .
 
-brdflo:L_670 a schema:Place ;
+brdflo:L_670 a schema1:Place ;
     rdfs:label "Cape Town; Bredasdorp" .
 
-brdflo:L_671 a schema:Place ;
+brdflo:L_671 a schema1:Place ;
     rdfs:label "Cape Town; Zwelitsha Informal" .
 
-brdflo:L_672 a schema:Place ;
+brdflo:L_672 a schema1:Place ;
     rdfs:label "Cape Town; Elim" .
 
-brdflo:L_673 a schema:Place ;
+brdflo:L_673 a schema1:Place ;
     rdfs:label "Cape Town; L'Agulhas" .
 
-brdflo:L_674 a schema:Place ;
+brdflo:L_674 a schema1:Place ;
     rdfs:label "Cape Town; Napier" .
 
-brdflo:L_675 a schema:Place ;
+brdflo:L_675 a schema1:Place ;
     rdfs:label "Cape Town; Pearly Beach" .
 
-brdflo:L_676 a schema:Place ;
+brdflo:L_676 a schema1:Place ;
     rdfs:label "Cape Town; Molshoop" .
 
-brdflo:L_677 a schema:Place ;
+brdflo:L_677 a schema1:Place ;
     rdfs:label "Cape Town; Struisbaai" .
 
-brdflo:L_678 a schema:Place ;
+brdflo:L_678 a schema1:Place ;
     rdfs:label "Cape Town; Bredasdorp NU" .
 
-brdflo:L_679 a schema:Place ;
+brdflo:L_679 a schema1:Place ;
     rdfs:label "Cape Town; Betty's Bay" .
 
-brdflo:L_68 a schema:Place ;
+brdflo:L_68 a schema1:Place ;
     rdfs:label "El Salvador" .
 
-brdflo:L_680 a schema:Place ;
+brdflo:L_680 a schema1:Place ;
     rdfs:label "Cape Town; Botrivier" .
 
-brdflo:L_681 a schema:Place ;
+brdflo:L_681 a schema1:Place ;
     rdfs:label "Cape Town; Bergsig" .
 
-brdflo:L_682 a schema:Place ;
+brdflo:L_682 a schema1:Place ;
     rdfs:label "Cape Town; Caledon" .
 
-brdflo:L_683 a schema:Place ;
+brdflo:L_683 a schema1:Place ;
     rdfs:label "Cape Town; Middleton" .
 
-brdflo:L_684 a schema:Place ;
+brdflo:L_684 a schema1:Place ;
     rdfs:label "Cape Town; Grabouw" .
 
-brdflo:L_685 a schema:Place ;
+brdflo:L_685 a schema1:Place ;
     rdfs:label "Cape Town; Waterwerke Informal" .
 
-brdflo:L_686 a schema:Place ;
+brdflo:L_686 a schema1:Place ;
     rdfs:label "Cape Town; Greyton" .
 
-brdflo:L_687 a schema:Place ;
+brdflo:L_687 a schema1:Place ;
     rdfs:label "Cape Town; Kleinmond" .
 
-brdflo:L_688 a schema:Place ;
+brdflo:L_688 a schema1:Place ;
     rdfs:label "Cape Town; Pringle Bay" .
 
-brdflo:L_689 a schema:Place ;
+brdflo:L_689 a schema1:Place ;
     rdfs:label "Cape Town; Riviersonderend" .
 
-brdflo:L_69 a schema:Place ;
+brdflo:L_69 a schema1:Place ;
     rdfs:label "Equatorial Guinea" .
 
-brdflo:L_690 a schema:Place ;
+brdflo:L_690 a schema1:Place ;
     rdfs:label "Cape Town; Rooi-Els" .
 
-brdflo:L_691 a schema:Place ;
+brdflo:L_691 a schema1:Place ;
     rdfs:label "Cape Town; Goniwe Park" .
 
-brdflo:L_692 a schema:Place ;
+brdflo:L_692 a schema1:Place ;
     rdfs:label "Cape Town; Villiersdorp" .
 
-brdflo:L_693 a schema:Place ;
+brdflo:L_693 a schema1:Place ;
     rdfs:label "Cape Town; Bereaville" .
 
-brdflo:L_694 a schema:Place ;
+brdflo:L_694 a schema1:Place ;
     rdfs:label "Cape Town; Bosmanskloof" .
 
-brdflo:L_695 a schema:Place ;
+brdflo:L_695 a schema1:Place ;
     rdfs:label "Cape Town; Caledon NU" .
 
-brdflo:L_696 a schema:Place ;
+brdflo:L_696 a schema1:Place ;
     rdfs:label "Cape Town; Genadendal" .
 
-brdflo:L_697 a schema:Place ;
+brdflo:L_697 a schema1:Place ;
     rdfs:label "Cape Town; Danger Point" .
 
-brdflo:L_698 a schema:Place ;
+brdflo:L_698 a schema1:Place ;
     rdfs:label "Cape Town; Die Kelders" .
 
-brdflo:L_699 a schema:Place ;
+brdflo:L_699 a schema1:Place ;
     rdfs:label "Cape Town; Fisherhaven" .
 
-brdflo:L_7 a schema:Place ;
+brdflo:L_7 a schema1:Place ;
     rdfs:label "Angola" .
 
-brdflo:L_70 a schema:Place ;
+brdflo:L_70 a schema1:Place ;
     rdfs:label "Eritrea" .
 
-brdflo:L_700 a schema:Place ;
+brdflo:L_700 a schema1:Place ;
     rdfs:label "Cape Town; Franskraalstrand" .
 
-brdflo:L_701 a schema:Place ;
+brdflo:L_701 a schema1:Place ;
     rdfs:label "Cape Town; Gansbaai" .
 
-brdflo:L_702 a schema:Place ;
+brdflo:L_702 a schema1:Place ;
     rdfs:label "Cape Town; Masakhane" .
 
-brdflo:L_703 a schema:Place ;
+brdflo:L_703 a schema1:Place ;
     rdfs:label "Cape Town; Hawston" .
 
-brdflo:L_704 a schema:Place ;
+brdflo:L_704 a schema1:Place ;
     rdfs:label "Cape Town; Hermanus" .
 
-brdflo:L_705 a schema:Place ;
+brdflo:L_705 a schema1:Place ;
     rdfs:label "Cape Town; Mount Pleasant" .
 
-brdflo:L_706 a schema:Place ;
+brdflo:L_706 a schema1:Place ;
     rdfs:label "Cape Town; Sandbaai" .
 
-brdflo:L_707 a schema:Place ;
+brdflo:L_707 a schema1:Place ;
     rdfs:label "Cape Town; Voelklip" .
 
-brdflo:L_708 a schema:Place ;
+brdflo:L_708 a schema1:Place ;
     rdfs:label "Cape Town; Zwelihle" .
 
-brdflo:L_709 a schema:Place ;
+brdflo:L_709 a schema1:Place ;
     rdfs:label "Cape Town; Kleinbaai" .
 
-brdflo:L_71 a schema:Place ;
+brdflo:L_71 a schema1:Place ;
     rdfs:label "Estonia" .
 
-brdflo:L_710 a schema:Place ;
+brdflo:L_710 a schema1:Place ;
     rdfs:label "Cape Town; Onrus" .
 
-brdflo:L_711 a schema:Place ;
+brdflo:L_711 a schema1:Place ;
     rdfs:label "Cape Town; Stanford" .
 
-brdflo:L_712 a schema:Place ;
+brdflo:L_712 a schema1:Place ;
     rdfs:label "Cape Town; Vermont" .
 
-brdflo:L_713 a schema:Place ;
+brdflo:L_713 a schema1:Place ;
     rdfs:label "Cape Town; Hermanus NU" .
 
-brdflo:L_714 a schema:Place ;
+brdflo:L_714 a schema1:Place ;
     rdfs:label "Cape Town; Heidelberg" .
 
-brdflo:L_715 a schema:Place ;
+brdflo:L_715 a schema1:Place ;
     rdfs:label "Cape Town; Witsand & Port Beaufort" .
 
-brdflo:L_716 a schema:Place ;
+brdflo:L_716 a schema1:Place ;
     rdfs:label "Cape Town; Slangrivier" .
 
-brdflo:L_717 a schema:Place ;
+brdflo:L_717 a schema1:Place ;
     rdfs:label "Cape Town; Heidelberg NU" .
 
-brdflo:L_718 a schema:Place ;
+brdflo:L_718 a schema1:Place ;
     rdfs:label "Cape Town; Barrydale" .
 
-brdflo:L_719 a schema:Place ;
+brdflo:L_719 a schema1:Place ;
     rdfs:label "Cape Town; Bonnievale" .
 
-brdflo:L_72 a schema:Place ;
+brdflo:L_72 a schema1:Place ;
     rdfs:label "Ethiopia" .
 
-brdflo:L_720 a schema:Place ;
+brdflo:L_720 a schema1:Place ;
     rdfs:label "Cape Town; Infanta" .
 
-brdflo:L_721 a schema:Place ;
+brdflo:L_721 a schema1:Place ;
     rdfs:label "Cape Town; Railton" .
 
-brdflo:L_722 a schema:Place ;
+brdflo:L_722 a schema1:Place ;
     rdfs:label "Cape Town; Swellendam" .
 
-brdflo:L_723 a schema:Place ;
+brdflo:L_723 a schema1:Place ;
     rdfs:label "Cape Town; Suurbraak" .
 
-brdflo:L_724 a schema:Place ;
+brdflo:L_724 a schema1:Place ;
     rdfs:label "Cape Town; Swellendam NU" .
 
-brdflo:L_725 a schema:Place ;
+brdflo:L_725 a schema1:Place ;
     rdfs:label "Cape Town; Ballotsview" .
 
-brdflo:L_726 a schema:Place ;
+brdflo:L_726 a schema1:Place ;
     rdfs:label "Cape Town; Blanco" .
 
-brdflo:L_727 a schema:Place ;
+brdflo:L_727 a schema1:Place ;
     rdfs:label "Cape Town; Conville" .
 
-brdflo:L_728 a schema:Place ;
+brdflo:L_728 a schema1:Place ;
     rdfs:label "Cape Town; George" .
 
-brdflo:L_729 a schema:Place ;
+brdflo:L_729 a schema1:Place ;
     rdfs:label "Cape Town; Heather Park" .
 
-brdflo:L_73 a schema:Place ;
+brdflo:L_73 a schema1:Place ;
     rdfs:label "Faroe Islands (the)" .
 
-brdflo:L_730 a schema:Place ;
+brdflo:L_730 a schema1:Place ;
     rdfs:label "Cape Town; Lawaaikamp" .
 
-brdflo:L_731 a schema:Place ;
+brdflo:L_731 a schema1:Place ;
     rdfs:label "Cape Town; Pacaltsdorp" .
 
-brdflo:L_732 a schema:Place ;
+brdflo:L_732 a schema1:Place ;
     rdfs:label "Cape Town; Parkdene" .
 
-brdflo:L_733 a schema:Place ;
+brdflo:L_733 a schema1:Place ;
     rdfs:label "Cape Town; Rosemoor" .
 
-brdflo:L_734 a schema:Place ;
+brdflo:L_734 a schema1:Place ;
     rdfs:label "Cape Town; Thembalethu" .
 
-brdflo:L_735 a schema:Place ;
+brdflo:L_735 a schema1:Place ;
     rdfs:label "Cape Town; Groot Brakrivier" .
 
-brdflo:L_736 a schema:Place ;
+brdflo:L_736 a schema1:Place ;
     rdfs:label "Cape Town; Heroldsbaai" .
 
-brdflo:L_737 a schema:Place ;
+brdflo:L_737 a schema1:Place ;
     rdfs:label "Cape Town; Hoekwil" .
 
-brdflo:L_738 a schema:Place ;
+brdflo:L_738 a schema1:Place ;
     rdfs:label "Cape Town; Wilderness" .
 
-brdflo:L_739 a schema:Place ;
+brdflo:L_739 a schema1:Place ;
     rdfs:label "Cape Town; George NU" .
 
-brdflo:L_74 a schema:Place ;
+brdflo:L_74 a schema1:Place ;
     rdfs:label "Falkland Islands (Islas Malvinas)" .
 
-brdflo:L_740 a schema:Place ;
+brdflo:L_740 a schema1:Place ;
     rdfs:label "Cape Town; Buffelsbaai" .
 
-brdflo:L_741 a schema:Place ;
+brdflo:L_741 a schema1:Place ;
     rdfs:label "Cape Town; Covie" .
 
-brdflo:L_742 a schema:Place ;
+brdflo:L_742 a schema1:Place ;
     rdfs:label "Cape Town; Keurboomstrand" .
 
-brdflo:L_743 a schema:Place ;
+brdflo:L_743 a schema1:Place ;
     rdfs:label "Cape Town; Belvidere" .
 
-brdflo:L_744 a schema:Place ;
+brdflo:L_744 a schema1:Place ;
     rdfs:label "Cape Town; Bongani" .
 
-brdflo:L_745 a schema:Place ;
+brdflo:L_745 a schema1:Place ;
     rdfs:label "Cape Town; Brenton-on-lake" .
 
-brdflo:L_746 a schema:Place ;
+brdflo:L_746 a schema1:Place ;
     rdfs:label "Cape Town; Brenton-on-sea" .
 
-brdflo:L_747 a schema:Place ;
+brdflo:L_747 a schema1:Place ;
     rdfs:label "Cape Town; Concordia" .
 
-brdflo:L_748 a schema:Place ;
+brdflo:L_748 a schema1:Place ;
     rdfs:label "Cape Town; Dam se Bos" .
 
-brdflo:L_749 a schema:Place ;
+brdflo:L_749 a schema1:Place ;
     rdfs:label "Cape Town; Flenters" .
 
-brdflo:L_75 a schema:Place ;
+brdflo:L_75 a schema1:Place ;
     rdfs:label "Fiji" .
 
-brdflo:L_750 a schema:Place ;
+brdflo:L_750 a schema1:Place ;
     rdfs:label "Cape Town; Hornlee" .
 
-brdflo:L_751 a schema:Place ;
+brdflo:L_751 a schema1:Place ;
     rdfs:label "Cape Town; Joodse Kamp" .
 
-brdflo:L_752 a schema:Place ;
+brdflo:L_752 a schema1:Place ;
     rdfs:label "Cape Town; Khayalethu South" .
 
-brdflo:L_753 a schema:Place ;
+brdflo:L_753 a schema1:Place ;
     rdfs:label "Cape Town; Knysna" .
 
-brdflo:L_754 a schema:Place ;
+brdflo:L_754 a schema1:Place ;
     rdfs:label "Cape Town; Leisure Island" .
 
-brdflo:L_755 a schema:Place ;
+brdflo:L_755 a schema1:Place ;
     rdfs:label "Cape Town; Nekkies" .
 
-brdflo:L_756 a schema:Place ;
+brdflo:L_756 a schema1:Place ;
     rdfs:label "Cape Town; Rhobololo" .
 
-brdflo:L_757 a schema:Place ;
+brdflo:L_757 a schema1:Place ;
     rdfs:label "Cape Town; The Heads" .
 
-brdflo:L_758 a schema:Place ;
+brdflo:L_758 a schema1:Place ;
     rdfs:label "Cape Town; Thesen's Island" .
 
-brdflo:L_759 a schema:Place ;
+brdflo:L_759 a schema1:Place ;
     rdfs:label "Cape Town; Witlokasie" .
 
-brdflo:L_76 a schema:Place ;
+brdflo:L_76 a schema1:Place ;
     rdfs:label "Finland" .
 
-brdflo:L_760 a schema:Place ;
+brdflo:L_760 a schema1:Place ;
     rdfs:label "Cape Town; Xolweni" .
 
-brdflo:L_761 a schema:Place ;
+brdflo:L_761 a schema1:Place ;
     rdfs:label "Cape Town; Krantshoek" .
 
-brdflo:L_762 a schema:Place ;
+brdflo:L_762 a schema1:Place ;
     rdfs:label "Cape Town; Kurland" .
 
-brdflo:L_763 a schema:Place ;
+brdflo:L_763 a schema1:Place ;
     rdfs:label "Cape Town; Nature's Valley" .
 
-brdflo:L_764 a schema:Place ;
+brdflo:L_764 a schema1:Place ;
     rdfs:label "Cape Town; Kwanokuthula" .
 
-brdflo:L_765 a schema:Place ;
+brdflo:L_765 a schema1:Place ;
     rdfs:label "Cape Town; Plettenberg Bay" .
 
-brdflo:L_766 a schema:Place ;
+brdflo:L_766 a schema1:Place ;
     rdfs:label "Cape Town; Rheenendal" .
 
-brdflo:L_767 a schema:Place ;
+brdflo:L_767 a schema1:Place ;
     rdfs:label "Cape Town; Sedgefield" .
 
-brdflo:L_768 a schema:Place ;
+brdflo:L_768 a schema1:Place ;
     rdfs:label "Cape Town; Wittedrift" .
 
-brdflo:L_769 a schema:Place ;
+brdflo:L_769 a schema1:Place ;
     rdfs:label "Cape Town; Knysna NU" .
 
-brdflo:L_77 a schema:Place ;
+brdflo:L_77 a schema1:Place ;
     rdfs:label "France" .
 
-brdflo:L_770 a schema:Place ;
+brdflo:L_770 a schema1:Place ;
     rdfs:label "Cape Town; Noetzie" .
 
-brdflo:L_771 a schema:Place ;
+brdflo:L_771 a schema1:Place ;
     rdfs:label "Cape Town; Boggomsbaai" .
 
-brdflo:L_772 a schema:Place ;
+brdflo:L_772 a schema1:Place ;
     rdfs:label "Cape Town; Fraaiuitsig" .
 
-brdflo:L_773 a schema:Place ;
+brdflo:L_773 a schema1:Place ;
     rdfs:label "Cape Town; Groot Brakrivier" .
 
-brdflo:L_774 a schema:Place ;
+brdflo:L_774 a schema1:Place ;
     rdfs:label "Cape Town; Klein Brakrivier" .
 
-brdflo:L_775 a schema:Place ;
+brdflo:L_775 a schema1:Place ;
     rdfs:label "Cape Town; Rheebok" .
 
-brdflo:L_776 a schema:Place ;
+brdflo:L_776 a schema1:Place ;
     rdfs:label "Cape Town; Tergniet" .
 
-brdflo:L_777 a schema:Place ;
+brdflo:L_777 a schema1:Place ;
     rdfs:label "Cape Town; Hartenbos" .
 
-brdflo:L_778 a schema:Place ;
+brdflo:L_778 a schema1:Place ;
     rdfs:label "Cape Town; Bay View" .
 
-brdflo:L_779 a schema:Place ;
+brdflo:L_779 a schema1:Place ;
     rdfs:label "Cape Town; Danabaai" .
 
-brdflo:L_78 a schema:Place ;
+brdflo:L_78 a schema1:Place ;
     rdfs:label "French Guiana" .
 
-brdflo:L_780 a schema:Place ;
+brdflo:L_780 a schema1:Place ;
     rdfs:label "Cape Town; JCC Camp" .
 
-brdflo:L_781 a schema:Place ;
+brdflo:L_781 a schema1:Place ;
     rdfs:label "Cape Town; Kwanonqaba" .
 
-brdflo:L_782 a schema:Place ;
+brdflo:L_782 a schema1:Place ;
     rdfs:label "Cape Town; Mossel Bay" .
 
-brdflo:L_783 a schema:Place ;
+brdflo:L_783 a schema1:Place ;
     rdfs:label "Cape Town; Herbertsdale" .
 
-brdflo:L_784 a schema:Place ;
+brdflo:L_784 a schema1:Place ;
     rdfs:label "Cape Town; Mossel Bay NU" .
 
-brdflo:L_785 a schema:Place ;
+brdflo:L_785 a schema1:Place ;
     rdfs:label "Cape Town; Albertinia" .
 
-brdflo:L_786 a schema:Place ;
+brdflo:L_786 a schema1:Place ;
     rdfs:label "Cape Town; Gouritzmond" .
 
-brdflo:L_787 a schema:Place ;
+brdflo:L_787 a schema1:Place ;
     rdfs:label "Cape Town; Jongensfontein" .
 
-brdflo:L_788 a schema:Place ;
+brdflo:L_788 a schema1:Place ;
     rdfs:label "Cape Town; Riversdale" .
 
-brdflo:L_789 a schema:Place ;
+brdflo:L_789 a schema1:Place ;
     rdfs:label "Cape Town; Melkhoutfontein" .
 
-brdflo:L_79 a schema:Place ;
+brdflo:L_79 a schema1:Place ;
     rdfs:label "French Polynesia" .
 
-brdflo:L_790 a schema:Place ;
+brdflo:L_790 a schema1:Place ;
     rdfs:label "Cape Town; Stilbaai" .
 
-brdflo:L_791 a schema:Place ;
+brdflo:L_791 a schema1:Place ;
     rdfs:label "Cape Town; Riversdale NU" .
 
-brdflo:L_792 a schema:Place ;
+brdflo:L_792 a schema1:Place ;
     rdfs:label "Cape Town; Calitzdorp" .
 
-brdflo:L_793 a schema:Place ;
+brdflo:L_793 a schema1:Place ;
     rdfs:label "Cape Town; Calitzdorp NU" .
 
-brdflo:L_794 a schema:Place ;
+brdflo:L_794 a schema1:Place ;
     rdfs:label "Cape Town; Ladismith" .
 
-brdflo:L_795 a schema:Place ;
+brdflo:L_795 a schema1:Place ;
     rdfs:label "Cape Town; Ladismith NU" .
 
-brdflo:L_796 a schema:Place ;
+brdflo:L_796 a schema1:Place ;
     rdfs:label "Cape Town; Vanwyksdorp" .
 
-brdflo:L_797 a schema:Place ;
+brdflo:L_797 a schema1:Place ;
     rdfs:label "Cape Town; Zoar" .
 
-brdflo:L_798 a schema:Place ;
+brdflo:L_798 a schema1:Place ;
     rdfs:label "Cape Town; De Rust" .
 
-brdflo:L_799 a schema:Place ;
+brdflo:L_799 a schema1:Place ;
     rdfs:label "Cape Town; Dysselsdorp" .
 
-brdflo:L_8 a schema:Place ;
+brdflo:L_8 a schema1:Place ;
     rdfs:label "Anguilla" .
 
-brdflo:L_80 a schema:Place ;
+brdflo:L_80 a schema1:Place ;
     rdfs:label "Gabon" .
 
-brdflo:L_800 a schema:Place ;
+brdflo:L_800 a schema1:Place ;
     rdfs:label "Cape Town; Bongolethu" .
 
-brdflo:L_801 a schema:Place ;
+brdflo:L_801 a schema1:Place ;
     rdfs:label "Cape Town; Bridgton" .
 
-brdflo:L_802 a schema:Place ;
+brdflo:L_802 a schema1:Place ;
     rdfs:label "Cape Town; Oudtshoorn" .
 
-brdflo:L_803 a schema:Place ;
+brdflo:L_803 a schema1:Place ;
     rdfs:label "Cape Town; Oudtshoorn NU" .
 
-brdflo:L_804 a schema:Place ;
+brdflo:L_804 a schema1:Place ;
     rdfs:label "Cape Town; Haarlem" .
 
-brdflo:L_805 a schema:Place ;
+brdflo:L_805 a schema1:Place ;
     rdfs:label "Cape Town; Uniondale" .
 
-brdflo:L_806 a schema:Place ;
+brdflo:L_806 a schema1:Place ;
     rdfs:label "Cape Town; Uniondale NU" .
 
-brdflo:L_807 a schema:Place ;
+brdflo:L_807 a schema1:Place ;
     rdfs:label "Cape Town; Bella Vista" .
 
-brdflo:L_808 a schema:Place ;
+brdflo:L_808 a schema1:Place ;
     rdfs:label "Cape Town; Ceres" .
 
-brdflo:L_809 a schema:Place ;
+brdflo:L_809 a schema1:Place ;
     rdfs:label "Cape Town; Nduli" .
 
-brdflo:L_81 a schema:Place ;
+brdflo:L_81 a schema1:Place ;
     rdfs:label "Gambia, The" .
 
-brdflo:L_810 a schema:Place ;
+brdflo:L_810 a schema1:Place ;
     rdfs:label "Cape Town; Op-die-berg" .
 
-brdflo:L_811 a schema:Place ;
+brdflo:L_811 a schema1:Place ;
     rdfs:label "Cape Town; Prince Alfred Hamlet" .
 
-brdflo:L_812 a schema:Place ;
+brdflo:L_812 a schema1:Place ;
     rdfs:label "Cape Town; Ceres NU" .
 
-brdflo:L_813 a schema:Place ;
+brdflo:L_813 a schema1:Place ;
     rdfs:label "Cape Town; Ashton" .
 
-brdflo:L_814 a schema:Place ;
+brdflo:L_814 a schema1:Place ;
     rdfs:label "Cape Town; Zolani" .
 
-brdflo:L_815 a schema:Place ;
+brdflo:L_815 a schema1:Place ;
     rdfs:label "Cape Town; Montagu" .
 
-brdflo:L_816 a schema:Place ;
+brdflo:L_816 a schema1:Place ;
     rdfs:label "Cape Town; Montagu NU" .
 
-brdflo:L_817 a schema:Place ;
+brdflo:L_817 a schema1:Place ;
     rdfs:label "Cape Town; McGregor" .
 
-brdflo:L_818 a schema:Place ;
+brdflo:L_818 a schema1:Place ;
     rdfs:label "Cape Town; Nkqubela" .
 
-brdflo:L_819 a schema:Place ;
+brdflo:L_819 a schema1:Place ;
     rdfs:label "Cape Town; Robertson" .
 
-brdflo:L_82 a schema:Place ;
+brdflo:L_82 a schema1:Place ;
     rdfs:label "Georgia" .
 
-brdflo:L_820 a schema:Place ;
+brdflo:L_820 a schema1:Place ;
     rdfs:label "Cape Town; Robertson NU" .
 
-brdflo:L_821 a schema:Place ;
+brdflo:L_821 a schema1:Place ;
     rdfs:label "Cape Town; Gouda" .
 
-brdflo:L_822 a schema:Place ;
+brdflo:L_822 a schema1:Place ;
     rdfs:label "Cape Town; Saron" .
 
-brdflo:L_823 a schema:Place ;
+brdflo:L_823 a schema1:Place ;
     rdfs:label "Cape Town; Chris Hani Informal" .
 
-brdflo:L_824 a schema:Place ;
+brdflo:L_824 a schema1:Place ;
     rdfs:label "Cape Town; Tulbagh" .
 
-brdflo:L_825 a schema:Place ;
+brdflo:L_825 a schema1:Place ;
     rdfs:label "Cape Town; Wolseley" .
 
-brdflo:L_826 a schema:Place ;
+brdflo:L_826 a schema1:Place ;
     rdfs:label "Cape Town; Tulbagh NU" .
 
-brdflo:L_827 a schema:Place ;
+brdflo:L_827 a schema1:Place ;
     rdfs:label "Cape Town; De Doorns" .
 
-brdflo:L_828 a schema:Place ;
+brdflo:L_828 a schema1:Place ;
     rdfs:label "Cape Town; Rawsonville" .
 
-brdflo:L_829 a schema:Place ;
+brdflo:L_829 a schema1:Place ;
     rdfs:label "Cape Town; Touwsrivier" .
 
-brdflo:L_83 a schema:Place ;
+brdflo:L_83 a schema1:Place ;
     rdfs:label "Germany" .
 
-brdflo:L_830 a schema:Place ;
+brdflo:L_830 a schema1:Place ;
     rdfs:label "Cape Town; Avian Park" .
 
-brdflo:L_831 a schema:Place ;
+brdflo:L_831 a schema1:Place ;
     rdfs:label "Cape Town; Brandwacht" .
 
-brdflo:L_832 a schema:Place ;
+brdflo:L_832 a schema1:Place ;
     rdfs:label "Cape Town; Meirings Park" .
 
-brdflo:L_833 a schema:Place ;
+brdflo:L_833 a schema1:Place ;
     rdfs:label "Cape Town; Van Riebeeck Park" .
 
-brdflo:L_834 a schema:Place ;
+brdflo:L_834 a schema1:Place ;
     rdfs:label "Cape Town; Worcester" .
 
-brdflo:L_835 a schema:Place ;
+brdflo:L_835 a schema1:Place ;
     rdfs:label "Cape Town; Zweletemba" .
 
-brdflo:L_836 a schema:Place ;
+brdflo:L_836 a schema1:Place ;
     rdfs:label "Cape Town; Worcester NU" .
 
-brdflo:L_837 a schema:Place ;
+brdflo:L_837 a schema1:Place ;
     rdfs:label "Cape Town; Hopefield" .
 
-brdflo:L_838 a schema:Place ;
+brdflo:L_838 a schema1:Place ;
     rdfs:label "Cape Town; Oudekraalfontein" .
 
-brdflo:L_839 a schema:Place ;
+brdflo:L_839 a schema1:Place ;
     rdfs:label "Cape Town; Langebaan" .
 
-brdflo:L_84 a schema:Place ;
+brdflo:L_84 a schema1:Place ;
     rdfs:label "Ghana" .
 
-brdflo:L_840 a schema:Place ;
+brdflo:L_840 a schema1:Place ;
     rdfs:label "Cape Town; Hopefield NU" .
 
-brdflo:L_841 a schema:Place ;
+brdflo:L_841 a schema1:Place ;
     rdfs:label "Cape Town; Abbotsdale" .
 
-brdflo:L_842 a schema:Place ;
+brdflo:L_842 a schema1:Place ;
     rdfs:label "Cape Town; Atlantis" .
 
-brdflo:L_843 a schema:Place ;
+brdflo:L_843 a schema1:Place ;
     rdfs:label "Cape Town; Atlantis Central" .
 
-brdflo:L_844 a schema:Place ;
+brdflo:L_844 a schema1:Place ;
     rdfs:label "Cape Town; Atlantis Industrial" .
 
-brdflo:L_845 a schema:Place ;
+brdflo:L_845 a schema1:Place ;
     rdfs:label "Cape Town; Avondale" .
 
-brdflo:L_846 a schema:Place ;
+brdflo:L_846 a schema1:Place ;
     rdfs:label "Cape Town; Beacon Hill" .
 
-brdflo:L_847 a schema:Place ;
+brdflo:L_847 a schema1:Place ;
     rdfs:label "Cape Town; Protea Park" .
 
-brdflo:L_848 a schema:Place ;
+brdflo:L_848 a schema1:Place ;
     rdfs:label "Cape Town; Robinvale" .
 
-brdflo:L_849 a schema:Place ;
+brdflo:L_849 a schema1:Place ;
     rdfs:label "Cape Town; Saxon-sea" .
 
-brdflo:L_85 a schema:Place ;
+brdflo:L_85 a schema1:Place ;
     rdfs:label "Gibraltar" .
 
-brdflo:L_850 a schema:Place ;
+brdflo:L_850 a schema1:Place ;
     rdfs:label "Cape Town; Sherwood" .
 
-brdflo:L_851 a schema:Place ;
+brdflo:L_851 a schema1:Place ;
     rdfs:label "Cape Town; Darling" .
 
-brdflo:L_852 a schema:Place ;
+brdflo:L_852 a schema1:Place ;
     rdfs:label "Cape Town; Ilinge Lethu" .
 
-brdflo:L_853 a schema:Place ;
+brdflo:L_853 a schema1:Place ;
     rdfs:label "Cape Town; Malmesbury" .
 
-brdflo:L_854 a schema:Place ;
+brdflo:L_854 a schema1:Place ;
     rdfs:label "Cape Town; Wesbank" .
 
-brdflo:L_855 a schema:Place ;
+brdflo:L_855 a schema1:Place ;
     rdfs:label "Cape Town; Mamre" .
 
-brdflo:L_856 a schema:Place ;
+brdflo:L_856 a schema1:Place ;
     rdfs:label "Cape Town; Melkbosstrand" .
 
-brdflo:L_857 a schema:Place ;
+brdflo:L_857 a schema1:Place ;
     rdfs:label "Cape Town; Philadelphia" .
 
-brdflo:L_858 a schema:Place ;
+brdflo:L_858 a schema1:Place ;
     rdfs:label "Cape Town; Riebeek-Kasteel" .
 
-brdflo:L_859 a schema:Place ;
+brdflo:L_859 a schema1:Place ;
     rdfs:label "Cape Town; Riebeek-West" .
 
-brdflo:L_86 a schema:Place ;
+brdflo:L_86 a schema1:Place ;
     rdfs:label "Greece" .
 
-brdflo:L_860 a schema:Place ;
+brdflo:L_860 a schema1:Place ;
     rdfs:label "Cape Town; Yzerfontein" .
 
-brdflo:L_861 a schema:Place ;
+brdflo:L_861 a schema1:Place ;
     rdfs:label "Cape Town; Camphill Village" .
 
-brdflo:L_862 a schema:Place ;
+brdflo:L_862 a schema1:Place ;
     rdfs:label "Cape Town; Chatsworth" .
 
-brdflo:L_863 a schema:Place ;
+brdflo:L_863 a schema1:Place ;
     rdfs:label "Cape Town; Kalbaskraal" .
 
-brdflo:L_864 a schema:Place ;
+brdflo:L_864 a schema1:Place ;
     rdfs:label "Cape Town; Malmesbury NU" .
 
-brdflo:L_865 a schema:Place ;
+brdflo:L_865 a schema1:Place ;
     rdfs:label "Cape Town; Pella Mission Station" .
 
-brdflo:L_866 a schema:Place ;
+brdflo:L_866 a schema1:Place ;
     rdfs:label "Cape Town; Witsand" .
 
-brdflo:L_867 a schema:Place ;
+brdflo:L_867 a schema1:Place ;
     rdfs:label "Cape Town; Aurora" .
 
-brdflo:L_868 a schema:Place ;
+brdflo:L_868 a schema1:Place ;
     rdfs:label "Cape Town; Dwarskersbos" .
 
-brdflo:L_869 a schema:Place ;
+brdflo:L_869 a schema1:Place ;
     rdfs:label "Cape Town; Eendekuil" .
 
-brdflo:L_87 a schema:Place ;
+brdflo:L_87 a schema1:Place ;
     rdfs:label "Greenland" .
 
-brdflo:L_870 a schema:Place ;
+brdflo:L_870 a schema1:Place ;
     rdfs:label "Cape Town; Elandsbaai" .
 
-brdflo:L_871 a schema:Place ;
+brdflo:L_871 a schema1:Place ;
     rdfs:label "Cape Town; Laaiplek" .
 
-brdflo:L_872 a schema:Place ;
+brdflo:L_872 a schema1:Place ;
     rdfs:label "Cape Town; Piketberg" .
 
-brdflo:L_873 a schema:Place ;
+brdflo:L_873 a schema1:Place ;
     rdfs:label "Cape Town; Port Owen" .
 
-brdflo:L_874 a schema:Place ;
+brdflo:L_874 a schema1:Place ;
     rdfs:label "Cape Town; Porterville" .
 
-brdflo:L_875 a schema:Place ;
+brdflo:L_875 a schema1:Place ;
     rdfs:label "Cape Town; Redelinghuys" .
 
-brdflo:L_876 a schema:Place ;
+brdflo:L_876 a schema1:Place ;
     rdfs:label "Cape Town; Velddrif" .
 
-brdflo:L_877 a schema:Place ;
+brdflo:L_877 a schema1:Place ;
     rdfs:label "Cape Town; Goedverwacht" .
 
-brdflo:L_878 a schema:Place ;
+brdflo:L_878 a schema1:Place ;
     rdfs:label "Cape Town; Piketberg NU" .
 
-brdflo:L_879 a schema:Place ;
+brdflo:L_879 a schema1:Place ;
     rdfs:label "Cape Town; Wittewater" .
 
-brdflo:L_88 a schema:Place ;
+brdflo:L_88 a schema1:Place ;
     rdfs:label "Grenada" .
 
-brdflo:L_880 a schema:Place ;
+brdflo:L_880 a schema1:Place ;
     rdfs:label "Cape Town; Paternoster" .
 
-brdflo:L_881 a schema:Place ;
+brdflo:L_881 a schema1:Place ;
     rdfs:label "Cape Town; Diazville" .
 
-brdflo:L_882 a schema:Place ;
+brdflo:L_882 a schema1:Place ;
     rdfs:label "Cape Town; Jacobsbaai" .
 
-brdflo:L_883 a schema:Place ;
+brdflo:L_883 a schema1:Place ;
     rdfs:label "Cape Town; Jakkalskloof" .
 
-brdflo:L_884 a schema:Place ;
+brdflo:L_884 a schema1:Place ;
     rdfs:label "Cape Town; Saldanha" .
 
-brdflo:L_885 a schema:Place ;
+brdflo:L_885 a schema1:Place ;
     rdfs:label "Cape Town; White City" .
 
-brdflo:L_886 a schema:Place ;
+brdflo:L_886 a schema1:Place ;
     rdfs:label "Cape Town; Laingville" .
 
-brdflo:L_887 a schema:Place ;
+brdflo:L_887 a schema1:Place ;
     rdfs:label "Cape Town; Sandy Point" .
 
-brdflo:L_888 a schema:Place ;
+brdflo:L_888 a schema1:Place ;
     rdfs:label "Cape Town; St Helenabaai" .
 
-brdflo:L_889 a schema:Place ;
+brdflo:L_889 a schema1:Place ;
     rdfs:label "Cape Town; Stompneusbaai" .
 
-brdflo:L_89 a schema:Place ;
+brdflo:L_89 a schema1:Place ;
     rdfs:label "Guadeloupe" .
 
-brdflo:L_890 a schema:Place ;
+brdflo:L_890 a schema1:Place ;
     rdfs:label "Cape Town; Chris Hani Park" .
 
-brdflo:L_891 a schema:Place ;
+brdflo:L_891 a schema1:Place ;
     rdfs:label "Cape Town; Louwville" .
 
-brdflo:L_892 a schema:Place ;
+brdflo:L_892 a schema1:Place ;
     rdfs:label "Cape Town; Vredenburg" .
 
-brdflo:L_893 a schema:Place ;
+brdflo:L_893 a schema1:Place ;
     rdfs:label "Cape Town; Vredenburg NU" .
 
-brdflo:L_894 a schema:Place ;
+brdflo:L_894 a schema1:Place ;
     rdfs:label "Cape Town; Koringberg" .
 
-brdflo:L_895 a schema:Place ;
+brdflo:L_895 a schema1:Place ;
     rdfs:label "Cape Town; Moorreesburg" .
 
-brdflo:L_896 a schema:Place ;
+brdflo:L_896 a schema1:Place ;
     rdfs:label "Cape Town; Moorreesburg NU" .
 
-brdflo:L_897 a schema:Place ;
+brdflo:L_897 a schema1:Place ;
     rdfs:label "Cape Town; Citrusdal" .
 
-brdflo:L_898 a schema:Place ;
+brdflo:L_898 a schema1:Place ;
     rdfs:label "Cape Town; Clanwilliam" .
 
-brdflo:L_899 a schema:Place ;
+brdflo:L_899 a schema1:Place ;
     rdfs:label "Cape Town; Graafwater" .
 
-brdflo:L_9 a schema:Place ;
+brdflo:L_9 a schema1:Place ;
     rdfs:label "Antigua and Barbuda" .
 
-brdflo:L_90 a schema:Place ;
+brdflo:L_90 a schema1:Place ;
     rdfs:label "Guam" .
 
-brdflo:L_900 a schema:Place ;
+brdflo:L_900 a schema1:Place ;
     rdfs:label "Cape Town; Lambert's Bay" .
 
-brdflo:L_901 a schema:Place ;
+brdflo:L_901 a schema1:Place ;
     rdfs:label "Cape Town; Clanwilliam NU" .
 
-brdflo:L_902 a schema:Place ;
+brdflo:L_902 a schema1:Place ;
     rdfs:label "Cape Town; Wupperthal" .
 
-brdflo:L_903 a schema:Place ;
+brdflo:L_903 a schema1:Place ;
     rdfs:label "Cape Town; Bitterfontein" .
 
-brdflo:L_904 a schema:Place ;
+brdflo:L_904 a schema1:Place ;
     rdfs:label "Cape Town; Klawer" .
 
-brdflo:L_905 a schema:Place ;
+brdflo:L_905 a schema1:Place ;
     rdfs:label "Cape Town; Nuwerus" .
 
-brdflo:L_906 a schema:Place ;
+brdflo:L_906 a schema1:Place ;
     rdfs:label "Cape Town; Van Rhynsdorp" .
 
-brdflo:L_907 a schema:Place ;
+brdflo:L_907 a schema1:Place ;
     rdfs:label "Cape Town; Rietpoort" .
 
-brdflo:L_908 a schema:Place ;
+brdflo:L_908 a schema1:Place ;
     rdfs:label "Cape Town; Van Rhynsdorp NU" .
 
-brdflo:L_909 a schema:Place ;
+brdflo:L_909 a schema1:Place ;
     rdfs:label "Cape Town; Doringbaai" .
 
-brdflo:L_91 a schema:Place ;
+brdflo:L_91 a schema1:Place ;
     rdfs:label "Guatemala" .
 
-brdflo:L_910 a schema:Place ;
+brdflo:L_910 a schema1:Place ;
     rdfs:label "Cape Town; Lutzville" .
 
-brdflo:L_911 a schema:Place ;
+brdflo:L_911 a schema1:Place ;
     rdfs:label "Cape Town; Strandfontein" .
 
-brdflo:L_912 a schema:Place ;
+brdflo:L_912 a schema1:Place ;
     rdfs:label "Cape Town; Vredendal" .
 
-brdflo:L_913 a schema:Place ;
+brdflo:L_913 a schema1:Place ;
     rdfs:label "Cape Town; Koekenaap" .
 
-brdflo:L_914 a schema:Place ;
+brdflo:L_914 a schema1:Place ;
     rdfs:label "Cape Town; Vredendal NU" .
 
-brdflo:L_915 a schema:Place ;
+brdflo:L_915 a schema1:Place ;
     rdfs:label "Cape Town; Beaufort West" .
 
-brdflo:L_916 a schema:Place ;
+brdflo:L_916 a schema1:Place ;
     rdfs:label "Cape Town; Kwa-Mandlenkosi" .
 
-brdflo:L_917 a schema:Place ;
+brdflo:L_917 a schema1:Place ;
     rdfs:label "Cape Town; Rustdene" .
 
-brdflo:L_918 a schema:Place ;
+brdflo:L_918 a schema1:Place ;
     rdfs:label "Cape Town; Merweville" .
 
-brdflo:L_919 a schema:Place ;
+brdflo:L_919 a schema1:Place ;
     rdfs:label "Cape Town; Beaufort West NU" .
 
-brdflo:L_92 a schema:Place ;
+brdflo:L_92 a schema1:Place ;
     rdfs:label "Guernsey" .
 
-brdflo:L_920 a schema:Place ;
+brdflo:L_920 a schema1:Place ;
     rdfs:label "Cape Town; Goldnerville" .
 
-brdflo:L_921 a schema:Place ;
+brdflo:L_921 a schema1:Place ;
     rdfs:label "Cape Town; Laingsburg" .
 
-brdflo:L_922 a schema:Place ;
+brdflo:L_922 a schema1:Place ;
     rdfs:label "Cape Town; Laingsburg NU" .
 
-brdflo:L_923 a schema:Place ;
+brdflo:L_923 a schema1:Place ;
     rdfs:label "Cape Town; Matjiesfontein" .
 
-brdflo:L_924 a schema:Place ;
+brdflo:L_924 a schema1:Place ;
     rdfs:label "Cape Town; Murraysburg" .
 
-brdflo:L_925 a schema:Place ;
+brdflo:L_925 a schema1:Place ;
     rdfs:label "Cape Town; Murraysburg NU" .
 
-brdflo:L_926 a schema:Place ;
+brdflo:L_926 a schema1:Place ;
     rdfs:label "Cape Town; Bitterwater" .
 
-brdflo:L_927 a schema:Place ;
+brdflo:L_927 a schema1:Place ;
     rdfs:label "Cape Town; Leeu Gamka" .
 
-brdflo:L_928 a schema:Place ;
+brdflo:L_928 a schema1:Place ;
     rdfs:label "Cape Town; Noord-End" .
 
-brdflo:L_929 a schema:Place ;
+brdflo:L_929 a schema1:Place ;
     rdfs:label "Cape Town; Prince Albert" .
 
-brdflo:L_93 a schema:Place ;
+brdflo:L_93 a schema1:Place ;
     rdfs:label "Guinea" .
 
-brdflo:L_930 a schema:Place ;
+brdflo:L_930 a schema1:Place ;
     rdfs:label "Cape Town; Prince Albert NU" .
 
-brdflo:L_931 a schema:Place ;
+brdflo:L_931 a schema1:Place ;
     rdfs:label "Australia; Albury (C)" .
 
-brdflo:L_932 a schema:Place ;
+brdflo:L_932 a schema1:Place ;
     rdfs:label "Australia; Armidale (C)" .
 
-brdflo:L_933 a schema:Place ;
+brdflo:L_933 a schema1:Place ;
     rdfs:label "Australia; Ashfield (A)" .
 
-brdflo:L_934 a schema:Place ;
+brdflo:L_934 a schema1:Place ;
     rdfs:label "Australia; Auburn (A)" .
 
-brdflo:L_935 a schema:Place ;
+brdflo:L_935 a schema1:Place ;
     rdfs:label "Australia; Ballina (A)" .
 
-brdflo:L_936 a schema:Place ;
+brdflo:L_936 a schema1:Place ;
     rdfs:label "Australia; Balranald (A)" .
 
-brdflo:L_937 a schema:Place ;
+brdflo:L_937 a schema1:Place ;
     rdfs:label "Australia; Bankstown (C)" .
 
-brdflo:L_938 a schema:Place ;
+brdflo:L_938 a schema1:Place ;
     rdfs:label "Australia; Barraba (A)" .
 
-brdflo:L_939 a schema:Place ;
+brdflo:L_939 a schema1:Place ;
     rdfs:label "Australia; Bathurst (C)" .
 
-brdflo:L_94 a schema:Place ;
+brdflo:L_94 a schema1:Place ;
     rdfs:label "Guinea-Bissau" .
 
-brdflo:L_940 a schema:Place ;
+brdflo:L_940 a schema1:Place ;
     rdfs:label "Australia; Baulkham Hills (A)" .
 
-brdflo:L_941 a schema:Place ;
+brdflo:L_941 a schema1:Place ;
     rdfs:label "Australia; Bega Valley (A)" .
 
-brdflo:L_942 a schema:Place ;
+brdflo:L_942 a schema1:Place ;
     rdfs:label "Australia; Bellingen (A)" .
 
-brdflo:L_943 a schema:Place ;
+brdflo:L_943 a schema1:Place ;
     rdfs:label "Australia; Berrigan (A)" .
 
-brdflo:L_944 a schema:Place ;
+brdflo:L_944 a schema1:Place ;
     rdfs:label "Australia; Bingara (A)" .
 
-brdflo:L_945 a schema:Place ;
+brdflo:L_945 a schema1:Place ;
     rdfs:label "Australia; Blacktown (C)" .
 
-brdflo:L_946 a schema:Place ;
+brdflo:L_946 a schema1:Place ;
     rdfs:label "Australia; Bland (A)" .
 
-brdflo:L_947 a schema:Place ;
+brdflo:L_947 a schema1:Place ;
     rdfs:label "Australia; Blayney (A)" .
 
-brdflo:L_948 a schema:Place ;
+brdflo:L_948 a schema1:Place ;
     rdfs:label "Australia; Blue Mountains (C)" .
 
-brdflo:L_949 a schema:Place ;
+brdflo:L_949 a schema1:Place ;
     rdfs:label "Australia; Bogan (A)" .
 
-brdflo:L_95 a schema:Place ;
+brdflo:L_95 a schema1:Place ;
     rdfs:label "Guyana" .
 
-brdflo:L_950 a schema:Place ;
+brdflo:L_950 a schema1:Place ;
     rdfs:label "Australia; Bombala (A)" .
 
-brdflo:L_951 a schema:Place ;
+brdflo:L_951 a schema1:Place ;
     rdfs:label "Australia; Boorowa (A)" .
 
-brdflo:L_952 a schema:Place ;
+brdflo:L_952 a schema1:Place ;
     rdfs:label "Australia; Botany (A)" .
 
-brdflo:L_953 a schema:Place ;
+brdflo:L_953 a schema1:Place ;
     rdfs:label "Australia; Bourke (A)" .
 
-brdflo:L_954 a schema:Place ;
+brdflo:L_954 a schema1:Place ;
     rdfs:label "Australia; Brewarrina (A)" .
 
-brdflo:L_955 a schema:Place ;
+brdflo:L_955 a schema1:Place ;
     rdfs:label "Australia; Broken Hill (C)" .
 
-brdflo:L_956 a schema:Place ;
+brdflo:L_956 a schema1:Place ;
     rdfs:label "Australia; Burwood (A)" .
 
-brdflo:L_957 a schema:Place ;
+brdflo:L_957 a schema1:Place ;
     rdfs:label "Australia; Byron (A)" .
 
-brdflo:L_958 a schema:Place ;
+brdflo:L_958 a schema1:Place ;
     rdfs:label "Australia; Cabonne (A)" .
 
-brdflo:L_959 a schema:Place ;
+brdflo:L_959 a schema1:Place ;
     rdfs:label "Australia; Camden (A)" .
 
-brdflo:L_96 a schema:Place ;
+brdflo:L_96 a schema1:Place ;
     rdfs:label "Haiti" .
 
-brdflo:L_960 a schema:Place ;
+brdflo:L_960 a schema1:Place ;
     rdfs:label "Australia; Campbelltown (C)" .
 
-brdflo:L_961 a schema:Place ;
+brdflo:L_961 a schema1:Place ;
     rdfs:label "Australia; Canterbury (C)" .
 
-brdflo:L_962 a schema:Place ;
+brdflo:L_962 a schema1:Place ;
     rdfs:label "Australia; Carrathool (A)" .
 
-brdflo:L_963 a schema:Place ;
+brdflo:L_963 a schema1:Place ;
     rdfs:label "Australia; Casino (A)" .
 
-brdflo:L_964 a schema:Place ;
+brdflo:L_964 a schema1:Place ;
     rdfs:label "Australia; Central Darling (A)" .
 
-brdflo:L_965 a schema:Place ;
+brdflo:L_965 a schema1:Place ;
     rdfs:label "Australia; Cessnock (C)" .
 
-brdflo:L_966 a schema:Place ;
+brdflo:L_966 a schema1:Place ;
     rdfs:label "Australia; Cobar (A)" .
 
-brdflo:L_967 a schema:Place ;
+brdflo:L_967 a schema1:Place ;
     rdfs:label "Australia; Coffs Harbour (C)" .
 
-brdflo:L_968 a schema:Place ;
+brdflo:L_968 a schema1:Place ;
     rdfs:label "Australia; Conargo (A)" .
 
-brdflo:L_969 a schema:Place ;
+brdflo:L_969 a schema1:Place ;
     rdfs:label "Australia; Concord (A)" .
 
-brdflo:L_97 a schema:Place ;
+brdflo:L_97 a schema1:Place ;
     rdfs:label "Holy See (Vatican City)" .
 
-brdflo:L_970 a schema:Place ;
+brdflo:L_970 a schema1:Place ;
     rdfs:label "Australia; Coolah (A)" .
 
-brdflo:L_971 a schema:Place ;
+brdflo:L_971 a schema1:Place ;
     rdfs:label "Australia; Coolamon (A)" .
 
-brdflo:L_972 a schema:Place ;
+brdflo:L_972 a schema1:Place ;
     rdfs:label "Australia; Cooma-Monaro (A)" .
 
-brdflo:L_973 a schema:Place ;
+brdflo:L_973 a schema1:Place ;
     rdfs:label "Australia; Coonabarabran (A)" .
 
-brdflo:L_974 a schema:Place ;
+brdflo:L_974 a schema1:Place ;
     rdfs:label "Australia; Coonamble (A)" .
 
-brdflo:L_975 a schema:Place ;
+brdflo:L_975 a schema1:Place ;
     rdfs:label "Australia; Cootamundra (A)" .
 
-brdflo:L_976 a schema:Place ;
+brdflo:L_976 a schema1:Place ;
     rdfs:label "Australia; Copmanhurst (A)" .
 
-brdflo:L_977 a schema:Place ;
+brdflo:L_977 a schema1:Place ;
     rdfs:label "Australia; Corowa (A)" .
 
-brdflo:L_978 a schema:Place ;
+brdflo:L_978 a schema1:Place ;
     rdfs:label "Australia; Cowra (A)" .
 
-brdflo:L_979 a schema:Place ;
+brdflo:L_979 a schema1:Place ;
     rdfs:label "Australia; Crookwell (A)" .
 
-brdflo:L_98 a schema:Place ;
+brdflo:L_98 a schema1:Place ;
     rdfs:label "Honduras" .
 
-brdflo:L_980 a schema:Place ;
+brdflo:L_980 a schema1:Place ;
     rdfs:label "Australia; Culcairn (A)" .
 
-brdflo:L_981 a schema:Place ;
+brdflo:L_981 a schema1:Place ;
     rdfs:label "Australia; Deniliquin (A)" .
 
-brdflo:L_982 a schema:Place ;
+brdflo:L_982 a schema1:Place ;
     rdfs:label "Australia; Drummoyne (A)" .
 
-brdflo:L_983 a schema:Place ;
+brdflo:L_983 a schema1:Place ;
     rdfs:label "Australia; Dubbo (C)" .
 
-brdflo:L_984 a schema:Place ;
+brdflo:L_984 a schema1:Place ;
     rdfs:label "Australia; Dumaresq (A)" .
 
-brdflo:L_985 a schema:Place ;
+brdflo:L_985 a schema1:Place ;
     rdfs:label "Australia; Dungog (A)" .
 
-brdflo:L_986 a schema:Place ;
+brdflo:L_986 a schema1:Place ;
     rdfs:label "Australia; Eurobodalla (A)" .
 
-brdflo:L_987 a schema:Place ;
+brdflo:L_987 a schema1:Place ;
     rdfs:label "Australia; Evans (A)" .
 
-brdflo:L_988 a schema:Place ;
+brdflo:L_988 a schema1:Place ;
     rdfs:label "Australia; Fairfield (C)" .
 
-brdflo:L_989 a schema:Place ;
+brdflo:L_989 a schema1:Place ;
     rdfs:label "Australia; Forbes (A)" .
 
-brdflo:L_99 a schema:Place ;
+brdflo:L_99 a schema1:Place ;
     rdfs:label "Hungary" .
 
-brdflo:L_990 a schema:Place ;
+brdflo:L_990 a schema1:Place ;
     rdfs:label "Australia; Gilgandra (A)" .
 
-brdflo:L_991 a schema:Place ;
+brdflo:L_991 a schema1:Place ;
     rdfs:label "Australia; Glen Innes (A)" .
 
-brdflo:L_992 a schema:Place ;
+brdflo:L_992 a schema1:Place ;
     rdfs:label "Australia; Gloucester (A)" .
 
-brdflo:L_993 a schema:Place ;
+brdflo:L_993 a schema1:Place ;
     rdfs:label "Australia; Gosford (C)" .
 
-brdflo:L_994 a schema:Place ;
+brdflo:L_994 a schema1:Place ;
     rdfs:label "Australia; Goulburn (C)" .
 
-brdflo:L_995 a schema:Place ;
+brdflo:L_995 a schema1:Place ;
     rdfs:label "Australia; Grafton (C)" .
 
-brdflo:L_996 a schema:Place ;
+brdflo:L_996 a schema1:Place ;
     rdfs:label "Australia; Greater Lithgow (C)" .
 
-brdflo:L_997 a schema:Place ;
+brdflo:L_997 a schema1:Place ;
     rdfs:label "Australia; Greater Taree (C)" .
 
-brdflo:L_998 a schema:Place ;
+brdflo:L_998 a schema1:Place ;
     rdfs:label "Australia; Great Lakes (A)" .
 
-brdflo:L_999 a schema:Place ;
+brdflo:L_999 a schema1:Place ;
     rdfs:label "Australia; Griffith (C)" .
 
