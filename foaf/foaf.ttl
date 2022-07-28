@@ -1,0 +1,13 @@
+@prefix bfoaf: <http://rdf.bonsai.uno/foaf#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <https://www.w3.org/TR/vocab-org/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+bfoaf:bonsai a prov:Agent,
+        org:Organization ;
+    skos:prefLabel "BONSAI – Big Open Network for Sustainability Assessment Information" ;
+    foaf:homepage <https://bonsai.uno> ;
+    foaf:interest <https://www.wikidata.org/wiki/Q131201>,
+        <https://www.wikidata.org/wiki/Q18692990>,
+        <https://www.wikidata.org/wiki/Q2323664> .
